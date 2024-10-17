@@ -1,5 +1,8 @@
 # Implementation of Alite FD Algorithm
 
+Original paper to be implemented - https://www.vldb.org/pvldb/vol16/p932-khatiwada.pdf
+Original paper Github repository - https://github.com/northeastern-datalab/alite
+
 # Etc.
 
 # Benchmark Data
