@@ -4,6 +4,8 @@ Original paper to be implemented - https://www.vldb.org/pvldb/vol16/p932-khatiwa
 
 Original paper Github repository - https://github.com/northeastern-datalab/alite
 
+Original authors' presentation - https://youtu.be/4c6SYCwQ7uc?si=qE36Hm70qaJAa8Hz
+
 # Etc.
 
 # Other Literature
