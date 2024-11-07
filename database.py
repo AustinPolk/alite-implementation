@@ -14,6 +14,8 @@ class RelationalDatabase:
 
     # run the ALITE algorithm on the database
     def RunALITE(self):
+        self.AssignIntegrationIDs()
+
         fullDisjunction = RelationalTable()
 
         for table in self.Tables:
