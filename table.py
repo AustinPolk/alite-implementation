@@ -7,7 +7,10 @@ class RelationalTable:
 
     # load csv data into the data frame
     def LoadFromCSV(self, csv_file: str):
-        pass
+        self.DataFrame = pd.read_csv(csv_file)
+
+    def TupleCount(self):
+        return len(self.DataFrame.index)
 
     # to be done on each table before outer union
     # need to be able to tell between missing nulls (which are replaced by labeled nulls) and nulls created from outer joining
