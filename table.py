@@ -3,7 +3,7 @@ import pandas as pd
 class RelationalTable:
     def __init__(self):
         self.IntegrationIDToColumnIndex: dict[int, int] = None
-        self.DataFrame: pd.DataFrame = None
+        self.DataFrame: pd.DataFrame = pd.DataFrame()
 
     # load csv data into the data frame
     def LoadFromCSV(self, csv_file: str):
@@ -24,7 +24,7 @@ class RelationalTable:
     # to be done between all tables in the database, uses the integration IDs to match columns
     def OuterUnionWith(self, other_table):
         # if this table is empty, just copy the other into this one
-        if not self.DataFrame:
+        if self.DataFrame.empty:
             self.IntegrationIDToColumnIndex = other_table.IntegrationIDToColumnIndex
             self.DataFrame = other_table.DataFrame
             return

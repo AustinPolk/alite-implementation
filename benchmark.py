@@ -7,19 +7,15 @@ class Benchmarker:
         self.Durations: dict[tuple[str, str], float] = {}
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
 
-    def Benchmark(self, data_folder: str, dataset_name: str, method: str):
-        
-        db = RelationalDatabase()
-        db.LoadFromFolder(data_folder)
-
+    def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         if method.lower() == "alite":
-            method_func = db.RunALITE
+            method_func = database.RunALITE
         elif method.lower() == "bicomnloj":
-            method_func = db.RunBIComNLoj
+            method_func = database.RunBIComNLoj
         else:
-            print(f"{method} is not a valid method.")
+            method_func = print(f"{method} is not a valid method.")
 
-        input_tuples = db.TupleCount()
+        input_tuples = database.TupleCount()
 
         start_time = time.time()
         full_disjunction = method_func()
@@ -28,10 +24,19 @@ class Benchmarker:
         duration = end_time - start_time
         self.Durations[(dataset_name, method)] = duration
 
-        output_tuples = full_disjunction.TupleCount()
+        try:
+            output_tuples = full_disjunction.TupleCount()
+        except:
+            output_tuples = -1
+        
         self.TupleCounts[(dataset_name, method)] = (input_tuples, output_tuples)
 
         print(f"{method} took {duration} seconds on {dataset_name}, {input_tuples} -> {output_tuples}")
+
+    def Benchmark(self, data_folder: str, dataset_name: str, method: str):
+        db = RelationalDatabase()
+        db.LoadFromFolder(data_folder)
+        self.Benchmark2(db, dataset_name, method)
 
     def RunBenchmark(self, benchmark_folder: str):
         methods = ["ALITE", "BIComNLoj"]
@@ -39,5 +44,7 @@ class Benchmarker:
             if os.path.realpath(root) == os.path.realpath(benchmark_folder):
                 for dir in dirs:
                     dirpath = os.path.join(root, dir)
+                    db = RelationalDatabase()
+                    db.LoadFromFolder(dirpath)
                     for method in methods:
-                        self.Benchmark(dirpath, dir, method)
+                        self.Benchmark2(db, dir, method)

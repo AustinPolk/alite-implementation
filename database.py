@@ -22,6 +22,7 @@ class RelationalDatabase:
         count = 0
         for table in self.Tables:
             count += table.TupleCount()
+        return count
 
     # assign integration IDs to the columns of each table in the database
     def AssignIntegrationIDs(self):
