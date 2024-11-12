@@ -94,7 +94,7 @@ class Benchmarker:
         ax.tick_params(axis='x', labelrotation=90)
         ax.legend(loc='upper left', ncols=len(methods))
 
-    def VisualizeRuntimePerTuple(self, inputTuples: bool):
+    def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1):
         import matplotlib.pyplot as plt
         import numpy as np
         
@@ -125,10 +125,16 @@ class Benchmarker:
             x = tupleCounts[method]
             y = runTimes[method]
 
-            m, b = np.polyfit(x, y, deg=1)
-
             ax.scatter(x, y, label = method)
-            ax.plot([0, x_limit], [b, b + m*x_limit])
+
+            if reg_deg == 1:
+                m, b = np.polyfit(x, y, deg=1)
+                poly = lambda xx: m * xx + b
+            elif reg_deg == 2:
+                a, b, c = np.polyfit(x, y, deg=2)
+                poly = lambda xx: a * xx * xx + b * xx + c
+            xsp = np.linspace(start=0, stop=x_limit)
+            ax.plot(xsp, poly(xsp))
 
         io = 'Input' if inputTuples else 'Output'
         ax.set_ylabel('Time (s)')
@@ -136,4 +142,5 @@ class Benchmarker:
         ax.set_title(f'Runtime vs. {io} tuple count')
         ax.legend(loc='upper left')
         ax.set_xbound(lower = 0, upper=x_limit)
+        ax.set_yscale('log')
 
