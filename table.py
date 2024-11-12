@@ -7,7 +7,7 @@ class RelationalTable:
 
     # load csv data into the data frame
     def LoadFromCSV(self, csv_file: str):
-        self.DataFrame = pd.read_csv(csv_file)
+        self.DataFrame = pd.read_csv(csv_file, encoding = "ISO-8859-1", on_bad_lines = 'skip')
 
     def TupleCount(self):
         return len(self.DataFrame.index)

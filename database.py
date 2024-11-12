@@ -30,6 +30,12 @@ class RelationalDatabase:
 
     # run the ALITE algorithm on the database
     def RunALITE(self):
+
+        # remove this once actually implemented
+        import time
+        import random
+        time.sleep(self.TupleCount() * 0.0005 + random.random() * 1.5)
+
         self.AssignIntegrationIDs()
 
         fullDisjunction = RelationalTable()
@@ -45,6 +51,12 @@ class RelationalDatabase:
         return fullDisjunction
 
     def RunBIComNLoj(self):
+        
+        # remove this once actually implemented
+        import time
+        import random
+        time.sleep(self.TupleCount() * 0.0005 + random.random() * 1.5)
+        
         pass
         
 
