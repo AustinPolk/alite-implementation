@@ -1,0 +1,1474 @@
+Borough,LEGGI_Year,Sector,Fuel,Data_Year
+City of London,2013,Transport,Shipping,2010 and 2013
+Hillingdon,2016,Industrial and Commercial,Waste and Renewables,2016
+Ealing,2016,Industrial and Commercial,Electricity w/o rail,2016
+Waltham Forest,2014,Domestic,Total,
+Lewisham,2016,Industrial and Commercial,Electricity w/o rail,2016
+Sutton,2011,Transport,Aviation,2010
+Kensington and Chelsea,2012,Total,Total,
+Wandsworth,2014,Total,Total,
+Newham,2015,Industrial and Commercial,Waste and Renewables,2015
+Harrow,2017,Transport,Shipping,2016
+Harrow,2011,Industrial and Commercial,Waste and Renewables,2011
+Bexley,2010,Transport,Railways electric,2010
+Enfield,2010,Industrial and Commercial,Oil,2010
+Greenwich,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Islington,2015,Domestic,Oil,2015
+Westminster,2012,Industrial and Commercial,Gas,2012
+Waltham Forest,2012,Transport,Railways diesel,2010
+Barnet,2014,Industrial and Commercial,Coal,2014
+Kingston,2016,Domestic,Total,
+Southwark,2012,Transport,Aviation,2010
+City of London,2011,Industrial and Commercial,Waste and Renewables,2011
+Tower Hamlets,2016,Transport,Railways electric,2016
+Hammersmith and Fulham,2010,Transport,Railways diesel,2010
+Lambeth,2010,Transport,Shipping,2010
+Islington,2014,Transport,Shipping,2014
+Southwark,2013,Industrial and Commercial,Waste and Renewables,2012
+Redbridge,2012,Domestic,Coal,2012
+Hackney,2017,Domestic,Electricity,2017
+Bromley,2012,Industrial and Commercial,Total,
+City of London,2014,Domestic,Total,
+Bexley,2012,Industrial and Commercial,Gas,2012
+Hounslow,2015,Domestic,Oil,2015
+Wandsworth,2010,Total,Total,
+Camden,2014,Industrial and Commercial,Gas,2014
+Enfield,2013,Transport,Road Transport,2013
+Croydon,2015,Domestic,Coal,2015
+Westminster,2011,Domestic,Gas,2011
+Bexley,2011,Industrial and Commercial,Coal,2011
+Merton,2017,Industrial and Commercial,Gas,2017
+Tower Hamlets,2010,Industrial and Commercial,Electricity w/o rail,2010
+Islington,2013,Domestic,Coal,2013
+Haringey,2015,Industrial and Commercial,Electricity w/o rail,2015
+Lewisham,2010,Domestic,Total,
+Hammersmith and Fulham,2014,Industrial and Commercial,Oil,2014
+Kingston,2017,Industrial and Commercial,Electricity w/o rail,2017
+Islington,2012,Industrial and Commercial,Waste and Renewables,2012
+Barking and Dagenham,2016,Domestic,Gas,2016
+Hammersmith and Fulham,2015,Domestic,Total,
+Barnet,2015,Domestic,Electricity,2015
+Kensington and Chelsea,2013,Total,Total,
+City of London,2015,Domestic,Total,
+Merton,2012,Transport,Shipping,2010
+Lambeth,2017,Domestic,Gas,2017
+Kingston,2010,Transport,Road Transport,2010
+Brent,2015,Industrial and Commercial,Gas,2015
+Hackney,2012,Transport,Railways diesel,2010
+Unapportioned,2013,Transport,Total,
+London,2013,Transport,Total,
+Enfield,2015,Industrial and Commercial,Total,
+Merton,2014,Domestic,Total,
+Ealing,2013,Domestic,Total,
+Bexley,2014,Industrial and Commercial,Coal,2014
+Kingston,2014,Transport,Total,
+Richmond,2014,Domestic,Electricity,2014
+City of London,2011,Industrial and Commercial,Gas,2011
+Brent,2013,Total,Total,
+Southwark,2017,Domestic,Electricity,2017
+Southwark,2014,Transport,Shipping,2014
+Kensington and Chelsea,2011,Domestic,Coal,2011
+Unapportioned,2015,Domestic,Electricity,2015
+Merton,2012,Industrial and Commercial,Gas,2012
+Hillingdon,2010,Industrial and Commercial,Oil,2010
+Haringey,2016,Transport,Railways electric,2016
+Lewisham,2011,Transport,Road Transport,2010
+Sutton,2015,Industrial and Commercial,Oil,2015
+Havering,2011,Transport,Aviation,2010
+Lambeth,2016,Domestic,Gas,2016
+Kingston,2010,Industrial and Commercial,Coal,2010
+Hackney,2016,Industrial and Commercial,Waste and Renewables,2016
+Sutton,2016,Transport,Aviation,2016
+Haringey,2017,Domestic,Gas,2017
+Haringey,2017,Industrial and Commercial,Waste and Renewables,2017
+Barnet,2012,Transport,Road Transport,2010
+Wandsworth,2013,Domestic,Electricity,2013
+London,2010,Transport,Road Transport,2010
+Kingston,2012,Domestic,Gas,2012
+Hillingdon,2015,Industrial and Commercial,Waste and Renewables,2015
+Kensington and Chelsea,2013,Transport,Shipping,2010 and 2013
+Lambeth,2014,Total,Total,
+Bexley,2010,Transport,Road Transport,2010
+Kingston,2017,Industrial and Commercial,Oil,2017
+Havering,2011,Industrial and Commercial,Waste and Renewables,2011
+Camden,2012,Industrial and Commercial,Oil,2012
+Haringey,2013,Industrial and Commercial,Total,
+Brent,2011,Transport,Total,
+Brent,2017,Industrial and Commercial,Total,
+Bexley,2010,Domestic,Gas,2010
+London,2012,Transport,Aviation,2010
+Hackney,2014,Transport,Aviation,2013 and 2014
+Greenwich,2015,Transport,Railways diesel,2014
+Newham,2010,Transport,Aviation,2010
+Wandsworth,2014,Industrial and Commercial,Gas,2014
+Unapportioned,2017,Transport,Aviation,2013 and 2017
+Lambeth,2012,Transport,Total,
+Ealing,2016,Transport,Railways diesel,2016
+City of London,2011,Domestic,Electricity,2011
+Barnet,2011,Transport,Railways electric,2010
+Harrow,2010,Transport,Aviation,2010
+Bexley,2014,Domestic,Electricity,2014
+Ealing,2011,Industrial and Commercial,Total,
+Tower Hamlets,2014,Transport,Shipping,2014
+Enfield,2017,Domestic,Total,
+Kensington and Chelsea,2016,Total,Total,
+Greenwich,2011,Transport,Railways electric,2010
+London,2010,Transport,Railways diesel,2010
+Haringey,2014,Transport,Road Transport,2014
+Barking and Dagenham,2013,Industrial and Commercial,Total,
+Greenwich,2015,Transport,Total,
+Bexley,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Camden,2013,Domestic,Electricity,2013
+Brent,2014,Total,Total,
+Lewisham,2012,Industrial and Commercial,Oil,2012
+Southwark,2012,Transport,Road Transport,2010
+Barking and Dagenham,2013,Domestic,Gas,2013
+London,2017,Industrial and Commercial,Total,
+Brent,2015,Industrial and Commercial,Electricity w/o rail,2015
+London,2012,Transport,Road Transport,2010
+Harrow,2012,Domestic,Electricity,2012
+Greenwich,2016,Domestic,Oil,2016
+Waltham Forest,2013,Industrial and Commercial,Oil,2013
+Tower Hamlets,2010,Domestic,Electricity,2010
+Redbridge,2015,Transport,Railways electric,2015
+Kensington and Chelsea,2014,Total,Total,
+Westminster,2015,Industrial and Commercial,Electricity w/o rail,2015
+Bexley,2016,Industrial and Commercial,Coal,2016
+Unapportioned,2011,Transport,Railways diesel,2010
+Wandsworth,2014,Industrial and Commercial,Total,
+Ealing,2013,Transport,Road Transport,2013
+London,2015,Transport,Railways diesel,2014
+Southwark,2016,Transport,Total,
+Croydon,2014,Domestic,Gas,2014
+Sutton,2017,Transport,Shipping,2016
+Tower Hamlets,2016,Industrial and Commercial,Gas,2016
+Camden,2010,Domestic,Coal,2010
+Brent,2010,Transport,Shipping,2010
+Havering,2012,Transport,Railways electric,2010
+Sutton,2010,Industrial and Commercial,Waste and Renewables,2010
+Barking and Dagenham,2017,Transport,Aviation,2013 and 2017
+Southwark,2010,Domestic,Oil,2010
+Havering,2014,Industrial and Commercial,Coal,2014
+Ealing,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Havering,2010,Transport,Shipping,2010
+Hackney,2014,Transport,Railways diesel,2014
+Lewisham,2010,Transport,Aviation,2010
+Wandsworth,2014,Domestic,Coal,2014
+Lewisham,2014,Domestic,Electricity,2014
+Waltham Forest,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Hillingdon,2010,Industrial and Commercial,Waste and Renewables,2010
+Hillingdon,2011,Domestic,Electricity,2011
+Kensington and Chelsea,2017,Transport,Shipping,2016
+City of London,2016,Industrial and Commercial,Total,
+Croydon,2010,Domestic,Oil,2010
+Havering,2017,Industrial and Commercial,Total,
+Barking and Dagenham,2010,Transport,Road Transport,2010
+Merton,2016,Industrial and Commercial,Total,
+Richmond,2015,Transport,Total,
+Newham,2016,Domestic,Gas,2016
+Harrow,2017,Industrial and Commercial,Oil,2017
+Hounslow,2017,Transport,Total,
+Hackney,2010,Industrial and Commercial,Gas,2010
+Southwark,2011,Domestic,Gas,2011
+Barking and Dagenham,2013,Transport,Road Transport,2013
+Barking and Dagenham,2011,Industrial and Commercial,Total,
+Newham,2014,Transport,Road Transport,2014
+Hounslow,2011,Industrial and Commercial,Total,
+Richmond,2010,Industrial and Commercial,Electricity w/o rail,2010
+Harrow,2010,Transport,Total,
+Hillingdon,2014,Industrial and Commercial,Oil,2014
+Islington,2014,Domestic,Total,
+Ealing,2014,Transport,Aviation,2013 and 2014
+Barking and Dagenham,2010,Transport,Total,
+Islington,2011,Industrial and Commercial,Gas,2011
+Hillingdon,2016,Transport,Railways electric,2016
+Westminster,2011,Total,Total,
+Ealing,2015,Industrial and Commercial,Coal,2015
+Brent,2013,Domestic,Gas,2013
+London,2011,Transport,Railways electric,2010
+Enfield,2010,Transport,Railways electric,2010
+Lambeth,2013,Transport,Aviation,2010 and 2013
+Unapportioned,2011,Industrial and Commercial,Total,
+London,2013,Industrial and Commercial,Electricity w/o rail,2013
+City of London,2012,Industrial and Commercial,Oil,2012
+Redbridge,2010,Transport,Road Transport,2010
+Hillingdon,2013,Domestic,Total,
+Hounslow,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+London,2012,Transport,Shipping,2010
+London,2012,Domestic,Gas,2012
+Hammersmith and Fulham,2014,Domestic,Oil,2014
+Richmond,2017,Industrial and Commercial,Waste and Renewables,2017
+Westminster,2014,Industrial and Commercial,Electricity w/o rail,2014
+Unapportioned,2013,Domestic,Oil,2013
+Newham,2016,Domestic,Oil,2016
+Hammersmith and Fulham,2014,Industrial and Commercial,Electricity w/o rail,2014
+Wandsworth,2015,Industrial and Commercial,Oil,2015
+Richmond,2010,Industrial and Commercial,Coal,2010
+Redbridge,2011,Transport,Road Transport,2010
+Westminster,2016,Industrial and Commercial,Total,
+Croydon,2010,Domestic,Coal,2010
+Redbridge,2014,Industrial and Commercial,Gas,2014
+Newham,2014,Total,Total,
+Haringey,2010,Transport,Total,
+City of London,2012,Transport,Shipping,2010
+Wandsworth,2014,Transport,Road Transport,2014
+Lambeth,2012,Industrial and Commercial,Total,
+Bexley,2010,Transport,Railways diesel,2010
+Harrow,2011,Domestic,Total,
+Hounslow,2012,Transport,Aviation,2010
+Bexley,2016,Domestic,Electricity,2016
+Tower Hamlets,2015,Industrial and Commercial,Oil,2015
+Croydon,2014,Industrial and Commercial,Total,
+London,2012,Industrial and Commercial,Coal,2012
+Redbridge,2014,Domestic,Gas,2014
+Southwark,2013,Transport,Road Transport,2013
+Kensington and Chelsea,2012,Industrial and Commercial,Waste and Renewables,2012
+Islington,2011,Industrial and Commercial,Coal,2011
+Merton,2016,Domestic,Coal,2016
+Barking and Dagenham,2017,Industrial and Commercial,Waste and Renewables,2017
+Sutton,2015,Total,Total,
+Sutton,2017,Transport,Total,
+Sutton,2014,Domestic,Coal,2014
+Merton,2014,Transport,Road Transport,2014
+Greenwich,2012,Industrial and Commercial,Waste and Renewables,2012
+Westminster,2010,Total,Total,
+Merton,2012,Domestic,Oil,2012
+Tower Hamlets,2011,Industrial and Commercial,Gas,2011
+Sutton,2014,Domestic,Total,
+Brent,2010,Domestic,Electricity,2010
+Camden,2017,Transport,Aviation,2013 and 2017
+Bromley,2017,Industrial and Commercial,Oil,2017
+Harrow,2010,Transport,Road Transport,2010
+Barking and Dagenham,2016,Industrial and Commercial,Oil,2016
+Redbridge,2016,Industrial and Commercial,Coal,2016
+Waltham Forest,2010,Industrial and Commercial,Gas,2010
+Kensington and Chelsea,2014,Transport,Railways electric,2014
+Ealing,2010,Total,Total,
+Hounslow,2010,Transport,Total,
+Hackney,2017,Industrial and Commercial,Total,
+Harrow,2014,Industrial and Commercial,Waste and Renewables,2014
+Westminster,2015,Industrial and Commercial,Gas,2015
+Haringey,2017,Transport,Total,
+Barnet,2011,Industrial and Commercial,Waste and Renewables,2011
+Camden,2012,Domestic,Oil,2012
+Brent,2016,Transport,Shipping,2016
+Westminster,2013,Domestic,Gas,2013
+Enfield,2015,Domestic,Total,
+Hammersmith and Fulham,2016,Domestic,Total,
+Waltham Forest,2013,Industrial and Commercial,Total,
+Bromley,2013,Industrial and Commercial,Waste and Renewables,2012
+Bexley,2015,Domestic,Total,
+Ealing,2016,Domestic,Total,
+Hammersmith and Fulham,2013,Domestic,Oil,2013
+Camden,2016,Industrial and Commercial,Waste and Renewables,2016
+Lewisham,2013,Industrial and Commercial,Coal,2013
+Croydon,2012,Industrial and Commercial,Waste and Renewables,2012
+Richmond,2013,Transport,Aviation,2010 and 2013
+Barnet,2017,Total,Total,
+London,2013,Domestic,Gas,2013
+Unapportioned,2011,Domestic,Oil,2011
+Islington,2013,Transport,Road Transport,2013
+Barnet,2012,Domestic,Oil,2012
+Lambeth,2012,Domestic,Coal,2012
+Westminster,2016,Domestic,Electricity,2016
+Tower Hamlets,2016,Industrial and Commercial,Electricity w/o rail,2016
+Westminster,2011,Transport,Road Transport,2010
+Lambeth,2014,Transport,Shipping,2014
+Wandsworth,2016,Domestic,Total,
+Barking and Dagenham,2012,Industrial and Commercial,Oil,2012
+Hackney,2013,Transport,Shipping,2010 and 2013
+City of London,2010,Transport,Railways diesel,2010
+Redbridge,2012,Transport,Aviation,2010
+Barnet,2013,Domestic,Coal,2013
+City of London,2015,Transport,Railways electric,2015
+Bromley,2014,Industrial and Commercial,Coal,2014
+Tower Hamlets,2014,Total,Total,
+Hammersmith and Fulham,2011,Domestic,Coal,2011
+Kensington and Chelsea,2011,Transport,Shipping,2010
+Havering,2017,Transport,Aviation,2013 and 2017
+Westminster,2015,Domestic,Electricity,2015
+Lambeth,2012,Transport,Aviation,2010
+Ealing,2017,Transport,Aviation,2013 and 2017
+Havering,2010,Industrial and Commercial,Waste and Renewables,2010
+Lewisham,2014,Industrial and Commercial,Coal,2014
+Wandsworth,2015,Industrial and Commercial,Coal,2015
+Hounslow,2011,Industrial and Commercial,Oil,2011
+Unapportioned,2015,Industrial and Commercial,Electricity w/o rail,2015
+Camden,2017,Transport,Total,
+City of London,2016,Industrial and Commercial,Electricity w/o rail,2016
+Kensington and Chelsea,2015,Industrial and Commercial,Electricity w/o rail,2015
+Havering,2015,Industrial and Commercial,Total,
+Redbridge,2012,Transport,Railways electric,2010
+Barking and Dagenham,2013,Domestic,Oil,2013
+Waltham Forest,2016,Industrial and Commercial,Oil,2016
+Hammersmith and Fulham,2016,Total,Total,
+Richmond,2014,Domestic,Oil,2014
+Kingston,2015,Industrial and Commercial,Total,
+Richmond,2013,Total,Total,
+Brent,2017,Domestic,Gas,2017
+Croydon,2014,Domestic,Total,
+Merton,2011,Transport,Total,
+Brent,2017,Domestic,Coal,2017
+Havering,2012,Industrial and Commercial,Waste and Renewables,2012
+Westminster,2015,Transport,Railways diesel,2014
+Harrow,2012,Transport,Total,
+Greenwich,2015,Total,Total,
+Brent,2014,Transport,Aviation,2013 and 2014
+Richmond,2016,Domestic,Electricity,2016
+Sutton,2017,Domestic,Coal,2017
+Newham,2017,Transport,Road Transport,2017
+Redbridge,2010,Industrial and Commercial,Oil,2010
+Bromley,2012,Industrial and Commercial,Coal,2012
+Hounslow,2017,Industrial and Commercial,Total,
+Enfield,2010,Domestic,Oil,2010
+Waltham Forest,2015,Domestic,Electricity,2015
+Kensington and Chelsea,2017,Transport,Railways diesel,2014
+Westminster,2016,Industrial and Commercial,Coal,2016
+Bexley,2012,Domestic,Total,
+Hillingdon,2015,Transport,Road Transport,2015
+Southwark,2016,Industrial and Commercial,Total,
+Lambeth,2011,Transport,Total,
+Lambeth,2013,Industrial and Commercial,Electricity w/o rail,2013
+Hammersmith and Fulham,2013,Domestic,Total,
+Brent,2010,Industrial and Commercial,Gas,2010
+Barking and Dagenham,2010,Domestic,Oil,2010
+Greenwich,2011,Domestic,Electricity,2011
+Hammersmith and Fulham,2010,Domestic,Electricity,2010
+Kingston,2014,Domestic,Coal,2014
+Merton,2016,Transport,Railways electric,2016
+Lewisham,2015,Domestic,Gas,2015
+Merton,2016,Industrial and Commercial,Gas,2016
+Islington,2016,Transport,Road Transport,2016
+Hillingdon,2013,Domestic,Gas,2013
+Lewisham,2014,Total,Total,
+Enfield,2016,Industrial and Commercial,Coal,2016
+Camden,2016,Transport,Road Transport,2016
+Lewisham,2011,Transport,Total,
+Unapportioned,2011,Transport,Railways electric,2010
+Hillingdon,2017,Industrial and Commercial,Waste and Renewables,2017
+Wandsworth,2015,Transport,Total,
+Kensington and Chelsea,2013,Industrial and Commercial,Gas,2013
+Ealing,2014,Total,Total,
+Bromley,2012,Domestic,Coal,2012
+Westminster,2010,Transport,Railways electric,2010
+Sutton,2017,Transport,Railways electric,2017
+City of London,2015,Domestic,Oil,2015
+Sutton,2016,Transport,Railways electric,2016
+Hackney,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Newham,2014,Transport,Total,
+City of London,2015,Total,Total,
+Westminster,2011,Industrial and Commercial,Waste and Renewables,2011
+Hillingdon,2016,Transport,Shipping,2016
+Hillingdon,2012,Transport,Total,
+Bromley,2017,Industrial and Commercial,Total,
+Barking and Dagenham,2017,Domestic,Oil,2017
+Haringey,2016,Transport,Total,
+Haringey,2017,Domestic,Coal,2017
+Haringey,2010,Industrial and Commercial,Gas,2010
+Croydon,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Lambeth,2015,Domestic,Electricity,2015
+Lambeth,2013,Transport,Railways electric,2013
+Southwark,2010,Transport,Railways diesel,2010
+Hounslow,2012,Industrial and Commercial,Oil,2012
+Sutton,2017,Industrial and Commercial,Oil,2017
+Bexley,2011,Industrial and Commercial,Waste and Renewables,2011
+City of London,2013,Transport,Road Transport,2013
+Merton,2010,Industrial and Commercial,Oil,2010
+Harrow,2011,Transport,Shipping,2010
+Kensington and Chelsea,2011,Domestic,Electricity,2011
+Barking and Dagenham,2012,Industrial and Commercial,Waste and Renewables,2012
+Enfield,2013,Total,Total,
+Camden,2014,Industrial and Commercial,Oil,2014
+Kensington and Chelsea,2014,Industrial and Commercial,Total,
+Southwark,2012,Industrial and Commercial,Oil,2012
+Lambeth,2014,Domestic,Electricity,2014
+London,2015,Transport,Total,
+Enfield,2015,Industrial and Commercial,Oil,2015
+Camden,2012,Domestic,Electricity,2012
+Islington,2015,Transport,Shipping,2015
+Hammersmith and Fulham,2010,Industrial and Commercial,Electricity w/o rail,2010
+Tower Hamlets,2013,Transport,Railways electric,2013
+Lambeth,2015,Domestic,Gas,2015
+Islington,2015,Domestic,Total,
+Croydon,2017,Transport,Aviation,2013 and 2017
+Newham,2010,Domestic,Total,
+Lambeth,2016,Transport,Shipping,2016
+Newham,2013,Transport,Total,
+Bromley,2014,Industrial and Commercial,Waste and Renewables,2014
+London,2014,Total,Total,
+Bexley,2011,Domestic,Gas,2011
+Richmond,2010,Transport,Shipping,2010
+Redbridge,2013,Transport,Aviation,2010 and 2013
+Richmond,2016,Transport,Railways diesel,2016
+Southwark,2010,Industrial and Commercial,Total,
+Kingston,2011,Transport,Total,
+Haringey,2013,Domestic,Total,
+Brent,2011,Domestic,Gas,2011
+Kingston,2015,Industrial and Commercial,Electricity w/o rail,2015
+London,2014,Industrial and Commercial,Gas,2014
+Sutton,2011,Transport,Railways electric,2010
+Hillingdon,2014,Industrial and Commercial,Electricity w/o rail,2014
+Unapportioned,2010,Industrial and Commercial,Total,
+Lewisham,2016,Industrial and Commercial,Waste and Renewables,2016
+Hammersmith and Fulham,2015,Industrial and Commercial,Oil,2015
+Ealing,2015,Domestic,Electricity,2015
+Kensington and Chelsea,2010,Industrial and Commercial,Oil,2010
+Hackney,2015,Industrial and Commercial,Electricity w/o rail,2015
+Islington,2013,Total,Total,
+Greenwich,2017,Industrial and Commercial,Gas,2017
+Hounslow,2013,Domestic,Oil,2013
+Lambeth,2012,Domestic,Total,
+Hounslow,2017,Domestic,Oil,2017
+Hackney,2016,Industrial and Commercial,Coal,2016
+Islington,2017,Transport,Aviation,2013 and 2017
+Greenwich,2013,Transport,Road Transport,2013
+Wandsworth,2014,Transport,Shipping,2014
+Harrow,2010,Industrial and Commercial,Total,
+Barnet,2016,Transport,Railways diesel,2016
+Islington,2013,Industrial and Commercial,Total,
+Newham,2013,Industrial and Commercial,Waste and Renewables,2012
+Enfield,2014,Domestic,Oil,2014
+Hounslow,2013,Transport,Railways diesel,2013
+Redbridge,2012,Transport,Total,
+London,2016,Industrial and Commercial,Coal,2016
+Kingston,2016,Transport,Total,
+Tower Hamlets,2014,Domestic,Electricity,2014
+Barking and Dagenham,2014,Transport,Aviation,2013 and 2014
+Kingston,2016,Industrial and Commercial,Electricity w/o rail,2016
+Lewisham,2011,Industrial and Commercial,Coal,2011
+Kingston,2015,Industrial and Commercial,Waste and Renewables,2015
+Brent,2017,Domestic,Total,
+Southwark,2010,Industrial and Commercial,Electricity w/o rail,2010
+Harrow,2013,Transport,Railways electric,2013
+City of London,2012,Industrial and Commercial,Gas,2012
+London,2010,Transport,Total,
+Lewisham,2013,Industrial and Commercial,Waste and Renewables,2012
+Bexley,2017,Transport,Railways diesel,2014
+Hackney,2016,Domestic,Coal,2016
+Tower Hamlets,2017,Transport,Railways diesel,2014
+Wandsworth,2011,Industrial and Commercial,Waste and Renewables,2011
+Bexley,2016,Transport,Railways electric,2016
+Ealing,2012,Transport,Aviation,2010
+Newham,2014,Transport,Shipping,2014
+Haringey,2012,Industrial and Commercial,Coal,2012
+Merton,2014,Industrial and Commercial,Gas,2014
+Westminster,2013,Industrial and Commercial,Gas,2013
+Ealing,2011,Transport,Railways diesel,2010
+Hounslow,2012,Transport,Road Transport,2010
+Havering,2011,Total,Total,
+Barking and Dagenham,2010,Industrial and Commercial,Coal,2010
+Ealing,2013,Domestic,Oil,2013
+Havering,2014,Transport,Railways diesel,2014
+Redbridge,2014,Domestic,Oil,2014
+Camden,2016,Domestic,Coal,2016
+Lambeth,2010,Industrial and Commercial,Total,
+Havering,2015,Transport,Railways electric,2015
+Barnet,2016,Domestic,Oil,2016
+Southwark,2010,Domestic,Coal,2010
+London,2017,Industrial and Commercial,Gas,2017
+Wandsworth,2012,Transport,Shipping,2010
+Hackney,2011,Transport,Aviation,2010
+Haringey,2016,Industrial and Commercial,Gas,2016
+Redbridge,2010,Industrial and Commercial,Waste and Renewables,2010
+Waltham Forest,2015,Industrial and Commercial,Oil,2015
+Hillingdon,2015,Industrial and Commercial,Gas,2015
+Unapportioned,2012,Domestic,Electricity,2012
+Bexley,2016,Domestic,Coal,2016
+Brent,2017,Transport,Road Transport,2017
+Havering,2017,Total,Total,
+Kensington and Chelsea,2016,Domestic,Coal,2016
+Barnet,2011,Domestic,Electricity,2011
+Camden,2017,Transport,Railways electric,2017
+Lewisham,2015,Industrial and Commercial,Coal,2015
+Greenwich,2017,Transport,Total,
+Waltham Forest,2012,Domestic,Total,
+Merton,2011,Industrial and Commercial,Waste and Renewables,2011
+Kingston,2011,Industrial and Commercial,Coal,2011
+Redbridge,2016,Domestic,Oil,2016
+Brent,2013,Domestic,Oil,2013
+Wandsworth,2016,Total,Total,
+Havering,2014,Transport,Shipping,2014
+Hammersmith and Fulham,2013,Domestic,Electricity,2013
+Barnet,2013,Industrial and Commercial,Oil,2013
+Wandsworth,2017,Domestic,Total,
+Haringey,2013,Domestic,Oil,2013
+London,2011,Total,Total,
+Lewisham,2010,Industrial and Commercial,Electricity w/o rail,2010
+Hackney,2016,Domestic,Total,
+Harrow,2014,Transport,Shipping,2014
+Ealing,2011,Domestic,Electricity,2011
+Westminster,2014,Industrial and Commercial,Oil,2014
+Unapportioned,2014,Industrial and Commercial,Gas,2014
+Hillingdon,2014,Transport,Railways electric,2014
+Barnet,2015,Transport,Railways diesel,2014
+Greenwich,2015,Domestic,Gas,2015
+Greenwich,2011,Transport,Road Transport,2010
+Newham,2011,Total,Total,
+Haringey,2014,Industrial and Commercial,Waste and Renewables,2014
+Havering,2014,Transport,Total,
+Lewisham,2017,Industrial and Commercial,Total,
+Enfield,2014,Industrial and Commercial,Total,
+Barnet,2012,Industrial and Commercial,Oil,2012
+Barnet,2011,Domestic,Gas,2011
+Unapportioned,2016,Transport,Total,
+Redbridge,2013,Industrial and Commercial,Oil,2013
+Barnet,2017,Transport,Aviation,2013 and 2017
+Newham,2017,Transport,Aviation,2013 and 2017
+Lewisham,2013,Transport,Shipping,2010 and 2013
+Croydon,2011,Transport,Railways diesel,2010
+Kensington and Chelsea,2014,Domestic,Electricity,2014
+Hounslow,2017,Transport,Road Transport,2017
+Westminster,2016,Domestic,Total,
+Southwark,2014,Domestic,Oil,2014
+Harrow,2014,Transport,Road Transport,2014
+Bromley,2015,Domestic,Gas,2015
+Enfield,2010,Transport,Shipping,2010
+Tower Hamlets,2012,Industrial and Commercial,Gas,2012
+Ealing,2015,Domestic,Total,
+Tower Hamlets,2015,Industrial and Commercial,Gas,2015
+Ealing,2012,Domestic,Coal,2012
+Newham,2017,Industrial and Commercial,Gas,2017
+Islington,2017,Industrial and Commercial,Total,
+Wandsworth,2016,Transport,Total,
+Kingston,2015,Domestic,Gas,2015
+Hillingdon,2012,Industrial and Commercial,Total,
+Enfield,2016,Domestic,Electricity,2016
+Haringey,2010,Domestic,Electricity,2010
+Kensington and Chelsea,2010,Industrial and Commercial,Gas,2010
+Westminster,2016,Domestic,Gas,2016
+Hounslow,2016,Transport,Aviation,2016
+Hammersmith and Fulham,2011,Transport,Road Transport,2010
+Islington,2014,Transport,Aviation,2013 and 2014
+Hammersmith and Fulham,2017,Domestic,Coal,2017
+London,2014,Industrial and Commercial,Oil,2014
+Bexley,2014,Domestic,Coal,2014
+Hammersmith and Fulham,2016,Domestic,Coal,2016
+Tower Hamlets,2011,Industrial and Commercial,Coal,2011
+Bromley,2013,Industrial and Commercial,Electricity w/o rail,2013
+Merton,2011,Domestic,Total,
+Tower Hamlets,2015,Transport,Railways electric,2015
+Unapportioned,2012,Industrial and Commercial,Total,
+Hackney,2012,Total,Total,
+Richmond,2011,Domestic,Gas,2011
+Bexley,2011,Industrial and Commercial,Oil,2011
+Hounslow,2016,Total,Total,
+Haringey,2012,Domestic,Total,
+Hillingdon,2017,Industrial and Commercial,Oil,2017
+Westminster,2012,Transport,Total,
+London,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Southwark,2014,Transport,Railways electric,2014
+Lewisham,2010,Domestic,Oil,2010
+Barking and Dagenham,2016,Industrial and Commercial,Gas,2016
+Bromley,2017,Domestic,Electricity,2017
+Croydon,2015,Industrial and Commercial,Total,
+Redbridge,2010,Transport,Railways diesel,2010
+Enfield,2013,Transport,Total,
+Kensington and Chelsea,2014,Domestic,Coal,2014
+City of London,2014,Industrial and Commercial,Gas,2014
+Southwark,2013,Transport,Total,
+Redbridge,2015,Industrial and Commercial,Gas,2015
+Hounslow,2014,Domestic,Coal,2014
+Wandsworth,2015,Industrial and Commercial,Waste and Renewables,2015
+London,2011,Industrial and Commercial,Oil,2011
+Wandsworth,2015,Domestic,Total,
+Kingston,2015,Total,Total,
+Merton,2011,Total,Total,
+Haringey,2011,Domestic,Gas,2011
+Hackney,2016,Transport,Shipping,2016
+Newham,2010,Industrial and Commercial,Waste and Renewables,2010
+London,2017,Industrial and Commercial,Waste and Renewables,2017
+Havering,2015,Total,Total,
+Camden,2011,Transport,Aviation,2010
+Wandsworth,2015,Transport,Road Transport,2015
+Ealing,2013,Domestic,Gas,2013
+Tower Hamlets,2015,Transport,Total,
+Barnet,2014,Domestic,Total,
+Westminster,2012,Transport,Shipping,2010
+Enfield,2010,Transport,Railways diesel,2010
+Havering,2015,Industrial and Commercial,Gas,2015
+Ealing,2010,Domestic,Electricity,2010
+Hillingdon,2014,Domestic,Total,
+Waltham Forest,2017,Domestic,Total,
+Hammersmith and Fulham,2014,Industrial and Commercial,Waste and Renewables,2014
+Enfield,2017,Transport,Railways electric,2017
+Haringey,2011,Industrial and Commercial,Coal,2011
+Havering,2016,Transport,Road Transport,2016
+Redbridge,2017,Domestic,Gas,2017
+Sutton,2017,Industrial and Commercial,Gas,2017
+Havering,2010,Industrial and Commercial,Coal,2010
+Camden,2014,Transport,Aviation,2013 and 2014
+Lewisham,2013,Domestic,Gas,2013
+City of London,2012,Total,Total,
+Harrow,2016,Industrial and Commercial,Coal,2016
+Haringey,2016,Transport,Shipping,2016
+Newham,2016,Industrial and Commercial,Oil,2016
+Harrow,2011,Transport,Total,
+City of London,2012,Industrial and Commercial,Waste and Renewables,2012
+Havering,2010,Industrial and Commercial,Oil,2010
+Barnet,2010,Transport,Railways electric,2010
+Bromley,2011,Industrial and Commercial,Oil,2011
+Havering,2010,Domestic,Gas,2010
+Sutton,2017,Domestic,Total,
+Redbridge,2015,Industrial and Commercial,Coal,2015
+Croydon,2016,Transport,Aviation,2016
+Sutton,2010,Total,Total,
+Ealing,2017,Domestic,Coal,2017
+Lambeth,2013,Domestic,Coal,2013
+Barnet,2013,Domestic,Oil,2013
+Camden,2014,Domestic,Electricity,2014
+Brent,2014,Domestic,Total,
+Brent,2011,Domestic,Total,
+Croydon,2014,Transport,Shipping,2014
+Sutton,2011,Transport,Railways diesel,2010
+Unapportioned,2012,Industrial and Commercial,Waste and Renewables,2012
+Bexley,2014,Transport,Aviation,2013 and 2014
+Hackney,2017,Transport,Railways electric,2017
+London,2012,Transport,Railways electric,2010
+Newham,2016,Transport,Shipping,2016
+Haringey,2016,Industrial and Commercial,Oil,2016
+Barking and Dagenham,2011,Transport,Total,
+Richmond,2014,Industrial and Commercial,Electricity w/o rail,2014
+Hounslow,2014,Domestic,Electricity,2014
+Southwark,2015,Domestic,Total,
+Camden,2010,Industrial and Commercial,Total,
+Haringey,2010,Domestic,Gas,2010
+Redbridge,2015,Transport,Road Transport,2015
+Waltham Forest,2010,Domestic,Coal,2010
+Southwark,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Kingston,2014,Industrial and Commercial,Electricity w/o rail,2014
+Newham,2011,Domestic,Oil,2011
+Kingston,2011,Transport,Aviation,2010
+Tower Hamlets,2014,Industrial and Commercial,Waste and Renewables,2014
+Enfield,2014,Transport,Aviation,2013 and 2014
+Unapportioned,2010,Total,Total,
+Lewisham,2017,Transport,Road Transport,2017
+Barking and Dagenham,2016,Domestic,Coal,2016
+Kensington and Chelsea,2017,Industrial and Commercial,Total,
+Havering,2014,Industrial and Commercial,Gas,2014
+Westminster,2013,Transport,Railways electric,2013
+Southwark,2013,Domestic,Gas,2013
+Richmond,2012,Domestic,Coal,2012
+Croydon,2012,Total,Total,
+Hackney,2017,Transport,Shipping,2016
+Richmond,2011,Transport,Total,
+Haringey,2012,Transport,Shipping,2010
+Bexley,2015,Transport,Railways electric,2015
+Harrow,2014,Domestic,Coal,2014
+Lambeth,2011,Domestic,Total,
+Tower Hamlets,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Havering,2010,Transport,Road Transport,2010
+Kensington and Chelsea,2016,Domestic,Oil,2016
+Waltham Forest,2012,Transport,Aviation,2010
+Harrow,2013,Transport,Road Transport,2013
+Islington,2010,Industrial and Commercial,Electricity w/o rail,2010
+Hammersmith and Fulham,2010,Transport,Railways electric,2010
+Barnet,2015,Domestic,Coal,2015
+Lambeth,2010,Transport,Railways diesel,2010
+Barnet,2010,Transport,Road Transport,2010
+Greenwich,2017,Industrial and Commercial,Total,
+Bromley,2012,Transport,Railways electric,2010
+Redbridge,2013,Industrial and Commercial,Coal,2013
+Kingston,2015,Domestic,Coal,2015
+London,2011,Transport,Railways diesel,2010
+Brent,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Islington,2014,Total,Total,
+Wandsworth,2017,Total,Total,
+Enfield,2014,Transport,Road Transport,2014
+Brent,2010,Transport,Road Transport,2010
+Harrow,2017,Industrial and Commercial,Gas,2017
+Islington,2017,Total,Total,
+Kensington and Chelsea,2012,Domestic,Gas,2012
+Greenwich,2013,Transport,Railways diesel,2013
+Hackney,2010,Industrial and Commercial,Waste and Renewables,2010
+Kensington and Chelsea,2016,Transport,Shipping,2016
+City of London,2014,Transport,Railways diesel,2014
+Camden,2011,Industrial and Commercial,Gas,2011
+Sutton,2013,Transport,Road Transport,2013
+Unapportioned,2014,Domestic,Electricity,2014
+Croydon,2015,Transport,Railways diesel,2014
+Croydon,2013,Industrial and Commercial,Electricity w/o rail,2013
+London,2015,Domestic,Oil,2015
+Sutton,2010,Domestic,Electricity,2010
+Enfield,2011,Domestic,Gas,2011
+City of London,2016,Transport,Total,
+City of London,2011,Total,Total,
+Harrow,2010,Industrial and Commercial,Waste and Renewables,2010
+Barnet,2015,Transport,Total,
+Westminster,2010,Transport,Road Transport,2010
+Greenwich,2016,Transport,Total,
+Sutton,2017,Industrial and Commercial,Waste and Renewables,2017
+Barking and Dagenham,2015,Domestic,Gas,2015
+Tower Hamlets,2017,Industrial and Commercial,Total,
+Tower Hamlets,2013,Domestic,Oil,2013
+Brent,2010,Domestic,Total,
+Havering,2013,Transport,Railways diesel,2013
+Wandsworth,2012,Industrial and Commercial,Waste and Renewables,2012
+Wandsworth,2016,Transport,Railways electric,2016
+Brent,2010,Transport,Aviation,2010
+Camden,2012,Transport,Road Transport,2010
+Waltham Forest,2017,Domestic,Electricity,2017
+Islington,2012,Transport,Shipping,2010
+Westminster,2014,Industrial and Commercial,Waste and Renewables,2014
+Bromley,2016,Industrial and Commercial,Electricity w/o rail,2016
+Redbridge,2016,Domestic,Coal,2016
+Hillingdon,2012,Transport,Railways diesel,2010
+Lambeth,2010,Domestic,Gas,2010
+Haringey,2013,Industrial and Commercial,Electricity w/o rail,2013
+Greenwich,2014,Industrial and Commercial,Gas,2014
+Kingston,2012,Transport,Shipping,2010
+City of London,2010,Domestic,Oil,2010
+Enfield,2013,Transport,Railways diesel,2013
+Hammersmith and Fulham,2016,Industrial and Commercial,Total,
+London,2011,Domestic,Oil,2011
+Islington,2011,Total,Total,
+Lewisham,2010,Transport,Road Transport,2010
+Enfield,2010,Domestic,Total,
+Lambeth,2013,Domestic,Electricity,2013
+Camden,2010,Transport,Railways electric,2010
+Croydon,2012,Transport,Railways diesel,2010
+Lewisham,2017,Transport,Shipping,2016
+City of London,2012,Industrial and Commercial,Coal,2012
+Westminster,2011,Industrial and Commercial,Total,
+Unapportioned,2016,Transport,Shipping,2016
+Hammersmith and Fulham,2016,Industrial and Commercial,Electricity w/o rail,2016
+Ealing,2015,Transport,Shipping,2015
+Newham,2017,Domestic,Gas,2017
+Kingston,2013,Domestic,Coal,2013
+Croydon,2015,Transport,Shipping,2015
+Wandsworth,2011,Industrial and Commercial,Total,
+Lambeth,2014,Industrial and Commercial,Total,
+Hounslow,2015,Total,Total,
+Havering,2012,Domestic,Gas,2012
+Kingston,2013,Transport,Shipping,2010 and 2013
+Redbridge,2017,Total,Total,
+Hillingdon,2011,Transport,Railways electric,2010
+Bexley,2017,Transport,Railways electric,2017
+Bromley,2013,Transport,Railways diesel,2013
+Richmond,2015,Transport,Road Transport,2015
+Lambeth,2015,Domestic,Total,
+Lambeth,2012,Industrial and Commercial,Oil,2012
+Hackney,2015,Transport,Aviation,2013 and 2015
+Kingston,2017,Domestic,Gas,2017
+Ealing,2012,Domestic,Electricity,2012
+Richmond,2014,Transport,Shipping,2014
+Haringey,2017,Transport,Aviation,2013 and 2017
+Westminster,2014,Transport,Railways diesel,2014
+Unapportioned,2017,Industrial and Commercial,Total,
+Hillingdon,2012,Transport,Railways electric,2010
+City of London,2017,Transport,Road Transport,2017
+Tower Hamlets,2013,Transport,Total,
+Hammersmith and Fulham,2017,Transport,Railways electric,2017
+Kensington and Chelsea,2010,Domestic,Coal,2010
+Hammersmith and Fulham,2016,Industrial and Commercial,Coal,2016
+Richmond,2017,Total,Total,
+Westminster,2013,Industrial and Commercial,Oil,2013
+Southwark,2017,Industrial and Commercial,Gas,2017
+Bromley,2015,Industrial and Commercial,Gas,2015
+Lewisham,2015,Domestic,Coal,2015
+London,2014,Transport,Railways diesel,2014
+Camden,2012,Total,Total,
+Bexley,2011,Industrial and Commercial,Gas,2011
+Lewisham,2014,Transport,Shipping,2014
+Ealing,2016,Total,Total,
+Islington,2010,Transport,Railways diesel,2010
+Harrow,2014,Transport,Aviation,2013 and 2014
+Camden,2013,Domestic,Total,
+Bexley,2011,Transport,Road Transport,2010
+Barnet,2016,Industrial and Commercial,Electricity w/o rail,2016
+Camden,2013,Transport,Shipping,2010 and 2013
+Hackney,2012,Industrial and Commercial,Gas,2012
+Barking and Dagenham,2010,Industrial and Commercial,Electricity w/o rail,2010
+Harrow,2013,Domestic,Total,
+Ealing,2017,Domestic,Oil,2017
+London,2015,Industrial and Commercial,Coal,2015
+Islington,2017,Transport,Railways diesel,2014
+Camden,2011,Total,Total,
+Haringey,2010,Industrial and Commercial,Oil,2010
+Kingston,2016,Domestic,Electricity,2016
+Bromley,2016,Domestic,Oil,2016
+Lambeth,2016,Transport,Railways diesel,2016
+Kingston,2013,Industrial and Commercial,Waste and Renewables,2012
+Barking and Dagenham,2010,Transport,Railways diesel,2010
+Camden,2011,Transport,Shipping,2010
+Barking and Dagenham,2015,Industrial and Commercial,Total,
+Bromley,2013,Transport,Road Transport,2013
+City of London,2013,Transport,Railways electric,2013
+Haringey,2012,Transport,Aviation,2010
+Kensington and Chelsea,2014,Transport,Total,
+Ealing,2015,Transport,Road Transport,2015
+Hillingdon,2013,Industrial and Commercial,Oil,2013
+Islington,2015,Transport,Aviation,2013 and 2015
+Brent,2012,Total,Total,
+Camden,2013,Transport,Aviation,2010 and 2013
+Sutton,2014,Domestic,Oil,2014
+Hillingdon,2017,Transport,Shipping,2016
+Southwark,2011,Domestic,Electricity,2011
+Harrow,2011,Domestic,Coal,2011
+Havering,2013,Transport,Total,
+Wandsworth,2014,Industrial and Commercial,Waste and Renewables,2014
+Havering,2016,Transport,Total,
+Tower Hamlets,2010,Industrial and Commercial,Coal,2010
+Southwark,2015,Domestic,Coal,2015
+Islington,2013,Industrial and Commercial,Electricity w/o rail,2013
+Richmond,2016,Domestic,Total,
+Redbridge,2010,Domestic,Coal,2010
+Islington,2013,Industrial and Commercial,Gas,2013
+Bexley,2012,Transport,Shipping,2010
+Brent,2015,Transport,Total,
+Croydon,2016,Domestic,Total,
+Enfield,2017,Industrial and Commercial,Gas,2017
+Barnet,2010,Domestic,Coal,2010
+Bexley,2014,Industrial and Commercial,Total,
+Wandsworth,2014,Industrial and Commercial,Electricity w/o rail,2014
+Hammersmith and Fulham,2011,Domestic,Total,
+Harrow,2014,Total,Total,
+Unapportioned,2010,Domestic,Gas,2010
+Croydon,2016,Domestic,Electricity,2016
+Islington,2017,Transport,Shipping,2016
+Hackney,2011,Industrial and Commercial,Coal,2011
+Ealing,2017,Transport,Shipping,2016
+Kensington and Chelsea,2017,Transport,Railways electric,2017
+Kensington and Chelsea,2017,Total,Total,
+Camden,2016,Industrial and Commercial,Total,
+Camden,2017,Domestic,Electricity,2017
+Sutton,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Merton,2010,Domestic,Gas,2010
+Merton,2010,Transport,Aviation,2010
+Kensington and Chelsea,2014,Transport,Road Transport,2014
+Ealing,2015,Transport,Aviation,2013 and 2015
+Brent,2011,Total,Total,
+Hackney,2017,Industrial and Commercial,Gas,2017
+Lewisham,2011,Domestic,Total,
+Waltham Forest,2012,Industrial and Commercial,Coal,2012
+Croydon,2010,Domestic,Gas,2010
+Hillingdon,2012,Transport,Road Transport,2010
+Greenwich,2015,Industrial and Commercial,Waste and Renewables,2015
+Lambeth,2010,Industrial and Commercial,Coal,2010
+Hackney,2013,Total,Total,
+Greenwich,2014,Transport,Aviation,2013 and 2014
+Westminster,2015,Industrial and Commercial,Coal,2015
+Havering,2013,Transport,Road Transport,2013
+Lewisham,2015,Transport,Aviation,2013 and 2015
+London,2014,Transport,Aviation,2013 and 2014
+London,2012,Total,Total,
+Merton,2013,Transport,Railways electric,2013
+Croydon,2017,Domestic,Total,
+Newham,2015,Transport,Railways diesel,2014
+Hammersmith and Fulham,2015,Domestic,Gas,2015
+Westminster,2015,Transport,Road Transport,2015
+Enfield,2015,Industrial and Commercial,Coal,2015
+Haringey,2012,Domestic,Gas,2012
+Bexley,2013,Domestic,Oil,2013
+Lambeth,2012,Transport,Road Transport,2010
+Brent,2011,Domestic,Oil,2011
+Croydon,2015,Transport,Road Transport,2015
+Barnet,2010,Transport,Total,
+Barking and Dagenham,2017,Total,Total,
+Westminster,2017,Industrial and Commercial,Total,
+Islington,2010,Industrial and Commercial,Gas,2010
+Hammersmith and Fulham,2015,Transport,Total,
+Redbridge,2015,Transport,Total,
+Croydon,2013,Domestic,Oil,2013
+Tower Hamlets,2010,Industrial and Commercial,Total,
+Barking and Dagenham,2013,Industrial and Commercial,Coal,2013
+London,2010,Transport,Shipping,2010
+Croydon,2014,Industrial and Commercial,Oil,2014
+Richmond,2017,Industrial and Commercial,Gas,2017
+Redbridge,2010,Industrial and Commercial,Coal,2010
+Wandsworth,2013,Transport,Total,
+Islington,2013,Transport,Total,
+Camden,2010,Domestic,Oil,2010
+Wandsworth,2013,Domestic,Coal,2013
+Barking and Dagenham,2011,Industrial and Commercial,Gas,2011
+City of London,2016,Transport,Railways electric,2016
+Kingston,2016,Transport,Road Transport,2016
+Sutton,2011,Domestic,Electricity,2011
+Ealing,2016,Industrial and Commercial,Coal,2016
+Bexley,2011,Transport,Railways diesel,2010
+Lewisham,2014,Industrial and Commercial,Gas,2014
+Islington,2015,Industrial and Commercial,Total,
+Kensington and Chelsea,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Kingston,2012,Domestic,Coal,2012
+Waltham Forest,2011,Industrial and Commercial,Coal,2011
+Croydon,2010,Industrial and Commercial,Total,
+Camden,2014,Transport,Total,
+Kingston,2014,Total,Total,
+Islington,2014,Transport,Railways electric,2014
+Camden,2013,Industrial and Commercial,Coal,2013
+Kensington and Chelsea,2010,Domestic,Oil,2010
+Lewisham,2013,Transport,Total,
+Islington,2014,Domestic,Coal,2014
+City of London,2014,Domestic,Coal,2014
+Westminster,2014,Domestic,Gas,2014
+Waltham Forest,2010,Domestic,Total,
+Bexley,2011,Domestic,Electricity,2011
+Ealing,2012,Industrial and Commercial,Gas,2012
+Hammersmith and Fulham,2011,Industrial and Commercial,Waste and Renewables,2011
+Barking and Dagenham,2013,Domestic,Total,
+Southwark,2014,Transport,Aviation,2013 and 2014
+Kensington and Chelsea,2010,Transport,Railways diesel,2010
+Lambeth,2016,Industrial and Commercial,Gas,2016
+Westminster,2017,Total,Total,
+Tower Hamlets,2017,Domestic,Oil,2017
+Greenwich,2011,Domestic,Total,
+Lambeth,2010,Transport,Railways electric,2010
+Camden,2015,Transport,Railways electric,2015
+Bexley,2015,Domestic,Coal,2015
+Richmond,2012,Domestic,Oil,2012
+Waltham Forest,2016,Transport,Total,
+Harrow,2010,Total,Total,
+Hillingdon,2010,Transport,Railways diesel,2010
+Lambeth,2016,Transport,Total,
+Bromley,2017,Transport,Aviation,2013 and 2017
+Barnet,2010,Transport,Shipping,2010
+Camden,2016,Industrial and Commercial,Electricity w/o rail,2016
+Brent,2013,Domestic,Coal,2013
+Havering,2014,Industrial and Commercial,Electricity w/o rail,2014
+Hounslow,2014,Transport,Shipping,2014
+City of London,2013,Domestic,Oil,2013
+Havering,2010,Total,Total,
+Waltham Forest,2013,Domestic,Gas,2013
+Islington,2010,Transport,Shipping,2010
+Enfield,2013,Transport,Aviation,2010 and 2013
+Tower Hamlets,2017,Transport,Aviation,2013 and 2017
+Islington,2013,Domestic,Total,
+Kingston,2014,Transport,Road Transport,2014
+London,2011,Domestic,Total,
+Bromley,2010,Industrial and Commercial,Coal,2010
+Bexley,2013,Transport,Shipping,2010 and 2013
+London,2013,Transport,Railways diesel,2013
+Wandsworth,2016,Transport,Railways diesel,2016
+Unapportioned,2010,Transport,Total,
+Unapportioned,2014,Domestic,Gas,2014
+Barnet,2011,Industrial and Commercial,Gas,2011
+Barking and Dagenham,2016,Domestic,Oil,2016
+Southwark,2017,Transport,Total,
+Haringey,2014,Industrial and Commercial,Total,
+Harrow,2013,Industrial and Commercial,Coal,2013
+Waltham Forest,2016,Industrial and Commercial,Gas,2016
+Westminster,2012,Industrial and Commercial,Total,
+Harrow,2016,Transport,Aviation,2016
+Newham,2014,Domestic,Coal,2014
+Brent,2014,Industrial and Commercial,Total,
+Hammersmith and Fulham,2012,Transport,Aviation,2010
+Bexley,2012,Transport,Total,
+Hounslow,2012,Industrial and Commercial,Gas,2012
+Unapportioned,2015,Industrial and Commercial,Gas,2015
+Hammersmith and Fulham,2013,Industrial and Commercial,Oil,2013
+Newham,2017,Industrial and Commercial,Total,
+Bromley,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Barking and Dagenham,2012,Domestic,Gas,2012
+Greenwich,2012,Industrial and Commercial,Oil,2012
+Tower Hamlets,2011,Industrial and Commercial,Waste and Renewables,2011
+Brent,2012,Domestic,Coal,2012
+Waltham Forest,2017,Transport,Road Transport,2017
+Sutton,2015,Transport,Railways electric,2015
+Newham,2014,Industrial and Commercial,Waste and Renewables,2014
+Kensington and Chelsea,2014,Industrial and Commercial,Coal,2014
+Newham,2012,Domestic,Electricity,2012
+Lambeth,2010,Total,Total,
+Southwark,2016,Industrial and Commercial,Oil,2016
+Camden,2014,Industrial and Commercial,Coal,2014
+Haringey,2013,Transport,Railways diesel,2013
+Kingston,2017,Industrial and Commercial,Coal,2017
+City of London,2015,Industrial and Commercial,Gas,2015
+Barnet,2014,Transport,Shipping,2014
+Greenwich,2010,Industrial and Commercial,Electricity w/o rail,2010
+Camden,2013,Industrial and Commercial,Gas,2013
+Harrow,2016,Industrial and Commercial,Electricity w/o rail,2016
+Barking and Dagenham,2011,Transport,Road Transport,2010
+Tower Hamlets,2014,Domestic,Total,
+Sutton,2014,Transport,Road Transport,2014
+Brent,2014,Domestic,Oil,2014
+Bexley,2010,Industrial and Commercial,Gas,2010
+London,2015,Total,Total,
+Hounslow,2015,Industrial and Commercial,Coal,2015
+Kensington and Chelsea,2011,Industrial and Commercial,Total,
+Hounslow,2017,Transport,Shipping,2016
+Hounslow,2013,Industrial and Commercial,Coal,2013
+Bromley,2014,Transport,Railways electric,2014
+Lambeth,2010,Transport,Aviation,2010
+Southwark,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Lambeth,2013,Transport,Road Transport,2013
+Newham,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Hackney,2010,Industrial and Commercial,Oil,2010
+Hounslow,2014,Transport,Railways diesel,2014
+Havering,2013,Domestic,Oil,2013
+Tower Hamlets,2017,Industrial and Commercial,Gas,2017
+London,2017,Domestic,Electricity,2017
+Kensington and Chelsea,2010,Domestic,Total,
+London,2016,Industrial and Commercial,Oil,2016
+Camden,2016,Domestic,Gas,2016
+Hackney,2015,Industrial and Commercial,Oil,2015
+Unapportioned,2016,Total,Total,
+Haringey,2014,Domestic,Total,
+Bromley,2011,Transport,Railways electric,2010
+Harrow,2015,Domestic,Total,
+Ealing,2010,Industrial and Commercial,Waste and Renewables,2010
+Sutton,2014,Industrial and Commercial,Electricity w/o rail,2014
+Hammersmith and Fulham,2016,Transport,Railways diesel,2016
+Tower Hamlets,2010,Industrial and Commercial,Waste and Renewables,2010
+Tower Hamlets,2013,Domestic,Gas,2013
+Sutton,2017,Transport,Aviation,2013 and 2017
+Redbridge,2017,Domestic,Electricity,2017
+Lewisham,2013,Domestic,Electricity,2013
+Richmond,2012,Transport,Aviation,2010
+Tower Hamlets,2016,Transport,Aviation,2016
+Hammersmith and Fulham,2016,Domestic,Oil,2016
+Kingston,2017,Industrial and Commercial,Gas,2017
+Kensington and Chelsea,2014,Industrial and Commercial,Waste and Renewables,2014
+Sutton,2010,Domestic,Gas,2010
+Wandsworth,2011,Domestic,Total,
+Hounslow,2015,Transport,Shipping,2015
+Enfield,2013,Industrial and Commercial,Waste and Renewables,2012
+London,2016,Industrial and Commercial,Gas,2016
+Unapportioned,2013,Industrial and Commercial,Oil,2013
+Bexley,2012,Domestic,Gas,2012
+Havering,2010,Industrial and Commercial,Total,
+Waltham Forest,2016,Transport,Railways electric,2016
+Brent,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Hackney,2014,Industrial and Commercial,Coal,2014
+Greenwich,2012,Total,Total,
+Hounslow,2011,Total,Total,
+Lambeth,2017,Industrial and Commercial,Electricity w/o rail,2017
+Islington,2013,Transport,Aviation,2010 and 2013
+Barnet,2016,Total,Total,
+Bromley,2010,Transport,Total,
+Bexley,2013,Domestic,Gas,2013
+Brent,2014,Domestic,Gas,2014
+Lambeth,2012,Industrial and Commercial,Waste and Renewables,2012
+Barking and Dagenham,2014,Domestic,Coal,2014
+Southwark,2017,Transport,Shipping,2016
+Merton,2017,Industrial and Commercial,Total,
+Kingston,2010,Industrial and Commercial,Waste and Renewables,2010
+Haringey,2016,Total,Total,
+Croydon,2015,Industrial and Commercial,Electricity w/o rail,2015
+Ealing,2017,Industrial and Commercial,Total,
+Kingston,2010,Transport,Shipping,2010
+Richmond,2017,Transport,Total,
+Hammersmith and Fulham,2010,Industrial and Commercial,Oil,2010
+Bexley,2010,Total,Total,
+Ealing,2014,Industrial and Commercial,Electricity w/o rail,2014
+Croydon,2017,Industrial and Commercial,Electricity w/o rail,2017
+Hammersmith and Fulham,2017,Domestic,Oil,2017
+Havering,2010,Domestic,Total,
+City of London,2014,Total,Total,
+Hammersmith and Fulham,2017,Industrial and Commercial,Oil,2017
+Westminster,2013,Transport,Total,
+Croydon,2017,Industrial and Commercial,Oil,2017
+Sutton,2011,Industrial and Commercial,Waste and Renewables,2011
+Merton,2014,Industrial and Commercial,Electricity w/o rail,2014
+Wandsworth,2016,Industrial and Commercial,Coal,2016
+Greenwich,2016,Industrial and Commercial,Electricity w/o rail,2016
+Barnet,2015,Industrial and Commercial,Gas,2015
+City of London,2016,Domestic,Electricity,2016
+Hackney,2014,Industrial and Commercial,Oil,2014
+Greenwich,2015,Industrial and Commercial,Coal,2015
+Tower Hamlets,2012,Industrial and Commercial,Coal,2012
+Westminster,2017,Industrial and Commercial,Gas,2017
+Kensington and Chelsea,2010,Transport,Aviation,2010
+Lambeth,2011,Industrial and Commercial,Gas,2011
+Lewisham,2015,Industrial and Commercial,Oil,2015
+Lambeth,2013,Total,Total,
+Hounslow,2010,Industrial and Commercial,Gas,2010
+London,2010,Industrial and Commercial,Oil,2010
+Richmond,2011,Transport,Shipping,2010
+Waltham Forest,2010,Domestic,Oil,2010
+Waltham Forest,2017,Transport,Shipping,2016
+Hackney,2015,Transport,Road Transport,2015
+Sutton,2014,Industrial and Commercial,Gas,2014
+Lewisham,2013,Domestic,Coal,2013
+Harrow,2016,Transport,Railways electric,2016
+Hounslow,2012,Industrial and Commercial,Coal,2012
+Bromley,2013,Domestic,Total,
+Greenwich,2012,Domestic,Electricity,2012
+Lewisham,2011,Domestic,Oil,2011
+Camden,2012,Transport,Railways electric,2010
+London,2015,Transport,Aviation,2013 and 2015
+Waltham Forest,2010,Domestic,Electricity,2010
+City of London,2011,Domestic,Gas,2011
+London,2011,Domestic,Gas,2011
+Merton,2012,Total,Total,
+Kingston,2015,Transport,Aviation,2013 and 2015
+Camden,2013,Industrial and Commercial,Total,
+London,2010,Industrial and Commercial,Coal,2010
+Greenwich,2017,Domestic,Electricity,2017
+Lambeth,2015,Transport,Railways electric,2015
+Merton,2016,Domestic,Total,
+Sutton,2013,Industrial and Commercial,Coal,2013
+Kingston,2016,Industrial and Commercial,Total,
+Bromley,2014,Industrial and Commercial,Total,
+Ealing,2013,Industrial and Commercial,Oil,2013
+London,2011,Industrial and Commercial,Gas,2011
+Lewisham,2016,Transport,Aviation,2016
+Kingston,2011,Domestic,Gas,2011
+Hounslow,2011,Transport,Railways diesel,2010
+Haringey,2010,Domestic,Coal,2010
+Greenwich,2010,Domestic,Oil,2010
+Hillingdon,2010,Transport,Aviation,2010
+Hackney,2010,Domestic,Coal,2010
+Sutton,2013,Industrial and Commercial,Oil,2013
+Haringey,2013,Total,Total,
+Harrow,2012,Domestic,Coal,2012
+Sutton,2011,Industrial and Commercial,Coal,2011
+Brent,2012,Industrial and Commercial,Gas,2012
+Redbridge,2013,Industrial and Commercial,Electricity w/o rail,2013
+Sutton,2013,Industrial and Commercial,Gas,2013
+Havering,2012,Industrial and Commercial,Coal,2012
+Barnet,2011,Transport,Railways diesel,2010
+Tower Hamlets,2012,Domestic,Oil,2012
+Waltham Forest,2015,Industrial and Commercial,Waste and Renewables,2015
+Havering,2016,Transport,Aviation,2016
+Islington,2010,Industrial and Commercial,Total,
+Redbridge,2016,Domestic,Electricity,2016
+Harrow,2017,Total,Total,
+Barnet,2016,Industrial and Commercial,Gas,2016
+Newham,2015,Transport,Aviation,2013 and 2015
+Brent,2015,Total,Total,
+Islington,2010,Industrial and Commercial,Waste and Renewables,2010
+Harrow,2016,Industrial and Commercial,Waste and Renewables,2016
+Haringey,2012,Industrial and Commercial,Waste and Renewables,2012
+City of London,2013,Transport,Aviation,2010 and 2013
+Harrow,2017,Transport,Railways electric,2017
+Bexley,2010,Industrial and Commercial,Coal,2010
+Waltham Forest,2014,Transport,Shipping,2014
+Ealing,2012,Transport,Railways electric,2010
+London,2011,Domestic,Coal,2011
+London,2017,Industrial and Commercial,Coal,2017
+Westminster,2016,Transport,Railways electric,2016
+Enfield,2014,Domestic,Gas,2014
+City of London,2012,Transport,Railways diesel,2010
+Hillingdon,2012,Domestic,Coal,2012
+London,2013,Industrial and Commercial,Total,
+Sutton,2015,Transport,Shipping,2015
+Enfield,2015,Total,Total,
+Greenwich,2017,Transport,Railways diesel,2014
+Hackney,2012,Domestic,Coal,2012
+Islington,2016,Total,Total,
+Brent,2016,Industrial and Commercial,Waste and Renewables,2016
+Kensington and Chelsea,2013,Domestic,Electricity,2013
+Tower Hamlets,2016,Industrial and Commercial,Total,
+Barking and Dagenham,2011,Industrial and Commercial,Oil,2011
+Brent,2011,Transport,Road Transport,2010
+Croydon,2016,Total,Total,
+Hillingdon,2016,Transport,Road Transport,2016
+Waltham Forest,2016,Industrial and Commercial,Total,
+Lambeth,2017,Transport,Shipping,2016
+Westminster,2013,Industrial and Commercial,Total,
+Kensington and Chelsea,2013,Transport,Aviation,2010 and 2013
+Hounslow,2014,Industrial and Commercial,Gas,2014
+Brent,2016,Domestic,Electricity,2016
+Ealing,2012,Domestic,Gas,2012
+City of London,2010,Transport,Aviation,2010
+Ealing,2010,Transport,Aviation,2010
+Croydon,2014,Industrial and Commercial,Coal,2014
+Waltham Forest,2015,Transport,Road Transport,2015
+Lambeth,2016,Transport,Aviation,2016
+London,2011,Industrial and Commercial,Waste and Renewables,2011
+Westminster,2014,Industrial and Commercial,Gas,2014
+Southwark,2016,Industrial and Commercial,Gas,2016
+Richmond,2014,Domestic,Gas,2014
+Camden,2011,Industrial and Commercial,Coal,2011
+London,2010,Domestic,Electricity,2010
+Waltham Forest,2014,Transport,Aviation,2013 and 2014
+Kingston,2013,Industrial and Commercial,Coal,2013
+Kingston,2012,Transport,Total,
+Bexley,2014,Transport,Shipping,2014
+Hammersmith and Fulham,2011,Industrial and Commercial,Oil,2011
+Hammersmith and Fulham,2014,Domestic,Coal,2014
+Westminster,2013,Transport,Aviation,2010 and 2013
+Hounslow,2015,Industrial and Commercial,Gas,2015
+Hackney,2016,Transport,Total,
+Ealing,2013,Transport,Aviation,2010 and 2013
+Enfield,2010,Transport,Road Transport,2010
+Hackney,2014,Domestic,Total,
+Tower Hamlets,2010,Domestic,Coal,2010
+Brent,2014,Industrial and Commercial,Coal,2014
+Barking and Dagenham,2016,Industrial and Commercial,Coal,2016
+Hillingdon,2013,Domestic,Oil,2013
+Hackney,2016,Industrial and Commercial,Oil,2016
+Bexley,2011,Transport,Railways electric,2010
+Richmond,2010,Domestic,Coal,2010
+Richmond,2017,Industrial and Commercial,Oil,2017
+Sutton,2014,Transport,Railways diesel,2014
+Waltham Forest,2015,Transport,Total,
+London,2012,Domestic,Electricity,2012
+Croydon,2015,Transport,Aviation,2013 and 2015
+London,2016,Domestic,Coal,2016
+Richmond,2016,Transport,Total,
+Enfield,2011,Domestic,Oil,2011
+Camden,2017,Industrial and Commercial,Oil,2017
+Merton,2011,Transport,Aviation,2010
+Hammersmith and Fulham,2010,Industrial and Commercial,Gas,2010
+Southwark,2010,Transport,Aviation,2010
+Havering,2013,Domestic,Total,
+Lambeth,2010,Transport,Total,
+Newham,2016,Domestic,Total,
+Richmond,2010,Transport,Railways diesel,2010
+Havering,2015,Industrial and Commercial,Waste and Renewables,2015
+City of London,2016,Domestic,Coal,2016
+Sutton,2012,Industrial and Commercial,Gas,2012
+Richmond,2014,Domestic,Total,
+Enfield,2013,Industrial and Commercial,Gas,2013
+Lambeth,2013,Transport,Railways diesel,2013
+Tower Hamlets,2017,Transport,Road Transport,2017
+Kingston,2014,Industrial and Commercial,Oil,2014
+Bexley,2010,Domestic,Electricity,2010
+Croydon,2014,Industrial and Commercial,Electricity w/o rail,2014
+Bromley,2017,Transport,Shipping,2016
+Hammersmith and Fulham,2017,Industrial and Commercial,Coal,2017
+London,2011,Transport,Road Transport,2010
+Barnet,2017,Domestic,Gas,2017
+Bexley,2015,Transport,Total,
+Bromley,2017,Transport,Total,
+London,2015,Domestic,Electricity,2015
+Hillingdon,2014,Total,Total,
+Hillingdon,2017,Domestic,Gas,2017
+Barking and Dagenham,2015,Domestic,Oil,2015
+Richmond,2012,Industrial and Commercial,Electricity w/o rail,2012/2010
+Enfield,2010,Total,Total,
+Tower Hamlets,2010,Total,Total,
+Lewisham,2017,Industrial and Commercial,Coal,2017
+Brent,2011,Industrial and Commercial,Gas,2011
+Richmond,2010,Domestic,Total,
+Camden,2015,Industrial and Commercial,Total,
+Barnet,2017,Domestic,Coal,2017
+Southwark,2014,Industrial and Commercial,Total,
+Newham,2012,Industrial and Commercial,Gas,2012
+Islington,2016,Industrial and Commercial,Total,
+Southwark,2013,Domestic,Total,
+Bromley,2016,Total,Total,
+Merton,2013,Industrial and Commercial,Electricity w/o rail,2013
+Southwark,2016,Transport,Railways electric,2016
+Tower Hamlets,2011,Industrial and Commercial,Oil,2011
+Waltham Forest,2011,Domestic,Gas,2011
+Merton,2016,Domestic,Gas,2016
+Brent,2015,Transport,Aviation,2013 and 2015
+Southwark,2011,Domestic,Total,
+Bromley,2016,Industrial and Commercial,Waste and Renewables,2016
+Merton,2010,Transport,Road Transport,2010
+Hammersmith and Fulham,2016,Transport,Aviation,2016
+Kingston,2014,Domestic,Electricity,2014
+London,2012,Domestic,Oil,2012
+Hackney,2015,Domestic,Gas,2015
+Unapportioned,2012,Domestic,Oil,2012
+Unapportioned,2013,Domestic,Coal,2013
+Bromley,2014,Transport,Total,
+Enfield,2012,Domestic,Electricity,2012
+Croydon,2011,Domestic,Gas,2011
+Unapportioned,2010,Transport,Railways diesel,2010
+Bromley,2011,Industrial and Commercial,Coal,2011
+Barking and Dagenham,2011,Transport,Aviation,2010
+Kensington and Chelsea,2013,Industrial and Commercial,Total,
+Sutton,2013,Transport,Railways diesel,2013
+Sutton,2017,Industrial and Commercial,Electricity w/o rail,2017
+Hounslow,2013,Transport,Shipping,2010 and 2013
+Wandsworth,2010,Domestic,Oil,2010
+Barking and Dagenham,2011,Domestic,Oil,2011
+Hackney,2011,Industrial and Commercial,Waste and Renewables,2011
+Unapportioned,2013,Industrial and Commercial,Electricity w/o rail,2013
+Merton,2017,Domestic,Oil,2017
+City of London,2017,Domestic,Oil,2017
+Brent,2013,Domestic,Electricity,2013
+Hounslow,2011,Transport,Road Transport,2010
+Barnet,2017,Domestic,Oil,2017
+Hillingdon,2012,Domestic,Oil,2012
+Havering,2011,Transport,Railways electric,2010
+Bromley,2017,Industrial and Commercial,Waste and Renewables,2017
+Hillingdon,2016,Domestic,Total,
+Croydon,2016,Domestic,Gas,2016
+Enfield,2015,Transport,Aviation,2013 and 2015
+Bexley,2013,Transport,Road Transport,2013
+Southwark,2010,Total,Total,
+Brent,2014,Transport,Railways electric,2014
+Newham,2013,Industrial and Commercial,Electricity w/o rail,2013
+Kensington and Chelsea,2011,Transport,Road Transport,2010
+Brent,2017,Transport,Railways diesel,2014
+Waltham Forest,2011,Transport,Aviation,2010
+Bexley,2015,Industrial and Commercial,Oil,2015
+Bromley,2011,Industrial and Commercial,Total,
+Haringey,2015,Industrial and Commercial,Waste and Renewables,2015
+Richmond,2014,Transport,Railways electric,2014
+Merton,2012,Industrial and Commercial,Total,
+Harrow,2017,Transport,Road Transport,2017
+Bexley,2010,Domestic,Total,
+Hackney,2011,Transport,Railways diesel,2010
+Enfield,2012,Industrial and Commercial,Oil,2012
+Brent,2017,Industrial and Commercial,Electricity w/o rail,2017
+Kensington and Chelsea,2011,Industrial and Commercial,Coal,2011
+Hillingdon,2013,Domestic,Coal,2013
+Camden,2011,Industrial and Commercial,Total,
+Haringey,2011,Transport,Total,
+Haringey,2016,Industrial and Commercial,Electricity w/o rail,2016
+Croydon,2012,Domestic,Total,
+Ealing,2011,Domestic,Oil,2011
+Greenwich,2012,Transport,Aviation,2010
+Bromley,2016,Domestic,Coal,2016
+Barnet,2017,Transport,Railways electric,2017
+City of London,2014,Industrial and Commercial,Total,
+Enfield,2014,Transport,Railways electric,2014
+Hounslow,2011,Transport,Shipping,2010
+Hammersmith and Fulham,2017,Industrial and Commercial,Total,
+Westminster,2011,Industrial and Commercial,Coal,2011
+Camden,2010,Transport,Shipping,2010
+Barnet,2013,Total,Total,
+Brent,2010,Domestic,Gas,2010
+Camden,2017,Domestic,Oil,2017
+Croydon,2010,Transport,Total,
+Bromley,2013,Transport,Aviation,2010 and 2013
+Sutton,2012,Transport,Railways diesel,2010
+Merton,2013,Domestic,Coal,2013
+Croydon,2015,Domestic,Electricity,2015
+Islington,2011,Domestic,Oil,2011
+Croydon,2014,Domestic,Electricity,2014
+Camden,2013,Industrial and Commercial,Waste and Renewables,2012
+Lambeth,2014,Transport,Road Transport,2014
+Bexley,2014,Domestic,Oil,2014
+Redbridge,2012,Industrial and Commercial,Coal,2012
+Havering,2011,Industrial and Commercial,Gas,2011
+Croydon,2017,Transport,Shipping,2016
+Haringey,2013,Transport,Shipping,2010 and 2013
+Hackney,2012,Industrial and Commercial,Oil,2012
+Hillingdon,2010,Domestic,Coal,2010
+Hammersmith and Fulham,2010,Industrial and Commercial,Total,
+Enfield,2014,Industrial and Commercial,Waste and Renewables,2014
+Hammersmith and Fulham,2010,Total,Total,
+Ealing,2014,Domestic,Total,
+City of London,2014,Transport,Total,
+Lambeth,2017,Industrial and Commercial,Coal,2017
+Camden,2016,Domestic,Electricity,2016
+Lambeth,2016,Domestic,Oil,2016
+Kingston,2012,Industrial and Commercial,Oil,2012
+Hounslow,2014,Domestic,Total,
+Harrow,2010,Industrial and Commercial,Coal,2010
+Islington,2014,Industrial and Commercial,Coal,2014
+Haringey,2014,Industrial and Commercial,Coal,2014
+Croydon,2016,Industrial and Commercial,Gas,2016
+Kingston,2014,Industrial and Commercial,Gas,2014
+Wandsworth,2011,Transport,Railways electric,2010
+Harrow,2013,Domestic,Oil,2013
+Brent,2015,Domestic,Gas,2015
+London,2010,Transport,Railways electric,2010
+Sutton,2011,Domestic,Gas,2011
+Redbridge,2011,Industrial and Commercial,Gas,2011
+Wandsworth,2015,Domestic,Oil,2015
+Tower Hamlets,2017,Transport,Railways electric,2017
+Southwark,2014,Industrial and Commercial,Oil,2014
+Brent,2012,Industrial and Commercial,Coal,2012
+Newham,2011,Transport,Road Transport,2010
+Wandsworth,2017,Industrial and Commercial,Electricity w/o rail,2017
+Merton,2017,Industrial and Commercial,Coal,2017
+Camden,2010,Industrial and Commercial,Electricity w/o rail,2010
+Unapportioned,2011,Domestic,Coal,2011
+Croydon,2011,Transport,Aviation,2010
+Bromley,2017,Industrial and Commercial,Gas,2017
+Kingston,2016,Domestic,Coal,2016
+Lewisham,2016,Industrial and Commercial,Total,
+Hillingdon,2015,Domestic,Electricity,2015
+Waltham Forest,2016,Domestic,Total,
+Hammersmith and Fulham,2012,Domestic,Coal,2012
+Sutton,2010,Industrial and Commercial,Gas,2010
+Southwark,2016,Domestic,Gas,2016
+London,2014,Domestic,Electricity,2014
+Greenwich,2013,Industrial and Commercial,Waste and Renewables,2012
+Richmond,2017,Transport,Railways diesel,2014
+Kingston,2013,Industrial and Commercial,Oil,2013
+Barnet,2010,Domestic,Total,
+Southwark,2011,Transport,Shipping,2010
+Hounslow,2017,Domestic,Gas,2017
+Kensington and Chelsea,2013,Domestic,Gas,2013
+Havering,2016,Industrial and Commercial,Total,
+Harrow,2013,Industrial and Commercial,Electricity w/o rail,2013
+Bromley,2013,Domestic,Coal,2013
+Bromley,2017,Transport,Road Transport,2017
+Southwark,2011,Transport,Railways diesel,2010
+Brent,2011,Transport,Shipping,2010
+Greenwich,2016,Domestic,Gas,2016
+Enfield,2016,Transport,Road Transport,2016
+Haringey,2014,Domestic,Oil,2014
+Hounslow,2014,Transport,Total,
+Unapportioned,2016,Industrial and Commercial,Waste and Renewables,2016
+Kensington and Chelsea,2012,Domestic,Oil,2012
+Camden,2015,Industrial and Commercial,Waste and Renewables,2015
+Brent,2017,Industrial and Commercial,Gas,2017
+Sutton,2010,Industrial and Commercial,Electricity w/o rail,2010
+Waltham Forest,2013,Industrial and Commercial,Waste and Renewables,2012
+Wandsworth,2017,Domestic,Gas,2017
+Kingston,2015,Transport,Total,
+Barnet,2017,Industrial and Commercial,Waste and Renewables,2017
+Southwark,2014,Total,Total,
+Harrow,2015,Industrial and Commercial,Gas,2015
+Lewisham,2010,Industrial and Commercial,Waste and Renewables,2010
+Havering,2017,Industrial and Commercial,Electricity w/o rail,2017
+Unapportioned,2015,Industrial and Commercial,Waste and Renewables,2015
+Barking and Dagenham,2010,Domestic,Total,
+Hounslow,2017,Industrial and Commercial,Waste and Renewables,2017
+Unapportioned,2011,Domestic,Total,
+Greenwich,2013,Industrial and Commercial,Gas,2013
+Greenwich,2013,Industrial and Commercial,Electricity w/o rail,2013
+Kingston,2012,Domestic,Total,
+Islington,2012,Industrial and Commercial,Oil,2012
+Lewisham,2017,Total,Total,
+Kensington and Chelsea,2017,Industrial and Commercial,Oil,2017
+Redbridge,2015,Domestic,Oil,2015
+Hammersmith and Fulham,2014,Transport,Road Transport,2014
+Croydon,2011,Industrial and Commercial,Electricity w/o rail,2010/2011
+Harrow,2015,Transport,Shipping,2015
+Havering,2013,Industrial and Commercial,Electricity w/o rail,2013
+Redbridge,2016,Transport,Road Transport,2016
+Hammersmith and Fulham,2014,Transport,Total,
+Lewisham,2016,Transport,Total,
+Sutton,2012,Transport,Aviation,2010
+Unapportioned,2014,Transport,Total,
+Southwark,2013,Industrial and Commercial,Oil,2013
+Greenwich,2010,Industrial and Commercial,Coal,2010
+Southwark,2017,Industrial and Commercial,Total,
+Lewisham,2010,Domestic,Gas,2010
+Hillingdon,2010,Industrial and Commercial,Coal,2010
+Kingston,2014,Domestic,Oil,2014
+Wandsworth,2010,Industrial and Commercial,Coal,2010
+Hounslow,2010,Industrial and Commercial,Total,
+Haringey,2014,Industrial and Commercial,Oil,2014
+Redbridge,2011,Industrial and Commercial,Oil,2011
+Barnet,2010,Total,Total,
+Enfield,2012,Industrial and Commercial,Gas,2012
+Lambeth,2016,Industrial and Commercial,Oil,2016
+Westminster,2017,Transport,Railways electric,2017
+Waltham Forest,2011,Transport,Railways diesel,2010
+Kingston,2011,Domestic,Oil,2011
+Camden,2017,Transport,Railways diesel,2014
+Redbridge,2010,Industrial and Commercial,Total,
+Camden,2012,Domestic,Coal,2012
+Hackney,2017,Industrial and Commercial,Waste and Renewables,2017
+Bromley,2015,Transport,Total,
+Enfield,2016,Domestic,Total,
+Brent,2015,Domestic,Coal,2015
+Hillingdon,2013,Domestic,Electricity,2013
+Bexley,2015,Domestic,Oil,2015
+Croydon,2017,Transport,Railways diesel,2014
+Merton,2010,Domestic,Electricity,2010
+Hillingdon,2014,Transport,Shipping,2014
+London,2017,Total,Total,
+Haringey,2014,Domestic,Gas,2014
+Southwark,2015,Industrial and Commercial,Gas,2015
+London,2014,Industrial and Commercial,Total,
+Barking and Dagenham,2013,Industrial and Commercial,Electricity w/o rail,2013
+Hillingdon,2013,Industrial and Commercial,Gas,2013
+Richmond,2016,Transport,Railways electric,2016
+Haringey,2013,Transport,Road Transport,2013
+Barnet,2010,Domestic,Oil,2010
+Islington,2015,Industrial and Commercial,Electricity w/o rail,2015
+Ealing,2015,Industrial and Commercial,Total,
+Bexley,2017,Transport,Total,
+Haringey,2011,Industrial and Commercial,Oil,2011
+Lambeth,2016,Industrial and Commercial,Coal,2016
+Hammersmith and Fulham,2015,Transport,Shipping,2015
+Barking and Dagenham,2012,Domestic,Oil,2012
+Barnet,2014,Domestic,Oil,2014
+City of London,2013,Domestic,Gas,2013
+London,2014,Transport,Shipping,2014
+Hillingdon,2013,Industrial and Commercial,Waste and Renewables,2012
+Wandsworth,2010,Transport,Total,
+Barnet,2010,Industrial and Commercial,Coal,2010
+Kensington and Chelsea,2012,Industrial and Commercial,Oil,2012
+Bexley,2016,Transport,Total,
