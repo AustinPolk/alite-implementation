@@ -14,13 +14,14 @@ class RelationalTable:
     def TupleCount(self):
         return len(self.DataFrame.index)
 
-
-    # Assign unique integration IDs to each column
-    def AssignIntegrationIDs(self):
-        for index, column in enumerate(self.DataFrame.columns):
-            self.IntegrationIDToColumnIndex[column] = index
-        print(f"Assigned Integration IDs for columns: {self.IntegrationIDToColumnIndex}")
-
+    # Assign unique integration IDs to each column (must be unique between tables as well, hence an offset)
+    def InitializeIntegrationIDs(self, offset: int):
+        for i in range(len(self.DataFrame.columns)):
+            integrationID = i + offset
+            column_index = i
+            self.IntegrationIDToColumnIndex[integrationID] = column_index
+        return offset + len(self.DataFrame.columns)
+        
     # Generate labeled nulls to distinguish missing values in the data
     def GenerateLabeledNulls(self):
         def label_missing(value):
@@ -29,7 +30,7 @@ class RelationalTable:
                 return f"LN{self.labeled_null_counter}"
             return value
 
-        self.DataFrame = self.DataFrame.applymap(label_missing)
+        self.DataFrame = self.DataFrame.map(label_missing)
 
     # Replace labeled nulls back to NaN or missing values
     def ReplaceLabeledNulls(self):
@@ -38,7 +39,7 @@ class RelationalTable:
                 return np.nan  # Convert labeled nulls back to NaN
             return value
 
-        self.DataFrame = self.DataFrame.applymap(remove_label)
+        self.DataFrame = self.DataFrame.map(remove_label)
 
     # Perform an outer union with another table
     def OuterUnionWith(self, other_table):
@@ -47,17 +48,20 @@ class RelationalTable:
 
         self.DataFrame = pd.concat([aligned_self, aligned_other], axis=0, ignore_index=True).fillna("")
 
+        # TODO: will need to be a little more complex to capture the column indices in the new dataframe
         self.IntegrationIDToColumnIndex.update(other_table.IntegrationIDToColumnIndex)
 
     # Complement the DataFrame to ensure completeness of tuples
     def Complement(self):
         self.DataFrame = self.DataFrame.applymap(lambda x: x if x != "" else np.nan)
+        # TODO: implement complementation from the paper
         print("Complement operation performed.")
 
 
     # Remove tuples that are subsumed by other tuples
     def SubsumeTuples(self):
         original_row_count = len(self.DataFrame)
+        # TODO: also drop subsumable tuples, not just duplicates
         self.DataFrame.drop_duplicates(inplace=True)
         new_row_count = len(self.DataFrame)
         print(f"Subsumed tuples: {original_row_count - new_row_count}")

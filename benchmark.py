@@ -60,7 +60,7 @@ class Benchmarker:
     def VisualizeDuration(self, max_datasets_visualized: int = 20):
         # Filter datasets and methods for visualization
         datasets = list(set([x[0] for x in self.Durations.keys()]))[:max_datasets_visualized]
-        methods = list(set([x[1] for x in self.Durations.keys()]))
+        methods = sorted(list(set([x[1] for x in self.Durations.keys()])))
 
         # Sort datasets by ALITE duration for consistent ordering
         ALITE_durations = {ds: self.Durations[(ds, "ALITE")] for ds in datasets if ("ALITE" in methods)}
@@ -86,8 +86,7 @@ class Benchmarker:
         ax.set_xticks(x + width / 2, sorted_datasets)
         ax.tick_params(axis='x', labelrotation=90)
         ax.legend(loc='upper left', ncols=len(methods))
-
-        plt.show()
+        ax.set_yscale('log')
 
     def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1):
         # Maximum tuple count
@@ -96,7 +95,8 @@ class Benchmarker:
 
         _, ax = plt.subplots()
 
-        for method in self.TupleCounts:
+        methods = sorted(list(set([x[1] for x in self.TupleCounts])))
+        for method in methods:
             # Collect x and y values for scatter plot
             x_vals = [self.TupleCounts[entry][0 if inputTuples else 1] for entry in self.TupleCounts if entry[1] == method]
             y_vals = [self.Durations[entry] for entry in self.TupleCounts if entry[1] == method]
@@ -122,5 +122,3 @@ class Benchmarker:
         ax.legend(loc='upper left')
         ax.set_xbound(lower=0, upper=x_limit)
         ax.set_yscale('log')
-
-        plt.show()
