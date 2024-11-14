@@ -55,7 +55,7 @@ class Benchmarker:
                     db = RelationalDatabase()
                     db.LoadFromFolder(dir_path)
                     for method in methods:
-                        self.Benchmark2(db, dir_name, method)
+                        self.Benchmark2(db, dir_name, "ALITE")
 
     def VisualizeDuration(self, max_datasets_visualized: int = 20):
         # Filter datasets and methods for visualization

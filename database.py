@@ -23,8 +23,10 @@ class RelationalDatabase:
     def AssignIntegrationIDs(self):
 
         offset = 0
-        for table in self.Tables:
+        for idx, table in enumerate(self.Tables):
             offset = table.InitializeIntegrationIDs(offset)
+            print(f"Table {idx} Integration IDs: {table.IntegrationIDToColumnIndex}")
+        
 
         # assign integration IDs by clustering columns based on column name using TURL embeddings
         # (cannot do on a per-table basis, must take all tables into account, but can apply TURL embeddings per table, then do clustering)
@@ -34,9 +36,9 @@ class RelationalDatabase:
     def RunALITE(self):
 
         # remove this once actually implemented (necessary for checking that visualizations work)
-        import time
-        import random
-        time.sleep(self.TupleCount() * 0.0005 + random.random() * 1.5)
+        #import time
+        #import random
+        #time.sleep(self.TupleCount() * 0.0005 + random.random() * 1.5)
 
         # Step 1: Assign integration IDs
         self.AssignIntegrationIDs()

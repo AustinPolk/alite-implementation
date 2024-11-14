@@ -53,6 +53,15 @@ class RelationalTable:
         # Rename columns to integration IDs
         self.DataFrame.rename(columns=self_col_to_id, inplace=True)
         other_table.DataFrame.rename(columns=other_col_to_id, inplace=True)
+        
+        # After renaming, check for duplicate columns
+        if self.DataFrame.columns.duplicated().any():
+            print("Duplicates in self.DataFrame columns after renaming")
+            print(self.DataFrame.columns[self.DataFrame.columns.duplicated()])
+        if other_table.DataFrame.columns.duplicated().any():
+            print("Duplicates in other_table.DataFrame columns after renaming")
+            print(other_table.DataFrame.columns[other_table.DataFrame.columns.duplicated()])
+
 
         # Reindex DataFrames to have all integration IDs as columns
         aligned_self = self.DataFrame.reindex(columns=all_integration_ids)
