@@ -1,0 +1,780 @@
+EventName, MovieName,ParkName, ZipCode, Phone, StartDate, EndDate, EventUrl, ParkUrl, Community, MovieClosedCaption, MovieRating,Location 1
+Movies in the Parks at Beverly,Fireproof ,Beverly Park,60655,(312) 747-6024,7/16/2014 20:30,7/16/2014 22:32,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Beverly1/,http://www.chicagoparkdistrict.com/parks/Beverly-Park/,Beverly,Yes,PG,"2460 W 102nd St Chicago, IL 60655
+Chicago, IL 60655
+(41.70822525, -87.68319702)"
+Movies in the Parks at Holstein,The Goonies,Holstein Park,60647,(312) 742-7554 ,8/28/2014 20:00,8/28/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Holstein4/,http://www.chicagoparkdistrict.com/parks/Holstein-Park/,Logan Square,Yes,PG,"2200 N. Oakley Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.9219017, -87.68556213)"
+Movies in the Parks at Dvorak,Despicable Me 2,Dvorak Park,60608,(312) 746-5083,6/20/2014 21:00,6/20/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Dvorak2/,http://www.chicagoparkdistrict.com/parks/Dvorak-Park/,Lower West Side,Yes,PG,"1119 W. Cullerton St. Chicago IL 60608
+Chicago, IL 60608
+(41.85511398, -87.65414429)"
+Movies in the Parks at White (Willye B),Cloudy With a Chance of Meatballs 2,White (Willye B.) Park,60626,(773) 262-5051,8/27/2014 20:00,8/27/2014 21:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-White-Willye-B1/,http://www.chicagoparkdistrict.com/parks/white-willye-b-park/,Rogers Park,Yes,PG,"1610 W. Howard Chicago IL 60626
+Chicago, IL 60626
+(42.01991653, -87.67008972)"
+Movies in the Parks at Stanton,Despicable Me 2,Stanton Park,60610,(312) 742-7896,8/15/2014 20:00,8/15/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Stanton/,http://www.chicagoparkdistrict.com/parks/Stanton-Park/,Near North Side,Yes,PG,"618 W Scott St Chicago, IL 60610
+Chicago, IL 60610
+(41.90510559, -87.64409637)"
+@home Documentary at Austin Town Hall,@home,Austin Town Hall Park,60644,(773) 287-7658,5/29/2014 19:00,5/29/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Austin-Town-Hall/,http://www.chicagoparkdistrict.com/parks/Austin-Town-Hall-Park/,Austin,No,NR,"5610 W Lake St Chicago, IL 60644
+Chicago, IL 60644
+(41.88805771, -87.76578522)"
+Movies in the Parks at Cragin,Despicable Me 2,Cragin Park,60639,(312) 746-5065,8/1/2014 20:00,8/1/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cragin2/,http://www.chicagoparkdistrict.com/parks/Cragin-Park/,Belmont Cragin,Yes,PG,"2611 N. Lockwood Ave. Chicago IL 60639
+Chicago, IL 60639
+(41.92812347, -87.75872803)"
+Movies in the Parks at Lawler,The Nut Job,Lawler Park,60638,(773) 284-7328,8/12/2014 20:00,8/12/2014 21:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lawler/,http://www.chicagoparkdistrict.com/parks/Lawler-Park/,Clearing,Yes,PG,"5210 W. 64th St. Chicago IL 60638
+Chicago, IL 60638
+(41.77602768, -87.75245667)"
+Movies in the Parks at Galewood,The Hunger Games: Catching Fire,Galewood Park,60639,(312) 746-5089 ,7/25/2014 20:30,7/25/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Galewood1/,http://www.chicagoparkdistrict.com/parks/Galewood-Park/,Austin,Yes,PG-13,"5729 W. Bloomingdale Ave. Chicago IL 60639
+Chicago, IL 60639
+(41.91244507, -87.76873779)"
+Movies in the Parks at Revere,Patang,Revere Park,60618,(773) 478-1220,6/22/2014 21:00,6/22/2014 22:40,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Revere1/,http://www.chicagoparkdistrict.com/parks/Revere-Park/,North Center,No,NR,"2509 W. Irving Park Rd. Chicago IL 60618
+Chicago, IL 60618
+(41.9539299, -87.69141388)"
+@home Documentary at Piotrowski,@home,Piotrowski Park,60623,(312) 747-6608 ,6/4/2014 19:00,6/4/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Piotrowski/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,No,NR,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Movies in the Parks at Grant,High Anxiety,Grant Park,60602,(312) 742-3918,6/23/2014 21:00,6/23/2014 22:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Grant/,http://www.chicagoparkdistrict.com/parks/grant-park/,Loop,No,PG,"337 E. Randolph St. Chicago, IL 60602
+Chicago, IL 60602
+(41.88437653, -87.61938477)"
+Movies in the Parks at West Lawn,Cloudy with a Chance of Meatballs 2,West Lawn Park,60629,(773) 284-2803,6/26/2014 21:00,6/26/2014 22:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-West-Lawn/,http://www.chicagoparkdistrict.com/parks/West-Lawn-Park/,West Lawn,Yes,PG,"4233 W. 65th St. Chicago IL 60629
+Chicago, IL 60629
+(41.77493286, -87.72831726)"
+Movies in the Parks at Oz,The Wizard of Oz,Oz Park,60614,(312) 742-7898,8/23/2014 20:00,8/23/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Oz5/,http://www.chicagoparkdistrict.com/parks/Oz-Park/,Lincoln Park,Yes,PG,"2021 N. Burling St. Chicago IL 60614
+Chicago, IL 60614
+(41.92099187, -87.64469862)"
+Family Movie Night at Edgebrook,A League of Their Own,Edgebrook Park,60646,(773) 631-7461,6/7/2014 19:45,6/7/2014 21:45,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Edgebrook/,http://www.chicagoparkdistrict.com/parks/Edgebrook-Park/,Forest Glen,N/A,PG,"6525 N. Hiawatha Ave. Chicago IL 60646
+Chicago, IL 60646
+(41.99946594, -87.76202393)"
+Movies in the Parks at Armour Square,Willy Wonka & the Chocolate Factory,Armour Square Park,60616,(312) 747-6012,6/28/2014 21:00,6/28/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Armour-Square1/,http://www.chicagoparkdistrict.com/parks/Armour-Square-Park/,Armour Square,Yes,G,"3309 S Shields Ave Chicago, IL 60616
+Chicago, IL 60616
+(41.83438492, -87.63520813)"
+Movies in the Parks at Horner,The Wizard of Oz,Horner Park,60618,(773) 478-3499,8/30/2014 20:00,8/30/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Horner1/,http://www.chicagoparkdistrict.com/parks/Horner-Park/,Irving Park,Yes,PG,"2741 W. Montrose Ave. Chicago IL 60618
+Chicago, IL 60618
+(41.96125412, -87.69841003)"
+Movies in the Parks at Jonquil,Ghostbusters,Jonquil Playlot Park,60614,(312) 742-7816 ,7/20/2014 20:30,7/20/2014 22:17,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jonquil5/,http://www.chicagoparkdistrict.com/parks/Jonquil-Playlot-Park/,Lincoln Park,Yes,PG,"1001 W. Wrightwood Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92899323, -87.65377045)"
+Movies in the Parks at Mandrake,The Muppet Movie,Mandrake Park,60653,(312) 656-0423 (Ellis Park in Dolittle School),8/28/2014 20:00,8/28/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Mandrake2/,http://www.chicagoparkdistrict.com/parks/Mandrake-Park/,Oakland,Yes,G,"900 E. Pershing Rd. Chicago IL 60653
+Chicago, IL 60653
+(41.82370758, -87.60727692)"
+Movies in the Parks at Montgomery Ward,The Lego Movie,"Ward, A. Montgomery Park",60606,(312) 742-7895,8/26/2014 20:00,8/26/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward13/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Family Movie Night at O'Hallaren,Gravity,O'Hallaren Park,60620,(312) 747-6573,7/10/2014 20:00,7/10/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-OHallaren/,http://www.chicagoparkdistrict.com/parks/OHallaren-Park/,Auburn Gresham,No,PG-13,"8335 S. Honore St. Chicago IL 60620
+Chicago, IL 60620
+(41.74268341, -87.66927338)"
+Family Movie Night at Athletic Field,The Perfect Game,Athletic Field Park,60618,(773) 478-2889,7/25/2014 20:30,7/25/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Athletic-Field1/,http://www.chicagoparkdistrict.com/parks/Athletic-Field-Park/,Irving Park,N/A,PG,"3546 W Addison St Chicago, IL 60618
+Chicago, IL 60618
+(41.94668198, -87.71703339)"
+Family Movie Night at Jefferson,Monster University,Jefferson Memorial Park,60630,(773) 685-3316,6/12/2014 20:00,6/12/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Jefferson/,http://www.chicagoparkdistrict.com/parks/Jefferson-Memorial-Park/,Jefferson Park,N/A,PG,"4822 N. Long Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96814728, -87.76294708)"
+Family Movie Night at Athletic Field,Newsies,Athletic Field Park,60618,(773) 478-2889,6/27/2014 20:30,6/27/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Athletic-Field/,http://www.chicagoparkdistrict.com/parks/Athletic-Field-Park/,Irving Park,N/A,PG,"3546 W Addison St Chicago, IL 60618
+Chicago, IL 60618
+(41.94668198, -87.71703339)"
+Movies in the Parks at Wrightwood,The Goonies,Wrightwood Park,60614,(312) 742-7816,8/8/2014 20:00,8/8/2014 21:51,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wrightwood1/,http://www.chicagoparkdistrict.com/parks/Wrightwood-Park/,Lincoln Park,Yes,PG,"2534 N Greenview Ave Chicago, IL 60614
+Chicago, IL 60614
+(41.92774582, -87.66582489)"
+Movies in the Parks at Ada,42,Ada Park,60643,(312) 747-6002,8/2/2014 20:00,8/2/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ada/,http://www.chicagoparkdistrict.com/parks/ada-park/,Morgan Park,Yes,PG-13,"11250 S Ada St Chicago, IL 60643
+Chicago, IL 60643
+(41.68910599, -87.65565491)"
+Family Movie Night at Portage,Monster University,Portage Park,60641,(773) 685-7235,6/25/2014 20:00,6/25/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Portage/,http://www.chicagoparkdistrict.com/parks/Portage-Park/,Portage Park,N/A,G,"4100 N Long Ave Chicago, IL 60641
+Chicago, IL 60641
+(41.95508957, -87.76216125)"
+Movies in the Parks at Midway,Patang,Midway Plaisance Park,60637,(312) 745-2470,6/15/2014 21:00,6/15/2014 22:40,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Midway1/,http://www.chicagoparkdistrict.com/parks/Midway-Plaisance-Park/,Hyde Park,No,NR,"1130 Midway Plaisance North Chicago IL 60637
+Chicago, IL 60637
+(41.78723526, -87.59635162)"
+Movies in the Parks at Franklin,The Hunger Games: Catching Fire,Franklin Park,60623,(312) 747-7676,8/8/2014 20:00,8/8/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Franklin/,http://www.chicagoparkdistrict.com/parks/Franklin-Park/,North Lawndale,Yes,PG-13,"4320 W. 15th St. Chicago IL 60623
+Chicago, IL 60623
+(41.86061478, -87.73335266)"
+Movies in the Parks at Hamilton,The Help,Hamilton Park,60621,(312) 747-6174,8/24/2014 20:00,8/24/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hamilton1/,http://www.chicagoparkdistrict.com/parks/Hamilton-Park/,Englewood,Yes,PG-13,"513 W. 72nd St. Chicago IL 60621
+Chicago, IL 60621
+(41.76344299, -87.63769531)"
+Movies in the Parks at Nichols,The Nut Job,Nichols Park,60615,(312) 747-2703,8/20/2014 20:00,8/20/2014 21:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Nichols2/,http://www.chicagoparkdistrict.com/parks/Nichols-Park/,Hyde Park,Yes,PG,"1355 E. 53rd St. Chicago IL 60615
+Chicago, IL 60615
+(41.79950333, -87.59230804)"
+Movies in the Parks at Sauganash,The Nut Job,Sauganash Park,60646,(773) 685-6122,8/2/2014 20:30,8/2/2014 21:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Sauganash2/,http://www.chicagoparkdistrict.com/parks/Sauganash-Park/,Forest Glen,Yes,PG,"5861 N. Kostner Ave. Chicago IL 60646
+Chicago, IL 60646
+(41.98839951, -87.73739624)"
+Movies in the Parks at Montgomery Ward,Chicago ,"Ward, A. Montgomery Park",60606,(312) 742-7895,7/15/2014 20:30,7/15/2014 22:13,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward9/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Family Fun Film at Pottawattomie,Annie,Pottawattomie Park,60626,(773) 262-5835,7/23/2014 21:00,7/23/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Pottawattomie/,http://www.chicagoparkdistrict.com/parks/Pottawattomie-Park/,Rogers Park,N/A,NR,"7340 N. Rogers Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.01446533, -87.6785965)"
+Family Movie Night at Portage,ET,Portage Park,60641,(773) 685-7235,7/30/2014 20:00,7/30/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Portage2/,http://www.chicagoparkdistrict.com/parks/Portage-Park/,Portage Park,N/A,PG,"4100 N Long Ave Chicago, IL 60641
+Chicago, IL 60641
+(41.95508957, -87.76216125)"
+Movies in the Parks at Dawes,Lee Daniels' The Butler,Dawes Park,60620,(312) 747-6108,8/1/2014 20:00,8/1/2014 22:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Dawes/,http://www.chicagoparkdistrict.com/parks/Dawes-Park/,Auburn Gresham,Yes,PG-13,"8052 S. Damen Ave. Chicago IL 60620
+Chicago, IL 60620
+(41.74732971, -87.67307281)"
+Movies in the Parks at Jonquil,Mr. Peabody & Sherman,Jonquil Playlot Park,60614,(312) 742-7816 ,8/2/2014 20:00,8/2/2014 21:32,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jonquil6/,http://www.chicagoparkdistrict.com/parks/Jonquil-Playlot-Park/,Lincoln Park,Yes,PG,"1001 W. Wrightwood Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92899323, -87.65377045)"
+Movies in the Parks at Skinner,The Smurfs 2,Skinner Park,60607,(312) 746-5560,7/16/2014 20:30,7/16/2014 22:15,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Skinner1/,http://www.chicagoparkdistrict.com/parks/skinner-park/,Near West Side,Yes,PG,"1331 W Monroe St Chicago IL 60607
+Chicago, IL 60607
+(41.88011364, -87.66196489)"
+Movies in the Parks at Arrigo,Back to the Future,Arrigo Park,60607,(312) 746-5369 ,8/21/2014 20:00,8/21/2014 21:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Arrigo/,http://www.chicagoparkdistrict.com/parks/Arrigo-Park/,Near West Side,Yes,PG,"801 S Loomis St Chicago, IL 60607
+Chicago, IL 60607
+(41.87156296, -87.66168976)"
+Movies in the Parks at Calumet,Latino Film Festival Selection,Calumet Park,60617,(312) 747-6039,7/16/2014 20:30,7/16/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Calumet3/,http://www.chicagoparkdistrict.com/parks/Calumet-Park/,East Side,No,NR,"9801 S Avenue G Chicago, IL 60617
+Chicago, IL 60617
+(41.71755765, -87.53148079)"
+Family Movie Night at Gage,"It's a Mad, Mad, Mad, Mad World",Gage Park,60629,(312) 747-6147 ,6/9/2014 20:00,6/9/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Gage/,http://www.chicagoparkdistrict.com/parks/Gage-Park/,Gage Park,No,G,"2411 W. 55th St. Chicago IL 60629
+Chicago, IL 60629
+(41.79384995, -87.68441772)"
+Movies in the Parks at Rainey,Turbo,Rainey Park,60652,(773) 284-0696,7/24/2014 20:30,7/24/2014 22:06,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Rainey/,http://www.chicagoparkdistrict.com/parks/Rainey-Park/,Ashburn,Yes,PG,"4350 W. 79th St. Chicago IL 60652
+Chicago, IL 60652
+(41.74944687, -87.73049927)"
+Movies in the Parks at Lake Meadows,Big Fish,Lake Meadows Park,60616,(312) 747-6287,8/4/2014 20:00,8/4/2014 22:05,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lake-Meadows/,http://www.chicagoparkdistrict.com/parks/Lake-Meadows-Park/,Douglas,Yes,PG-13,"3117 S. Rhodes Ave. Chicago IL 60616
+Chicago, IL 60616
+(41.83804321, -87.61347198)"
+Movies in the Parks at Marquette,Life of Pi,Marquette Park,60629,(312) 747-6469,7/27/2014 20:30,7/27/2014 22:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Marquette2/,http://www.chicagoparkdistrict.com/parks/Marquette-Park/,Chicago Lawn,Yes,PG,"6743 S. Kedzie Ave. Chicago IL 60629
+Chicago, IL 60629
+(41.77088165, -87.70292664)"
+Movies in the Parks at Piotrowski,The Wizard of Oz,Piotrowski Park,60623,(312) 747-6608 ,8/17/2014 20:00,8/17/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Piotrowski3/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,Yes,PG,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Movies in the Parks at Wildwood,Free Birds,Wildwood Park,60646,(773) 631-7455,7/10/2014 20:30,7/10/2014 22:01,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wildwood1/,http://www.chicagoparkdistrict.com/parks/Wildwood-Park/,Forest Glen,Yes,PG,"6950 N. Hiawatha Ave. Chicago IL 60646
+Chicago, IL 60646
+(42.00686264, -87.7776947)"
+Movies in the Parks at Emmerson,Star Trek: Into Darkness,Emmerson Park,60660,(773) 761-0433,8/26/2014 20:00,8/26/2014 22:09,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Emmerson1/,http://www.chicagoparkdistrict.com/parks/Emmerson-Park/,West Ridge,Yes,PG-13,"1820 W. Granville Ave. Chicago IL 60660
+Chicago, IL 60660
+(41.99436951, -87.67577362)"
+Movies in the Parks at Tuley,The Hunger Games: Catching Fire,Tuley Park,60619,(312) 747-6763,7/20/2014 20:30,7/20/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Tuley1/,http://www.chicagoparkdistrict.com/parks/Tuley-Park/,Chatham,Yes,PG-13,"501 E. 90th Pl. Chicago IL 60619
+Chicago, IL 60619
+(41.73011017, -87.61437988)"
+Movies in the Parks at Graver,The Lego Movie,Graver Park,60643,(312) 747-6163 ,8/14/2014 20:00,8/14/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Graver/,http://www.chicagoparkdistrict.com/parks/Graver-Park/,"Morgan Park, Beverly",Yes,PG,"1518 W. 102nd Pl. Chicago IL 60643
+Chicago, IL 60643
+(41.70744705, -87.66044617)"
+Movies in the Parks at Cole,Despicable Me 2,Nat King Cole Park,60619,(312) 747-6063,7/7/2014 20:30,7/7/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cole/,http://www.chicagoparkdistrict.com/parks/Nat-King-Cole-Park/,Chatham,Yes,PG,"361 E. 85th St. Chicago IL 60619
+Chicago, IL 60619
+(41.74013519, -87.61564636)"
+Movies in the Parks at Jackie Robinson,42,Jackie Robinson Park,60643,(312) 745-4041,7/17/2014 20:30,7/17/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jackie-Robinson/,http://www.chicagoparkdistrict.com/parks/jackie-robinson-park/,Washington Heights,Yes,PG-13,"10540 S. Morgan St. Chicago IL 60643
+Chicago, IL 60643
+(41.70248795, -87.64756012)"
+Movies in the Parks at Avalon,42,Avalon Park,60619,(312) 747-6015,7/25/2014 20:30,7/25/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Avalon1/,http://www.chicagoparkdistrict.com/parks/Avalon-Park/,Avalon Park,Yes,PG-13,"1215 E 83rd St Chicago, IL 60619
+Chicago, IL 60619
+(41.7440567, -87.59574127)"
+Movies in the Parks at Rogers,Gravity,Rogers Park,60645,(773) 381-6274,6/25/2014 21:00,6/25/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Rogers/,http://www.chicagoparkdistrict.com/parks/Rogers-Park/,West Ridge,Yes,PG-13,"7345 N. Washtenaw Ave. Chicago IL 60645
+Chicago, IL 60645
+(42.01504517, -87.69725037)"
+Movies in the Parks at Heritage Green,Ghostbusters,Heritage Green Park,60606,(312) 746-5494,8/5/2014 20:00,8/5/2014 21:47,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Heritage-Green/,http://www.chicagoparkdistrict.com/parks/heritage-green-park/,Near West Side,Yes,PG,"610-30 W. Adams St. Chicago IL 60606
+Chicago, IL 60606
+(41.87962341, -87.64317322)"
+Movies in the Parks at Cricket Hill,True Grit,Lincoln Park,60614,(312) 742-7726 ,8/11/2014 20:00,8/11/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cricket-Hill4/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,NR,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Hermitage,The Amazing Spider-Man,Hermitage Park,60636,(312) 747-6179 ,7/8/2014 20:30,7/8/2014 22:46,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hermitage1/,http://www.chicagoparkdistrict.com/parks/Hermitage-Park/,West Englewood,Yes,PG-13,"5839 S. Wood St. Chicago IL 60636
+Chicago, IL 60636
+(41.78759766, -87.6692276)"
+Movies in the Parks at Golden Gate,Man of Steel,Golden Gate Park,60627,(312) 747-6047 ,8/22/2014 20:00,8/22/2014 22:28,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Golden-Gate1/,http://www.chicagoparkdistrict.com/parks/Golden-Gate-Park/,Riverdale,Yes,PG-13,"13000 S. Eberhart Ave. Chicago IL 60627
+Chicago, IL 60627
+(41.65910339, -87.61064911)"
+Movies in the Parks at Webster,The Croods,Daniel Webster Park,60605,(312) 257-4486,7/29/2014 20:30,7/29/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Webster/,http://www.chicagoparkdistrict.com/parks/daniel-webster-park/,Near South Side,Yes,PG,"1401 S Indiana Ave Chicago, IL 60605
+Chicago, IL 60605
+(41.86395645, -87.62201691)"
+@home Documentary at Berger,@home,Berger Park Cultural Center,60660,(773) 761-0376,6/3/2014 19:00,6/3/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Berger/,http://www.chicagoparkdistrict.com/parks/Berger-Park-Cultural-Center/,Edgewater,No,NR,"6205 N Sheridan Rd Chicago, IL 60660
+Chicago, IL 60660
+(41.99475861, -87.65554047)"
+Movies in the Parks at Buttercup,Beasts of the Southern Wild,Buttercup Playlot Park,60640,(312) 742-7522 ,6/24/2014 21:00,6/24/2014 22:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Buttercup/,http://www.chicagoparkdistrict.com/parks/Buttercup-Playlot-Park/,Uptown,Yes,PG-13,"4901 N Sheridan Rd Chicago, IL 60640
+Chicago, IL 60640
+(41.97158432, -87.65485382)"
+Movies in the Parks at Paschen,The Nut Job,Paschen Park,60626,(773) 262-5871,8/19/2014 20:00,8/19/2014 21:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Paschen3/,http://www.chicagoparkdistrict.com/parks/Paschen-Park/,Rogers Park,Yes,PG,"1932 W. Lunt Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.00889969, -87.67923737)"
+Movies in the Parks at South Shore,Claudine,South Shore Cultural Center,60649,(773) 256-0149,8/13/2014 20:00,8/13/2014 21:32,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-South-Shore4/,http://www.chicagoparkdistrict.com/parks/South-Shore-Cultural-Center/,South Shore,Yes,PG,"7059 S. South Shore Dr. Chicago IL 60649
+Chicago, IL 60649
+(41.76674652, -87.56651306)"
+@home Documentary at West Pullman,@home,West Pullman Park,60628,(312) 747-7090,6/2/2014 19:00,6/2/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-West-Pullman/,http://www.chicagoparkdistrict.com/parks/West-Pullman-Park/,West Pullman,No,NR,"401 W. 123rd St. Chicago IL 60628
+Chicago, IL 60628
+(41.67062378, -87.63065338)"
+Movies in the Parks at West Pullman,Life of Pi,West Pullman Park,60628,(312) 747-7090,7/6/2014 20:30,7/6/2014 22:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-West-Pullman1/,http://www.chicagoparkdistrict.com/parks/West-Pullman-Park/,West Pullman,Yes,PG,"401 W. 123rd St. Chicago IL 60628
+Chicago, IL 60628
+(41.67062378, -87.63065338)"
+Movies in the Parks at Austin Town Hall,The Help,Austin Town Hall Park,60644,(773) 287-7658,7/27/2014 20:30,7/27/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Austin-Town-Hall1/,http://www.chicagoparkdistrict.com/parks/Austin-Town-Hall-Park/,Austin,Yes,PG-13,"5610 W Lake St Chicago, IL 60644
+Chicago, IL 60644
+(41.88805771, -87.76578522)"
+Movies in the Parks at Gompers,Cloudy with a Chance of Meatballs 2,Gompers Park,60630,(773) 685-3270,7/8/2014 20:30,7/8/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Gompers1/,http://www.chicagoparkdistrict.com/parks/gompers-park/,North Park,Yes,PG,"4222 W. Foster Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.97549438, -87.73486328)"
+Movies in the Parks at Columbus,Michael Jackson's This is It,Columbus Park,60644,(773) 287-7641,6/27/2014 21:00,6/27/2014 22:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Columbus/,http://www.chicagoparkdistrict.com/parks/columbus-park/,Austin,Yes,PG,"500 S. Central Ave. Chicago, IL 60644
+Chicago, IL 60644
+(41.87285233, -87.76467896)"
+Movies in the Parks at Osterman Beach,Gypsy,Kathy Osterman Beach,60660,(312) 742-5121,6/27/2014 21:00,6/27/2014 23:29,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Osterman-Beach1/,http://www.chicagoparkdistrict.com/parks/kathy-osterman-beach/,Edgewater,No,NR,"5800 N. Lake Shore Drive, Chicago, IL 60660
+Chicago, IL 60660
+(41.98543743, -87.65284538)"
+Movies in the Parks at Robichaux,42,Robichaux Park,60620,(312) 747-6648,6/18/2014 21:00,6/18/2014 23:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Robichaux1/,http://www.chicagoparkdistrict.com/parks/Robichaux-Park/,Washington Heights,Yes,PG-13,"9247 S. Eggleston Ave. Chicago IL 60620
+Chicago, IL 60620
+(41.72631836, -87.63435364)"
+Movies in the Parks at Eckhart,The Goonies,Eckhart Park,60642,(312) 746-5490,8/10/2014 20:00,8/10/2014 21:51,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Eckhart/,http://www.chicagoparkdistrict.com/parks/Eckhart-Park/,West Town,Yes,PG,"1330 W. Chicago Ave. Chicago IL 60642
+Chicago, IL 60642
+(41.89619446, -87.66043091)"
+Family Movie Night at Chopin,Gremlins,Chopin Park,60641,(773) 685-3247,6/14/2014 19:45,6/14/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Chopin/,http://www.chicagoparkdistrict.com/parks/Chopin-Park/,Portage Park,N/A,PG,"3420 N. Long Ave. Chicago IL 60641
+Chicago, IL 60641
+(41.94267654, -87.76173401)"
+Family Movie Night at Mayfair,The Lego Movie,Mayfair Park,60630,(773) 685-3361,8/23/2014 20:00,8/23/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Mayfair3/,http://www.chicagoparkdistrict.com/parks/Mayfair-Park/,Irving Park,N/A,PG,"4550 W. Sunnyside Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96262741, -87.74201202)"
+Movies in the Parks at Kenwood,Mandela: Long Walk to Freedom,Kenwood Community Park,60615,(312) 747-6286,6/26/2014 21:00,6/26/2014 23:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kenwood1/,http://www.chicagoparkdistrict.com/parks/Kenwood-Community-Park/,Kenwood,Yes,PG-13,"1330 E. 50th St. Chicago IL 60615
+Chicago, IL 60615
+(41.80422211, -87.59378815)"
+Movies in the Parks at Blackhawk,Instructions Not Included,Blackhawk Park,60639,(312) 746-5014,8/19/2014 21:00,8/19/2014 22:40,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Blackhawk/,http://www.chicagoparkdistrict.com/parks/Blackhawk-Park/,Belmont Cragin,Yes,PG-13,"2318 N Lavergne Ave Chicago, IL 60639
+Chicago, IL 60639
+(41.92288589, -87.75176239)"
+Movies in the Parks at Moore,Stomp the Yard,Moore Park,60644,(773) 287-0561,8/21/2014 20:00,8/21/2014 21:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Moore1/,http://www.chicagoparkdistrict.com/parks/Moore-Park/,Austin,Yes,PG-13,"5085 W. Adams St. Chicago IL 60644
+Chicago, IL 60644
+(41.87814331, -87.75273132)"
+Family Fun Film at Touhy,The Muppet Movie,Touhy Park,60626,(773) 262-6737,7/30/2014 20:00,7/30/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Touhy/,http://www.chicagoparkdistrict.com/parks/Touhy-Park/,Rogers Park,N/A,G,"7348 N. Paulina St. Chicago IL 60626
+Chicago, IL 60626
+(42.0148735, -87.67243958)"
+Movies in the Parks at Hollywood,Back to the Future,Hollywood Park,60659,(773) 478-3482,6/21/2014 21:00,6/21/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hollywood1/,http://www.chicagoparkdistrict.com/parks/Hollywood-Park/,North Park,Yes,PG,"3312 W. Thorndale Ave. Chicago IL 60659
+Chicago, IL 60659
+(41.98849869, -87.71220398)"
+Movies in the Parks at Lake Shore,The Hunger Games: Catching Fire,Lake Shore Park,60611,(312) 742-7891,8/26/2014 20:00,8/26/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lake-Shore4/,http://www.chicagoparkdistrict.com/parks/Lake-Shore-Park/,Near North Side,Yes,PG-13,"808 N Lake Shore Dr Chicago, IL 60611
+Chicago, IL 60611
+(41.89749146, -87.61992645)"
+Family Movie Night at Independence,Avengers,Independence Park,60618,(773) 478-3538,7/11/2014 20:30,7/11/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Independence3/,http://www.chicagoparkdistrict.com/parks/Independence-Park/,Irving Park,N/A,PG-13,"3945 N. Springfield Ave. Chicago IL 60618
+Chicago, IL 60618
+(41.95268631, -87.72504425)"
+Movies in the Parks at Davis Square,Despicable Me 2,Davis Square Park,60609,(312) 747-6107 ,7/31/2014 20:30,7/31/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Davis-Square1/,http://www.chicagoparkdistrict.com/parks/Davis-Square-Park/,New City,Yes,PG,"4430 S. Marshfield Ave. Chicago IL 60609
+Chicago, IL 60609
+(41.81347275, -87.66633606)"
+Movies in the Parks at Smith,Ghostbusters,Smith Park,60612,(312) 742-7534,7/22/2014 20:30,7/22/2014 22:17,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Smith1/,http://www.chicagoparkdistrict.com/parks/Smith-Park/,West Town,Yes,PG,"2526 W. Grand Ave. Chicago, IL 60612
+Chicago, IL 60612
+(41.89163208, -87.68981934)"
+Movies in the Parks at Wicker,Dr. Strangelove,Wicker Park,60622,(312) 742-7553,6/26/2014 21:00,6/26/2014 22:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wicker4/,http://www.chicagoparkdistrict.com/parks/Wicker-Park/,West Town,Yes,PG,"1425 N. Damen Avenue Chicago IL 60622
+Chicago, IL 60622
+(41.90821838, -87.67736053)"
+Movies in the Parks at Normandy,Gremlins,Normandy Playground Park,60638,(773) 229-1421,7/10/2014 20:30,7/10/2014 22:21,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Normandy1/,http://www.chicagoparkdistrict.com/parks/Normandy-Playground-Park/,Garfield Ridge,Yes,PG,"6660 W. 52nd St. Chicago IL 60638
+Chicago, IL 60638
+(41.79777908, -87.78858948)"
+Movies in the Parks at Bell,The Smurfs 2,Bell Park,60634,(312) 746-5008,6/19/2014 21:00,6/19/2014 22:45,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Bell/,http://www.chicagoparkdistrict.com/parks/Bell-Park/,Montclare,Yes,PG,"3020 N Oak Park Ave Chicago, IL 60634
+Chicago, IL 60634
+(41.93524551, -87.79602051)"
+Movies in the Parks at Dunham,Ghostbusters,Dunham Park,60630,(773) 685-3257,7/11/2014 20:30,7/11/2014 22:17,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Dunham/,http://www.chicagoparkdistrict.com/parks/Dunham-Park/,Portage Park,Yes,PG,"4638 N. Melvina Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96598053, -87.78197479)"
+Movies in the Parks at Rutherford Sayre,The Lego Movie,Rutherford Sayre Park,60635,(312) 746-5368,6/28/2014 21:00,6/28/2014 22:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Rutherford-Sayre1/,http://www.chicagoparkdistrict.com/parks/Rutherford-Sayre-Park/,Montclare,Yes,PG,"6871 W. Belden Ave. Chicago IL 60635
+Chicago, IL 60635
+(41.92081833, -87.79712677)"
+Movies in the Parks at Kennicott,Roll Bounce,Kennicott Park,60653,(312) 747-7138,7/26/2014 20:30,7/26/2014 22:22,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kennicott1/,http://www.chicagoparkdistrict.com/parks/Kennicott-Park/,Kenwood,Yes,PG-13,"4434 S. Lake Park Ave. Chicago IL 60653
+Chicago, IL 60653
+(41.81412125, -87.59686279)"
+Family Movie Night at Dunham,Delivery Man,Dunham Park,60630,(773) 685-3257,6/13/2014 21:00,6/13/2014 23:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Dunham/,http://www.chicagoparkdistrict.com/parks/Dunham-Park/,Portage Park,N/A,PG-13,"4638 N. Melvina Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96598053, -87.78197479)"
+Movies in the Parks at Montgomery Ward,Captain Phillips,"Ward, A. Montgomery Park",60606,(312) 742-7895,7/19/2014 20:30,7/19/2014 22:43,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward10/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Movies in the Parks at Altgeld,Drumline,Altgeld Park,60612,(312) 746-5001,7/25/2014 20:30,7/25/2014 22:29,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Altgeld1/,http://www.chicagoparkdistrict.com/parks/Altgeld-Park/,East Garfield Park,Yes,PG-13,"515 S. Washtenaw Ave. Chicago IL 60612
+Chicago, IL 60612
+(41.87475204, -87.69367981)"
+Movies in the Parks at Lake Shore,Happy Feet,Lake Shore Park,60611,(312) 742-7891,6/24/2014 21:00,6/24/2014 22:49,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lake-Shore1/,http://www.chicagoparkdistrict.com/parks/Lake-Shore-Park/,Near North Side,Yes,PG,"808 N Lake Shore Dr Chicago, IL 60611
+Chicago, IL 60611
+(41.89749146, -87.61992645)"
+Movies in the Parks at Homan Square,Lee Daniels' The Butler,Homan Square Park,60624,(312) 746-6650,6/22/2014 21:00,6/22/2014 23:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Homan-Square/,http://www.chicagoparkdistrict.com/parks/homan-square-park/,North Lawndale,Yes,PG-13,"3559 W. Arthington St. Chicago IL 60624
+Chicago, IL 60624
+(41.86931992, -87.71344757)"
+Movies in the Parks at Fosco,Mandela: Long Walk to Freedom,Fosco Park,60608,(312) 746-5086,7/18/2014 20:30,7/18/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Fosco1/,http://www.chicagoparkdistrict.com/parks/fosco-park/,Near West Side,Yes,PG-13,"1312 S. Racine Ave, Chicago IL 60608
+Chicago, IL 60608
+(41.86500168, -87.6566391)"
+Movies in the Parks at Woodhull,The Wiz ,Woodhull Playground Park,60649,(773) 256-1903,7/2/2014 20:30,7/2/2014 22:43,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Woodhull1/,http://www.chicagoparkdistrict.com/parks/Woodhull-Playground-Park/,South Shore,No,G,"7340 S. East End Ave. Chicago IL 60649
+Chicago, IL 60649
+(41.76167679, -87.58354187)"
+Movies in the Parks at Haas,Cloudy with a Chance of Meatballs 2,Haas Park,60647,(312) 742-7552 ,6/27/2014 21:00,6/27/2014 22:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Haas1/,http://www.chicagoparkdistrict.com/parks/Haas-Park/,Logan Square,Yes,PG,"2402 N. Washtenaw Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.92488861, -87.69497681)"
+Movies in the Parks at Senka,Mr. Peabody & Sherman,Senka Park,60629,(312) 747-4386,8/3/2014 20:00,8/3/2014 21:32,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Senka/,http://www.chicagoparkdistrict.com/parks/Senka-Park/,Gage Park,Yes,PG,"5656 S. St. Louis Ave. Chicago IL 60629
+Chicago, IL 60629
+(41.79055023, -87.71083069)"
+Movies in the Parks at Calumet,Buck and the Preacher,Calumet Park,60617,(312) 747-6039,7/21/2014 20:30,7/21/2014 22:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Calumet4/,http://www.chicagoparkdistrict.com/parks/Calumet-Park/,East Side,Yes,PG,"9801 S Avenue G Chicago, IL 60617
+Chicago, IL 60617
+(41.71755765, -87.53148079)"
+Movies in the Parks at Moran,42,Moran Playground Park,60621,(312) 747-6560,7/2/2014 20:30,7/2/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Moran/,http://www.chicagoparkdistrict.com/parks/Moran-Playground-Park/,Englewood,Yes,PG-13,"5727 S. Racine Ave. Chicago IL 60621
+Chicago, IL 60621
+(41.79003906, -87.65474701)"
+Movies in the Parks at Piotrowski,The Hunger Games: Catching Fire,Piotrowski Park,60623,(312) 747-6608 ,8/6/2014 20:00,8/6/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Piotrowski2/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,Yes,PG-13,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Movies in the Parks at Dunbar,Lee Daniels' The Butler,Dunbar Park,60616,(312) 747-5962,6/19/2014 21:00,6/19/2014 23:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Dunbar2/,http://www.chicagoparkdistrict.com/parks/Dunbar-Park/,Douglas,Yes,PG-13,"300 E. 31st St. Chicago IL 60616
+Chicago, IL 60616
+(41.83839417, -87.62062836)"
+Movies in the Parks at Loyola,Captain Phillips,Loyola Park,60626,(773) 262-8605,7/19/2014 20:30,7/19/2014 22:43,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Loyola2/,http://www.chicagoparkdistrict.com/parks/Loyola-Park/,"Rogers Park, Grand Boulevard",Yes,PG-13,"1230 W. Greenleaf Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.01041412, -87.66117859)"
+Family Movie Night at Portage,Frozen,Portage Park,60641,(773) 685-7235,7/9/2014 20:00,7/9/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Portage1/,http://www.chicagoparkdistrict.com/parks/Portage-Park/,Portage Park,N/A,PG,"4100 N Long Ave Chicago, IL 60641
+Chicago, IL 60641
+(41.95508957, -87.76216125)"
+Movies in the Parks at Humboldt,The Benchwarmers,Humboldt Park,60622,(312) 742-7549,8/22/2014 20:00,8/22/2014 21:20,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Humboldt3/,http://www.chicagoparkdistrict.com/parks/humboldtpark/,West Town,Yes,PG-13,"1440 N Humboldt Dr Chicago, IL 60622
+Chicago, IL 60622
+(41.90572739, -87.7037735)"
+Family Movie Night at Norwood,Free Birds,Norwood Park,60631,(773) 631-4893,8/15/2014 20:00,8/15/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Norwood/,http://www.chicagoparkdistrict.com/parks/Norwood-Park/,Norwood Park,N/A,PG,"5801 N. Natoma Ave. Chicago IL 60631
+Chicago, IL 60631
+(41.98659134, -87.79413605)"
+Movies in the Parks at Hayes,Happy Feet,Hayes Park,60652,(312) 747-6177,7/9/2014 20:30,7/9/2014 22:19,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hayes1/,http://www.chicagoparkdistrict.com/parks/Hayes-Park/,Ashburn,Yes,PG,"2936 W. 85th St. Chicago IL 60652
+Chicago, IL 60652
+(41.73907852, -87.69678497)"
+Movies in the Parks at Hermosa,Latino Film Festival Selection,Hermosa Park,60639,(312) 742-7540 ,7/30/2014 21:00,7/30/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hermosa3/,http://www.chicagoparkdistrict.com/parks/Hermosa-Park/,Hermosa,No,NR,"2240 N. Kilbourn Ave. Chicago IL 60639
+Chicago, IL 60639
+(41.92153931, -87.73892212)"
+Movies in the Parks at Brooks,The Smurfs 2 ,Brooks Park,60631,(773) 631-4401,7/18/2014 20:30,7/18/2014 22:15,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Brooks1/,http://www.chicagoparkdistrict.com/parks/Brooks-Park/,Edison Park,Yes,PG,"7100 N Harlem Ave Chicago, IL 60631
+Chicago, IL 60631
+(42.01028061, -87.8066864)"
+Movies in the Parks at Harrison,Latino Film Festival Selection,Harrison Park,60608,(312) 746-5491,8/13/2014 20:30,8/13/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Harrison4/,http://www.chicagoparkdistrict.com/parks/Harrison-Park/,Lower West Side,No,NR,"1824 S. Wood St. Chicago IL 60608
+Chicago, IL 60608
+(41.85699081, -87.67106628)"
+Movies in the Parks at Trebes,Cloudy With a Chance of Meatballs 2,Trebes Park,60614,(312) 742-7769,8/5/2014 20:00,8/5/2014 21:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Trebes/,http://www.chicagoparkdistrict.com/parks/Trebes-Park/,Lincoln Park,Yes,PG,"2250 N. Clifton Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92298889, -87.65727234)"
+Movies in the Parks at Ellis,Gravity ,Ellis (Samuel) Park,60653,(312) 656 - 0423 ,6/21/2014 21:00,6/21/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ellis2/,http://www.chicagoparkdistrict.com/parks/ellis-samuel-park/,Douglas,Yes,PG-13,"535 E. 35th St. Chicago IL 60653
+Chicago, IL 60653
+(41.82777786, -87.60858154)"
+Movies in the Parks at Wentworth,Jurassic Park,Wentworth Park,60638,(312) 747-6993,7/1/2014 20:30,7/1/2014 22:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wentworth1/,http://www.chicagoparkdistrict.com/parks/Wentworth-Park/,Garfield Ridge,Yes,PG-13,"5625 S. Mobile Ave. Chicago IL 60638
+Chicago, IL 60638
+(41.79042816, -87.77915955)"
+@home Documentary at Lake Shore,@home,Lake Shore Park,60611,(312) 742-7891,6/5/2014 19:00,6/5/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Lake-Shore/,http://www.chicagoparkdistrict.com/parks/Lake-Shore-Park/,Near North Side,No,NR,"808 N Lake Shore Dr Chicago, IL 60611
+Chicago, IL 60611
+(41.89749146, -87.61992645)"
+Movies in the Parks at Palmer,The Great Gatsby (2013),Palmer Park,60628,(312) 747-6577,8/24/2014 20:00,8/24/2014 22:23,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Palmer1/,http://www.chicagoparkdistrict.com/parks/Palmer-Park/,Roseland,Yes,PG-13,"201 E 111th St Chicago, IL 60628
+Chicago, IL 60628
+(41.69263077, -87.61819458)"
+Movies in the Parks at Lake Shore,The Lego Movie,Lake Shore Park,60611,(312) 742-7891,8/18/2014 20:00,8/18/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lake-Shore3/,http://www.chicagoparkdistrict.com/parks/Lake-Shore-Park/,Near North Side,Yes,PG,"808 N Lake Shore Dr Chicago, IL 60611
+Chicago, IL 60611
+(41.89749146, -87.61992645)"
+Family Movie Night at Independence,Lego Movie,Independence Park,60618,(773) 478-3538,8/8/2014 20:00,8/8/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Independence4/,http://www.chicagoparkdistrict.com/parks/Independence-Park/,Irving Park,N/A,PG,"3945 N. Springfield Ave. Chicago IL 60618
+Chicago, IL 60618
+(41.95268631, -87.72504425)"
+Family Movie Night at Independence,Frozen,Independence Park,60618,(773) 478-3538,6/13/2014 20:30,6/13/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Independence2/,http://www.chicagoparkdistrict.com/parks/Independence-Park/,Irving Park,N/A,PG,"3945 N. Springfield Ave. Chicago IL 60618
+Chicago, IL 60618
+(41.95268631, -87.72504425)"
+Movies in the Parks at Jackson,Rebel Without a Cause,Jackson Park,60637,(773) 256.0903 ,7/28/2014 20:30,7/28/2014 22:25,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-63rd-Street1/,http://www.chicagoparkdistrict.com/parks/jackson-park/,Hyde Park,Yes,PG-13,"6401 S Stony Island Ave Chicago, IL 60637
+Chicago, IL 60637
+(41.77771378, -87.58693695)"
+Family Movie Night at Palmer,The Family That Preys,Palmer Park,60628,(312) 747-6577,7/17/2014 20:00,7/17/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Palmer/,http://www.chicagoparkdistrict.com/parks/Palmer-Park/,Roseland,No,PG-13,"201 E 111th St Chicago, IL 60628
+Chicago, IL 60628
+(41.69263077, -87.61819458)"
+Movies in the Parks at Kilbourn,Latino Film Festival Selection,Kilbourn Park,60641,(773) 685-3351,7/23/2014 20:30,7/23/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kilbourn1/,http://www.chicagoparkdistrict.com/parks/Kilbourn-Park/,Irving Park,No,NR,"3501 N. Kilbourn Ave. Chicago IL 60641
+Chicago, IL 60641
+(41.94442749, -87.73962402)"
+Movies in the Parks at Bartelme,Dirty Dancing,"Bartelme, Mary Park",60607,(312) 746-5494 ,6/25/2014 21:00,6/25/2014 22:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Bartelme1/,http://www.chicagoparkdistrict.com/parks/Bartelme-Mary-Park/,Near West Side,Yes,PG-13,"115 S Sangamon St Chicago, IL 60607
+Chicago, IL 60607
+(41.88024521, -87.65080261)"
+Movies in the Parks at Marquette,How to Train Your Dragon,Marquette Park,60629,(312) 747-6469,6/17/2014 21:00,6/17/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Marquette1/,http://www.chicagoparkdistrict.com/parks/Marquette-Park/,Chicago Lawn,Yes,PG,"6743 S. Kedzie Ave. Chicago IL 60629
+Chicago, IL 60629
+(41.77088165, -87.70292664)"
+Family Fun Film at Bell,Hairspray,Bell Park,60634,(312) 746-5008,8/21/2014 20:15,8/21/2014 22:15,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Bell/,http://www.chicagoparkdistrict.com/parks/Bell-Park/,Montclare,N/A,PG,"3020 N Oak Park Ave Chicago, IL 60634
+Chicago, IL 60634
+(41.93524551, -87.79602051)"
+Movies in the Parks at Jackson,Jaws,Jackson Park,60637,(773) 256.0903 ,6/30/2014 21:00,6/30/2014 23:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-63rd-Street/,http://www.chicagoparkdistrict.com/parks/jackson-park/,Hyde Park,Yes,PG,"6401 S Stony Island Ave Chicago, IL 60637
+Chicago, IL 60637
+(41.77771378, -87.58693695)"
+Movies in the Parks at Mann,The Little Rascals,Mann Park,60633,(773) 646-0210,7/23/2014 20:30,7/23/2014 21:53,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Mann1/,http://www.chicagoparkdistrict.com/parks/Mann-Park/,Hegewisch,Yes,PG,"3035 E. 130st St. Chicago IL 60633
+Chicago, IL 60633
+(41.6591568, -87.54946136)"
+Movies in the Parks at Montgomery Ward,As Good As It Gets,"Ward, A. Montgomery Park",60606,(312) 742-7895,6/17/2014 21:00,6/17/2014 23:18,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward7/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,No,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Family Fun Film at Trebes,Willy Wonka and the Chocolate Factory,Trebes Park,60614,(312) 742-7769,8/27/2014 20:00,8/27/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Trebes/,http://www.chicagoparkdistrict.com/parks/Trebes-Park/,Lincoln Park,N/A,G,"2250 N. Clifton Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92298889, -87.65727234)"
+Family Movie Night at Owens,Superman,Owens Park,60617,(312) 747-6709,7/30/2014 20:00,7/30/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Owens/,http://www.chicagoparkdistrict.com/parks/Owens-Park/,Calumet Heights,No,PG,"8800 S. Clyde Ave. Chicago, IL 60617
+Chicago, IL 60617
+(41.73525238, -87.57568359)"
+Movies in the Parks at Burnside,42,Burnside Park,60619,(312) 747-6015 ,8/27/2014 20:00,8/27/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Burnside/,http://www.chicagoparkdistrict.com/parks/Burnside-Park/,Burnside,Yes,PG-13,"9400 S. Greenwood Ave. Chicago IL 60619
+Chicago, IL 60619
+(41.72403336, -87.59728241)"
+Movies in the Parks at Grand Crossing,Lee Daniels' The Butler,Grand Crossing Park,60619,(312) 747-6158,8/5/2014 20:00,8/5/2014 22:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Grand-Crossing1/,http://www.chicagoparkdistrict.com/parks/Grand-Crossing-Park/,Greater Grand Crossing,Yes,PG-13,"7655 S. Ingleside Ave. Chicago IL 60619
+Chicago, IL 60619
+(41.75580215, -87.60163116)"
+Movies in the Parks at Oz,Rookie of the Year,Oz Park,60614,(312) 742-7898,6/14/2014 21:00,6/14/2014 22:43,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Oz3/,http://www.chicagoparkdistrict.com/parks/Oz-Park/,Lincoln Park,Yes,PG,"2021 N. Burling St. Chicago IL 60614
+Chicago, IL 60614
+(41.92099187, -87.64469862)"
+Movie Documentary at Piotrowski,,Piotrowski Park,60623,(312) 747-6608 ,7/9/2014 20:00,7/9/2014 21:00,http://www.chicagoparkdistrict.com/events/Night-OutMovie-Documentary-at-Piotrowski/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,,,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Family Movie Night at Chopin,Ironman 3,Chopin Park,60641,(773) 685-3247,9/13/2014 19:45,9/13/2014 21:45,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Chopin1/,http://www.chicagoparkdistrict.com/parks/Chopin-Park/,Portage Park,N/A,PG-13,"3420 N. Long Ave. Chicago IL 60641
+Chicago, IL 60641
+(41.94267654, -87.76173401)"
+Movies in the Parks at Brainerd,Mandela: Long Walk to Freedom,Brainerd Park,60620,(312) 747-6027,7/12/2014 20:30,7/12/2014 22:56,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Brainerd/,http://www.chicagoparkdistrict.com/parks/Brainerd-Park/,Washington Heights,Yes,PG-13,"1246 W 92nd St Chicago, IL 60620
+Chicago, IL 60620
+(41.72680283, -87.65419769)"
+Family Movie Night at Portage,Lego Movie,Portage Park,60641,(773) 685-7235,8/20/2014 20:00,8/20/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Portage3/,http://www.chicagoparkdistrict.com/parks/Portage-Park/,Portage Park,N/A,PG,"4100 N Long Ave Chicago, IL 60641
+Chicago, IL 60641
+(41.95508957, -87.76216125)"
+Movies in the Parks at Amundsen,Ride Along,Amundsen Park,60639,(312) 746-5003,7/22/2014 20:30,7/22/2014 22:10,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Amundsen1/,http://www.chicagoparkdistrict.com/parks/Amundsen-Park/,Austin,Yes,PG-13,"6200 W Bloomingdale Ave Chicago, IL 60639
+Chicago, IL 60639
+(41.91294479, -87.780159)"
+Movies in the Parks at Humboldt,The Book Thief ,Humboldt Park,60622,(312) 742-7549,7/20/2014 20:30,7/20/2014 22:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Humboldt2/,http://www.chicagoparkdistrict.com/parks/humboldtpark/,West Town,Yes,PG-13,"1440 N Humboldt Dr Chicago, IL 60622
+Chicago, IL 60622
+(41.90572739, -87.7037735)"
+Family Movie Night at West Lawn,The Lego Movie,West Lawn Park,60629,(773) 284-2803,8/5/2014 20:00,8/5/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-West-Lawn/,http://www.chicagoparkdistrict.com/parks/West-Lawn-Park/,West Lawn,No,PG,"4233 W. 65th St. Chicago IL 60629
+Chicago, IL 60629
+(41.77493286, -87.72831726)"
+Movies in the Parks at Taylor,Space Jam,Taylor Park,60609,(312) 747-6728,6/29/2014 21:00,6/29/2014 22:27,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Taylor/,http://www.chicagoparkdistrict.com/parks/Taylor-Park/,"Douglas, Washington Park, Fuller Park, Grand Boulevard, Oakland",Yes,PG,"39 W. 47th St. Chicago IL 60609
+Chicago, IL 60609
+(41.80919647, -87.62728119)"
+Movies in the Parks at McKinley,Mr. Peabody & Sherman,McKinley Park,60609,(312) 747-6527,7/6/2014 20:30,7/6/2014 22:02,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-McKinley1/,http://www.chicagoparkdistrict.com/parks/McKinley-Park/,McKinley Park,Yes,PG,"2210 W. Pershing Rd. Chicago IL 60609
+Chicago, IL 60609
+(41.82310104, -87.67856598)"
+Movies in the Parks at Commercial,Despicable Me 2,Commercial Club Playground,60622,(312) 742-7558,6/12/2014 21:00,6/12/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Commercial/,http://www.chicagoparkdistrict.com/parks/Commercial-Club-Playground/,West Town,Yes,PG,"1845 W. Rice St. Chicago IL 60622
+Chicago, IL 60622
+(41.89686584, -87.67324829)"
+Family Movie Night at Hamilton,Gravity,Hamilton Park,60621,(312) 747-6174,6/19/2014 20:00,6/19/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Hamilton/,http://www.chicagoparkdistrict.com/parks/Hamilton-Park/,Englewood,No,PG-13,"513 W. 72nd St. Chicago IL 60621
+Chicago, IL 60621
+(41.76344299, -87.63769531)"
+Movies in the Parks at Kenwood,The Fantastic Mr. Fox,Kenwood Community Park,60615,(312) 747-6286,7/2/2014 20:30,7/2/2014 21:57,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kenwood2/,http://www.chicagoparkdistrict.com/parks/Kenwood-Community-Park/,Kenwood,Yes,PG,"1330 E. 50th St. Chicago IL 60615
+Chicago, IL 60615
+(41.80422211, -87.59378815)"
+Movies in the Parks at Montgomery Ward,Gravity,"Ward, A. Montgomery Park",60606,(312) 742-7895,7/29/2014 20:30,7/29/2014 22:01,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward11/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Movies in the Parks at Loyola,Latino Film Festival Selection,Loyola Park,60626,(773) 262-8605,8/6/2014 20:00,8/6/2014 21:30,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Loyola3/,http://www.chicagoparkdistrict.com/parks/Loyola-Park/,"Rogers Park, Grand Boulevard",No,NR,"1230 W. Greenleaf Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.01041412, -87.66117859)"
+Movies in the Parks at Fulton River,Sixteen Candles,Park No. 551,60611,(312) 742-7895 ,7/21/2014 20:30,7/21/2014 22:03,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Park-No-5511/,http://www.chicagoparkdistrict.com/parks/Park-No-551/,Near West Side,No,PG-13,"353 N. DesPlaines St. Chicago IL 60611
+Chicago, IL 60611
+(41.88835526, -87.64409637)"
+Movies in the Parks at Ridge,Jumanji,Ridge Park,60643,(312) 747-6640,6/30/2014 21:00,6/30/2014 22:45,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ridge/,http://www.chicagoparkdistrict.com/parks/Ridge-Park/,Beverly,Yes,PG,"9625 S. Longwood Dr., Chicago IL 60643
+Chicago, IL 60643
+(41.71934128, -87.6676712)"
+Movies in the Parks at Chicago History,Ferris Bueller's Day Off ,Lincoln Park,60614,(312) 742-7726 ,7/9/2014 20:30,7/9/2014 22:13,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chicago-History1/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,PG-13,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at South Shore,The Wiz,South Shore Cultural Center,60649,(773) 256-0149,8/27/2014 20:00,8/27/2014 22:13,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-South-Shore7/,http://www.chicagoparkdistrict.com/parks/South-Shore-Cultural-Center/,South Shore,No,G,"7059 S. South Shore Dr. Chicago IL 60649
+Chicago, IL 60649
+(41.76674652, -87.56651306)"
+Movies in the Parks at Calumet,Jumanji,Calumet Park,60617,(312) 747-6039,8/3/2014 20:00,8/3/2014 21:45,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Calumet5/,http://www.chicagoparkdistrict.com/parks/Calumet-Park/,East Side,Yes,PG,"9801 S Avenue G Chicago, IL 60617
+Chicago, IL 60617
+(41.71755765, -87.53148079)"
+Family Movie Night at Austin Foster,Lego Movie,Austin-Foster Playlot Park,60630,(773) 685-3257,8/7/2014 20:00,8/7/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Austin-Foster/,http://www.chicagoparkdistrict.com/parks/Austin-Foster-Playlot-Park/,Jefferson Park,N/A,PG,"6020 W Foster Ave Chicago, IL 60630
+Chicago, IL 60630
+(41.9759407, -87.77890778)"
+Movies in the Parks at West Chatham,Independence Day,West Chatham Park,60620,(312) 747-6998,6/13/2014 21:00,6/13/2014 23:24,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-West-Chatham2/,http://www.chicagoparkdistrict.com/parks/West-Chatham-Park/,Chatham,Yes,PG-13,"8223 S. Princeton Ave. Chicago IL 60620
+Chicago, IL 60620
+(41.74466705, -87.63191986)"
+Family Movie Night at Mayfair,The Nut Job,Mayfair Park,60630,(773) 685-3361,7/11/2014 20:00,7/11/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Mayfair2/,http://www.chicagoparkdistrict.com/parks/Mayfair-Park/,Irving Park,N/A,PG,"4550 W. Sunnyside Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96262741, -87.74201202)"
+Movies in the Parks at DuSable Museum,Twenty Feet From Stardom,Washington Park,60637,(773) 256-1248,8/16/2014 20:00,8/16/2014 21:29,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-DuSable-Museum3/,http://www.chicagoparkdistrict.com/parks/washington-park/,Washington Park,Yes,PG-13,"5531 S. Martin Luther King Dr. Chicago, IL 60637
+Chicago, IL 60637
+(41.79378891, -87.61591339)"
+Movies in the Parks at Paschen,Stanley Ka Dabba,Paschen Park,60626,(773) 262-5871,6/29/2014 21:00,6/29/2014 22:36,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Paschen1/,http://www.chicagoparkdistrict.com/parks/Paschen-Park/,Rogers Park,No,NR,"1932 W. Lunt Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.00889969, -87.67923737)"
+Movies in the Parks at Ellis,The Lego Movie,Ellis (Samuel) Park,60653,(312) 656 - 0423 ,8/16/2014 20:00,8/16/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ellis4/,http://www.chicagoparkdistrict.com/parks/ellis-samuel-park/,Douglas,Yes,PG,"535 E. 35th St. Chicago IL 60653
+Chicago, IL 60653
+(41.82777786, -87.60858154)"
+Movies in the Parks at Holstein,Groundhog Day,Holstein Park,60647,(312) 742-7554 ,6/15/2014 21:00,6/15/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Holstein2/,http://www.chicagoparkdistrict.com/parks/Holstein-Park/,Logan Square,Yes,PG,"2200 N. Oakley Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.9219017, -87.68556213)"
+Movies in the Parks at Piotrowski,Latino Film Festival Selection,Piotrowski Park,60623,(312) 747-6608 ,7/9/2014 20:30,7/9/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Piotrowski1/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,No,NR,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Movies in the Parks at Cricket Hill,The Triplets of Belleville,Lincoln Park,60614,(312) 742-7726 ,7/7/2014 20:30,7/7/2014 21:48,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cricket-Hill31/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,No,PG-13,"2045 N Lincoln Park West Chicago IL 6061460614
+(41.928495, -87.636008)"
+Movies in the Parks at Belmont Harbor,The Bachelor and the Bobby Soxer,Lincoln Park,60614,(312) 742-7726 ,7/28/2014 20:30,7/28/2014 22:05,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Belmont-Harbor3/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,NR,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Unity,Michael Jackson's This Is It,Unity Playlot Park,60647,(312) 742-7546,8/16/2014 20:00,8/16/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Unity1/,http://www.chicagoparkdistrict.com/parks/Unity-Playlot-Park/,Logan Square,Yes,PG,"2636 N. Kimball Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.92939377, -87.7122345)"
+Movies in the Parks at Wicker,The Sandlot,Wicker Park,60622,(312) 742-7553,7/17/2014 20:30,7/17/2014 22:10,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wicker5/,http://www.chicagoparkdistrict.com/parks/Wicker-Park/,West Town,Yes,PG,"1425 N. Damen Avenue Chicago IL 60622
+Chicago, IL 60622
+(41.90821838, -87.67736053)"
+Movies in the Parks at Kedvale,Gravity,Kedvale Park,60651,(312) 742-7543,6/17/2014 21:00,6/17/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kedvale1/,http://www.chicagoparkdistrict.com/parks/Kedvale-Park/,Humboldt Park,Yes,PG-13,"4134 W. Hirsch St. Chicago IL 60651
+Chicago, IL 60651
+(41.90628052, -87.73006439)"
+Movies in the Parks at Oakdale,Man of Steel,Oakdale Park,60643,(312) 747-6569,6/19/2014 21:00,6/19/2014 23:28,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Oakdale1/,http://www.chicagoparkdistrict.com/parks/Oakdale-Park/,Washington Heights,Yes,PG-13,"965 W. 95th St. Chicago IL 60643
+Chicago, IL 60643
+(41.72100449, -87.64851379)"
+Movies in the Parks at Eugene Field,Despicable Me 2,Eugene Field Park,60625,(773) 478-9744,7/11/2014 20:30,7/11/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Eugene-Field/,http://www.chicagoparkdistrict.com/parks/Eugene-Field-Park/,"Albany Park, North Park",Yes,PG,"5100 N. Ridgeway Ave. Chicago IL 60625
+Chicago, IL 60625
+(41.97400665, -87.72206116)"
+Movies in the Parks at Harrison,Latino Film Festival Selection,Harrison Park,60608,(312) 746-5491,6/18/2014 21:00,6/18/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Harrison3/,http://www.chicagoparkdistrict.com/parks/Harrison-Park/,Lower West Side,No,NR,"1824 S. Wood St. Chicago IL 60608
+Chicago, IL 60608
+(41.85699081, -87.67106628)"
+Movies in the Parks at Rowan,The Goonies,Rowan Park,60617,(773) 646-3180,8/10/2014 20:00,8/10/2014 21:51,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Rowan/,http://www.chicagoparkdistrict.com/parks/Rowan-Park/,East Side,Yes,PG,"11546 S. Avenue L Chicago IL 60617
+Chicago, IL 60617
+(41.68553543, -87.53646851)"
+Movies in the Parks at Hermosa,Fast & Furious 6,Hermosa Park,60639,(312) 742-7540 ,7/15/2014 20:30,7/15/2014 22:40,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hermosa2/,http://www.chicagoparkdistrict.com/parks/Hermosa-Park/,Hermosa,Yes,PG-13,"2240 N. Kilbourn Ave. Chicago IL 60639
+Chicago, IL 60639
+(41.92153931, -87.73892212)"
+Movies in the Parks at Shedd,The Amazing Spider-Man,Shedd Park,60623,(773) 762-3168,8/25/2014 20:00,8/25/2014 22:16,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Shedd2/,http://www.chicagoparkdistrict.com/parks/Shedd-Park/,South Lawndale,Yes,PG-13,"3660 W. 23rd St. Chicago IL 60623
+Chicago, IL 60623
+(41.85005951, -87.71700287)"
+@home Documentary at Loyola,@home,Loyola Park,60626,(773) 262-8605,5/30/2014 19:00,5/30/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Loyola/,http://www.chicagoparkdistrict.com/parks/Loyola-Park/,"Rogers Park, Grand Boulevard",No,NR,"1230 W. Greenleaf Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.01041412, -87.66117859)"
+Movies in the Parks at Vet's Memorial,Despicable Me 2,Veteran's Memorial Park,60617,(312) 747-6812,8/29/2014 20:00,8/29/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Vets-Memorial/,http://www.chicagoparkdistrict.com/parks/Veterans-Memorial-Park/,South Deering,Yes,PG,"2820 E. 98th St. Chicago IL 60617
+Chicago, IL 60617
+(41.7172966, -87.55563354)"
+Movies in the Parks at Chicago History,The Princess Bride,Lincoln Park,60614,(312) 742-7726 ,8/20/2014 20:00,8/20/2014 21:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chicago-History2/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,PG,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Pasteur,The Goonies,Pasteur Park,60629,(773) 284-0530,8/21/2014 20:00,8/21/2014 21:51,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Pasteur2/,http://www.chicagoparkdistrict.com/parks/Pasteur-Park/,West Elsdon,Yes,PG,"5825 S. Kostner Ave Chicago IL 60629
+Chicago, IL 60629
+(41.7871666, -87.7327652)"
+Family Movie Night at Jefferson,The Blues Brothers,Jefferson Memorial Park,60630,(773) 685-3316,8/8/2014 19:00,8/8/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Jefferson2/,http://www.chicagoparkdistrict.com/parks/Jefferson-Memorial-Park/,Jefferson Park,N/A,R,"4822 N. Long Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96814728, -87.76294708)"
+Movies in the Parks at Kosciuszko,Latino Film Festival Selection,Kosciuszko Park,60647,(312) 742-7546 ,6/25/2014 21:00,6/25/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Kosciuszko1/,http://www.chicagoparkdistrict.com/parks/Kosciuszko-Park/,Logan Square,No,NR,"2732 N. Avers Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.93063354, -87.72327423)"
+Movies in the Parks at Women's Park,The Lego Movie,Chicago Women's Park and Gardens,60616,(312) 328-0821,8/28/2014 20:00,8/28/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chicago-Womens2/,http://www.chicagoparkdistrict.com/parks/Chicago-Womens-Park-and-Gardens/,Near South Side,Yes,PG,"1801 S Indiana Ave Chicago, IL 60616
+Chicago, IL 60616
+(41.85781097, -87.62203979)"
+Movies in the Parks at Pasteur,Cloudy with a Chance of Meatballs 2,Pasteur Park,60629,(773) 284-0530,7/14/2014 20:30,7/14/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Pasteur1/,http://www.chicagoparkdistrict.com/parks/Pasteur-Park/,West Elsdon,Yes,PG,"5825 S. Kostner Ave Chicago IL 60629
+Chicago, IL 60629
+(41.7871666, -87.7327652)"
+Movies in the Parks at Fulton River,Fast & Furious 6,Park No. 551,60611,(312) 742-7895 ,8/19/2014 20:00,8/19/2014 22:10,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Park-No-5512/,http://www.chicagoparkdistrict.com/parks/Park-No-551/,Near West Side,Yes,PG-13,"353 N. DesPlaines St. Chicago IL 60611
+Chicago, IL 60611
+(41.88835526, -87.64409637)"
+Movies in the Parks at Gross,On the Waterfront,Gross Park,60625,(312) 742-7528,6/14/2014 21:00,6/14/2014 22:48,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Gross1/,http://www.chicagoparkdistrict.com/parks/Gross-Park/,Lincoln Square,Yes,NR,"2708 W. Lawrence Ave. Chicago IL 60625
+Chicago, IL 60625
+(41.96857834, -87.6966095)"
+Movies in the Parks at Murray,Dr. Suess' The Lorax,Murray Playground Park,60636,(312) 747-6562,7/15/2014 20:30,7/15/2014 22:03,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Murray1/,http://www.chicagoparkdistrict.com/parks/Murray-Playground-Park/,West Englewood,Yes,PG,"1743 W. 73rd St. Chicago IL 60636
+Chicago, IL 60636
+(41.76119995, -87.66754913)"
+Movies in the Parks at Indian Boundary,Anna Karenina (1935),Indian Boundary Park,,(773) 764.0338,8/10/2014 20:00,8/10/2014 21:35,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Indian-Boundary/,http://www.chicagoparkdistrict.com/parks/indian-boundary-park/,West Ridge,Yes,NR,"2500 W. Lunt Ave., Chicago IL 60645
+Chicago, IL
+(42.0086174, -87.69226074)"
+Family Movie Night at Sherman,"It's a Mad, Mad, Mad, Mad World",Sherman Park,60609,(312) 747-6672,6/24/2014 20:00,6/24/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Sherman/,http://www.chicagoparkdistrict.com/parks/Sherman-Park/,New City,N/A,N/A,"1301 W. 52nd St. Chicago IL 60609
+Chicago, IL 60609
+(41.79926682, -87.65863037)"
+Movies in the Parks at Bartelme,Star Trek: Into Darkness,"Bartelme, Mary Park",60607,(312) 746-5494 ,7/24/2014 20:00,7/24/2014 22:09,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Bartelme2/,http://www.chicagoparkdistrict.com/parks/Bartelme-Mary-Park/,Near West Side,Yes,PG-13,"115 S Sangamon St Chicago, IL 60607
+Chicago, IL 60607
+(41.88024521, -87.65080261)"
+Family Fun Film at Chase,The Wizard of Oz,Chase Park,60640,(312) 742-7518,6/25/2014 21:00,6/25/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Chase/,http://www.chicagoparkdistrict.com/parks/Chase-Park/,Uptown,N/A,G,"4701 N. Ashland Ave. Chicago IL 60640
+Chicago, IL 60640
+(41.96714783, -87.66930389)"
+Movies in the Parks at Jensen,Hotel Transylvania,Jensen Park,60625,(312) 742-7054,8/15/2014 20:00,8/15/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jensen1/,http://www.chicagoparkdistrict.com/parks/Jensen-Park/,Albany Park,Yes,PG,"4650 N. Lawndale Ave. Chicago IL 60625
+Chicago, IL 60625
+(41.9656105, -87.72061157)"
+Movies in the Parks at Dunbar,Hotel Transylvania,Dunbar Park,60616,(312) 747-5962,7/8/2014 20:30,7/8/2014 22:01,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Dunbar3/,http://www.chicagoparkdistrict.com/parks/Dunbar-Park/,Douglas,Yes,PG,"300 E. 31st St. Chicago IL 60616
+Chicago, IL 60616
+(41.83839417, -87.62062836)"
+Family Movie Night at Wilson (Frank J.),To Kill a Mockingbird,Wilson Frank J. Park,60630,(773) 685-6454,6/27/2014 20:00,6/27/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Wilson-Frank-J/,http://www.chicagoparkdistrict.com/parks/wilson-frank-j-park/,Portage Park,N/A,NR,"4630 N. Milwaukee Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.9646492, -87.75836182)"
+Movies in the Parks at Belmont Harbor,Strangers on a Train,Lincoln Park,60614,(312) 742-7726 ,6/16/2014 21:00,6/16/2014 22:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Belmont-Harbor2/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,PG,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Ogden,Are We There Yet?,Ogden Park,60636,(312) 747-6572,8/13/2014 20:00,8/13/2014 21:36,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ogden1/,http://www.chicagoparkdistrict.com/parks/Ogden-Park/,"Englewood, West Englewood",No,PG,"6500 S. Racine Ave. Chicago IL 60636
+Chicago, IL 60636
+(41.77593613, -87.65439606)"
+Movies in the Parks at Maplewood,The Lego Movie,Maplewood Playlot Park,60647,(312) 742-0041 ,7/10/2014 20:30,7/10/2014 22:11,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Maplewood/,http://www.chicagoparkdistrict.com/parks/Maplewood-Playlot-Park/,West Town,Yes,PG,"1640 N.Maplewood Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.9112854, -87.69094086)"
+Movies in the Parks at Metcalfe,42,Metcalfe Park,60609,(312) 742-6728,7/31/2014 20:30,7/31/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Metcalfe/,http://www.chicagoparkdistrict.com/parks/Metcalfe-Park/,Grand Boulevard,Yes,PG-13,"4134 S State St Chicago, IL 60609
+Chicago, IL 60609
+(41.81840515, -87.62667847)"
+Family Movie Night at Wildwood,Free Birds,Wildwood Park,60646,(773) 631-7455,7/10/2014 20:00,7/10/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Wildwood/,http://www.chicagoparkdistrict.com/parks/Wildwood-Park/,Forest Glen,Yes,PG,"6950 N. Hiawatha Ave. Chicago IL 60646
+Chicago, IL 60646
+(42.00686264, -87.7776947)"
+Movies in the Parks at Harris,Cloudy With a Chance of Meatballs 2,Harris Park,60637,(312) 747-2706 ,8/8/2014 20:00,8/8/2014 21:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Harris1/,http://www.chicagoparkdistrict.com/parks/Harris-Park/,Woodlawn,Yes,PG,"6200 S. Drexel Ave. Chicago IL 60637
+Chicago, IL 60637
+(41.78224182, -87.6043396)"
+Movies in the Parks at Jonquil,Gravity ,Jonquil Playlot Park,60614,(312) 742-7816 ,7/5/2014 20:30,7/5/2014 22:01,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jonquil4/,http://www.chicagoparkdistrict.com/parks/Jonquil-Playlot-Park/,Lincoln Park,Yes,PG-13,"1001 W. Wrightwood Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92899323, -87.65377045)"
+Family Movie Night at Olympia,Lego Movie,Olympia Park,60631,(773) 631-6861,6/20/2014 20:00,6/20/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Olympia/,http://www.chicagoparkdistrict.com/parks/Olympia-Park/,Edison Park,N/A,PG,"6566 N. Avondale Ave. Chicago IL 60631
+Chicago, IL 60631
+(41.99970245, -87.81498718)"
+Movies in the Parks at Brands,Justin Bieber: Never Say Never,Brands Park,60618,(773) 478-2414,7/30/2014 20:30,7/30/2014 22:15,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Brands/,http://www.chicagoparkdistrict.com/parks/Brands-Park/,Avondale,Yes,G,"3259 N Elston Ave Chicago, IL 60618
+Chicago, IL 60618
+(41.94041824, -87.6997757)"
+Movies in the Parks at Mandrake,Beasts of the Southern Wild,Mandrake Park,60653,(312) 656-0423 (Ellis Park in Dolittle School),7/14/2014 20:30,7/14/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Mandrake1/,http://www.chicagoparkdistrict.com/parks/Mandrake-Park/,Oakland,Yes,PG-13,"900 E. Pershing Rd. Chicago IL 60653
+Chicago, IL 60653
+(41.82370758, -87.60727692)"
+Movies in the Parks at Hoyne,Cloudy with a Chance of Meatballs 2,Hoyne Playground Park,60608,(312) 747-6184 ,7/22/2014 20:30,7/22/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hoyne1/,http://www.chicagoparkdistrict.com/parks/Hoyne-Playground-Park/,McKinley Park,Yes,PG,"3417 S. Hamiltion Ave. Chicago IL 60608
+Chicago, IL 60608
+(41.83187485, -87.67896271)"
+Family Movie Night at Oriole,Despicable Me 2,Oriole Park,60656,(773) 631-6197,6/28/2014 19:45,6/28/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Oriole/,http://www.chicagoparkdistrict.com/parks/Oriole-Park/,Norwood Park,N/A,PG,"5430 N. Olcott Ave. Chicago IL 60656
+Chicago, IL 60656
+(41.97828293, -87.81445313)"
+Movies in the Parks at Wicker,The Hunt for Red October,Wicker Park,60622,(312) 742-7553,8/7/2014 20:00,8/7/2014 22:14,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wicker6/,http://www.chicagoparkdistrict.com/parks/Wicker-Park/,West Town,No,PG,"1425 N. Damen Avenue Chicago IL 60622
+Chicago, IL 60622
+(41.90821838, -87.67736053)"
+Movies in the Parks at South Shore,The Great Gatsby (2013),South Shore Cultural Center,60649,(773) 256-0149,8/25/2014 20:00,8/25/2014 22:23,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-South-Shore6/,http://www.chicagoparkdistrict.com/parks/South-Shore-Cultural-Center/,South Shore,Yes,PG-13,"7059 S. South Shore Dr. Chicago IL 60649
+Chicago, IL 60649
+(41.76674652, -87.56651306)"
+Movies in the Parks at DuSable Museum,42,Washington Park,60637,(773) 256-1248,7/19/2014 20:30,7/19/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-DuSable-Museum2/,http://www.chicagoparkdistrict.com/parks/washington-park/,Washington Park,Yes,PG-13,"5531 S. Martin Luther King Dr. Chicago, IL 60637
+Chicago, IL 60637
+(41.79378891, -87.61591339)"
+Movies in the Parks at Cornell Square,Mr. Peabody & Sherman,Cornell Square Park,60609,(312) 747-6097,8/15/2014 20:00,8/15/2014 21:32,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cornell-Square1/,http://www.chicagoparkdistrict.com/parks/Cornell-Square-Park/,New City,Yes,PG,"1809 W 50th St Chicago, IL 60609
+Chicago, IL 60609
+(41.8030777, -87.66988373)"
+Movies in the Parks at Oz,Return to Me,Oz Park,60614,(312) 742-7898,7/12/2014 20:30,7/12/2014 22:16,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Oz4/,http://www.chicagoparkdistrict.com/parks/Oz-Park/,Lincoln Park,No,PG,"2021 N. Burling St. Chicago IL 60614
+Chicago, IL 60614
+(41.92099187, -87.64469862)"
+Movies in the Parks at Revere,The Goonies,Revere Park,60618,(773) 478-1220,6/13/2014 21:00,6/13/2014 22:51,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Revere/,http://www.chicagoparkdistrict.com/parks/Revere-Park/,North Center,Yes,PG,"2509 W. Irving Park Rd. Chicago IL 60618
+Chicago, IL 60618
+(41.9539299, -87.69141388)"
+Movies in the Parks at Ellis,Despicable Me 2,Ellis (Samuel) Park,60653,(312) 656 - 0423 ,7/19/2014 20:30,7/19/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ellis3/,http://www.chicagoparkdistrict.com/parks/ellis-samuel-park/,Douglas,Yes,PG,"535 E. 35th St. Chicago IL 60653
+Chicago, IL 60653
+(41.82777786, -87.60858154)"
+Family Movie Night at Merrimac,Despicable Me 2,Merrimac Park,60634,(773) 685-3382,8/6/2014 20:00,8/6/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Merrimac/,http://www.chicagoparkdistrict.com/parks/Merrimac-Park/,Dunning,N/A,PG,"6343 W. Irving Park Rd. Chicago IL 60634
+Chicago, IL 60634
+(41.95264435, -87.78518677)"
+Family Movie Night at Calumet,Saving Mr. Banks,Calumet Park,60617,(312) 747-6039,7/7/2014 20:00,7/7/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Calumet/,http://www.chicagoparkdistrict.com/parks/Calumet-Park/,East Side,N/A,PG-13,"9801 S Avenue G Chicago, IL 60617
+Chicago, IL 60617
+(41.71755765, -87.53148079)"
+International Film Festiva at Piotrowski,,Piotrowski Park,60623,(312) 747-6608 ,7/9/2014 19:30,7/9/2014 21:30,http://www.chicagoparkdistrict.com/events/Night-OutInternational-Film-Festiva-at-Piotrowski/,http://www.chicagoparkdistrict.com/parks/Piotrowski-Park/,South Lawndale,,,"4247 W. 31st St. Chicago IL 60623
+Chicago, IL 60623
+(41.8367424, -87.730896)"
+Movies in the Parks at Ken-Well,Journey 2: The Mysterious Island,Ken-Well Park,60641,(773) 685-3348,7/18/2014 20:30,7/18/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ken-Well1/,http://www.chicagoparkdistrict.com/parks/Ken-Well-Park/,Hermosa,Yes,PG,"2945 N. Kenosha Ave. Chicago IL 60641
+Chicago, IL 60641
+(41.93434525, -87.73382568)"
+Movies in the Parks at Montgomery Ward,The Blind Side,"Ward, A. Montgomery Park",60606,(312) 742-7895,8/12/2014 20:00,8/12/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward12/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Movies in the Parks at Armour Square,Singin' in the Rain,Armour Square Park,60616,(312) 747-6012,7/17/2014 20:30,7/17/2014 22:13,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Armour-Square2/,http://www.chicagoparkdistrict.com/parks/Armour-Square-Park/,Armour Square,Yes,NR,"3309 S Shields Ave Chicago, IL 60616
+Chicago, IL 60616
+(41.83438492, -87.63520813)"
+Movies in the Parks at Fulton River,Gravity,Park No. 551,60611,(312) 742-7895 ,6/24/2014 21:00,6/24/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Park-No-551/,http://www.chicagoparkdistrict.com/parks/Park-No-551/,Near West Side,Yes,PG-13,"353 N. DesPlaines St. Chicago IL 60611
+Chicago, IL 60611
+(41.88835526, -87.64409637)"
+Movies in the Parks at Lincoln Park,The Hunger Games,Lincoln Park Cultural Center,60614,(312) 742-7726,8/3/2014 20:00,8/3/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lincoln-Park/,http://www.chicagoparkdistrict.com/parks/lincoln-park-cultural-center/,Lincoln Park,Yes,PG-13,"2045 N. Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.91962051, -87.63596344)"
+Movies in the Parks at Holstein,Moonrise Kingdom,Holstein Park,60647,(312) 742-7554 ,7/11/2014 20:30,7/11/2014 22:04,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Holstein3/,http://www.chicagoparkdistrict.com/parks/Holstein-Park/,Logan Square,Yes,PG-13,"2200 N. Oakley Ave. Chicago IL 60647
+Chicago, IL 60647
+(41.9219017, -87.68556213)"
+Family Movie Night at Athletic Field,Brave,Athletic Field Park,60618,(773) 478-2889,8/29/2014 20:30,8/29/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Athletic-Field2/,http://www.chicagoparkdistrict.com/parks/Athletic-Field-Park/,Irving Park,N/A,PG,"3546 W Addison St Chicago, IL 60618
+Chicago, IL 60618
+(41.94668198, -87.71703339)"
+Family Movie Night at Brooks,The Smurfs 2,Brooks Park,60631,(773) 631-4401,7/18/2014 20:00,7/18/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Brooks/,http://www.chicagoparkdistrict.com/parks/Brooks-Park/,Edison Park,N/A,PG,"7100 N Harlem Ave Chicago, IL 60631
+Chicago, IL 60631
+(42.01028061, -87.8066864)"
+Movies in the Parks at Calumet,The Muppet Movie,Calumet Park,60617,(312) 747-6039,8/18/2014 20:00,8/18/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Calumet6/,http://www.chicagoparkdistrict.com/parks/Calumet-Park/,East Side,Yes,G,"9801 S Avenue G Chicago, IL 60617
+Chicago, IL 60617
+(41.71755765, -87.53148079)"
+Movies in the Parks at Grant,Indiana Jones and the Temple of Doom,Grant Park,60602,(312) 742-3918,8/25/2014 20:00,8/25/2014 21:58,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Grant1/,http://www.chicagoparkdistrict.com/parks/grant-park/,Loop,No,PG,"337 E. Randolph St. Chicago, IL 60602
+Chicago, IL 60602
+(41.88437653, -87.61938477)"
+Movies in the Parks at Augusta,Man of Steel,Augusta Park,60651,(312) 742-7544,8/7/2014 20:00,8/7/2014 22:28,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Augusta1/,http://www.chicagoparkdistrict.com/parks/Augusta-Park/,Humboldt Park,Yes,PG-13,"4433 W Augusta Blvd Chicago, IL 60651
+Chicago, IL 60651
+(41.89883423, -87.73683929)"
+Movies in the Parks at Sumner,Ride Along,Sumner Park,60624,(312) 746-5394 ,7/23/2014 20:30,7/23/2014 22:10,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Sumner/,http://www.chicagoparkdistrict.com/parks/sumner-park/,North Lawndale,Yes,PG-13,"4320 W 5th Ave Chicago, IL 60624
+Chicago, IL 60624
+(41.87060928, -87.73418427)"
+Movies in the Parks at West Lawn,Turbo,West Lawn Park,60629,(773) 284-2803,8/11/2014 20:00,8/11/2014 21:36,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-West-Lawn1/,http://www.chicagoparkdistrict.com/parks/West-Lawn-Park/,West Lawn,Yes,PG,"4233 W. 65th St. Chicago IL 60629
+Chicago, IL 60629
+(41.77493286, -87.72831726)"
+Movies in the Parks at Paschen,Despicable Me 2,Paschen Park,60626,(773) 262-5871,7/26/2014 20:30,7/26/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Paschen2/,http://www.chicagoparkdistrict.com/parks/Paschen-Park/,Rogers Park,Yes,PG,"1932 W. Lunt Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.00889969, -87.67923737)"
+Movies in the Parks at Chicago History,Ghostbusters,Lincoln Park,60614,(312) 742-7726 ,6/18/2014 21:00,6/18/2014 22:47,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chicago-History/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,Yes,PG,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Pottawattomie,The Smurfs 2,Pottawattomie Park,60626,(773) 262-5835,8/29/2014 20:00,8/29/2014 21:45,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Pottawattomie/,http://www.chicagoparkdistrict.com/parks/Pottawattomie-Park/,Rogers Park,Yes,PG,"7340 N. Rogers Ave. Chicago IL 60626
+Chicago, IL 60626
+(42.01446533, -87.6785965)"
+Movies in the Parks at Jonquil,The Hunger Games: Catching Fire,Jonquil Playlot Park,60614,(312) 742-7816 ,8/30/2014 20:00,8/30/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Jonquil7/,http://www.chicagoparkdistrict.com/parks/Jonquil-Playlot-Park/,Lincoln Park,Yes,PG-13,"1001 W. Wrightwood Ave. Chicago IL 60614
+Chicago, IL 60614
+(41.92899323, -87.65377045)"
+Family Movie Night at Jefferson,Frozen,Jefferson Memorial Park,60630,(773) 685-3316,7/11/2014 20:30,7/11/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Jefferson1/,http://www.chicagoparkdistrict.com/parks/Jefferson-Memorial-Park/,Jefferson Park,N/A,PG,"4822 N. Long Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.96814728, -87.76294708)"
+Movies in the Parks at Lake Shore,The Monuments Men,Lake Shore Park,60611,(312) 742-7891,7/13/2014 20:30,7/13/2014 22:22,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Lake-Shore2/,http://www.chicagoparkdistrict.com/parks/Lake-Shore-Park/,Near North Side,Yes,PG-13,"808 N Lake Shore Dr Chicago, IL 60611
+Chicago, IL 60611
+(41.89749146, -87.61992645)"
+Movies in the Parks at Indian Road,Space Jam,Indian Road Park,60646,(773) 631-3761 ,8/4/2014 20:00,8/4/2014 21:27,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Indian-Road/,http://www.chicagoparkdistrict.com/parks/Indian-Road-Park/,Norwood Park,Yes,PG,"6010 W. Matson Ave. Chicago IL 60646
+Chicago, IL 60646
+(41.99246216, -87.77907562)"
+Family Movie Night at Gladstone,Wizard of Oz,Gladstone Park,60630,(773) 631-7859 ,7/30/2014 20:00,7/30/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Gladstone/,http://www.chicagoparkdistrict.com/parks/Gladstone-Park/,Jefferson Park,N/A,G,"5421 N. Menard Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.97917175, -87.77305603)"
+Family Movie Night at Wolfe,The Lego Movie,Wolfe Playground Park,60617,(312) 747-7005,6/16/2014 20:00,6/16/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Wolfe/,http://www.chicagoparkdistrict.com/parks/Wolfe-Playground-Park/,East Side,No,PG,"3325 E. 108th St. Chicago IL 60617
+Chicago, IL 60617
+(41.69897461, -87.54348755)"
+Movies in the Parks at Montgomery Ward,Captain Phillips,"Ward, A. Montgomery Park",60606,(312) 742-7895,7/1/2014 20:30,7/1/2014 22:43,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Montgomery-Ward8/,http://www.chicagoparkdistrict.com/parks/Ward-A-Montgomery-Park/,Near North Side,Yes,PG-13,"630 N. Kingsbury St. Chicago IL 60606
+Chicago, IL 60606
+(41.89364243, -87.64193726)"
+Movies in the Parks at Meyering,Ride Along,Meyering Playground Park,60619,(312) 747-6545,8/22/2014 20:00,8/22/2014 21:40,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Meyering1/,http://www.chicagoparkdistrict.com/parks/Meyering-Playground-Park/,Greater Grand Crossing,Yes,PG-13,"7140 S. Martin Luther King Dr. Chicago IL 60619
+Chicago, IL 60619
+(41.76466751, -87.61575317)"
+Family Fun Film at Gompers,The Muppet Movie,Gompers Park,60630,(773) 685-3270,7/16/2014 20:30,7/16/2014 22:30,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Fun-Film-at-Gompers/,http://www.chicagoparkdistrict.com/parks/gompers-park/,North Park,N/A,G,"4222 W. Foster Ave. Chicago IL 60630
+Chicago, IL 60630
+(41.97549438, -87.73486328)"
+Movies in the Parks at Ping Tom,The Lego Movie,Ping Tom Memorial Park,60616,(312) 225-3121,8/29/2014 20:00,8/29/2014 21:41,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Ping-Tom/,http://www.chicagoparkdistrict.com/parks/Ping-Tom-Memorial-Park/,Near South Side,Yes,PG,"1700 S. Wentworth Avenue, Chicago IL 60616
+Chicago, IL 60616
+(41.8588278, -87.6319357)"
+Movies in the Parks at Emmerson,Despicable Me 2,Emmerson Park,60660,(773) 761-0433,7/13/2014 20:30,7/13/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Emmerson/,http://www.chicagoparkdistrict.com/parks/Emmerson-Park/,West Ridge,Yes,PG,"1820 W. Granville Ave. Chicago IL 60660
+Chicago, IL 60660
+(41.99436951, -87.67577362)"
+Movies in the Parks at Union,The Goonies,Union Park,60607,(312) 746-5494,7/30/2014 20:30,7/30/2014 22:21,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Union/,http://www.chicagoparkdistrict.com/parks/Union-Park/,Near West Side,Yes,PG,"1501 W. Randolph St. Chicago IL 60607
+Chicago, IL 60607
+(41.88421249, -87.66551971)"
+Movies in the Parks at Vittum,Epic,Vittum Park,60638,(773) 284-6022,8/1/2014 20:00,8/1/2014 21:42,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Vittum/,http://www.chicagoparkdistrict.com/parks/Vittum-Park/,Garfield Ridge,No,PG,"5010 W 50th St Chicago, IL 60638
+Chicago, IL 60638
+(41.80209351, -87.74839783)"
+@home Documentary at Palmer,@home,Palmer Park,60628,(312) 747-6577,6/6/2014 19:00,6/6/2014 20:30,http://www.chicagoparkdistrict.com/events/Night-Out-home-Documentary-at-Palmer/,http://www.chicagoparkdistrict.com/parks/Palmer-Park/,Roseland,No,NR,"201 E 111th St Chicago, IL 60628
+Chicago, IL 60628
+(41.69263077, -87.61819458)"
+Movies in the Parks at Hamlin,Despicable Me 2,Hamlin Park,60618,(312) 742-7785 ,8/14/2014 20:00,8/14/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hamlin1/,http://www.chicagoparkdistrict.com/parks/Hamlin-Park/,North Center,Yes,PG,"3035 N. Hoyne Ave. Chicago IL 60618
+Chicago, IL 60618
+(41.93654251, -87.68065643)"
+Movies in the Parks at Hoard,The Amazing Spider-Man,Hoard Playground Park,60619,(312) 256-1903,7/26/2014 20:30,7/26/2014 22:46,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Hoard/,http://www.chicagoparkdistrict.com/parks/Hoard-Playground-Park/,Greater Grand Crossing,Yes,PG-13,"7201 S. Dobson Ave. Chicago IL 60619
+Chicago, IL 60619
+(41.76409531, -87.59940338)"
+Movies in the Parks at Chase,Ghostbusters,Chase Park,60640,(312) 742-7518,6/20/2014 21:00,6/20/2014 22:47,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chase1/,http://www.chicagoparkdistrict.com/parks/Chase-Park/,Uptown,Yes,PG,"4701 N. Ashland Ave. Chicago IL 60640
+Chicago, IL 60640
+(41.96714783, -87.66930389)"
+Movies in the Parks at Murray,Lee Daniels' The Butler,Murray Playground Park,60636,(312) 747-6562,6/20/2014 21:00,6/20/2014 23:12,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Murray/,http://www.chicagoparkdistrict.com/parks/Murray-Playground-Park/,West Englewood,Yes,PG-13,"1743 W. 73rd St. Chicago IL 60636
+Chicago, IL 60636
+(41.76119995, -87.66754913)"
+Movies in the Parks at Douglas,Willy Wonka & the Chocolate Factory,Douglas Park,60623,(773) 762-2842,7/13/2014 20:30,7/13/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Douglas1/,http://www.chicagoparkdistrict.com/parks/douglas-park/,North Lawndale,Yes,G,"1401 S. Sacramento Dr. Chicago IL 60623
+Chicago, IL 60623
+(41.86323547, -87.70204926)"
+Family Movie Night at Russell Square,The Nut Job,Russell Square Park,60617,(312) 747-6651,7/28/2014 20:00,7/28/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-Out-Family-Movie-Night-at-Russell-Square/,http://www.chicagoparkdistrict.com/parks/Russell-Square-Park/,South Chicago,No,PG,"3045 E. 83rd St. Chicago IL 60617
+Chicago, IL 60617
+(41.74466705, -87.54989624)"
+Family Movie Night at Roberts Square,The Nut Job,Roberts Square Playlot Park,60630,(773) 685-3316,8/15/2014 20:00,8/15/2014 22:00,http://www.chicagoparkdistrict.com/events/Night-OutFamily-Movie-Night-at-Roberts-Square/,http://www.chicagoparkdistrict.com/parks/Roberts-Square-Playlot-Park/,Jefferson Park,N/A,PG,"5200 W. Argyle St. Chicago IL 60630
+Chicago, IL 60630
+(41.97188187, -87.75899506)"
+Movies in the Parks at La Follette,Cloudy With a Chance of Meatballs 2,La Follette Park,60651,(773) 287-0541,8/30/2014 20:00,8/30/2014 21:34,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-La-Follette/,http://www.chicagoparkdistrict.com/parks/La-Follette-Park/,Austin,Yes,PG,"1333 N. Laramie Ave. Chicago IL 60651
+Chicago, IL 60651
+(41.9053154, -87.75526428)"
+Movies in the Parks at Oriole,Despicable Me 2,Oriole Park,60656,(773) 631-6197,6/28/2014 21:00,6/28/2014 22:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Oriole/,http://www.chicagoparkdistrict.com/parks/Oriole-Park/,Norwood Park,Yes,PG,"5430 N. Olcott Ave. Chicago IL 60656
+Chicago, IL 60656
+(41.97828293, -87.81445313)"
+Movies in the Parks at Berger,The Thin Man,Berger Park Cultural Center,60660,(773) 761-0376,8/17/2014 20:00,8/17/2014 21:33,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Berger1/,http://www.chicagoparkdistrict.com/parks/Berger-Park-Cultural-Center/,Edgewater,No,NR,"6205 N Sheridan Rd Chicago, IL 60660
+Chicago, IL 60660
+(41.99475861, -87.65554047)"
+Movies in the Parks at Avondale,Rudy,Avondale Park,60618,(773) 478-1410,7/12/2014 20:30,7/12/2014 22:26,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Avondale/,http://www.chicagoparkdistrict.com/parks/Avondale-Park/,Avondale,Yes,PG,"3516 W School St Chicago, IL 60618
+Chicago, IL 60618
+(41.94095993, -87.71347809)"
+Movies in the Parks at Margate,Star Trek: Into Darkness,Margate Park Fieldhouse,60640,(312) 742-7522 ,7/31/2014 20:30,7/31/2014 22:39,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Margate/,http://www.chicagoparkdistrict.com/parks/Margate-Park-Fieldhouse/,Uptown,Yes,PG-13,"4921 N. Marine Drive Chicago IL 60640
+Chicago, IL 60640
+(41.97209549, -87.64978027)"
+Movies in the Parks at Cricket Hill,,Lincoln Park,60614,(312) 742-7726 ,7/7/2014 20:30,7/7/2014 21:48,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Cricket-Hill5/,http://www.chicagoparkdistrict.com/parks/lincoln-park/,Lincoln Park,,,"2045 N Lincoln Park West Chicago IL 60614
+Chicago, IL 60614
+(41.928495, -87.636008)"
+Movies in the Parks at Fuller,Despicable Me 2,Fuller Park,60609,(312) 747-6144,7/24/2014 20:30,7/24/2014 22:08,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Fuller1/,http://www.chicagoparkdistrict.com/parks/Fuller-Park/,Fuller Park,Yes,PG,"331 W. 45th St Chicago IL 60609
+Chicago, IL 60609
+(41.81225204, -87.63460541)"
+Movies in the Parks at Wilson (John P.),Roman Holiday,Wilson (John P.) Park,60608,(312) 747-7002,8/14/2014 20:00,8/14/2014 21:59,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Wilson-John-P1/,http://www.chicagoparkdistrict.com/parks/Wilson-John-P-Park/,Bridgeport,No,NR,"1122 W 34th Pl Chicago, IL 60608
+Chicago, IL 60608
+(41.83158493, -87.65431976)"
+Movies in the Parks at Sheridan,The Little Rascals,Sheridan Park,60607,(312) 746-5369,7/21/2014 20:30,7/21/2014 21:53,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Sheridan/,http://www.chicagoparkdistrict.com/parks/Sheridan-Park/,Near West Side,Yes,PG,"910 S. Aberdeen St. Chicago IL 60607
+Chicago, IL 60607
+(41.87052536, -87.65449524)"
+Movies in the Parks at Gross,Man of Steel,Gross Park,60625,(312) 742-7528,7/5/2014 20:30,7/5/2014 22:58,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Gross2/,http://www.chicagoparkdistrict.com/parks/Gross-Park/,Lincoln Square,Yes,PG-13,"2708 W. Lawrence Ave. Chicago IL 60625
+Chicago, IL 60625
+(41.96857834, -87.6966095)"
+Movies in the Parks at Chippewa,Despicable Me 2,Chippewa Park,60645,(773) 761-0380 ,8/12/2014 20:00,8/12/2014 21:38,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Chippewa1/,http://www.chicagoparkdistrict.com/parks/Chippewa-Park/,West Ridge,Yes,PG,"6748 N Sacramento Ave Chicago, IL 60645
+Chicago, IL 60645
+(42.00387573, -87.7046051)"
+Movies in the Parks at Pulaski,Gravity,Pulaski Park,60642,(312) 742-7559,6/14/2014 21:00,6/14/2014 22:31,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Pulaski1/,http://www.chicagoparkdistrict.com/parks/Pulaski-Park/,West Town,Yes,PG-13,"1419 W. Blackhawk St. Chicago IL 60642
+Chicago, IL 60642
+(41.90703583, -87.66342163)"
+Movies in the Parks at Rosedale,Man of Steel,Rosedale Park,60646,(773) 631-7156,8/7/2014 20:00,8/7/2014 22:28,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-Rosedale/,http://www.chicagoparkdistrict.com/parks/Rosedale-Park/,Norwood Park,Yes,PG-13,"6312 W. Rosedale Ave. Chicago IL 60646
+Chicago, IL 60646
+(41.9884491, -87.7857132)"
+Movies in the Parks at South Shore,Car Wash,South Shore Cultural Center,60649,(773) 256-0149,8/20/2014 20:00,8/20/2014 21:37,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-South-Shore5/,http://www.chicagoparkdistrict.com/parks/South-Shore-Cultural-Center/,South Shore,Yes,PG,"7059 S. South Shore Dr. Chicago IL 60649
+Chicago, IL 60649
+(41.76674652, -87.56651306)"
+Movies in the Parks at DuSable Museum,Fat Albert ,Washington Park,60637,(773) 256-1248,6/21/2014 21:00,6/21/2014 22:33,http://www.chicagoparkdistrict.com/events/Night-Out-Movies-in-the-Parks-at-DuSable-Museum1/,http://www.chicagoparkdistrict.com/parks/washington-park/,Washington Park,Yes,PG,"5531 S. Martin Luther King Dr. Chicago, IL 60637
+Chicago, IL 60637
+(41.79378891, -87.61591339)"

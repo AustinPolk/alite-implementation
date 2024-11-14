@@ -1,0 +1,136 @@
+OID,Hotspot Dataset Object ID,Public Space (Open Space) Name,Public Space (Open Space) Proximity,Borough Name,Number of Access Points per Public Space (Open Space),Provider,SSID
+548,840,Marine Park,Near,Brooklyn,3,ALTICEUSA,GuestWiFi
+471,9446,Governors Island,Near,Manhattan,30,Fiberless,Governors Island
+410,1389,Coney Island Beach & Boardwalk,Near,Brooklyn,19,ALTICEUSA,GuestWiFi
+443,1599,Ferry Point Park,Near,Bronx,2,ALTICEUSA,GuestWiFi
+196,736,Manhattan Beach Park,Inside,Brooklyn,6,ALTICEUSA,GuestWiFi
+373,981,Baisley Pond Park,Near,Queens,3,SPECTRUM,GuestWiFi
+590,1262,Rockaway Beach and Boardwalk,Near,Queens,2,SPECTRUM,GuestWiFi
+164,178,Juniper Valley Park,Inside,Queens,3,SPECTRUM,GuestWiFi
+366,972,Baisley Pond Park,Near,Queens,3,SPECTRUM,GuestWiFi
+616,1305,Tappen Park,Near,Staten Island,3,SPECTRUM,GuestWiFi
+287,1275,Roy Wilkins Recreation Center,Inside,Queens,16,SPECTRUM,GuestWiFi
+131,1612,Gravesend Park,Inside,Brooklyn,3,ALTICEUSA,GuestWiFi
+588,1256,Rockaway Beach and Boardwalk,Near,Queens,2,SPECTRUM,GuestWiFi
+292,1279,Roy Wilkins Recreation Center,Inside,Queens,16,SPECTRUM,GuestWiFi
+37,826,Blood Root Valley,Inside,Staten Island,5,SPECTRUM,GuestWiFi
+524,929,Kissena Park,Near,Queens,13,SPECTRUM,GuestWiFi
+282,1282,Roy Wilkins Recreation Center,Inside,Queens,16,SPECTRUM,GuestWiFi
+540,737,Manhattan Beach Park,Near,Brooklyn,6,ALTICEUSA,GuestWiFi
+529,1334,Lawrence Virgilio Playground /Windmuller Park,Near,Queens,4,SPECTRUM,GuestWiFi
+595,36,Seton Falls Park,Near,Bronx,4,ALTICEUSA,GuestWiFi
+238,16,Poe Park,Inside,Bronx,4,ALTICEUSA,GuestWiFi
+113,1190,Franklin D. Roosevelt Boardwalk and Beach,Inside,Staten Island,16,SPECTRUM,GuestWiFi
+264,565,Rockaway Beach and Boardwalk,Inside,Queens,2,SPECTRUM,GuestWiFi
+510,1222,Juniper Valley Park,Near,Queens,3,SPECTRUM,GuestWiFi
+148,131,J. Hood Wright Park,Inside,Manhattan,6,SPECTRUM,GuestWiFi
+145,139,J. Hood Wright Park,Inside,Manhattan,6,SPECTRUM,GuestWiFi
+236,14,Poe Park,Inside,Bronx,4,ALTICEUSA,GuestWiFi
+7,1750,Alfred E. Smith Playground,Inside,Manhattan,8,SPECTRUM,GuestWiFi
+517,1650,Kissena Park,Near,Queens,13,SPECTRUM,GuestWiFi
+110,1193,Forest Park,Inside,Queens,3,SPECTRUM,GuestWiFi
+214,896,McCarren Park,Inside,Brooklyn,6,SPECTRUM,GuestWiFi
+569,1343,"Phil ""Scooter"" Rizzuto Park",Near,Queens,5,SPECTRUM,GuestWiFi
+330,1314,Thomas Jefferson Park,Inside,Manhattan,9,SPECTRUM,GuestWiFi
+233,11,Pelham Bay Park,Inside,Bronx,4,ALTICEUSA,GuestWiFi
+186,938,Madison Square Park,Inside,Manhattan,6,SPECTRUM,GuestWiFi
+552,900,McKinley Park,Near,Brooklyn,1,SPECTRUM,GuestWiFi
+636,5,Wingate Park,Near,Brooklyn,2,ALTICEUSA,GuestWiFi
+169,1642,Kissena Corridor Park,Inside,Queens,3,SPECTRUM,GuestWiFi
+199,1237,Marcus Garvey Park,Inside,Manhattan,9,SPECTRUM,GuestWiFi
+305,40,St. James Park,Inside,Bronx,3,ALTICEUSA,GuestWiFi
+621,2105,Washington Square Park,Near,Manhattan,8,SPECTRUM,GuestWiFi
+149,133,J. Hood Wright Park,Inside,Manhattan,6,SPECTRUM,GuestWiFi
+472,9447,Governors Island,Near,Manhattan,30,Fiberless,Governors Island
+212,838,Marine Park,Inside,Brooklyn,3,ALTICEUSA,GuestWiFi
+156,175,Jackie Robinson Park,Inside,Manhattan,7,SPECTRUM,GuestWiFi
+146,129,J. Hood Wright Park,Inside,Manhattan,6,SPECTRUM,GuestWiFi
+98,1421,Crotona Park,Inside,Bronx,16,ALTICEUSA,GuestWiFi
+493,2124,Haffen Park,Near,Bronx,5,ALTICEUSA,GuestWiFi
+134,54,Hamilton Fish Park,Inside,Manhattan,4,SPECTRUM,GuestWiFi
+254,558,Red Hook Recreation Area,Inside,Brooklyn,5,SPECTRUM,GuestWiFi
+257,561,Red Hook Recreation Area,Inside,Brooklyn,5,SPECTRUM,GuestWiFi
+203,1241,Marcus Garvey Park,Inside,Manhattan,9,SPECTRUM,GuestWiFi
+400,1371,Claremont Park,Near,Bronx,5,ALTICEUSA,GuestWiFi
+403,1379,Coney Island Beach & Boardwalk,Near,Brooklyn,19,ALTICEUSA,GuestWiFi
+539,734,Manhattan Beach Park,Near,Brooklyn,6,ALTICEUSA,GuestWiFi
+473,9448,Governors Island,Near,Manhattan,30,Fiberless,Governors Island
+39,828,Blood Root Valley,Inside,Staten Island,5,SPECTRUM,GuestWiFi
+66,1778,Chelsea Recreation Center,Inside,Manhattan,5,SPECTRUM,GuestWiFi
+429,1594,Crotona Park,Near,Bronx,16,ALTICEUSA,GuestWiFi
+454,823,Gertrude Ederle Recreation Center,Near,Manhattan,6,SPECTRUM,GuestWiFi
+248,28,Prospect Park,Inside,Brooklyn,14,ALTICEUSA,GuestWiFi
+182,731,Macombs Dam Park,Inside,Bronx,6,ALTICEUSA,GuestWiFi
+155,144,Jackie Robinson Park,Inside,Manhattan,7,SPECTRUM,GuestWiFi
+209,749,Maria Hernandez Park,Inside,Brooklyn,4,ALTICEUSA,GuestWiFi
+221,903,Metropolitan Recreation Center,Inside,Brooklyn,2,SPECTRUM,GuestWiFi
+354,1337,Wolfes Pond Park,Inside,Staten Island,5,SPECTRUM,GuestWiFi
+355,1338,Wolfes Pond Park,Inside,Staten Island,5,SPECTRUM,GuestWiFi
+342,2531,Union Square Park,Inside,Manhattan,1,Partner,unionsquarewifi
+323,957,St. Mary's Park,Inside,Bronx,7,ALTICEUSA,GuestWiFi
+255,559,Red Hook Recreation Area,Inside,Brooklyn,5,SPECTRUM,GuestWiFi
+122,1188,Franklin D. Roosevelt Boardwalk and Beach,Inside,Staten Island,16,SPECTRUM,GuestWiFi
+139,931,Herbert Von King Park,Inside,Brooklyn,2,AT&T,attwifi
+357,725,Yankee Stadium Garages/Lots,Inside,Bronx,4,ALTICEUSA,GuestWiFi
+215,1234,McCarren Park,Inside,Brooklyn,6,SPECTRUM,GuestWiFi
+446,1602,Ferry Point Park,Near,Bronx,2,ALTICEUSA,GuestWiFi
+596,37,Seton Falls Park,Near,Bronx,4,ALTICEUSA,GuestWiFi
+391,1633,Bryant Park,Near,Manhattan,2,SPECTRUM,GuestWiFi
+351,1,Wingate Park,Inside,Brooklyn,2,ALTICEUSA,GuestWiFi
+93,1414,Crotona Park,Inside,Bronx,16,ALTICEUSA,GuestWiFi
+310,47,St. John's Recreation Center,Inside,Brooklyn,10,ALTICEUSA,GuestWiFi
+265,568,Rockaway Beach Boardwalk,Inside,Queens,13,SPECTRUM,GuestWiFi
+522,927,Kissena Park,Near,Queens,13,SPECTRUM,GuestWiFi
+217,941,McCarren Park,Inside,Brooklyn,6,AT&T,attwifi
+46,1764,Brooklyn Heights Promenade,Inside,Brooklyn,6,SPECTRUM,GuestWiFi
+219,901,McKinley Park,Inside,Brooklyn,1,SPECTRUM,GuestWiFi
+388,1369,Brownsville Recreation Center,Near,Brooklyn,5,ALTICEUSA,GuestWiFi
+491,1617,Haffen Park,Near,Bronx,5,ALTICEUSA,GuestWiFi
+532,1227,London Planetree Playground,Near,Queens,4,SPECTRUM,GuestWiFi
+414,1393,Coney Island Beach & Boardwalk,Near,Brooklyn,19,ALTICEUSA,GuestWiFi
+428,1593,Crotona Park,Near,Bronx,16,ALTICEUSA,GuestWiFi
+42,1360,Bronx River Parkway,Inside,Bronx,1,ALTICEUSA,GuestWiFi
+297,1299,Snug Harbor Cultural Center,Inside,Staten Island,9,SPECTRUM,GuestWiFi
+399,1780,City Hall Park,Near,Manhattan,1,SPECTRUM,GuestWiFi
+61,944,Central Park,Inside,Manhattan,4,AT&T,attwifi
+210,2520,Marine Park,Inside,Brooklyn,3,ALTICEUSA,GuestWiFi
+87,1409,Crotona Park,Inside,Bronx,16,ALTICEUSA,GuestWiFi
+52,1366,Brownsville Playground,Inside,Brooklyn,5,ALTICEUSA,GuestWiFi
+193,746,Manhattan Beach Park,Inside,Brooklyn,6,ALTICEUSA,GuestWiFi
+375,984,Baisley Pond Park,Near,Queens,3,SPECTRUM,GuestWiFi
+106,1604,Ferry Point Park,Inside,Bronx,2,ALTICEUSA,GuestWiFi
+551,899,McKinley Park,Near,Brooklyn,1,SPECTRUM,GuestWiFi
+600,1287,Snug Harbor Cultural Center,Near,Staten Island,9,SPECTRUM,GuestWiFi
+162,1624,Joyce Kilmer Park,Inside,Bronx,6,ALTICEUSA,GuestWiFi
+512,1224,Juniper Valley Park,Near,Queens,3,SPECTRUM,GuestWiFi
+308,46,St. John's Recreation Center,Inside,Brooklyn,10,ALTICEUSA,GuestWiFi
+316,43,St. John's Recreation Center,Inside,Brooklyn,10,ALTICEUSA,GuestWiFi
+15,2119,Alley Athletic Playground,Inside,Queens,6,SPECTRUM,GuestWiFi
+309,2521,St. John's Recreation Center,Inside,Brooklyn,10,ALTICEUSA,GuestWiFi
+582,555,Red Hook Park,Near,Brooklyn,6,SPECTRUM,GuestWiFi
+32,1356,Bensonhurst Park,Inside,Brooklyn,6,ALTICEUSA,GuestWiFi
+279,1269,Roy Wilkins Recreation Center,Inside,Queens,16,SPECTRUM,GuestWiFi
+84,1591,Crotona Park,Inside,Bronx,16,ALTICEUSA,GuestWiFi
+445,1601,Ferry Point Park,Near,Bronx,2,ALTICEUSA,GuestWiFi
+8,1751,Alfred E. Smith Playground,Inside,Manhattan,8,SPECTRUM,GuestWiFi
+508,176,Juniper Valley Park,Near,Queens,3,SPECTRUM,GuestWiFi
+60,943,Central Park,Inside,Manhattan,4,AT&T,attwifi
+235,13,Pelham Bay Park,Inside,Bronx,4,ALTICEUSA,GuestWiFi
+411,1390,Coney Island Beach & Boardwalk,Near,Brooklyn,19,ALTICEUSA,GuestWiFi
+379,1628,Bowne Park,Near,Queens,5,SPECTRUM,GuestWiFi
+485,9438,Governors Island,Near,Manhattan,30,Fiberless,Governors Island
+439,817,Elmhurst Park,Near,Queens,3,SPECTRUM,GuestWiFi
+315,51,St. John's Recreation Center,Inside,Brooklyn,10,ALTICEUSA,GuestWiFi
+50,1364,Brownsville Playground,Inside,Brooklyn,5,ALTICEUSA,GuestWiFi
+123,909,Franklin D. Roosevelt Boardwalk and Beach,Inside,Staten Island,16,SPECTRUM,GuestWiFi
+82,807,Coffey Park,Inside,Brooklyn,4,SPECTRUM,GuestWiFi
+567,1341,"Phil ""Scooter"" Rizzuto Park",Near,Queens,5,SPECTRUM,GuestWiFi
+416,1395,Coney Island Beach & Boardwalk,Near,Brooklyn,19,ALTICEUSA,GuestWiFi
+424,1419,Crotona Park,Near,Bronx,16,ALTICEUSA,GuestWiFi
+626,1324,Washington Square Park,Near,Manhattan,8,SPECTRUM,GuestWiFi
+338,1319,Tony Dapolito Recreation Center,Inside,Manhattan,5,SPECTRUM,GuestWiFi
+319,954,St. Mary's Park,Inside,Bronx,7,ALTICEUSA,GuestWiFi
+336,147,Tompkins Square Park,Inside,Manhattan,1,AT&T,attwifi
+377,986,Baisley Pond Park,Near,Queens,3,SPECTRUM,GuestWiFi
+455,824,Gertrude Ederle Recreation Center,Near,Manhattan,6,SPECTRUM,GuestWiFi
+67,1779,City Hall Park,Inside,Manhattan,1,SPECTRUM,GuestWiFi
