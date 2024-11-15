@@ -22,12 +22,20 @@ class RelationalTable:
             self.IntegrationIDToColumnIndex[integrationID] = column_index
         return offset + len(self.DataFrame.columns)
         
+    class LabeledNull:
+        def __init__(self, idx):
+            self.idx = idx
+        def __hash__(self):
+            return self.idx
+        def __eq__(self, other):
+            return self.idx == other.idx
+
     # Generate labeled nulls to distinguish missing values in the data
     def GenerateLabeledNulls(self):
         def label_missing(value):
             if pd.isna(value):
                 self.labeled_null_counter += 1
-                return f"LN{self.labeled_null_counter}"
+                return self.LabeledNull(self.labeled_null_counter)
             return value
 
         self.DataFrame = self.DataFrame.map(label_missing)
@@ -35,8 +43,8 @@ class RelationalTable:
     # Replace labeled nulls back to NaN or missing values
     def ReplaceLabeledNulls(self):
         def remove_label(value):
-            if isinstance(value, str) and value.startswith("LN"):
-                return np.nan  # Convert labeled nulls back to NaN
+            if isinstance(value, self.LabeledNull):
+                return None  # Convert labeled nulls to None
             return value
 
         self.DataFrame = self.DataFrame.map(remove_label)
