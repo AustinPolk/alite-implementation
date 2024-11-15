@@ -19,6 +19,7 @@ class Benchmarker:
             print(f"{method} is not a valid method or is not implemented.")
             return
 
+        print("Test 1")
         # Measure initial tuple count
         input_tuples = database.TupleCount()
 
@@ -26,6 +27,8 @@ class Benchmarker:
         start_time = time.time()
         full_disjunction = method_func()
         end_time = time.time()
+        
+        print("Test 2")
 
         # Store the duration
         duration = end_time - start_time

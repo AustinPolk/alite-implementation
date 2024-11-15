@@ -46,13 +46,21 @@ class RelationalDatabase:
         # Step 2: Create a new table for the full disjunction
         fullDisjunction = RelationalTable()
 
+        print("Outer Union Start")
+        
         # Step 3: Generate labeled nulls for each table and perform outer union
         for table in self.Tables:
             table.GenerateLabeledNulls()
             fullDisjunction.OuterUnionWith(table)
+            
+        print("Outer Union Done")
 
+
+        print("Complement Start")
         # Step 4: Complement phase
         fullDisjunction.Complement()
+        
+        print("Complement Done")
 
         # Step 5: Replace labeled nulls with actual values (if any replacement logic applies)
         fullDisjunction.ReplaceLabeledNulls()

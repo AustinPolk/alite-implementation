@@ -44,34 +44,51 @@ class RelationalTable:
     # Perform an outer union with another table
     def OuterUnionWith(self, other_table):
         # Get all unique integration IDs
-        all_integration_ids = set(self.IntegrationIDToColumnIndex.keys()).union(other_table.IntegrationIDToColumnIndex.keys())
+        all_integration_ids = sorted(set(self.IntegrationIDToColumnIndex.keys()).union(other_table.IntegrationIDToColumnIndex.keys()))
 
-        # Create a mapping from column names to integration IDs for both tables
-        self_col_to_id = {self.DataFrame.columns[idx]: integration_id for integration_id, idx in self.IntegrationIDToColumnIndex.items()}
-        other_col_to_id = {other_table.DataFrame.columns[idx]: integration_id for integration_id, idx in other_table.IntegrationIDToColumnIndex.items()}
+        # Map integration IDs to column names for both tables
+        self_id_to_colname = {integration_id: self.DataFrame.columns[col_index] for integration_id, col_index in self.IntegrationIDToColumnIndex.items()}
+        other_id_to_colname = {integration_id: other_table.DataFrame.columns[col_index] for integration_id, col_index in other_table.IntegrationIDToColumnIndex.items()}
 
-        # Rename columns to integration IDs
-        self.DataFrame.rename(columns=self_col_to_id, inplace=True)
-        other_table.DataFrame.rename(columns=other_col_to_id, inplace=True)
+        # Build aligned DataFrames based on integration IDs
+        self_rows = []
+        for idx, row in self.DataFrame.iterrows():
+            new_row = {}
+            for integration_id in all_integration_ids:
+                if integration_id in self.IntegrationIDToColumnIndex:
+                    col_name = self_id_to_colname[integration_id]
+                    new_row[integration_id] = row[col_name]
+                else:
+                    new_row[integration_id] = ''
+            self_rows.append(new_row)
+
+        other_rows = []
+        for idx, row in other_table.DataFrame.iterrows():
+            new_row = {}
+            for integration_id in all_integration_ids:
+                if integration_id in other_table.IntegrationIDToColumnIndex:
+                    col_name = other_id_to_colname[integration_id]
+                    new_row[integration_id] = row[col_name]
+                else:
+                    new_row[integration_id] = ''
+            other_rows.append(new_row)
+
+        # Create DataFrames
+        aligned_self = pd.DataFrame(self_rows)
+        aligned_other = pd.DataFrame(other_rows)
         
-        # After renaming, check for duplicate columns
-        if self.DataFrame.columns.duplicated().any():
-            print("Duplicates in self.DataFrame columns after renaming")
-            print(self.DataFrame.columns[self.DataFrame.columns.duplicated()])
-        if other_table.DataFrame.columns.duplicated().any():
-            print("Duplicates in other_table.DataFrame columns after renaming")
-            print(other_table.DataFrame.columns[other_table.DataFrame.columns.duplicated()])
-
-
-        # Reindex DataFrames to have all integration IDs as columns
-        aligned_self = self.DataFrame.reindex(columns=all_integration_ids)
-        aligned_other = other_table.DataFrame.reindex(columns=all_integration_ids)
+        #print(aligned_self)
+        
+        #print(aligned_other)
 
         # Concatenate DataFrames
         self.DataFrame = pd.concat([aligned_self, aligned_other], axis=0, ignore_index=True).fillna("")
+        
+        #print(self.DataFrame)
 
         # Update integration ID mappings
         self.IntegrationIDToColumnIndex.update(other_table.IntegrationIDToColumnIndex)
+
 
     # Complement the DataFrame to ensure completeness of tuples
     def Complement(self):
@@ -79,8 +96,11 @@ class RelationalTable:
         U_comp = U_ou.copy()
         U_temp = pd.DataFrame(columns=U_comp.columns)
 
+        i = 0
         # Iterate until no changes are made
         while not U_temp.equals(U_comp):
+            print("Iter: ", i)
+            i += 1
             U_temp = U_comp.copy()
             U_comp_new = pd.DataFrame(columns=U_comp.columns)
 
