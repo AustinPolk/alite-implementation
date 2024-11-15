@@ -107,7 +107,6 @@ class RelationalTable:
             # Iterate over each tuple in U_temp
             for _, t_1 in U_temp.iterrows():
                 complement_count = 0
-
                 # Iterate over each tuple in U_ou
                 for _, t_2 in U_ou.iterrows():
                     R, complement_status = self.k(t_1, t_2)
