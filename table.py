@@ -51,25 +51,163 @@ class RelationalTable:
 
     # Perform an outer union with another table
     def OuterUnionWith(self, other_table):
-        aligned_self = self.DataFrame.reindex(columns=self.IntegrationIDToColumnIndex.keys())
-        aligned_other = other_table.DataFrame.reindex(columns=other_table.IntegrationIDToColumnIndex.keys())
+        # Get all unique integration IDs
+        all_integration_ids = sorted(set(self.IntegrationIDToColumnIndex.keys()).union(other_table.IntegrationIDToColumnIndex.keys()))
 
+        # Map integration IDs to column names for both tables
+        self_id_to_colname = {integration_id: self.DataFrame.columns[col_index] for integration_id, col_index in self.IntegrationIDToColumnIndex.items()}
+        other_id_to_colname = {integration_id: other_table.DataFrame.columns[col_index] for integration_id, col_index in other_table.IntegrationIDToColumnIndex.items()}
+
+        # Build aligned DataFrames based on integration IDs
+        self_rows = []
+        for idx, row in self.DataFrame.iterrows():
+            new_row = {}
+            for integration_id in all_integration_ids:
+                if integration_id in self.IntegrationIDToColumnIndex:
+                    col_name = self_id_to_colname[integration_id]
+                    new_row[integration_id] = row[col_name]
+                else:
+                    new_row[integration_id] = ''
+            self_rows.append(new_row)
+
+        other_rows = []
+        for idx, row in other_table.DataFrame.iterrows():
+            new_row = {}
+            for integration_id in all_integration_ids:
+                if integration_id in other_table.IntegrationIDToColumnIndex:
+                    col_name = other_id_to_colname[integration_id]
+                    new_row[integration_id] = row[col_name]
+                else:
+                    new_row[integration_id] = ''
+            other_rows.append(new_row)
+
+        # Create DataFrames
+        aligned_self = pd.DataFrame(self_rows)
+        aligned_other = pd.DataFrame(other_rows)
+        
+        #print(aligned_self)
+        
+        #print(aligned_other)
+
+        # Concatenate DataFrames
         self.DataFrame = pd.concat([aligned_self, aligned_other], axis=0, ignore_index=True).fillna("")
+        
+        #print(self.DataFrame)
 
-        # TODO: will need to be a little more complex to capture the column indices in the new dataframe
+        # Update integration ID mappings
         self.IntegrationIDToColumnIndex.update(other_table.IntegrationIDToColumnIndex)
+
 
     # Complement the DataFrame to ensure completeness of tuples
     def Complement(self):
-        self.DataFrame = self.DataFrame.applymap(lambda x: x if x != "" else np.nan)
-        # TODO: implement complementation from the paper
+        U_ou = self.DataFrame.copy()  # Outer unioned tuples
+        U_comp = U_ou.copy()
+        U_temp = pd.DataFrame(columns=U_comp.columns)
+
+        i = 0
+        # Iterate until no changes are made
+        while not U_temp.equals(U_comp):
+            print("Iter: ", i)
+            i += 1
+            U_temp = U_comp.copy()
+            U_comp_new = pd.DataFrame(columns=U_comp.columns)
+
+            # Iterate over each tuple in U_temp
+            for _, t_1 in U_temp.iterrows():
+                complement_count = 0
+                # Iterate over each tuple in U_ou
+                for _, t_2 in U_ou.iterrows():
+                    R, complement_status = self.k(t_1, t_2)
+                    if complement_status:
+                        # Add the new tuple R to U_comp_new
+                        U_comp_new = pd.concat([U_comp_new, pd.DataFrame([R])], ignore_index=True)
+                        complement_count += 1
+
+                if complement_count == 0:
+                    # If no complements were found, add t_1 back to U_comp_new
+                    U_comp_new = pd.concat([U_comp_new, pd.DataFrame([t_1])], ignore_index=True)
+
+            # Remove duplicates to prevent extra tuples
+            U_comp_new.drop_duplicates(inplace=True, ignore_index=True)
+            U_comp = U_comp_new
+
+        # Update the DataFrame with the complemented tuples
+        self.DataFrame = U_comp
         print("Complement operation performed.")
+        
+    # Complement function k(t_1, t_2)
+    def k(self, t_1, t_2):
+        complement_status = True
 
+        # Check if t_1 and t_2 are complementable
+        for col in self.DataFrame.columns:
+            val1 = t_1[col]
+            val2 = t_2[col]
 
+            # Treat labeled nulls as nulls
+            val1_is_null = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+            val2_is_null = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+
+            if not val1_is_null and not val2_is_null:
+                if val1 != val2:
+                    # Cannot complement if common attributes differ
+                    complement_status = False
+                    break
+
+        if complement_status:
+            # Create a new tuple R by combining t_1 and t_2
+            R = {}
+            for col in self.DataFrame.columns:
+                val1 = t_1[col]
+                val2 = t_2[col]
+
+                val1_is_null = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+                val2_is_null = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+
+                if not val1_is_null:
+                    R[col] = val1
+                elif not val2_is_null:
+                    R[col] = val2
+                else:
+                    R[col] = np.nan
+            return R, True
+        else:
+            return None, False
+    
     # Remove tuples that are subsumed by other tuples
     def SubsumeTuples(self):
         original_row_count = len(self.DataFrame)
-        # TODO: also drop subsumable tuples, not just duplicates
-        self.DataFrame.drop_duplicates(inplace=True)
+        df = self.DataFrame.reset_index(drop=True)
+        is_subsumed = [False] * len(df)
+        
+        # Iterate over each tuple t1
+        for i in range(len(df)):
+            if is_subsumed[i]:
+                continue  # Skip if already subsumed
+            t1 = df.loc[i]
+            # Compare with every other tuple t2
+            for j in range(len(df)):
+                if i == j or is_subsumed[j]:
+                    continue  # Skip same tuple or already subsumed
+                t2 = df.loc[j]
+                if self.is_subsumed(t1, t2):
+                    # t2 is subsumed by t1
+                    is_subsumed[j] = True
+                elif self.is_subsumed(t2, t1):
+                    # t1 is subsumed by t2
+                    is_subsumed[i] = True
+                    break  # No need to compare t1 further
+        # Remove subsumed tuples
+        self.DataFrame = df[~pd.Series(is_subsumed)].reset_index(drop=True)
         new_row_count = len(self.DataFrame)
         print(f"Subsumed tuples: {original_row_count - new_row_count}")
+
+    # Helper function to check if t1 subsumes t2
+    def is_subsumed(self, t1, t2):
+        for col in self.DataFrame.columns:
+            val1 = t1[col]
+            val2 = t2[col]
+            if pd.notna(val2):
+                if pd.isna(val1) or val1 != val2:
+                    return False
+        return True
