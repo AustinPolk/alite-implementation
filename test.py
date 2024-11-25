@@ -82,11 +82,11 @@ class TestRelationalTableFunctions(unittest.TestCase):
             'Description': ['C', 'D']
         })
         table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
-
+        
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
         
-        #print()
+        #print("\nActual")
 
         #print(table_a.DataFrame)
 
@@ -101,7 +101,7 @@ class TestRelationalTableFunctions(unittest.TestCase):
         
         #print(expected_df)
 
-        #pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
+        pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_outer_union_with_different_schemas(self):
         # Create Table A
@@ -131,7 +131,7 @@ class TestRelationalTableFunctions(unittest.TestCase):
             3: ['', '', 'baz', 'qux']
         })
 
-        #pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
+        pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_outer_union_with_identical_tables(self):
         # Create Table A and B with the same data
@@ -151,15 +151,16 @@ class TestRelationalTableFunctions(unittest.TestCase):
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
         
-        print()
+        print("\nIdentical Tables")
+        
+        print("Actual")
+
         print(table_a.DataFrame)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2, '', ''],
-            1: ['X', 'Y', '', ''],
-            2: ['', '', 1, 2],
-            3: ['', '', 'X', 'Y']
+            0: [1, 2],
+            1: ['X', 'Y']
         })
         
         print("Expected")
@@ -183,14 +184,23 @@ class TestRelationalTableFunctions(unittest.TestCase):
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
+        
+        print("\nEmpty table")
+        
+        print("Actual")
+
+        print(table_a.DataFrame)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
             0: [5, 6],
             1: ['M', 'N']
         })
+        
+        print("Expected")
+        print(expected_df)
 
-        #pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
+        pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_complement_no_missing_values(self):
         # Create Table
