@@ -36,7 +36,8 @@ class RelationalDatabase:
         offset = 0
         all_integrationIDs = []
         all_column_embeddings = {}
-        for table in self.Tables:
+        for idx, table in enumerate(self.Tables):
+            print(f"Initializing table {idx}")
             offset = table.InitializeIntegrationIDs(offset)
             table.InitializeColumnEmbeddings(model)
             column_count = len(table.ColumnNames)
@@ -45,16 +46,21 @@ class RelationalDatabase:
                 minimum_columns = column_count
             maximum_columns += column_count
             
+            print(f"Table {idx} embeddings: {table.ColumnEmbeddings}")
+
             all_column_embeddings.update(table.ColumnEmbeddings)
             all_integrationIDs.extend(table.IntegrationIDToColumnIndex.keys())
-        all_embeddings = np.array(all_column_embeddings.values())
+        all_embeddings = np.array(list(all_column_embeddings.values()))
+
+        print(f"Total embeddings: {len(all_embeddings)}")
+        print(f"Minimum columns: {minimum_columns}\tMaximum columns: {maximum_columns}")
 
         best_clustering = None
         best_score = -1
 
         # try all possible cluster sizes, select the size that maximizes silhouette score
-        # +1 ensures that maximum_columns will be computed
-        for n_clusters in range(minimum_columns, maximum_columns + 1):
+        for n_clusters in range(minimum_columns, maximum_columns):
+            print(f"Clustering into {n_clusters} clusters")
             clustering = AgglomerativeClustering(n_clusters=n_clusters)
             clustering.fit(all_embeddings)
             silhouette = silhouette_score(all_embeddings, clustering.labels_)
@@ -64,12 +70,15 @@ class RelationalDatabase:
                 best_score = silhouette
                 best_clustering = clustering
 
+        print(f"Best clustering achieved using {best_clustering.n_clusters_} clusters")
+
         # now cluster the table columns with this model
         column_clusters = {id: cluster for cluster, id in zip(best_clustering.labels_, all_integrationIDs)}
 
-        # now reassign the column names to be which cluster that column is in (the cluster is the new integration ID)
-        for table in self.Tables:
+        # now reassign the table column names to be which cluster that column is in (the cluster is the new integration ID)
+        for idx, table in enumerate(self.Tables):
             table.RenameColumns(column_clusters)
+            print(f"Table {idx} final integration IDs: {table.DataFrame.columns}")
             
         print("Integration IDs assigned to all tables.")
 

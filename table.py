@@ -33,7 +33,7 @@ class RelationalTable:
             column_name = column_names[columnIndex]
             self.ColumnNames[integrationID] = column_name
 
-            column = self.DataFrame[columnIndex]
+            column = self.DataFrame.iloc[:, columnIndex]
             dtype = column.dtype
 
             if pd.api.types.is_any_real_numeric_dtype(dtype):
@@ -46,47 +46,52 @@ class RelationalTable:
                 self.ColumnDatatypes[integrationID] = str(dtype)
     
     # For each column in the table, assign a unique embedding for clustering later
-    def InitializeColumnEmbeddings(self, transformer: SentenceTransformer):
+    def InitializeColumnEmbeddings(self, transformer: SentenceTransformer, random_sample: bool = True):
         self.GetColumnDatatypesAndNames()
         
         for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
             if self.ColumnDatatypes[integrationID] == 'string':
                 # read all available entries, generate an embedding by taking the mean of their embeddings
                 sum = None
-                column = self.DataFrame[columnIndex]
+                column = self.DataFrame.iloc[:, columnIndex]
                 value_count = 0
                 
-                for value in column.values:
+                column_values = column.values
+                # if using a random sample, take the first 50 available values as the sample
+                if random_sample:
+                    column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:50]
+
+                for value in column_values:
                     if pd.isna(value):
                         continue
                     else:
                         value_count += 1
                     
                     str_value = str(value)
-                    embedding = transformer.encode(str_value).numpy()
+                    embedding = transformer.encode(str_value)
                     
-                    if not sum:
+                    if sum is None:
                         sum = embedding
                     else:
                         sum += embedding
                 
-                # take the mean
+                # take the mean if there were valid values in the column
                 if value_count:
                     self.ColumnEmbeddings[integrationID] = sum / value_count
-                    return
+                    continue
                 else:
                     # fall through to the case where this is not a string column, since no values were retrieved
                     pass
             
             # embed the datatype string, then try to embed column name, if not present embed random
-            embedding = transformer.encode(self.ColumnDatatypes[integrationID]).numpy()
+            embedding = transformer.encode(self.ColumnDatatypes[integrationID])
             column_name = self.ColumnNames[integrationID]
             
             if column_name.isspace() or not column_name or column_name.lower() == 'unknown':
                 random_embedding = np.random.rand(embedding.shape) * 2 - 1  # get a uniform distribution from -1 to 1
                 embedding += random_embedding
             else:
-                name_embedding = transformer.encode(column_name).numpy()
+                name_embedding = transformer.encode(column_name)
                 embedding += name_embedding
             
             # take the mean of the original two embeddings
