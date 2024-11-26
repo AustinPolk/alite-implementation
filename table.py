@@ -1,11 +1,15 @@
 import pandas as pd
 import numpy as np
+from sentence_transformers import SentenceTransformer
 
 class RelationalTable:
     def __init__(self):
         self.IntegrationIDToColumnIndex: dict[int, int] = {}
         self.DataFrame: pd.DataFrame = pd.DataFrame()
         self.labeled_null_counter = 0  # Counter to track unique labeled nulls
+        self.ColumnEmbeddings: dict[int, np.ndarray] = {}
+        self.ColumnDatatypes: dict[int, str] = {}
+        self.ColumnNames: dict[int|str, str] = {}
 
     # Load CSV data into the DataFrame
     def LoadFromCSV(self, csv_file: str):
@@ -21,14 +25,99 @@ class RelationalTable:
             column_index = i
             self.IntegrationIDToColumnIndex[integrationID] = column_index
         return offset + len(self.DataFrame.columns)
+    
+    # Record all the datatypes and names for columns in the table
+    def GetColumnDatatypesAndNames(self):
+        column_names = self.DataFrame.columns.to_list()
+        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
+            column_name = column_names[columnIndex]
+            self.ColumnNames[integrationID] = column_name
+
+            column = self.DataFrame[columnIndex]
+            dtype = column.dtype
+
+            if pd.api.types.is_any_real_numeric_dtype(dtype):
+                self.ColumnDatatypes[integrationID] = 'real'
+            elif pd.api.types.is_integer_dtype(dtype):
+                self.ColumnDatatypes[integrationID] = 'integer'
+            elif pd.api.types.is_string_dtype(dtype):
+                self.ColumnDatatypes[integrationID] = 'string'
+            else:
+                self.ColumnDatatypes[integrationID] = str(dtype)
+    
+    # For each column in the table, assign a unique embedding for clustering later
+    def InitializeColumnEmbeddings(self, transformer: SentenceTransformer):
+        self.GetColumnDatatypesAndNames()
         
+        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
+            if self.ColumnDatatypes[integrationID] == 'string':
+                # read all available entries, generate an embedding by taking the mean of their embeddings
+                sum = None
+                column = self.DataFrame[columnIndex]
+                value_count = 0
+                
+                for value in column.values:
+                    if pd.isna(value):
+                        continue
+                    else:
+                        value_count += 1
+                    
+                    str_value = str(value)
+                    embedding = transformer.encode(str_value).numpy()
+                    
+                    if not sum:
+                        sum = embedding
+                    else:
+                        sum += embedding
+                
+                # take the mean
+                if value_count:
+                    self.ColumnEmbeddings[integrationID] = sum / value_count
+                    return
+                else:
+                    # fall through to the case where this is not a string column, since no values were retrieved
+                    pass
+            
+            # embed the datatype string, then try to embed column name, if not present embed random
+            embedding = transformer.encode(self.ColumnDatatypes[integrationID]).numpy()
+            column_name = self.ColumnNames[integrationID]
+            
+            if column_name.isspace() or not column_name or column_name.lower() == 'unknown':
+                random_embedding = np.random.rand(embedding.shape) * 2 - 1  # get a uniform distribution from -1 to 1
+                embedding += random_embedding
+            else:
+                name_embedding = transformer.encode(column_name).numpy()
+                embedding += name_embedding
+            
+            # take the mean of the original two embeddings
+            self.ColumnEmbeddings[integrationID] = embedding / 2
+        
+    def RenameColumns(self, column_clusters):
+        # change the column names to the new Integration ID (i.e. which cluster the column falls into)
+        column_name_map = {}
+        reverse_map = {}
+        for integrationID in self.IntegrationIDToColumnIndex:
+            old_name = self.ColumnNames[integrationID]
+            new_name = str(column_clusters[integrationID])
+            column_name_map[old_name] = new_name
+            reverse_map[new_name] = old_name
+        self.DataFrame.rename(columns=column_name_map, inplace=True)
+
+        # clear data used to assign the integration IDs that is no longer needed
+        self.ColumnEmbeddings.clear()
+        self.IntegrationIDToColumnIndex.clear()
+        self.ColumnDatatypes.clear()
+
+        # record the original column names that are represented by the current ones
+        self.ColumnNames = reverse_map
+
     class LabeledNull:
         def __init__(self, idx):
             self.idx = idx
         def __hash__(self):
             return self.idx
         def __eq__(self, other):
-            return self.idx == other.idx
+            return other is self    # labeled nulls cannot be equal unless they are the same
 
     # Generate labeled nulls to distinguish missing values in the data
     def GenerateLabeledNulls(self):
