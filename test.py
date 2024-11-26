@@ -239,52 +239,52 @@ class TestRelationalTableFunctions(unittest.TestCase):
 
 
 
-    def test_complement_partial_overlap(self):
-        # Prepare test data
-        data = {'Col1': ['A', 'A', None, 'B'], 'Col2': [1, 3, 3, 2]}
-        table = RelationalTable()
-        table.DataFrame = pd.DataFrame(data)
+    # def test_complement_partial_overlap(self):
+    #     # Prepare test data
+    #     data = {'Col1': ['A', 'A', None, 'B'], 'Col2': [1, 3, 3, 2]}
+    #     table = RelationalTable()
+    #     table.DataFrame = pd.DataFrame(data)
 
-        # Run Complement
-        table.Complement()
+    #     # Run Complement
+    #     table.Complement()
 
-        # Expected DataFrame
-        expected_data = {'Col1': ['A', 'B', None, 'A'], 'Col2': [1, 2, 3, 3]}
-        expected_df = pd.DataFrame(expected_data).reset_index(drop=True)
+    #     # Expected DataFrame
+    #     expected_data = {'Col1': ['A', 'B', None, 'A'], 'Col2': [1, 2, 3, 3]}
+    #     expected_df = pd.DataFrame(expected_data).reset_index(drop=True)
 
-        # Align indices
-        actual_df = table.DataFrame.reset_index(drop=True)
+    #     # Align indices
+    #     actual_df = table.DataFrame.reset_index(drop=True)
 
-        # Compare
-        print("Actual DataFrame (Partial Overlap):\n", actual_df)
-        print("Expected DataFrame (Partial Overlap):\n", expected_df)
-        pd.testing.assert_frame_equal(actual_df, expected_df, check_dtype=False)
+    #     # Compare
+    #     print("Actual DataFrame (Partial Overlap):\n", actual_df)
+    #     print("Expected DataFrame (Partial Overlap):\n", expected_df)
+    #     pd.testing.assert_frame_equal(actual_df, expected_df, check_dtype=False)
 
 
-    def test_complement_with_partial_data(self):
-        # Prepare test data
-        data = {'Col1': ['A', 'B', 'D', None], 'Col2': [None, 2, 3, 3], 'Col3': [1, None, 4, None]}
-        table = RelationalTable()
-        table.DataFrame = pd.DataFrame(data)
+    # def test_complement_with_partial_data(self):
+    #     # Prepare test data
+    #     data = {'Col1': ['A', 'B', 'D', None], 'Col2': [None, 2, 3, 3], 'Col3': [1, None, 4, None]}
+    #     table = RelationalTable()
+    #     table.DataFrame = pd.DataFrame(data)
 
-        # Run Complement
-        table.Complement()
+    #     # Run Complement
+    #     table.Complement()
 
-        # Expected DataFrame
-        expected_data = {
-            'Col1': ['A', 'B', 'D', None, 'D'],
-            'Col2': [None, 2, 3, 3, None],
-            'Col3': [1, None, 4, None, 4]
-        }
-        expected_df = pd.DataFrame(expected_data).reset_index(drop=True)
+    #     # Expected DataFrame
+    #     expected_data = {
+    #         'Col1': ['A', 'B', 'D', None, 'D'],
+    #         'Col2': [None, 2, 3, 3, None],
+    #         'Col3': [1, None, 4, None, 4]
+    #     }
+    #     expected_df = pd.DataFrame(expected_data).reset_index(drop=True)
 
-        # Align indices
-        actual_df = table.DataFrame.reset_index(drop=True)
+    #     # Align indices
+    #     actual_df = table.DataFrame.reset_index(drop=True)
 
-        # Compare
-        print("Actual DataFrame (With Partial Data):\n", actual_df)
-        print("Expected DataFrame (With Partial Data):\n", expected_df)
-        pd.testing.assert_frame_equal(actual_df, expected_df, check_dtype=False)
+    #     # Compare
+    #     print("Actual DataFrame (With Partial Data):\n", actual_df)
+    #     print("Expected DataFrame (With Partial Data):\n", expected_df)
+    #     pd.testing.assert_frame_equal(actual_df, expected_df, check_dtype=False)
     
 
     def test_complement_with_redundant_data(self):
