@@ -136,82 +136,71 @@ class RelationalTable:
         self.IntegrationIDToColumnIndex.update(other_table.IntegrationIDToColumnIndex)
 
 
-    # Complement the DataFrame to ensure completeness of tuples
     def Complement(self):
         U_ou = self.DataFrame.copy()  # Outer unioned tuples
         U_comp = U_ou.copy()
         U_temp = pd.DataFrame(columns=U_comp.columns)
 
         i = 0
-        # Iterate until no changes are made
         while not U_temp.equals(U_comp):
-            print("Iter: ", i)
+            print(f"Iter: {i}")
             i += 1
             U_temp = U_comp.copy()
             U_comp_new = pd.DataFrame(columns=U_comp.columns)
 
-            # Iterate over each tuple in U_temp
             for _, t_1 in U_temp.iterrows():
                 complement_count = 0
-                # Iterate over each tuple in U_ou
                 for _, t_2 in U_ou.iterrows():
                     R, complement_status = self.k(t_1, t_2)
                     if complement_status:
-                        # Add the new tuple R to U_comp_new
                         U_comp_new = pd.concat([U_comp_new, pd.DataFrame([R])], ignore_index=True)
                         complement_count += 1
 
                 if complement_count == 0:
-                    # If no complements were found, add t_1 back to U_comp_new
                     U_comp_new = pd.concat([U_comp_new, pd.DataFrame([t_1])], ignore_index=True)
 
-            # Remove duplicates to prevent extra tuples
             U_comp_new.drop_duplicates(inplace=True, ignore_index=True)
             U_comp = U_comp_new
 
-        # Update the DataFrame with the complemented tuples
-        self.DataFrame = U_comp
+        self.DataFrame = U_comp.replace({pd.NA: None})
         print("Complement operation performed.")
-        
-    # Complement function k(t_1, t_2)
+
+
     def k(self, t_1, t_2):
         complement_status = True
+        R = {}
 
-        # Check if t_1 and t_2 are complementable
         for col in self.DataFrame.columns:
             val1 = t_1[col]
             val2 = t_2[col]
 
-            # Treat labeled nulls as nulls
-            val1_is_null = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
-            val2_is_null = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+            is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+            is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
 
-            if not val1_is_null and not val2_is_null:
+            if not is_null1 and not is_null2:
                 if val1 != val2:
-                    # Cannot complement if common attributes differ
                     complement_status = False
                     break
 
         if complement_status:
-            # Create a new tuple R by combining t_1 and t_2
-            R = {}
             for col in self.DataFrame.columns:
                 val1 = t_1[col]
                 val2 = t_2[col]
 
-                val1_is_null = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
-                val2_is_null = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+                is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+                is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
 
-                if not val1_is_null:
+                if not is_null1:
                     R[col] = val1
-                elif not val2_is_null:
+                elif not is_null2:
                     R[col] = val2
                 else:
-                    R[col] = np.nan
+                    R[col] = pd.NA
             return R, True
-        else:
-            return None, False
-    
+        return None, False
+
+
+        
     # Remove tuples that are subsumed by other tuples
     def SubsumeTuples(self):
         original_row_count = len(self.DataFrame)
