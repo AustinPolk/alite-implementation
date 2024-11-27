@@ -144,8 +144,8 @@ class Benchmarker:
         # these tables to compare their names and assigned integration IDs
         for table in database.Tables:
             for other_table in database.Tables:
-                for columnID, columnName in table.ColumnNames:
-                    for other_columnID, other_columnName in other_table.ColumnNames:
+                for columnID, columnName in table.ColumnNames.items():
+                    for other_columnID, other_columnName in other_table.ColumnNames.items():
                         if columnName == other_columnName:
                             # this is a positive relation
                             if columnID == other_columnID:
