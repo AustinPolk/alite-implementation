@@ -128,6 +128,9 @@ class Benchmarker:
         ax.set_yscale('log')
 
     def ClusteringQualityStatistics(self, database: RelationalDatabase, dataset_name: str):
+        if not database.IntegrationIDsAssigned:
+            database.AssignIntegrationIDs()
+            
         # in this case, a "Negative" is a relation between a column from one table and a column from
         # another table that does not exist. A "Positive" is a relation between two such columns that
         # does exist. In this benchmark, it can be assumed that columns with the same name have a Positive

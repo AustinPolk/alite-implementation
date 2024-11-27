@@ -8,6 +8,7 @@ import numpy as np
 class RelationalDatabase:
     def __init__(self):
         self.Tables: list[RelationalTable] = []
+        self.IntegrationIDsAssigned: bool = False
 
     # Load all CSV files within the folder into tables in this database
     def LoadFromFolder(self, data_folder: str):
@@ -81,6 +82,7 @@ class RelationalDatabase:
             print(f"Table {idx} ({table.TableName}) final integration IDs: {table.DataFrame.columns}")
             print(f"Integration ID Mapping: {table.ColumnNames}")
             
+        self.IntegrationIDsAssigned = True
         print("Integration IDs assigned to all tables.")
 
     # Run the ALITE algorithm on the database
