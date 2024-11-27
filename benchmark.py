@@ -8,6 +8,7 @@ class Benchmarker:
     def __init__(self):
         self.Durations: dict[tuple[str, str], float] = {}
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
+        self.ClusterQuality: dict[str, list[float]] = {}
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
@@ -125,3 +126,54 @@ class Benchmarker:
         ax.legend(loc='upper left')
         ax.set_xbound(lower=0, upper=x_limit)
         ax.set_yscale('log')
+
+    def ClusteringQualityStatistics(self, database: RelationalDatabase, dataset_name: str):
+        # in this case, a "Negative" is a relation between a column from one table and a column from
+        # another table that does not exist. A "Positive" is a relation between two such columns that
+        # does exist. In this benchmark, it can be assumed that columns with the same name have a Positive
+        # relation, while those with different names have a Negative relation
+        true_negatives = 0
+        false_negatives = 0
+        true_positives = 0
+        false_positives = 0
+
+        # take each pair of tables (including a table and itself), and take each pair of columns from 
+        # these tables to compare their names and assigned integration IDs
+        for table in database.Tables:
+            for other_table in database.Tables:
+                for columnID, columnName in table.ColumnNames:
+                    for other_columnID, other_columnName in other_table.ColumnNames:
+                        if columnName == other_columnName:
+                            # this is a positive relation
+                            if columnID == other_columnID:
+                                # is positive, flagged as positive
+                                true_positives += 1
+                            else:
+                                # is positive, flagged as negative
+                                false_negatives += 1
+                        else:
+                            # this is a negative relation
+                            if columnID == other_columnID:
+                                # is negative, flagged as positive
+                                false_positives += 1
+                            else:
+                                # is negative, flagged as negative
+                                true_negatives += 1
+
+        precision = (true_positives) / (true_positives + false_positives)
+        recall = (true_positives) / (true_positives + false_negatives)
+        accuracy = (true_positives + true_negatives) / (true_positives + false_positives + true_negatives + false_negatives)
+        f1 = (2 * true_positives) / (2 * true_positives + false_positives + false_negatives)
+
+        print(f"For dataset {dataset_name}:")
+        print(f"True positives: {true_positives}")
+        print(f"False positives: {false_positives}")
+        print(f"True negatives: {true_negatives}")
+        print(f"False negatives: {false_negatives}")
+        print(f"Precision: {precision}")
+        print(f"Recall: {recall}")
+        print(f"Accuracy: {accuracy}")
+        print(f"F1 score: {f1}")
+
+        all_stats = [true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1]
+        self.ClusterQuality[dataset_name] = all_stats
