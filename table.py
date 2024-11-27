@@ -50,52 +50,55 @@ class RelationalTable:
         self.GetColumnDatatypesAndNames()
         
         for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
-            if self.ColumnDatatypes[integrationID] == 'string':
-                # read all available entries, generate an embedding by taking the mean of their embeddings
-                sum = None
-                column = self.DataFrame.iloc[:, columnIndex]
-                value_count = 0
-                
-                column_values = column.values
-                # if using a random sample, take the first 50 available values as the sample
-                if random_sample:
-                    column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:50]
+            # begin by embedding the string representation of the column data type
+            data_type = self.ColumnDatatypes[integrationID]
+            type_embedding = transformer.encode(data_type)
+            
+            # if this isn't a data type we can either embed or take the average of, assign a random embedding
+            if data_type not in ['string', 'integer', 'real']:
+                random_embedding = np.random.rand(type_embedding.shape) * 2 - 1  # get a uniform distribution from -1 to 1
+                self.ColumnEmbeddings[integrationID] = (type_embedding + random_embedding) / 2
+                continue
 
-                for value in column_values:
-                    if pd.isna(value):
-                        continue
-                    else:
-                        value_count += 1
-                    
-                    str_value = str(value)
-                    embedding = transformer.encode(str_value)
-                    
-                    if sum is None:
-                        sum = embedding
-                    else:
-                        sum += embedding
-                
-                # take the mean if there were valid values in the column
-                if value_count:
-                    self.ColumnEmbeddings[integrationID] = sum / value_count
+            # read all available entries, generate an embedding by taking the mean of their embeddings
+            sum = type_embedding
+            column = self.DataFrame.iloc[:, columnIndex]
+            column_values = column.values
+            value_count = 0
+            
+            # if using a random sample, take the first 50 available values as the sample
+            if random_sample:
+                column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:50]
+
+            for value in column_values:
+                if pd.isna(value):
                     continue
                 else:
-                    # fall through to the case where this is not a string column, since no values were retrieved
-                    pass
+                    value_count += 1
+                
+                # if this is a string, use the transformer embedding
+                if data_type == 'string':
+                    str_value = str(value)
+                    embedding = transformer.encode(str_value)
+                # if this is an integer or real number, take the embedding to be a vector filled with that value
+                elif data_type == 'integer':
+                    int_value = int(value)
+                    embedding = np.full(type_embedding.shape, int_value)
+                elif data_type == 'real':
+                    real_value = float(value)
+                    embedding = np.full(type_embedding.shape, real_value)
+                
+                sum += embedding
             
-            # embed the datatype string, then try to embed column name, if not present embed random
-            embedding = transformer.encode(self.ColumnDatatypes[integrationID])
-            column_name = self.ColumnNames[integrationID]
-            
-            if column_name.isspace() or not column_name or column_name.lower() == 'unknown':
-                random_embedding = np.random.rand(embedding.shape) * 2 - 1  # get a uniform distribution from -1 to 1
-                embedding += random_embedding
+            # take the mean if there were valid values in the column
+            if value_count:
+                self.ColumnEmbeddings[integrationID] = sum / (value_count + 1)
+                continue
+            # otherwise just use a random embedding
             else:
-                name_embedding = transformer.encode(column_name)
-                embedding += name_embedding
-            
-            # take the mean of the original two embeddings
-            self.ColumnEmbeddings[integrationID] = embedding / 2
+                random_embedding = np.random.rand(type_embedding.shape) * 2 - 1
+                self.ColumnEmbeddings[integrationID] = (type_embedding + random_embedding) / 2
+                pass
         
     def RenameColumns(self, column_clusters):
         # change the column names to the new Integration ID (i.e. which cluster the column falls into)
