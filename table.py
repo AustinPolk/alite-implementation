@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
+import os
 
 class RelationalTable:
     def __init__(self):
@@ -8,11 +9,12 @@ class RelationalTable:
         self.DataFrame: pd.DataFrame = pd.DataFrame()
         self.labeled_null_counter = 0  # Counter to track unique labeled nulls
         self.ColumnEmbeddings: dict[int, np.ndarray] = {}
-        self.ColumnDatatypes: dict[int, str] = {}
         self.ColumnNames: dict[int|str, str] = {}
+        self.TableName: str = None
 
     # Load CSV data into the DataFrame
     def LoadFromCSV(self, csv_file: str):
+        self.TableName = os.path.basename(csv_file)
         self.DataFrame = pd.read_csv(csv_file, encoding="ISO-8859-1", on_bad_lines='skip')
 
     def TupleCount(self):
@@ -27,41 +29,19 @@ class RelationalTable:
         return offset + len(self.DataFrame.columns)
     
     # Record all the datatypes and names for columns in the table
-    def GetColumnDatatypesAndNames(self):
+    def GetColumnNames(self):
         column_names = self.DataFrame.columns.to_list()
         for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
             column_name = column_names[columnIndex]
             self.ColumnNames[integrationID] = column_name
-
-            column = self.DataFrame.iloc[:, columnIndex]
-            dtype = column.dtype
-
-            if pd.api.types.is_any_real_numeric_dtype(dtype):
-                self.ColumnDatatypes[integrationID] = 'real'
-            elif pd.api.types.is_integer_dtype(dtype):
-                self.ColumnDatatypes[integrationID] = 'integer'
-            elif pd.api.types.is_string_dtype(dtype):
-                self.ColumnDatatypes[integrationID] = 'string'
-            else:
-                self.ColumnDatatypes[integrationID] = str(dtype)
     
     # For each column in the table, assign a unique embedding for clustering later
     def InitializeColumnEmbeddings(self, transformer: SentenceTransformer, random_sample: bool = True):
-        self.GetColumnDatatypesAndNames()
-        
-        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
-            # begin by embedding the string representation of the column data type
-            data_type = self.ColumnDatatypes[integrationID]
-            type_embedding = transformer.encode(data_type)
-            
-            # if this isn't a data type we can either embed or take the average of, assign a random embedding
-            if data_type not in ['string', 'integer', 'real']:
-                random_embedding = np.random.rand(type_embedding.shape) * 2 - 1  # get a uniform distribution from -1 to 1
-                self.ColumnEmbeddings[integrationID] = (type_embedding + random_embedding) / 2
-                continue
+        self.GetColumnNames()
 
+        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
             # read all available entries, generate an embedding by taking the mean of their embeddings
-            sum = type_embedding
+            sum = np.zeros(transformer.get_sentence_embedding_dimension())
             column = self.DataFrame.iloc[:, columnIndex]
             column_values = column.values
             value_count = 0
@@ -76,29 +56,21 @@ class RelationalTable:
                 else:
                     value_count += 1
                 
-                # if this is a string, use the transformer embedding
-                if data_type == 'string':
-                    str_value = str(value)
-                    embedding = transformer.encode(str_value)
-                # if this is an integer or real number, take the embedding to be a vector filled with that value
-                elif data_type == 'integer':
-                    int_value = int(value)
-                    embedding = np.full(type_embedding.shape, int_value)
-                elif data_type == 'real':
-                    real_value = float(value)
-                    embedding = np.full(type_embedding.shape, real_value)
-                
+                # embed the string representation of the value (works for all types) and the column index
+                str_value = str(value)
+                column_annotated = f"Column-{columnIndex}={str_value}"
+                embedding = transformer.encode(column_annotated)
+            
                 sum += embedding
             
             # take the mean if there were valid values in the column
             if value_count:
-                self.ColumnEmbeddings[integrationID] = sum / (value_count + 1)
+                self.ColumnEmbeddings[integrationID] = sum / (value_count)
                 continue
             # otherwise just use a random embedding
             else:
-                random_embedding = np.random.rand(type_embedding.shape) * 2 - 1
-                self.ColumnEmbeddings[integrationID] = (type_embedding + random_embedding) / 2
-                pass
+                random_embedding = np.random.rand(sum.shape) * 2 - 1
+                self.ColumnEmbeddings[integrationID] = (sum + random_embedding) / 2
         
     def RenameColumns(self, column_clusters):
         # change the column names to the new Integration ID (i.e. which cluster the column falls into)
@@ -114,7 +86,6 @@ class RelationalTable:
         # clear data used to assign the integration IDs that is no longer needed
         self.ColumnEmbeddings.clear()
         self.IntegrationIDToColumnIndex.clear()
-        self.ColumnDatatypes.clear()
 
         # record the original column names that are represented by the current ones
         self.ColumnNames = reverse_map

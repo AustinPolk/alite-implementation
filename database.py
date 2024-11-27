@@ -78,7 +78,8 @@ class RelationalDatabase:
         # now reassign the table column names to be which cluster that column is in (the cluster is the new integration ID)
         for idx, table in enumerate(self.Tables):
             table.RenameColumns(column_clusters)
-            print(f"Table {idx} final integration IDs: {table.DataFrame.columns}")
+            print(f"Table {idx} ({table.TableName}) final integration IDs: {table.DataFrame.columns}")
+            print(f"Integration ID Mapping: {table.ColumnNames}")
             
         print("Integration IDs assigned to all tables.")
 
