@@ -89,7 +89,8 @@ class RelationalDatabase:
     def RunALITE(self):
 
         # Step 1: Assign integration IDs
-        self.AssignIntegrationIDs()
+        if not self.IntegrationIDsAssigned:
+            self.AssignIntegrationIDs()
 
         # Step 2: Create a new table for the full disjunction
         fullDisjunction = RelationalTable()

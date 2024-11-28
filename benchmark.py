@@ -14,13 +14,10 @@ class Benchmarker:
         # Select the appropriate method function based on the method name
         if method.lower() == "alite":
             method_func = database.RunALITE
-        elif method.lower() == "bicomnloj" and hasattr(database, "RunBIComNLoj"):
-            method_func = database.RunBIComNLoj
         else:
             print(f"{method} is not a valid method or is not implemented.")
             return
 
-        print("Test 1")
         # Measure initial tuple count
         input_tuples = database.TupleCount()
 
@@ -28,8 +25,6 @@ class Benchmarker:
         start_time = time.time()
         full_disjunction = method_func()
         end_time = time.time()
-        
-        print("Test 2")
 
         # Store the duration
         duration = end_time - start_time
@@ -50,10 +45,20 @@ class Benchmarker:
         db.LoadFromFolder(data_folder)
         self.Benchmark2(db, dataset_name, method)
 
-    def RunBenchmark(self, benchmark_folder: str):
-        methods = ["ALITE", "BIComNLoj"]
-        for root, dirs, _ in os.walk(benchmark_folder):
-            if os.path.realpath(root) == os.path.realpath(benchmark_folder):
+    def RunBenchmarks(self, align_benchmark_folder: str ,integration_benchmark_folder: str):
+        # run clustering quality benchmarks for the align benchmark folder
+        for root, dirs, _ in os.walk(align_benchmark_folder):
+            if os.path.realpath(root) == os.path.realpath(align_benchmark_folder):
+                for dir_name in dirs:
+                    dir_path = os.path.join(root, dir_name)
+                    db = RelationalDatabase()
+                    db.LoadFromFolder(dir_path)
+                    self.ClusteringQualityStatistics(db, dir_name)
+        
+        # run the integration benchmarks for the integration benchmark folder
+        methods = ["ALITE"]
+        for root, dirs, _ in os.walk(integration_benchmark_folder):
+            if os.path.realpath(root) == os.path.realpath(integration_benchmark_folder):
                 for dir_name in dirs:
                     dir_path = os.path.join(root, dir_name)
                     db = RelationalDatabase()
@@ -67,7 +72,7 @@ class Benchmarker:
         methods = sorted(list(set([x[1] for x in self.Durations.keys()])))
 
         # Sort datasets by ALITE duration for consistent ordering
-        ALITE_durations = {ds: self.Durations[(ds, "ALITE")] for ds in datasets if ("ALITE" in methods)}
+        ALITE_durations = {ds: self.Durations[(ds, "ALITE")] for ds in datasets}
         sorted_datasets = sorted(datasets, key=lambda ds: ALITE_durations.get(ds, float('inf')))
 
         # Gather method durations
@@ -86,10 +91,10 @@ class Benchmarker:
 
         # Finalize plot details
         ax.set_ylabel('Time (s)')
-        ax.set_title('Runtime of ALITE vs Other Methods')
+        ax.set_title('ALITE Runtime')
         ax.set_xticks(x + width / 2, sorted_datasets)
         ax.tick_params(axis='x', labelrotation=90)
-        ax.legend(loc='upper left', ncols=len(methods))
+        #ax.legend(loc='upper left', ncols=len(methods))
         ax.set_yscale('log')
 
     def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1):
@@ -123,7 +128,7 @@ class Benchmarker:
         ax.set_xlabel(f'# of {tuple_type} Tuples')
         ax.set_ylabel('Time (s)')
         ax.set_title(f'Runtime vs. {tuple_type} Tuple Count')
-        ax.legend(loc='upper left')
+        #ax.legend(loc='upper left')
         ax.set_xbound(lower=0, upper=x_limit)
         ax.set_yscale('log')
 
@@ -180,3 +185,10 @@ class Benchmarker:
 
         all_stats = [true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1]
         self.ClusterQuality[dataset_name] = all_stats
+
+    def VisualizeClusterQuality(self):
+        # represent using a confusion matrix, with some additional metrics
+        # use a matrix like
+        # [True Negative]  [False Positive]
+        # [False Negative] [True Positive]
+        pass
