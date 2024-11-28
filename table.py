@@ -119,26 +119,21 @@ class RelationalTable:
 
     # Perform an outer union with another table
     def OuterUnionWith(self, other_table):
-        if self.DataFrame.empty and other_table.DataFrame.empty:
-            # Both tables are empty; nothing to do
+        if other_table.DataFrame.empty:
+            # The other table is empty, do not modify this table
             return
         elif self.DataFrame.empty:
             # If self is empty, take the other_table
             self.DataFrame = other_table.DataFrame.copy()
-            self.DataFrame.columns = range(len(self.DataFrame.columns))
-            self.IntegrationIDToColumnIndex = other_table.IntegrationIDToColumnIndex.copy()
+            self.ColumnNames.update(other_table.ColumnNames)
             return
-        elif other_table.DataFrame.empty:
-            # If other_table is empty, keep self as it is
-            self.DataFrame.columns = range(len(self.DataFrame.columns))
-            return
-        
-        if self.DataFrame.equals(other_table.DataFrame):
+        elif self.DataFrame.equals(other_table.DataFrame):
             # If both tables are identical, no need to union, return self
-            self.DataFrame.columns = range(len(self.DataFrame.columns))
+            # TODO: is that the case?
             return
         
-        matching_columns = list(set(self.DataFrame.columns).intersection(set(other_table.DataFrame.columns)))
+        all_columns = list(set(self.DataFrame.columns) | set(other_table.DataFrame.columns))
+        matching_columns = list(set(self.DataFrame.columns) & set(other_table.DataFrame.columns))
         self_unique_columns = list(set(self.DataFrame.columns) - set(other_table.DataFrame.columns))
         other_unique_columns = list(set(other_table.DataFrame.columns) - set(self.DataFrame.columns))
 
@@ -162,55 +157,33 @@ class RelationalTable:
             aligned_other = aligned_other.reindex(columns=matching_columns + self_unique_columns + other_unique_columns)
         
         else:
-            # Get all unique integration IDs
-            all_integration_ids = sorted(set(self.IntegrationIDToColumnIndex.keys()).union(other_table.IntegrationIDToColumnIndex.keys()))
-
-            # Map integration IDs to column names for both tables
-            self_id_to_colname = {integration_id: self.DataFrame.columns[col_index] for integration_id, col_index in self.IntegrationIDToColumnIndex.items()}
-            other_id_to_colname = {integration_id: other_table.DataFrame.columns[col_index] for integration_id, col_index in other_table.IntegrationIDToColumnIndex.items()}
-
-            # Build aligned DataFrames based on integration IDs
+            # Build aligned DataFrames based on column names
             self_rows = []
-            for idx, row in self.DataFrame.iterrows():
+            for _, row in self.DataFrame.iterrows():
                 new_row = {}
-                for integration_id in all_integration_ids:
-                    if integration_id in self.IntegrationIDToColumnIndex:
-                        col_name = self_id_to_colname[integration_id]
-                        new_row[integration_id] = row[col_name]
+                for column in all_columns:
+                    if column in self.DataFrame.columns:
+                        new_row[column] = row[column]
                     else:
-                        new_row[integration_id] = ''
+                        new_row[column] = ''
                 self_rows.append(new_row)
 
             other_rows = []
-            for idx, row in other_table.DataFrame.iterrows():
+            for _, row in other_table.DataFrame.iterrows():
                 new_row = {}
-                for integration_id in all_integration_ids:
-                    if integration_id in other_table.IntegrationIDToColumnIndex:
-                        col_name = other_id_to_colname[integration_id]
-                        new_row[integration_id] = row[col_name]
+                for column in all_columns:
+                    if column in other_table.DataFrame.columns:
+                        new_row[column] = row[column]
                     else:
-                        new_row[integration_id] = ''
+                        new_row[column] = ''
                 other_rows.append(new_row)
 
             # Create DataFrames
             aligned_self = pd.DataFrame(self_rows)
             aligned_other = pd.DataFrame(other_rows)
-        
-        #print(aligned_self)
-        
-        #print(aligned_other)
 
-        # Concatenate DataFrames
+        # Concatenate the aligned tables
         self.DataFrame = pd.concat([aligned_self, aligned_other], axis=0, ignore_index=True).fillna("")
-        
-        if matching_columns:
-            self.DataFrame.columns = range(len(self.DataFrame.columns))
-        
-        #print(self.DataFrame)
-
-        # Update integration ID mappings
-        self.IntegrationIDToColumnIndex.update(other_table.IntegrationIDToColumnIndex)
-
 
     def Complement(self):
         U_ou = self.DataFrame.copy()  # Outer unioned tuples
@@ -274,8 +247,6 @@ class RelationalTable:
                     R[col] = pd.NA
             return R, True
         return None, False
-
-
         
     # Remove tuples that are subsumed by other tuples
     def SubsumeTuples(self):
