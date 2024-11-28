@@ -145,6 +145,8 @@ class Benchmarker:
         false_negatives = 0
         true_positives = 0
         false_positives = 0
+        
+        unique_columns = set()
 
         # take each pair of tables (including a table and itself), and take each pair of columns from 
         # these tables to compare their names and assigned integration IDs
@@ -152,6 +154,8 @@ class Benchmarker:
             for other_table in database.Tables:
                 for columnID, columnName in table.ColumnNames.items():
                     for other_columnID, other_columnName in other_table.ColumnNames.items():
+                        unique_columns.add(columnName)
+                        unique_columns.add(other_columnName)
                         if columnName == other_columnName:
                             # this is a positive relation
                             if columnID == other_columnID:
@@ -186,16 +190,143 @@ class Benchmarker:
 
         all_stats = [true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1]
         self.ClusterQuality[dataset_name] = all_stats
-        
+
         # also record parameters that may affect the cluster quality, in particular
-        # the number of input tables, the minimum and maximum number of total columns in the FD, and the predicted number of columns
-        all_params = [len(database.Tables)].extend(database.ColumnClusterSizes)
+        # the number of input tables, the minimum and maximum number of total columns in the FD, 
+        # the predicted number of columns, and the actual number of unique columns
+        all_params = [len(database.Tables)]
+        all_params.extend(database.ColumnClusterSizes)
+        all_params.append(len(unique_columns))
         self.ClusterParameters[dataset_name] = all_params
 
-    def VisualizeClusterQuality(self):
-        # represent using a confusion matrix, with some additional metrics
-        # use a matrix like
-        # [True Negative]  [False Positive]
-        # [False Negative] [True Positive]
-        for dataset, all_stats in self.ClusterQuality.items():
-            true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1 = all_stats
+    def VisualizeClusterStatistics(self, x_param: str, y_param: str, scatter: bool):
+        x = []
+        y = []
+        x_label = None
+        y_label = None
+        for dataset in self.ClusterQuality:
+            true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1 = self.ClusterQuality[dataset]
+            table_count, min_columns, max_columns, predicted_columns, actual_columns = self.ClusterParameters[dataset]
+
+            if x_param == 'tp':
+                x.append(true_positives)
+                if not x_label:
+                    x_label = "True Positives"
+            elif x_param == 'fp':
+                x.append(false_positives)
+                if not x_label:
+                    x_label = "False Positives"
+            elif x_param == 'tn':
+                x.append(true_negatives)
+                if not x_label:
+                    x_label = "True Negatives"
+            elif x_param == 'fn':
+                x.append(false_negatives)
+                if not x_label:
+                    x_label = "False Negatives"
+            elif x_param == 'p':
+                x.append(precision)
+                if not x_label:
+                    x_label = "Precision"
+            elif x_param == 'r':
+                x.append(recall)
+                if not x_label:
+                    x_label = "Recall"
+            elif x_param == 'a':
+                x.append(accuracy)
+                if not x_label:
+                    x_label = "Accuracy"
+            elif x_param == 'f':
+                x.append(f1)
+                if not x_label:
+                    x_label = "F1 Score"
+            elif x_param == 'tc':
+                x.append(table_count)
+                if not x_label:
+                    x_label = "Input Table Count"
+            elif x_param == 'min':
+                x.append(min_columns)
+                if not x_label:
+                    x_label = "Minimum Column Count"
+            elif x_param == 'max':
+                x.append(max_columns)
+                if not x_label:
+                    x_label = "Maximum Column Count"
+            elif x_param == 'pre':
+                x.append(predicted_columns)
+                if not x_label:
+                    x_label = "Predicted Column Count"
+            elif x_param == 'act':
+                x.append(actual_columns)
+                if not x_label:
+                    x_label = "Actual Column Count"
+
+            if y_param == 'tp':
+                y.append(true_positives)
+                if not y_label:
+                    y_label = "True Positives"
+            elif y_param == 'fp':
+                y.append(false_positives)
+                if not y_label:
+                    y_label = "False Positives"
+            elif y_param == 'tn':
+                y.append(true_negatives)
+                if not y_label:
+                    y_label = "True Negatives"
+            elif y_param == 'fn':
+                y.append(false_negatives)
+                if not y_label:
+                    y_label = "False Negatives"
+            elif y_param == 'p':
+                y.append(precision)
+                if not y_label:
+                    y_label = "Precision"
+            elif y_param == 'r':
+                y.append(recall)
+                if not y_label:
+                    y_label = "Recall"
+            elif y_param == 'a':
+                y.append(accuracy)
+                if not y_label:
+                    y_label = "Accuracy"
+            elif y_param == 'f':
+                y.append(f1)
+                if not y_label:
+                    y_label = "F1 Score"
+            elif y_param == 'tc':
+                y.append(table_count)
+                if not y_label:
+                    y_label = "Input Table Count"
+            elif y_param == 'min':
+                y.append(min_columns)
+                if not y_label:
+                    y_label = "Minimum Column Count"
+            elif y_param == 'max':
+                y.append(max_columns)
+                if not y_label:
+                    y_label = "Maximum Column Count"
+            elif y_param == 'pre':
+                y.append(predicted_columns)
+                if not y_label:
+                    y_label = "Predicted Column Count"
+            elif y_param == 'act':
+                y.append(actual_columns)
+                if not y_label:
+                    y_label = "Actual Column Count"
+
+        # sort the x and y coords so that a line or scatter plot can be used
+        xy = zip(x, y)
+        sorted_xy = sorted(xy, key = lambda k: k[0])
+        sorted_x, sorted_y = zip(*sorted_xy)
+
+        # now plot either scatter or line plot
+        if scatter:
+            plt.scatter(sorted_x, sorted_y)
+        else:
+            plt.plot(sorted_x, sorted_y)
+        plt.xlabel(x_label)
+        plt.ylabel(y_label)
+        plt.title(f"Column Alignment: {x_label} vs. {y_label}")
+        plt.show()
+
+
