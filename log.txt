@@ -1,0 +1,90 @@
+Iter: 0
+Iter: 1
+Complement operation performed.
+<table.RelationalTable object at 0x7f4d5e633e80>
+Iter: 0
+Iter: 1
+Complement operation performed.
+
+Test: Complement Basic
+Actual DataFrame:
+   Col1  Col2
+0     A   NaN
+1     A   1.0
+2  None   1.0
+Expected DataFrame:
+   Col1  Col2
+0     A   NaN
+1     A   1.0
+2  None   1.0
+Iter: 0
+Complement operation performed.
+Iter: 0
+Iter: 1
+Complement operation performed.
+Iter: 0
+Complement operation performed.
+Subsumed tuples: 2
+Iter: 0
+Iter: 1
+Complement operation performed.
+Subsumed tuples: 3
+Iter: 0
+Iter: 1
+Complement operation performed.
+Actual DataFrame (No Missing Values):
+  Col1 Col2
+0    A    1
+1    B    2
+2    C    3
+Expected DataFrame (No Missing Values):
+  Col1  Col2
+0    A     1
+1    B     2
+2    C     3
+Iter: 0
+Iter: 1
+Complement operation performed.
+Iter: 0
+Iter: 1
+Complement operation performed.
+
+Test: Complement With All Nulls
+Actual DataFrame:
+   Col1  Col2
+0  None  None
+Expected DataFrame:
+   Col1  Col2
+0  None  None
+Iter: 0
+Iter: 1
+Complement operation performed.
+Actual DataFrame (Redundant Data):
+  Col1  Col2  Col3
+0    A   NaN   1.0
+1    B   2.0  None
+Expected DataFrame (Redundant Data):
+  Col1  Col2  Col3
+0    A   NaN   1.0
+1    B   2.0   NaN
+
+Empty table
+Actual
+   0  1
+0  5  M
+1  6  N
+Expected
+   0  1
+0  5  M
+1  6  N
+
+Identical Tables
+Actual
+   0  1
+0  1  X
+1  2  Y
+Expected
+   0  1
+0  1  X
+1  2  Y
+Subsumed tuples: 1
