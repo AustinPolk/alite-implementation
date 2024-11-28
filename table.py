@@ -69,7 +69,7 @@ class RelationalTable:
                 continue
             # otherwise just use a random embedding
             else:
-                random_embedding = np.random.rand(sum.shape) * 2 - 1
+                random_embedding = np.random.rand(sum.shape[0]) * 2 - 1
                 self.ColumnEmbeddings[integrationID] = (sum + random_embedding) / 2
         
     def RenameColumns(self, column_clusters):

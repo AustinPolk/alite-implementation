@@ -152,11 +152,14 @@ class Benchmarker:
         false_positives = 0
         
         unique_columns = set()
+        table_count = len(database.Tables)
 
         # take each pair of tables (including a table and itself), and take each pair of columns from 
         # these tables to compare their names and assigned integration IDs
-        for table in database.Tables:
-            for other_table in database.Tables:
+        for i in range(table_count):
+            for j in range(i, table_count):
+                table = database.Tables[i]
+                other_table = database.Tables[j]
                 for columnID, columnName in table.ColumnNames.items():
                     for other_columnID, other_columnName in other_table.ColumnNames.items():
                         unique_columns.add(columnName)
