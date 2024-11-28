@@ -9,6 +9,7 @@ class Benchmarker:
         self.Durations: dict[tuple[str, str], float] = {}
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
         self.ClusterQuality: dict[str, list[float]] = {}
+        self.ClusterParameters: dict[str, list[int]] = {}
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
@@ -185,10 +186,16 @@ class Benchmarker:
 
         all_stats = [true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1]
         self.ClusterQuality[dataset_name] = all_stats
+        
+        # also record parameters that may affect the cluster quality, in particular
+        # the number of input tables, the minimum and maximum number of total columns in the FD, and the predicted number of columns
+        all_params = [len(database.Tables)].extend(database.ColumnClusterSizes)
+        self.ClusterParameters[dataset_name] = all_params
 
     def VisualizeClusterQuality(self):
         # represent using a confusion matrix, with some additional metrics
         # use a matrix like
         # [True Negative]  [False Positive]
         # [False Negative] [True Positive]
-        pass
+        for dataset, all_stats in self.ClusterQuality.items():
+            true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1 = all_stats

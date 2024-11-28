@@ -9,6 +9,9 @@ class RelationalDatabase:
     def __init__(self):
         self.Tables: list[RelationalTable] = []
         self.IntegrationIDsAssigned: bool = False
+        # for benchmarking purposes
+        self.SilhouetteScores: dict[int, float] = {}
+        self.ColumnClusterSizes: list[int] = None
 
     # Load all CSV files within the folder into tables in this database
     def LoadFromFolder(self, data_folder: str):
@@ -65,6 +68,7 @@ class RelationalDatabase:
             clustering = AgglomerativeClustering(n_clusters=n_clusters)
             clustering.fit(all_embeddings)
             silhouette = silhouette_score(all_embeddings, clustering.labels_)
+            self.SilhouetteScores[n_clusters] = silhouette
             print(f"Silhouette score for {n_clusters} clusters: {silhouette}")
 
             if best_score < silhouette:
@@ -72,6 +76,7 @@ class RelationalDatabase:
                 best_clustering = clustering
 
         print(f"Best clustering achieved using {best_clustering.n_clusters_} clusters")
+        self.ColumnClusterSizes = [minimum_columns, maximum_columns, best_clustering.n_clusters_]
 
         # now cluster the table columns with this model
         column_clusters = {id: cluster for cluster, id in zip(best_clustering.labels_, all_integrationIDs)}
