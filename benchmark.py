@@ -49,24 +49,26 @@ class Benchmarker:
 
     def RunBenchmarks(self, align_benchmark_folder: str ,integration_benchmark_folder: str):
         # run clustering quality benchmarks for the align benchmark folder
-        for root, dirs, _ in os.walk(align_benchmark_folder):
-            if os.path.realpath(root) == os.path.realpath(align_benchmark_folder):
-                for dir_name in dirs:
-                    dir_path = os.path.join(root, dir_name)
-                    db = RelationalDatabase()
-                    db.LoadFromFolder(dir_path)
-                    self.ClusteringQualityStatistics(db, dir_name)
+        if align_benchmark_folder:
+            for root, dirs, _ in os.walk(align_benchmark_folder):
+                if os.path.realpath(root) == os.path.realpath(align_benchmark_folder):
+                    for dir_name in dirs:
+                        dir_path = os.path.join(root, dir_name)
+                        db = RelationalDatabase()
+                        db.LoadFromFolder(dir_path)
+                        self.ClusteringQualityStatistics(db, dir_name)
         
         # run the integration benchmarks for the integration benchmark folder
-        methods = ["ALITE"]
-        for root, dirs, _ in os.walk(integration_benchmark_folder):
-            if os.path.realpath(root) == os.path.realpath(integration_benchmark_folder):
-                for dir_name in dirs:
-                    dir_path = os.path.join(root, dir_name)
-                    db = RelationalDatabase()
-                    db.LoadFromFolder(dir_path)
-                    for method in methods:
-                        self.Benchmark2(db, dir_name, method)
+        if integration_benchmark_folder:
+            methods = ["ALITE"]
+            for root, dirs, _ in os.walk(integration_benchmark_folder):
+                if os.path.realpath(root) == os.path.realpath(integration_benchmark_folder):
+                    for dir_name in dirs:
+                        dir_path = os.path.join(root, dir_name)
+                        db = RelationalDatabase()
+                        db.LoadFromFolder(dir_path)
+                        for method in methods:
+                            self.Benchmark2(db, dir_name, method)
 
     def VisualizeDuration(self, max_datasets_visualized: int = 20):
         # Filter datasets and methods for visualization
@@ -202,7 +204,7 @@ class Benchmarker:
         all_params.append(len(unique_columns))
         self.ClusterParameters[dataset_name] = all_params
 
-    def VisualizeClusterStatistics(self, x_param: str, y_param: str, scatter: bool):
+    def VisualizeClusterStatistics(self, x_param: str, y_param: str, scatter: bool, with_reg: bool):
         x = []
         y = []
         x_label = None
@@ -327,6 +329,15 @@ class Benchmarker:
             plt.scatter(sorted_x, sorted_y)
         else:
             plt.plot(sorted_x, sorted_y)
+
+        # optionally include a best-fit line
+        if with_reg:
+            m, b = np.polyfit(x, y, deg=1)
+            poly = lambda xx: m * xx + b
+            
+            x_span = np.linspace(min(x) * 0.9, max(x) * 1.1)
+            plt.plot(x_span, poly(x_span))
+
         plt.xlabel(x_label)
         plt.ylabel(y_label)
         plt.title(f"Column Alignment: {x_label} vs. {y_label}")
