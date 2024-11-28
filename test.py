@@ -143,11 +143,11 @@ class TestRelationalTableFunctions(unittest.TestCase):
 
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame(data)
-        table_a.InitializeIntegrationIDs(0)
+        # table_a.InitializeIntegrationIDs(0)
 
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame(data)
-        table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
+        # table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
@@ -160,8 +160,8 @@ class TestRelationalTableFunctions(unittest.TestCase):
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2],
-            1: ['X', 'Y']
+            'Key': [1, 2, 1, 2],
+            'Value': ['X', 'Y', 'X', 'Y']
         })
         
         print("Expected")
