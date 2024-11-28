@@ -8,18 +8,18 @@ class Benchmarker:
     def __init__(self):
         self.Durations: dict[tuple[str, str], float] = {}
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
+        self.ClusterQuality: dict[str, list[float]] = {}
+        self.ClusterParameters: dict[str, list[int]] = {}
+        self.SampleSilhouetteScores: dict[int, float] = None
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
         if method.lower() == "alite":
             method_func = database.RunALITE
-        elif method.lower() == "bicomnloj" and hasattr(database, "RunBIComNLoj"):
-            method_func = database.RunBIComNLoj
         else:
             print(f"{method} is not a valid method or is not implemented.")
             return
 
-        print("Test 1")
         # Measure initial tuple count
         input_tuples = database.TupleCount()
 
@@ -27,8 +27,6 @@ class Benchmarker:
         start_time = time.time()
         full_disjunction = method_func()
         end_time = time.time()
-        
-        print("Test 2")
 
         # Store the duration
         duration = end_time - start_time
@@ -49,10 +47,20 @@ class Benchmarker:
         db.LoadFromFolder(data_folder)
         self.Benchmark2(db, dataset_name, method)
 
-    def RunBenchmark(self, benchmark_folder: str):
-        methods = ["ALITE", "BIComNLoj"]
-        for root, dirs, _ in os.walk(benchmark_folder):
-            if os.path.realpath(root) == os.path.realpath(benchmark_folder):
+    def RunBenchmarks(self, align_benchmark_folder: str ,integration_benchmark_folder: str):
+        # run clustering quality benchmarks for the align benchmark folder
+        for root, dirs, _ in os.walk(align_benchmark_folder):
+            if os.path.realpath(root) == os.path.realpath(align_benchmark_folder):
+                for dir_name in dirs:
+                    dir_path = os.path.join(root, dir_name)
+                    db = RelationalDatabase()
+                    db.LoadFromFolder(dir_path)
+                    self.ClusteringQualityStatistics(db, dir_name)
+        
+        # run the integration benchmarks for the integration benchmark folder
+        methods = ["ALITE"]
+        for root, dirs, _ in os.walk(integration_benchmark_folder):
+            if os.path.realpath(root) == os.path.realpath(integration_benchmark_folder):
                 for dir_name in dirs:
                     dir_path = os.path.join(root, dir_name)
                     db = RelationalDatabase()
@@ -66,7 +74,7 @@ class Benchmarker:
         methods = sorted(list(set([x[1] for x in self.Durations.keys()])))
 
         # Sort datasets by ALITE duration for consistent ordering
-        ALITE_durations = {ds: self.Durations[(ds, "ALITE")] for ds in datasets if ("ALITE" in methods)}
+        ALITE_durations = {ds: self.Durations[(ds, "ALITE")] for ds in datasets}
         sorted_datasets = sorted(datasets, key=lambda ds: ALITE_durations.get(ds, float('inf')))
 
         # Gather method durations
@@ -85,10 +93,10 @@ class Benchmarker:
 
         # Finalize plot details
         ax.set_ylabel('Time (s)')
-        ax.set_title('Runtime of ALITE vs Other Methods')
+        ax.set_title('ALITE Runtime')
         ax.set_xticks(x + width / 2, sorted_datasets)
         ax.tick_params(axis='x', labelrotation=90)
-        ax.legend(loc='upper left', ncols=len(methods))
+        #ax.legend(loc='upper left', ncols=len(methods))
         ax.set_yscale('log')
 
     def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1):
@@ -122,6 +130,227 @@ class Benchmarker:
         ax.set_xlabel(f'# of {tuple_type} Tuples')
         ax.set_ylabel('Time (s)')
         ax.set_title(f'Runtime vs. {tuple_type} Tuple Count')
-        ax.legend(loc='upper left')
+        #ax.legend(loc='upper left')
         ax.set_xbound(lower=0, upper=x_limit)
         ax.set_yscale('log')
+
+    def ClusteringQualityStatistics(self, database: RelationalDatabase, dataset_name: str):
+        if not database.IntegrationIDsAssigned:
+            database.AssignIntegrationIDs()
+        if not self.SampleSilhouetteScores:
+            self.SampleSilhouetteScores = database.SilhouetteScores    
+        
+        # in this case, a "Negative" is a relation between a column from one table and a column from
+        # another table that does not exist. A "Positive" is a relation between two such columns that
+        # does exist. In this benchmark, it can be assumed that columns with the same name have a Positive
+        # relation, while those with different names have a Negative relation
+        true_negatives = 0
+        false_negatives = 0
+        true_positives = 0
+        false_positives = 0
+        
+        unique_columns = set()
+
+        # take each pair of tables (including a table and itself), and take each pair of columns from 
+        # these tables to compare their names and assigned integration IDs
+        for table in database.Tables:
+            for other_table in database.Tables:
+                for columnID, columnName in table.ColumnNames.items():
+                    for other_columnID, other_columnName in other_table.ColumnNames.items():
+                        unique_columns.add(columnName)
+                        unique_columns.add(other_columnName)
+                        if columnName == other_columnName:
+                            # this is a positive relation
+                            if columnID == other_columnID:
+                                # is positive, flagged as positive
+                                true_positives += 1
+                            else:
+                                # is positive, flagged as negative
+                                false_negatives += 1
+                        else:
+                            # this is a negative relation
+                            if columnID == other_columnID:
+                                # is negative, flagged as positive
+                                false_positives += 1
+                            else:
+                                # is negative, flagged as negative
+                                true_negatives += 1
+
+        precision = (true_positives) / (true_positives + false_positives)
+        recall = (true_positives) / (true_positives + false_negatives)
+        accuracy = (true_positives + true_negatives) / (true_positives + false_positives + true_negatives + false_negatives)
+        f1 = (2 * true_positives) / (2 * true_positives + false_positives + false_negatives)
+
+        print(f"For dataset {dataset_name}:")
+        print(f"True positives: {true_positives}")
+        print(f"False positives: {false_positives}")
+        print(f"True negatives: {true_negatives}")
+        print(f"False negatives: {false_negatives}")
+        print(f"Precision: {precision}")
+        print(f"Recall: {recall}")
+        print(f"Accuracy: {accuracy}")
+        print(f"F1 score: {f1}")
+
+        all_stats = [true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1]
+        self.ClusterQuality[dataset_name] = all_stats
+
+        # also record parameters that may affect the cluster quality, in particular
+        # the number of input tables, the minimum and maximum number of total columns in the FD, 
+        # the predicted number of columns, and the actual number of unique columns
+        all_params = [len(database.Tables)]
+        all_params.extend(database.ColumnClusterSizes)
+        all_params.append(len(unique_columns))
+        self.ClusterParameters[dataset_name] = all_params
+
+    def VisualizeClusterStatistics(self, x_param: str, y_param: str, scatter: bool):
+        x = []
+        y = []
+        x_label = None
+        y_label = None
+        for dataset in self.ClusterQuality:
+            true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1 = self.ClusterQuality[dataset]
+            table_count, min_columns, max_columns, predicted_columns, actual_columns = self.ClusterParameters[dataset]
+
+            if x_param == 'tp':
+                x.append(true_positives)
+                if not x_label:
+                    x_label = "True Positives"
+            elif x_param == 'fp':
+                x.append(false_positives)
+                if not x_label:
+                    x_label = "False Positives"
+            elif x_param == 'tn':
+                x.append(true_negatives)
+                if not x_label:
+                    x_label = "True Negatives"
+            elif x_param == 'fn':
+                x.append(false_negatives)
+                if not x_label:
+                    x_label = "False Negatives"
+            elif x_param == 'p':
+                x.append(precision)
+                if not x_label:
+                    x_label = "Precision"
+            elif x_param == 'r':
+                x.append(recall)
+                if not x_label:
+                    x_label = "Recall"
+            elif x_param == 'a':
+                x.append(accuracy)
+                if not x_label:
+                    x_label = "Accuracy"
+            elif x_param == 'f':
+                x.append(f1)
+                if not x_label:
+                    x_label = "F1 Score"
+            elif x_param == 'tc':
+                x.append(table_count)
+                if not x_label:
+                    x_label = "Input Table Count"
+            elif x_param == 'min':
+                x.append(min_columns)
+                if not x_label:
+                    x_label = "Minimum Column Count"
+            elif x_param == 'max':
+                x.append(max_columns)
+                if not x_label:
+                    x_label = "Maximum Column Count"
+            elif x_param == 'pre':
+                x.append(predicted_columns)
+                if not x_label:
+                    x_label = "Predicted Column Count"
+            elif x_param == 'act':
+                x.append(actual_columns)
+                if not x_label:
+                    x_label = "Actual Column Count"
+
+            if y_param == 'tp':
+                y.append(true_positives)
+                if not y_label:
+                    y_label = "True Positives"
+            elif y_param == 'fp':
+                y.append(false_positives)
+                if not y_label:
+                    y_label = "False Positives"
+            elif y_param == 'tn':
+                y.append(true_negatives)
+                if not y_label:
+                    y_label = "True Negatives"
+            elif y_param == 'fn':
+                y.append(false_negatives)
+                if not y_label:
+                    y_label = "False Negatives"
+            elif y_param == 'p':
+                y.append(precision)
+                if not y_label:
+                    y_label = "Precision"
+            elif y_param == 'r':
+                y.append(recall)
+                if not y_label:
+                    y_label = "Recall"
+            elif y_param == 'a':
+                y.append(accuracy)
+                if not y_label:
+                    y_label = "Accuracy"
+            elif y_param == 'f':
+                y.append(f1)
+                if not y_label:
+                    y_label = "F1 Score"
+            elif y_param == 'tc':
+                y.append(table_count)
+                if not y_label:
+                    y_label = "Input Table Count"
+            elif y_param == 'min':
+                y.append(min_columns)
+                if not y_label:
+                    y_label = "Minimum Column Count"
+            elif y_param == 'max':
+                y.append(max_columns)
+                if not y_label:
+                    y_label = "Maximum Column Count"
+            elif y_param == 'pre':
+                y.append(predicted_columns)
+                if not y_label:
+                    y_label = "Predicted Column Count"
+            elif y_param == 'act':
+                y.append(actual_columns)
+                if not y_label:
+                    y_label = "Actual Column Count"
+
+        # sort the x and y coords so that a line or scatter plot can be used
+        xy = zip(x, y)
+        sorted_xy = sorted(xy, key = lambda k: k[0])
+        sorted_x, sorted_y = zip(*sorted_xy)
+
+        # now plot either scatter or line plot
+        if scatter:
+            plt.scatter(sorted_x, sorted_y)
+        else:
+            plt.plot(sorted_x, sorted_y)
+        plt.xlabel(x_label)
+        plt.ylabel(y_label)
+        plt.title(f"Column Alignment: {x_label} vs. {y_label}")
+        plt.show()
+
+    def VisualizeSilhouetteScores(self):
+        x = []
+        y = []
+        maximum_x = -1
+        maximum_y = -1
+        minimum_y = 1
+        for n_clusters, score in self.SampleSilhouetteScores.items():
+            x.append(n_clusters)
+            y.append(score)
+            if score > maximum_y:
+                maximum_y = score
+                maximum_x = n_clusters
+            if score < minimum_y:
+                minimum_y = score
+
+        plt.plot(x, y)
+        plt.vlines(x = maximum_x, ymin=minimum_y, ymax=min(1, maximum_x + 0.1), colors='blue')
+        plt.xlabel("# of Column Clusters")
+        plt.ylabel("Silhouette Score")
+        plt.title("Column Clustering Quality")
+        plt.show()
+

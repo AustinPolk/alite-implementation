@@ -1,14 +1,20 @@
 import pandas as pd
 import numpy as np
+from sentence_transformers import SentenceTransformer
+import os
 
 class RelationalTable:
     def __init__(self):
         self.IntegrationIDToColumnIndex: dict[int, int] = {}
         self.DataFrame: pd.DataFrame = pd.DataFrame()
         self.labeled_null_counter = 0  # Counter to track unique labeled nulls
+        self.ColumnEmbeddings: dict[int, np.ndarray] = {}
+        self.ColumnNames: dict[int|str, str] = {}
+        self.TableName: str = None
 
     # Load CSV data into the DataFrame
     def LoadFromCSV(self, csv_file: str):
+        self.TableName = os.path.basename(csv_file)
         self.DataFrame = pd.read_csv(csv_file, encoding="ISO-8859-1", on_bad_lines='skip')
 
     def TupleCount(self):
@@ -21,14 +27,76 @@ class RelationalTable:
             column_index = i
             self.IntegrationIDToColumnIndex[integrationID] = column_index
         return offset + len(self.DataFrame.columns)
+    
+    # Record all the datatypes and names for columns in the table
+    def GetColumnNames(self):
+        column_names = self.DataFrame.columns.to_list()
+        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
+            column_name = column_names[columnIndex]
+            self.ColumnNames[integrationID] = column_name
+    
+    # For each column in the table, assign a unique embedding for clustering later
+    def InitializeColumnEmbeddings(self, transformer: SentenceTransformer, random_sample: bool = True):
+        self.GetColumnNames()
+
+        for integrationID, columnIndex in self.IntegrationIDToColumnIndex.items():
+            # read all available entries, generate an embedding by taking the mean of their embeddings
+            sum = np.zeros(transformer.get_sentence_embedding_dimension())
+            column = self.DataFrame.iloc[:, columnIndex]
+            column_values = column.values
+            value_count = 0
+            
+            # if using a random sample, take the first 50 available values as the sample
+            if random_sample:
+                column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:50]
+
+            for value in column_values:
+                if pd.isna(value):
+                    continue
+                else:
+                    value_count += 1
+                
+                # embed the string representation of the value (works for all types) and the column index
+                str_value = str(value)
+                column_annotated = f"Column-{columnIndex}={str_value}"
+                embedding = transformer.encode(column_annotated)
+            
+                sum += embedding
+            
+            # take the mean if there were valid values in the column
+            if value_count:
+                self.ColumnEmbeddings[integrationID] = sum / (value_count)
+                continue
+            # otherwise just use a random embedding
+            else:
+                random_embedding = np.random.rand(sum.shape) * 2 - 1
+                self.ColumnEmbeddings[integrationID] = (sum + random_embedding) / 2
         
+    def RenameColumns(self, column_clusters):
+        # change the column names to the new Integration ID (i.e. which cluster the column falls into)
+        column_name_map = {}
+        reverse_map = {}
+        for integrationID in self.IntegrationIDToColumnIndex:
+            old_name = self.ColumnNames[integrationID]
+            new_name = str(column_clusters[integrationID])
+            column_name_map[old_name] = new_name
+            reverse_map[new_name] = old_name
+        self.DataFrame.rename(columns=column_name_map, inplace=True)
+
+        # clear data used to assign the integration IDs that is no longer needed
+        self.ColumnEmbeddings.clear()
+        self.IntegrationIDToColumnIndex.clear()
+
+        # record the original column names that are represented by the current ones
+        self.ColumnNames = reverse_map
+
     class LabeledNull:
         def __init__(self, idx):
             self.idx = idx
         def __hash__(self):
             return self.idx
         def __eq__(self, other):
-            return self.idx == other.idx
+            return other is self    # labeled nulls cannot be equal unless they are the same
 
     # Generate labeled nulls to distinguish missing values in the data
     def GenerateLabeledNulls(self):
