@@ -10,6 +10,7 @@ class Benchmarker:
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
         self.ClusterQuality: dict[str, list[float]] = {}
         self.ClusterParameters: dict[str, list[int]] = {}
+        self.SampleSilhouetteScores: dict[int, float] = None
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
@@ -136,7 +137,9 @@ class Benchmarker:
     def ClusteringQualityStatistics(self, database: RelationalDatabase, dataset_name: str):
         if not database.IntegrationIDsAssigned:
             database.AssignIntegrationIDs()
-            
+        if not self.SampleSilhouetteScores:
+            self.SampleSilhouetteScores = database.SilhouetteScores    
+        
         # in this case, a "Negative" is a relation between a column from one table and a column from
         # another table that does not exist. A "Positive" is a relation between two such columns that
         # does exist. In this benchmark, it can be assumed that columns with the same name have a Positive
@@ -329,4 +332,25 @@ class Benchmarker:
         plt.title(f"Column Alignment: {x_label} vs. {y_label}")
         plt.show()
 
+    def VisualizeSilhouetteScores(self):
+        x = []
+        y = []
+        maximum_x = -1
+        maximum_y = -1
+        minimum_y = 1
+        for n_clusters, score in self.SampleSilhouetteScores.items():
+            x.append(n_clusters)
+            y.append(score)
+            if score > maximum_y:
+                maximum_y = score
+                maximum_x = n_clusters
+            if score < minimum_y:
+                minimum_y = score
+
+        plt.plot(x, y)
+        plt.vlines(x = maximum_x, ymin=minimum_y, ymax=min(1, maximum_x + 0.1), colors='blue')
+        plt.xlabel("# of Column Clusters")
+        plt.ylabel("Silhouette Score")
+        plt.title("Column Clustering Quality")
+        plt.show()
 
