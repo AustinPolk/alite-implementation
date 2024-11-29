@@ -184,6 +184,9 @@ class RelationalTable:
 
         # Concatenate the aligned tables
         self.DataFrame = pd.concat([aligned_self, aligned_other], axis=0, ignore_index=True).fillna("")
+        
+        # alphabetically order the columns by name to create a consistent ordering
+        self.DataFrame = self.DataFrame.reindex(sorted(self.DataFrame.columns), axis=1)
 
     def Complement(self):
         U_ou = self.DataFrame.copy()  # Outer unioned tuples

@@ -9,28 +9,26 @@ class TestRelationalTableFunctions(unittest.TestCase):
         # Create Table A
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame({
-            'A1': [1, 2],
-            'A2': ['x', 'y']
+            '0': [1, 2],
+            '1': ['x', 'y']
         })
-        table_a.InitializeIntegrationIDs(0)
 
         # Create Table B
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame({
-            'B1': [3, 4],
-            'B2': ['u', 'v']
+            '2': [3, 4],
+            '3': ['u', 'v']
         })
-        table_b.InitializeIntegrationIDs(2)
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2, '', ''],
-            1: ['x', 'y', '', ''],
-            2: ['', '', 3, 4],
-            3: ['', '', 'u', 'v']
+            '0': [1, 2, '', ''],
+            '1': ['x', 'y', '', ''],
+            '2': ['', '', 3, 4],
+            '3': ['', '', 'u', 'v']
         })
 
         pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
@@ -39,28 +37,26 @@ class TestRelationalTableFunctions(unittest.TestCase):
         # Create Table A with 2 rows
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame({
-            'Col1': [1, 2],
-            'Col2': ['A', 'B']
+            '0': [1, 2],
+            '1': ['A', 'B']
         })
-        table_a.InitializeIntegrationIDs(0)
 
         # Create Table B with 3 rows
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame({
-            'Col3': [3, 4, 5],
-            'Col4': ['C', 'D', 'E']
+            '2': [3, 4, 5],
+            '3': ['C', 'D', 'E']
         })
-        table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2, '', '', ''],
-            1: ['A', 'B', '', '', ''],
-            2: ['', '', 3, 4, 5],
-            3: ['', '', 'C', 'D', 'E']
+            '0': [1, 2, '', '', ''],
+            '1': ['A', 'B', '', '', ''],
+            '2': ['', '', 3, 4, 5],
+            '3': ['', '', 'C', 'D', 'E']
         })
 
         expected_df = expected_df.reset_index(drop=True)
@@ -71,65 +67,53 @@ class TestRelationalTableFunctions(unittest.TestCase):
         # Create Table A
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame({
-            'ID': [1, 2],
-            'Value': ['A', 'B']
+            '0': [1, 2],
+            '1': ['A', 'B']
         })
-        table_a.InitializeIntegrationIDs(0)
 
         # Create Table B
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame({
-            'ID': [3, 4],
-            'Description': ['C', 'D']
+            '0': [3, 4],
+            '2': ['C', 'D']
         })
-        table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
-        
+
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
         
-        #print("\nActual")
-
-        #print(table_a.DataFrame)
-
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2, 3, 4],
-            1: ['A', 'B', '', ''],
-            2: ['', '', 'C', 'D']
+            '0': [1, 2, 3, 4],
+            '1': ['A', 'B', '', ''],
+            '2': ['', '', 'C', 'D']
         })
         
-        #print("Expected")
-        
-        #print(expected_df)
-
         pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_outer_union_with_different_schemas(self):
         # Create Table A
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame({
-            'A1': [10, 20],
-            'A2': ['foo', 'bar']
+            '0': [10, 20],
+            '1': ['foo', 'bar']
         })
-        table_a.InitializeIntegrationIDs(0)
 
         # Create Table B
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame({
-            'B1': [30, 40],
-            'B2': ['baz', 'qux']
+            '2': [30, 40],
+            '3': ['baz', 'qux']
         })
-        table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [10, 20, '', ''],
-            1: ['foo', 'bar', '', ''],
-            2: ['', '', 30, 40],
-            3: ['', '', 'baz', 'qux']
+            '0': [10, 20, '', ''],
+            '1': ['foo', 'bar', '', ''],
+            '2': ['', '', 30, 40],
+            '3': ['', '', 'baz', 'qux']
         })
 
         pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
@@ -137,70 +121,50 @@ class TestRelationalTableFunctions(unittest.TestCase):
     def test_outer_union_with_identical_tables(self):
         # Create Table A and B with the same data
         data = {
-            'Key': [1, 2],
-            'Value': ['X', 'Y']
+            '0': [1, 2],
+            '1': ['X', 'Y']
         }
 
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame(data)
-        table_a.InitializeIntegrationIDs(0)
 
         table_b = RelationalTable()
         table_b.DataFrame = pd.DataFrame(data)
-        table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
-        
-        print("\nIdentical Tables")
-        
-        print("Actual")
-
-        print(table_a.DataFrame)
 
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [1, 2],
-            1: ['X', 'Y']
+            '0': [1, 2, 1, 2],
+            '1': ['X', 'Y', 'X', 'Y']
         })
         
-        print("Expected")
-        print(expected_df)
-
         pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_outer_union_with_empty_table(self):
         # Create Table A with data
         table_a = RelationalTable()
         table_a.DataFrame = pd.DataFrame({
-            'A1': [5, 6],
-            'A2': ['M', 'N']
+            '0': [5, 6],
+            '1': ['M', 'N']
         })
         table_a.InitializeIntegrationIDs(0)
 
         # Create Empty Table B
         table_b = RelationalTable()
-        table_b.DataFrame = pd.DataFrame(columns=['B1', 'B2'])
+        table_b.DataFrame = pd.DataFrame(columns=['2', '3'])
         table_b.InitializeIntegrationIDs(len(table_a.DataFrame.columns))
 
         # Perform Outer Union
         table_a.OuterUnionWith(table_b)
         
-        print("\nEmpty table")
-        
-        print("Actual")
-
-        print(table_a.DataFrame)
-
         # Expected DataFrame
         expected_df = pd.DataFrame({
-            0: [5, 6],
-            1: ['M', 'N']
+            '0': [5, 6],
+            '1': ['M', 'N']
         })
         
-        print("Expected")
-        print(expected_df)
-
         pd.testing.assert_frame_equal(table_a.DataFrame.reset_index(drop=True), expected_df)
 
     def test_complement_identical_tables(self):
