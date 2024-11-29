@@ -122,4 +122,7 @@ class RelationalDatabase:
         # Step 6: Subsumption - remove subsumable tuples
         fullDisjunction.SubsumeTuples()
 
+        # Step 7 Save results to file
+        fullDisjunction.saveToFile();
+
         return fullDisjunction

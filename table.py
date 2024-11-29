@@ -2,6 +2,8 @@ import pandas as pd
 import numpy as np
 from sentence_transformers import SentenceTransformer
 import os
+import datetime
+
 
 class RelationalTable:
     def __init__(self):
@@ -11,6 +13,55 @@ class RelationalTable:
         self.ColumnEmbeddings: dict[int, np.ndarray] = {}
         self.ColumnNames: dict[int|str, str] = {}
         self.TableName: str = None
+
+
+    # Save attributes to file (including table)
+    def saveToFile(self):
+        # Use datetime.datetime.now() to generate the filename with the current date and time
+        current_time = datetime.datetime.now()
+        timestamp = current_time.strftime("%d-%m-%Y-%H%M")
+        
+        # Create filenames for the result file and the CSV file
+        result_filename = f"Result-{timestamp}.txt"
+        csv_filename = f"TableData-{timestamp}.csv"
+
+        # Write the metadata and attributes to the result file
+        with open(result_filename, 'w', encoding='utf-8') as result_file:
+            # Write the table name
+            result_file.write(f"Table Name: {self.TableName}\n")
+            
+            # Write the column names
+            result_file.write("Column Names:\n")
+            for col_id, col_name in self.ColumnNames.items():
+                result_file.write(f"  {col_id}: {col_name}\n")
+            
+            # Write the IntegrationIDToColumnIndex mapping
+            result_file.write("\nIntegrationIDToColumnIndex:\n")
+            for integration_id, col_index in self.IntegrationIDToColumnIndex.items():
+                result_file.write(f"  {integration_id}: {col_index}\n")
+            
+            # Write the labeled null counter
+            result_file.write(f"\nLabeled Null Counter: {self.labeled_null_counter}\n")
+            
+            # Write the ColumnEmbeddings (if they exist)
+            if self.ColumnEmbeddings:
+                result_file.write("\nColumn Embeddings:\n")
+                for col_id, embedding in self.ColumnEmbeddings.items():
+                    result_file.write(f"  Column {col_id}: {embedding.tolist()}\n")
+            else:
+                result_file.write("\nColumn Embeddings: None\n")
+            
+            # Mention the CSV file where the table data is saved
+            result_file.write(f"\nTable Data saved to {csv_filename}\n")
+
+        # Write the table data to a CSV file
+        if not self.DataFrame.empty:
+            self.DataFrame.to_csv(csv_filename, index=False)
+            print(f"Table data saved to {csv_filename}")
+        else:
+            print("The table is empty. No CSV file created.")
+
+        print(f"Metadata and attributes saved to {result_filename}")
 
     # Load CSV data into the DataFrame
     def LoadFromCSV(self, csv_file: str):
