@@ -128,8 +128,8 @@ class RelationalTable:
             self.ColumnNames.update(other_table.ColumnNames)
             return
         elif self.DataFrame.equals(other_table.DataFrame):
-            # If both tables are identical, no need to union, return self
-            # TODO: is that the case?
+            # # If both tables are identical, do a simply union
+            self.DataFrame = pd.concat([self.DataFrame, other_table.DataFrame], ignore_index=True)
             return
         
         all_columns = list(set(self.DataFrame.columns) | set(other_table.DataFrame.columns))
