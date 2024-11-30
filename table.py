@@ -97,9 +97,9 @@ class RelationalTable:
             column_values = column.values
             value_count = 0
             
-            # if using a random sample, take the first 50 available values as the sample
+            # if using a random sample, take the first 100 available values as the sample
             if random_sample:
-                column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:50]
+                column_values = sorted(column_values, key = lambda x: 1 if pd.isna(x) else np.random.rand())[:100]
 
             for value in column_values:
                 if pd.isna(value):
