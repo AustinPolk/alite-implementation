@@ -107,10 +107,10 @@ class RelationalTable:
                 else:
                     value_count += 1
                 
-                # embed the string representation of the value (works for all types) and the column index
+                # embed the string representation of the value (works for all types)
                 str_value = str(value)
-                column_annotated = f"Column-{columnIndex}={str_value}"
-                embedding = transformer.encode(column_annotated)
+                column_annotated = f"{str_value}"
+                embedding = transformer.encode(column_annotated, normalize_embeddings=True)
             
                 sum += embedding
             

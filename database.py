@@ -1,7 +1,7 @@
 import os
 from table import RelationalTable
 from sentence_transformers import SentenceTransformer
-from sklearn.cluster import AgglomerativeClustering
+from column_clustering import ColumnClustering
 from sklearn.metrics import silhouette_score
 import numpy as np
 
@@ -40,6 +40,7 @@ class RelationalDatabase:
         offset = 0
         all_integrationIDs = []
         all_column_embeddings = {}
+        from_table = []
         for idx, table in enumerate(self.Tables):
             print(f"Initializing table {idx}")
             offset = table.InitializeIntegrationIDs(offset)
@@ -54,7 +55,8 @@ class RelationalDatabase:
 
             all_column_embeddings.update(table.ColumnEmbeddings)
             all_integrationIDs.extend(table.IntegrationIDToColumnIndex.keys())
-        all_embeddings = np.array(list(all_column_embeddings.values()))
+            from_table.extend([idx]*column_count)
+        all_embeddings = list(all_column_embeddings.values())
 
         print(f"Total embeddings: {len(all_embeddings)}")
         print(f"Minimum columns: {minimum_columns}\tMaximum columns: {maximum_columns}")
@@ -65,8 +67,8 @@ class RelationalDatabase:
         # try all possible cluster sizes, select the size that maximizes silhouette score
         for n_clusters in range(minimum_columns, maximum_columns):
             print(f"Clustering into {n_clusters} clusters")
-            clustering = AgglomerativeClustering(n_clusters=n_clusters)
-            clustering.fit(all_embeddings)
+            clustering = ColumnClustering(n_clusters=n_clusters)
+            clustering.fit(all_embeddings, from_table)
             silhouette = silhouette_score(all_embeddings, clustering.labels_)
             self.SilhouetteScores[n_clusters] = silhouette
             print(f"Silhouette score for {n_clusters} clusters: {silhouette}")
