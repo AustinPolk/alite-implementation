@@ -107,7 +107,7 @@ class RelationalDatabase:
 
         # Step 2: Create a new table for the full disjunction
         fullDisjunction = RelationalTable()
-        fullDisjunction.saveToFile("1Initial")
+        fullDisjunction.saveToFile("1 - Initial")
 
         print("Outer Union Start")
         
@@ -116,16 +116,18 @@ class RelationalDatabase:
             table.GenerateLabeledNulls()
             fullDisjunction.OuterUnionWith(table)
         
-        fullDisjunction.saveToFile("2PostOuterJoinAndLabelledNulls")
+        fullDisjunction.saveToFile("2 - PostOuterJoinAndLabelledNulls")
             
         print("Outer Union Done")
+        print(f"Tuple count: {fullDisjunction.TupleCount()}")
 
 
         print("Complement Start")
         # Step 4: Complement phase
         fullDisjunction.Complement()
 
-        fullDisjunction.saveToFile("3PostComplement")
+        fullDisjunction.saveToFile("3 - PostComplement")
+        print(f"Tuple count: {fullDisjunction.TupleCount()}")
 
         
         print("Complement Done")
@@ -133,13 +135,14 @@ class RelationalDatabase:
         # Step 5: Replace labeled nulls with actual values (if any replacement logic applies)
         fullDisjunction.ReplaceLabeledNulls()
 
-        fullDisjunction.saveToFile("4ReplacingLabelledNulls")
+        fullDisjunction.saveToFile("4 - ReplacingLabelledNulls")
 
 
         # Step 6: Subsumption - remove subsumable tuples
         fullDisjunction.SubsumeTuples()
 
-        fullDisjunction.saveToFile("5PostSubsumption")
+        fullDisjunction.saveToFile("5 - PostSubsumption")
+        print(f"Tuple count: {fullDisjunction.TupleCount()}")
 
 
         return fullDisjunction

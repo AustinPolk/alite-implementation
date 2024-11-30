@@ -175,12 +175,12 @@ class RelationalTable:
             return
         elif self.DataFrame.empty:
             # If self is empty, take the other_table
-            self.DataFrame = other_table.DataFrame.copy()
+            self.DataFrame = other_table.DataFrame.copy().fillna("")
             self.ColumnNames.update(other_table.ColumnNames)
             return
         elif self.DataFrame.equals(other_table.DataFrame):
-            # # If both tables are identical, do a simply union
-            self.DataFrame = pd.concat([self.DataFrame, other_table.DataFrame], ignore_index=True)
+            # # If both tables are identical, do a regular union
+            self.DataFrame = pd.concat([self.DataFrame, other_table.DataFrame], ignore_index=True).fillna("")
             return
         
         all_columns = list(set(self.DataFrame.columns) | set(other_table.DataFrame.columns))
