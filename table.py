@@ -250,13 +250,20 @@ class RelationalTable:
             i += 1
             U_temp = U_comp.copy()
             U_comp_new = pd.DataFrame(columns=U_comp.columns)
+            print("\n")
 
             for _, t_1 in U_temp.iterrows():
                 complement_count = 0
                 for _, t_2 in U_ou.iterrows():
+                    if t_1.equals(t_2):
+                        continue
                     R, complement_status = self.k(t_1, t_2)
                     if complement_status:
                         U_comp_new = pd.concat([U_comp_new, pd.DataFrame([R])], ignore_index=True)
+                        #print("Tuple 1: \n", t_1, "\n")
+                        #print("Tuple 2: \n", t_2, "\n")
+                        #print("Result: \n", pd.DataFrame([R]), "\n")
+                        #print("New tuple: \n", U_comp_new, "\n")
                         complement_count += 1
 
                 if complement_count == 0:
@@ -266,6 +273,8 @@ class RelationalTable:
             U_comp = U_comp_new
 
         self.DataFrame = U_comp.replace({pd.NA: None})
+        print("original tuples: \n", U_ou, "\n")
+        print("final tuples: \n", U_comp, "\n")
         print("Complement operation performed.")
 
 
@@ -276,9 +285,15 @@ class RelationalTable:
         for col in self.DataFrame.columns:
             val1 = t_1[col]
             val2 = t_2[col]
+            
+            print(val1)
+            print(val2)
 
-            is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
-            is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+            #is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+            #is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+            
+            is_null1 = pd.isna(val1) or (isinstance(val1, self.LabeledNull)) or str(val1) == ''
+            is_null2 = pd.isna(val2) or (isinstance(val2, self.LabeledNull)) or str(val2) == ''
 
             if not is_null1 and not is_null2:
                 if val1 != val2:
@@ -290,8 +305,11 @@ class RelationalTable:
                 val1 = t_1[col]
                 val2 = t_2[col]
 
-                is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
-                is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+                #is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
+                #is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
+                
+                is_null1 = pd.isna(val1) or (isinstance(val1, self.LabeledNull)) or str(val1) == ''
+                is_null2 = pd.isna(val2) or (isinstance(val2, self.LabeledNull)) or str(val2) == ''
 
                 if not is_null1:
                     R[col] = val1
