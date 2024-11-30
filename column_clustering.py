@@ -38,10 +38,10 @@ class ColumnClustering:
         self.n_clusters_ = n_clusters
         self.labels_: list[int] = None
     def fit(self, column_embeddings: list[np.ndarray], from_table: list[int]):
-        cluster_tuples = zip(column_embeddings, from_table, range(self.n_clusters_))
+        cluster_tuples = zip(column_embeddings, from_table, range(len(column_embeddings)))
         clusters = [ColumnCluster(embedding, table, idx) for embedding, table, idx in cluster_tuples]
 
-        while len(clusters) < self.n_clusters_:
+        while len(clusters) > self.n_clusters_:
             current_clusters = len(clusters)
             
             # find the closest pair of clusters
@@ -63,6 +63,6 @@ class ColumnClustering:
         point_clusters = []
         for cluster in clusters:
             for point in cluster.Points:
-                point_clusters.append((point.Index, clusters.index))
+                point_clusters.append((point.Index, cluster.ClusterIndex))
         point_clusters = sorted(point_clusters, key = lambda x: x[0])
         self.labels_ = [x[1] for x in point_clusters]
