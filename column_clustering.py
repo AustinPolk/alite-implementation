@@ -37,6 +37,7 @@ class ColumnClustering:
     def __init__(self, n_clusters: int):
         self.n_clusters_ = n_clusters
         self.labels_: list[int] = None
+        self.broke_out: bool = False
     def fit(self, column_embeddings: list[np.ndarray], from_table: list[int]):
         cluster_tuples = zip(column_embeddings, from_table, range(len(column_embeddings)))
         clusters = [ColumnCluster(embedding, table, idx) for embedding, table, idx in cluster_tuples]
@@ -46,14 +47,22 @@ class ColumnClustering:
             
             # find the closest pair of clusters
             closest_pair = None
-            closest_distance = None
+            closest_distance = np.inf
             for i in range(current_clusters):
                 for j in range(i + 1, current_clusters):
                     distance = clusters[i].distance_from(clusters[j])
-                    if not closest_distance or distance < closest_distance:
+                    if distance < closest_distance:
                         closest_distance = distance
                         closest_pair = (i, j)
             
+            # if no closest pair is found, that means the clustering can't go any further
+            # without violating the constraint that columns from the same table must be in
+            # different clusters. End it here and allow the next iteration to specify more clusters
+            if not closest_pair:
+                print(f"Breaking out of cluster fitting at n={current_clusters}, too few clusters specified")
+                self.broke_out = True
+                return
+
             # combine the closest pair
             i, j = closest_pair
             clusters[i].combine_with(clusters[j])

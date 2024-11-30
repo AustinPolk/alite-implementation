@@ -67,8 +67,12 @@ class RelationalDatabase:
         # try all possible cluster sizes, select the size that maximizes silhouette score
         for n_clusters in range(minimum_columns, maximum_columns):
             print(f"Clustering into {n_clusters} clusters")
+            
             clustering = ColumnClustering(n_clusters=n_clusters)
             clustering.fit(all_embeddings, from_table)
+            if clustering.broke_out:
+                continue
+
             silhouette = silhouette_score(all_embeddings, clustering.labels_)
             self.SilhouetteScores[n_clusters] = silhouette
             print(f"Silhouette score for {n_clusters} clusters: {silhouette}")
