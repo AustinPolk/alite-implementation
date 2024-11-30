@@ -53,7 +53,7 @@ class RelationalDatabase:
             # maximum columns is the sum of the sizes of all tables
             maximum_columns += column_count
             
-            print(f"Table {idx} embeddings: {table.ColumnEmbeddings}")
+            #print(f"Table {idx} embeddings: {table.ColumnEmbeddings}")
 
             all_column_embeddings.update(table.ColumnEmbeddings)
             all_integrationIDs.extend(table.IntegrationIDToColumnIndex.keys())
@@ -66,13 +66,14 @@ class RelationalDatabase:
         # compute all possible clusterings here, choose from them below
         print("Clustering column embeddings")
         column_clustering = ColumnClustering(min_clusters=minimum_columns)
+        column_clustering.fit(all_embeddings, from_table)
         best_clustering = None
         best_score = -1
 
         # try all possible cluster sizes, select the size that maximizes silhouette score
         for n_clusters in range(minimum_columns, maximum_columns):
             
-            if n_clusters in column_clustering.labels:
+            if n_clusters not in column_clustering.labels:
                 print(f"Skipping {n_clusters} clusters")
                 continue
             cluster_labels = column_clustering.labels[n_clusters]
@@ -85,8 +86,8 @@ class RelationalDatabase:
                 best_score = silhouette
                 best_clustering = cluster_labels
 
-        print(f"Best clustering achieved using {len(best_clustering)} clusters")
-        self.ColumnClusterSizes = [minimum_columns, maximum_columns, len(best_clustering)]
+        print(f"Best clustering achieved using {len(set(best_clustering))} clusters")
+        self.ColumnClusterSizes = [minimum_columns, maximum_columns, len(set(best_clustering))]
 
         # now cluster the table columns with this model
         column_clusters = {id: cluster for cluster, id in zip(best_clustering, all_integrationIDs)}

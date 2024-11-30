@@ -11,7 +11,7 @@ class Benchmarker:
         self.ClusterDurations: dict[str, float] = {}
         self.ClusterQuality: dict[str, list[float]] = {}
         self.ClusterParameters: dict[str, list[int]] = {}
-        self.SilhouetteScores: dict[str, dict[int, float]] = None
+        self.SilhouetteScores: dict[str, dict[int, float]] = {}
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name

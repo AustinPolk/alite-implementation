@@ -41,16 +41,15 @@ class ColumnClustering:
         cluster_tuples = zip(column_embeddings, from_table, range(len(column_embeddings)))
         clusters = [ColumnCluster(embedding, table, idx) for embedding, table, idx in cluster_tuples]
 
+        point_clusters = []
+        for cluster in clusters:
+            for point in cluster.Points:
+                point_clusters.append((point.Index, cluster.ClusterIndex))
+        point_clusters = sorted(point_clusters, key = lambda x: x[0])
+        self.labels[len(clusters)] = [x[1] for x in point_clusters]
+
         while len(clusters) > self.min_clusters_:
             current_clusters = len(clusters)
-            
-            # now for each original point, assign its current cluster as the label
-            point_clusters = []
-            for cluster in clusters:
-                for point in cluster.Points:
-                    point_clusters.append((point.Index, cluster.ClusterIndex))
-            point_clusters = sorted(point_clusters, key = lambda x: x[0])
-            self.labels[current_clusters] = [x[1] for x in point_clusters]
 
             # find the closest pair of clusters
             closest_pair = None
@@ -74,3 +73,10 @@ class ColumnClustering:
             i, j = closest_pair
             clusters[i].combine_with(clusters[j])
             clusters.remove(clusters[j])
+
+            point_clusters = []
+            for cluster in clusters:
+                for point in cluster.Points:
+                    point_clusters.append((point.Index, cluster.ClusterIndex))
+            point_clusters = sorted(point_clusters, key = lambda x: x[0])
+            self.labels[current_clusters - 1] = [x[1] for x in point_clusters]
