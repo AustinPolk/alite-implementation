@@ -8,9 +8,10 @@ class Benchmarker:
     def __init__(self):
         self.Durations: dict[tuple[str, str], float] = {}
         self.TupleCounts: dict[tuple[str, str], tuple[int, int]] = {}
+        self.ClusterDurations: dict[str, float] = {}
         self.ClusterQuality: dict[str, list[float]] = {}
         self.ClusterParameters: dict[str, list[int]] = {}
-        self.SampleSilhouetteScores: dict[int, float] = None
+        self.SilhouetteScores: dict[str, dict[int, float]] = None
 
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
@@ -70,7 +71,7 @@ class Benchmarker:
                         for method in methods:
                             self.Benchmark2(db, dir_name, method)
 
-    def VisualizeDuration(self, max_datasets_visualized: int = 20):
+    def VisualizeDuration(self, max_datasets_visualized: int = 20, log_scale: bool = False):
         # Filter datasets and methods for visualization
         datasets = list(set([x[0] for x in self.Durations.keys()]))[:max_datasets_visualized]
         methods = sorted(list(set([x[1] for x in self.Durations.keys()])))
@@ -99,9 +100,10 @@ class Benchmarker:
         ax.set_xticks(x + width / 2, sorted_datasets)
         ax.tick_params(axis='x', labelrotation=90)
         #ax.legend(loc='upper left', ncols=len(methods))
-        ax.set_yscale('log')
+        if log_scale:
+            ax.set_yscale('log')
 
-    def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1):
+    def VisualizeRuntimePerTuple(self, inputTuples: bool, reg_deg: int = 1, log_scale: bool = False):
         # Maximum tuple count
         max_count = max((self.TupleCounts[entry][0 if inputTuples else 1] for entry in self.TupleCounts), default=0)
         x_limit = max_count + 2000
@@ -134,13 +136,16 @@ class Benchmarker:
         ax.set_title(f'Runtime vs. {tuple_type} Tuple Count')
         #ax.legend(loc='upper left')
         ax.set_xbound(lower=0, upper=x_limit)
-        ax.set_yscale('log')
+        if log_scale:
+            ax.set_yscale('log')
 
     def ClusteringQualityStatistics(self, database: RelationalDatabase, dataset_name: str):
         if not database.IntegrationIDsAssigned:
+            start = time.time()
             database.AssignIntegrationIDs()
-        if not self.SampleSilhouetteScores:
-            self.SampleSilhouetteScores = database.SilhouetteScores    
+            end = time.time()
+            self.ClusterDurations[dataset_name] = end - start
+        self.SilhouetteScores[dataset_name] = database.SilhouetteScores
         
         # in this case, a "Negative" is a relation between a column from one table and a column from
         # another table that does not exist. A "Positive" is a relation between two such columns that
@@ -215,6 +220,7 @@ class Benchmarker:
         for dataset in self.ClusterQuality:
             true_positives, false_positives, true_negatives, false_negatives, precision, recall, accuracy, f1 = self.ClusterQuality[dataset]
             table_count, min_columns, max_columns, predicted_columns, actual_columns = self.ClusterParameters[dataset]
+            duration = self.ClusterDurations[dataset]
 
             if x_param == 'tp':
                 x.append(true_positives)
@@ -268,6 +274,10 @@ class Benchmarker:
                 x.append(actual_columns)
                 if not x_label:
                     x_label = "Actual Column Count"
+            elif x_param == 'dur':
+                x.append(duration)
+                if not x_label:
+                    x_label = "Clustering Runtime"
 
             if y_param == 'tp':
                 y.append(true_positives)
@@ -321,6 +331,10 @@ class Benchmarker:
                 y.append(actual_columns)
                 if not y_label:
                     y_label = "Actual Column Count"
+            elif y_param == 'dur':
+                y.append(duration)
+                if not y_label:
+                    y_label = "Clustering Runtime"
 
         # sort the x and y coords so that a line or scatter plot can be used
         xy = zip(x, y)
@@ -346,13 +360,13 @@ class Benchmarker:
         plt.title(f"Column Alignment: {x_label} vs. {y_label}")
         plt.show()
 
-    def VisualizeSilhouetteScores(self):
+    def VisualizeSilhouetteScores(self, dataset_name: str):
         x = []
         y = []
         maximum_x = -1
         maximum_y = -1
         minimum_y = 1
-        for n_clusters, score in self.SampleSilhouetteScores.items():
+        for n_clusters, score in self.SilhouetteScores[dataset_name].items():
             x.append(n_clusters)
             y.append(score)
             if score > maximum_y:
@@ -365,6 +379,6 @@ class Benchmarker:
         plt.vlines(x = maximum_x, ymin=minimum_y, ymax=min(1, maximum_x + 0.1), colors='blue')
         plt.xlabel("# of Column Clusters")
         plt.ylabel("Silhouette Score")
-        plt.title("Column Clustering Quality")
+        plt.title(f"Column Clustering for {dataset_name[:10]}...")
         plt.show()
 

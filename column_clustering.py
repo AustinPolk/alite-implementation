@@ -34,17 +34,24 @@ class ColumnCluster:
         self.Tables |= other.Tables
 
 class ColumnClustering:
-    def __init__(self, n_clusters: int):
-        self.n_clusters_ = n_clusters
-        self.labels_: list[int] = None
-        self.broke_out: bool = False
+    def __init__(self, min_clusters: int):
+        self.min_clusters_ = min_clusters
+        self.labels: dict[int, list[int]] = {}
     def fit(self, column_embeddings: list[np.ndarray], from_table: list[int]):
         cluster_tuples = zip(column_embeddings, from_table, range(len(column_embeddings)))
         clusters = [ColumnCluster(embedding, table, idx) for embedding, table, idx in cluster_tuples]
 
-        while len(clusters) > self.n_clusters_:
+        while len(clusters) > self.min_clusters_:
             current_clusters = len(clusters)
             
+            # now for each original point, assign its current cluster as the label
+            point_clusters = []
+            for cluster in clusters:
+                for point in cluster.Points:
+                    point_clusters.append((point.Index, cluster.ClusterIndex))
+            point_clusters = sorted(point_clusters, key = lambda x: x[0])
+            self.labels[current_clusters] = [x[1] for x in point_clusters]
+
             # find the closest pair of clusters
             closest_pair = None
             closest_distance = np.inf
@@ -57,21 +64,13 @@ class ColumnClustering:
             
             # if no closest pair is found, that means the clustering can't go any further
             # without violating the constraint that columns from the same table must be in
-            # different clusters. End it here and allow the next iteration to specify more clusters
+            # different clusters
             if not closest_pair:
                 print(f"Breaking out of cluster fitting at n={current_clusters}, too few clusters specified")
                 self.broke_out = True
-                return
+                break
 
             # combine the closest pair
             i, j = closest_pair
             clusters[i].combine_with(clusters[j])
             clusters.remove(clusters[j])
-
-        # now for each original point, assign the proper cluster as the label
-        point_clusters = []
-        for cluster in clusters:
-            for point in cluster.Points:
-                point_clusters.append((point.Index, cluster.ClusterIndex))
-        point_clusters = sorted(point_clusters, key = lambda x: x[0])
-        self.labels_ = [x[1] for x in point_clusters]

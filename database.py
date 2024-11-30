@@ -63,31 +63,33 @@ class RelationalDatabase:
         print(f"Total embeddings: {len(all_embeddings)}")
         print(f"Minimum columns: {minimum_columns}\tMaximum columns: {maximum_columns}")
 
+        # compute all possible clusterings here, choose from them below
+        print("Clustering column embeddings")
+        column_clustering = ColumnClustering(min_clusters=minimum_columns)
         best_clustering = None
         best_score = -1
 
         # try all possible cluster sizes, select the size that maximizes silhouette score
         for n_clusters in range(minimum_columns, maximum_columns):
-            print(f"Clustering into {n_clusters} clusters")
             
-            clustering = ColumnClustering(n_clusters=n_clusters)
-            clustering.fit(all_embeddings, from_table)
-            if clustering.broke_out:
+            if n_clusters in column_clustering.labels:
+                print(f"Skipping {n_clusters} clusters")
                 continue
+            cluster_labels = column_clustering.labels[n_clusters]
 
-            silhouette = silhouette_score(all_embeddings, clustering.labels_)
+            silhouette = silhouette_score(all_embeddings, cluster_labels)
             self.SilhouetteScores[n_clusters] = silhouette
             print(f"Silhouette score for {n_clusters} clusters: {silhouette}")
 
             if best_score < silhouette:
                 best_score = silhouette
-                best_clustering = clustering
+                best_clustering = cluster_labels
 
-        print(f"Best clustering achieved using {best_clustering.n_clusters_} clusters")
-        self.ColumnClusterSizes = [minimum_columns, maximum_columns, best_clustering.n_clusters_]
+        print(f"Best clustering achieved using {len(best_clustering)} clusters")
+        self.ColumnClusterSizes = [minimum_columns, maximum_columns, len(best_clustering)]
 
         # now cluster the table columns with this model
-        column_clusters = {id: cluster for cluster, id in zip(best_clustering.labels_, all_integrationIDs)}
+        column_clusters = {id: cluster for cluster, id in zip(best_clustering, all_integrationIDs)}
 
         # now reassign the table column names to be which cluster that column is in (the cluster is the new integration ID)
         for idx, table in enumerate(self.Tables):
