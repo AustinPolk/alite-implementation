@@ -47,8 +47,10 @@ class RelationalDatabase:
             table.InitializeColumnEmbeddings(model)
             column_count = len(table.ColumnNames)
 
-            if not minimum_columns or column_count < minimum_columns:
+            # minimum columns is the size of the largest single table
+            if not minimum_columns or column_count > minimum_columns:
                 minimum_columns = column_count
+            # maximum columns is the sum of the sizes of all tables
             maximum_columns += column_count
             
             print(f"Table {idx} embeddings: {table.ColumnEmbeddings}")
