@@ -16,14 +16,14 @@ class RelationalTable:
 
 
     # Save attributes to file (including table)
-    def saveToFile(self):
+    def saveToFile(self, prefix=""):
         # Use datetime.datetime.now() to generate the filename with the current date and time
         current_time = datetime.datetime.now()
-        timestamp = current_time.strftime("%d-%m-%Y-%H%M")
+        timestamp = current_time.strftime("%d-%m-%Y-%H%M%S")
         
-        # Create filenames for the result file and the CSV file
-        result_filename = f"Result-{timestamp}.txt"
-        csv_filename = f"TableData-{timestamp}.csv"
+        # Create filenames for the result file and the CSV file, with optional prefix
+        result_filename = f"{prefix}Result-{timestamp}.txt"
+        csv_filename = f"{prefix}TableData-{timestamp}.csv"
 
         # Write the metadata and attributes to the result file
         with open(result_filename, 'w', encoding='utf-8') as result_file:

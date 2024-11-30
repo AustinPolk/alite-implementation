@@ -1,4 +1,4 @@
 __pycache__
 log.txt
-Result-*.txt
-TableData-*.csv
+*Result-*.txt
+*TableData-*.csv
