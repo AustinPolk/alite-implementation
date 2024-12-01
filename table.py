@@ -286,8 +286,8 @@ class RelationalTable:
             val1 = t_1[col]
             val2 = t_2[col]
             
-            print(val1)
-            print(val2)
+            #print(val1)
+            #print(val2)
 
             #is_null1 = pd.isna(val1) or (isinstance(val1, str) and val1.startswith('LN'))
             #is_null2 = pd.isna(val2) or (isinstance(val2, str) and val2.startswith('LN'))
