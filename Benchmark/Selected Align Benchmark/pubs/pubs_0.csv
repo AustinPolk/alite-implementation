@@ -1,0 +1,998 @@
+name,address1,address2,borough_name,longitude,latitude
+Walker's of Whitehall,15 Craig's Court,London,City of Westminster,-0.1271237353431638,51.507021488240646
+Barley Mow,82 Duke Street,London,City of Westminster,-0.1509355722377747,51.5129208090441
+North Pole,131 Greenwich High Road,Greenwich,Greenwich,-0.0147218408351341,51.47754597588651
+Sherlock Holmes,10 Northumberland Street,London,City of Westminster,-0.1251785160692055,51.50736810655056
+Bunch Of Grapes,207 Brompton Road,Knightsbridge,Kensington and Chelsea,-0.1669258340670329,51.4976683980744
+Hermes Lounge Bar,"Grand Holborn Hotel, 50-60 Southampton Row",London,Camden,-0.121371409458525,51.51969020319397
+Red Lion,132 Stoke Newington Church Street,Stoke Newington,Hackney,-0.0804329687661902,51.56222768705646
+Britannia,44 Kipling Street,London,Southwark,-0.0874531464976408,51.50114754716392
+Prince Of Wales,63 Green Lane / Connaught Road,Ilford,Redbridge,0.0866305539397966,51.55914983239857
+Minories,64-73 Minories,London,City and County of the City of London,-0.0747470426780179,51.510660667850686
+Belgo Noord Baar,72 Chalk Farm Road,London,Camden,-0.1498746616724325,51.54335332172966
+Case Is Altered,Eastcote High Road,Eastcote,Hillingdon,-0.4047462204182941,51.58954760991708
+Oak,206 Widmore Road,Bromley,Bromley,0.0341054951942732,51.40583617594214
+Slug & Lettuce,"Unit 1 Tower Bridge House, St Katherine's Dock",London,Tower Hamlets,-0.0727772391950476,51.50679739378998
+McGettigan's,1 The Broadway,Fulham,Hammersmith and Fulham,-0.1965080981683858,51.48004280958558
+Bird In Hand,100 Tottenhall Road,Palmers Green,Enfield,-0.1015267333667047,51.61106774152722
+Cherry Tree,Wood Lane,Dagenham,Barking and Dagenham,0.1346130287498719,51.552630161651145
+Green Man,Putney Heath,Putney,Wandsworth,-0.2212100147748138,51.45292931155164
+Spurstowe Arms,68 Greenwood Road,Hackney,Hackney,-0.0627606098006729,51.54451810274683
+Sun Inn,"7 Church Road, Barnes, London",Barnes,Richmond upon Thames,-0.2468805207204654,51.473774156867705
+Ravensbury,260 Croydon Road,Mitcham,Merton,-0.1578583155762723,51.39765260673579
+Enroute 505,505-507 Upper Richmond Road West,East Sheen,Richmond upon Thames,-0.273957832846631,51.46406789742473
+White Horse,31 Uxbridge Road,Shepherds Bush,Hammersmith and Fulham,-0.2275762204919581,51.50556987348477
+Sun,4 North Street,Carshalton,Sutton,-0.1642252457579996,51.3675281394344
+Hand & Flower,1 Hammersmith Road,West Kensington,Hammersmith and Fulham,-0.2083901502746793,51.49582714216047
+Windsor,888 Old Kent Road,Peckham,Southwark,-0.0541180992772969,51.47834164658752
+O'Neill's,Station Road,Ilford,Redbridge,0.0712559984726691,51.55925145509396
+De Hems,11 Macclesfield Street,London,City of Westminster,-0.1312106514189672,51.512086630423816
+Blue Orchid,12 Claremont Road,Surbiton,Kingston upon Thames,-0.3040923395535596,51.39367334408801
+White Lion,232 Streatham High Road,Streatham,Lambeth,-0.1297819157007445,51.43113825703789
+Harry Gordon's Bar & Kitchen,40 Duke Street,London,City of Westminster,-0.1516769890915439,51.51454218615408
+Prince,14 Lillie Road,Fulham,Hammersmith and Fulham,-0.1976848223152405,51.48709312949107
+La Sala,692-694 Chigwell Road,Woodford Bridge,Redbridge,0.0554182719704701,51.606660775428594
+Butcher's Hook & Cleaver,60-63 West Smithfield,Smithfield,City and County of the City of London,-0.1005336507033116,51.51886904727306
+Crown,667 Commercial Road,Poplar,Tower Hamlets,-0.028706260139762,51.5115593178165
+Coach Makers Arms,88 Marylebone Lane,London,City of Westminster,-0.1506333290901407,51.51717857969479
+Yorkshire Grey,2 Theobalds Road,London,Camden,-0.1138579494888547,51.5215210733387
+Worlds End,88 Station Road,Hampton,Richmond upon Thames,-0.3665045251845878,51.41509063831023
+Hoop & Toy,34 Thurloe Place,South Kensington,Kensington and Chelsea,-0.1740013163804984,51.49474823343944
+Long Wave,"Unit 1 The Artworks, Elephant Road",London,Southwark,-0.0985298796159004,51.49396256164259
+Bell,50 Middlesex Street,London,Tower Hamlets,-0.0754664028127059,51.51581631269078
+Pequeno,184 Stoke Newington High Street,Stoke Newington,Hackney,-0.0733857757042192,51.56204008342447
+Portobello Star,171 Portobello Road,Notting Hill,Kensington and Chelsea,-0.2040800728712427,51.514205137535534
+Blythe Hill Tavern,319 Stanstead Road,Forest Hill,Lewisham,-0.0349212602110331,51.4424813203814
+Gladstone,24 King & Queen Street,Walworth,Southwark,-0.0930844677622244,51.489125973166864
+Pitcher & Piano,11 Bridge Street,Richmond,Richmond upon Thames,-0.3060509523228335,51.4581420625889
+White Horse,16 Newburgh Street,London,City of Westminster,-0.138639038555907,51.51334681825044
+Water Rats,328 Gray's Inn Road,London,Camden,-0.119399468672917,51.52906502699139
+Dartmouth Castle,26 Glenthorne Road,Hammersmith,Hammersmith and Fulham,-0.2286064766842631,51.494614436012704
+Windmill,"80 Windmill Road, Hampton",Hampton Hill,Richmond upon Thames,-0.3622387080231122,51.42781826052922
+Slim Jims Liquor Store,112 Upper Street,London,Islington,-0.1028664925340852,51.53798932530457
+Cow,89 Westbourne Park Rd,Bayswater,City of Westminster,-0.1950252251209996,51.51903908621283
+Royal Oak,355 Kennington Lane,Kennington,Lambeth,-0.1193204459855645,51.48620434989746
+Hawkes Cidery & Taproom,92 Druid Street,London,Southwark,-0.072572979092986,51.49934806333796
+New Inn,"345 Petersham Road, Richmond",Ham,Richmond upon Thames,-0.3048557671053741,51.4371723554975
+Queen's Head,54 Windsor Street,Uxbridge,Hillingdon,-0.4805768600596172,51.54540382245
+Alderman,46 Chippenham Rd / Dartfields,Harold Hill,Havering,0.2201428387377573,51.60572953400602
+Beehive,197 St Johns Hill,Battersea,Wandsworth,-0.178417506214356,51.45983549555952
+Althorp,20 Bellevue Road,Wandsworth Common,Wandsworth,-0.1668160013279439,51.44470874113618
+Fifty Five at the Oak,8-10 Clapham High Street,Clapham,Lambeth,-0.1304422751749286,51.46500659363768
+Whelan's,13 Selsdon Road,South Croydon,Croydon,-0.0966857870537344,51.36275481147992
+Middlesex Arms,Long Drive,South Ruislip,Hillingdon,-0.3971107323089604,51.55752921000328
+Four Sisters,25 Canonbury Lane,London,Islington,-0.1020658275514162,51.54302123623179
+Crown,128 Lower Mortlake Road,Richmond,Richmond upon Thames,-0.2914026786632568,51.4664814871984
+Sir Alfred Hitchcock Hotel,145 Whipps Cross Road,Leytonstone,Waltham Forest,0.0118807163611924,51.57637297405451
+No.8,724 High Road,Tottenham,Haringey,-0.067313927063186,51.60215475524742
+City Bar & Kitchen,9 Stoney Street c/o White Kennet Lane,London,City and County of the City of London,-0.0775832765646807,51.51517660674168
+Black Horse,425 Oldfield Lane North,Greenford,Ealing,-0.3445387264301312,51.54769014295973
+White Horse,20 Peckham Rye,Peckham,Southwark,-0.0667341271669962,51.46538491383873
+Westow House,79 Westow Hill,Crystal Palace,Lambeth,-0.0793262531704626,51.41989018011323
+Leather Exchange,15 Leathermarket Street,London,Southwark,-0.0845050413438018,51.50032605655639
+Duke,79 Nightingale Lane,Wanstead,Redbridge,0.0280884321433263,51.58222655186922
+Parish,120 Wembley Park Drive,Wembley,Brent,-0.2831161424256857,51.56175353914475
+Common Room,3-4 Grosvenor Parade,Ealing,Ealing,-0.2862740625176346,51.50959825012638
+Flower of Kent,135 Lewisham Way,New Cross,Lewisham,-0.0299915544751986,51.47176039238991
+Hansom Cab,86 Earls Court Road,Kensington,Kensington and Chelsea,-0.1971139268907623,51.49608599707312
+Great Exhibition,193 Crystal Palace Road,East Dulwich,Southwark,-0.0720620045413668,51.45545463457636
+Queens Head,2 High Street,Chislehurst,Bromley,0.0678771469642167,51.4181861020253
+Barrel Vault,"Unit 23, St Pancras International Station, Pancras Road",London,Camden,-0.1256269850203503,51.53048661016626
+33 Abbeville Road,33 Abbeville Road,Clapham,Lambeth,-0.1411733642418312,51.453531653452366
+Station Hotel,14 Staplehurst Road,Hither Green,Lewisham,-0.0001380862126481,51.4530804327166
+Corner Pin,Slade Green Road,Erith,Bexley,0.192816590010469,51.47157271606765
+Yard Bars,57 Rupert Street,London,City of Westminster,-0.1338311774227097,51.51214633559235
+Hour Glass,131 Beaconsfield Road,Walworth,Southwark,-0.0843396867722169,51.48640252717168
+Good Intent,24 East Street,Walworth,Southwark,-0.0939105141350084,51.487970345616034
+Old Red Lion,42 Kennington Park Road,Kennington,Lambeth,-0.1053627138589327,51.48934296329865
+Horn Of Plenty,36 Globe Road,London,Tower Hamlets,-0.0464150491766446,51.5224129809081
+Bar Polski,6 Little Turnstile,London,Camden,-0.1191145456603577,51.51744182204138
+Railway Tavern,129 Hale Lane,Mill Hill,Barnet,-0.2589104080258243,51.61642120070314
+Alphabet,56 Upper Street,London,Islington,-0.1040017812451837,51.53600232302878
+Star & Garter,490 New Cross Road,New Cross,Lewisham,-0.0274641594805941,51.47493734088875
+Bountiful Cow,51 Eagle Street,London,Camden,-0.1181832761143235,51.518703859136
+Old Swan,206 Kensington Church Street,Kensington,Kensington and Chelsea,-0.1949407120768884,51.50878617345487
+Barretts Freehouse,9 Masons Ave,Wealdstone,Harrow,-0.3341348065103332,51.59282867027883
+Crown & Crooked Billet,13 Cross Road,Woodford Bridge,Redbridge,0.0610952611116101,51.6073256302417
+Wibbas Down Inn,6-12 Gladstone Road,Wimbledon,Merton,-0.2020793740805064,51.41815928905704
+Wenlock & Essex,18-26 Essex Road,London,Islington,-0.1013556206120295,51.536526049241296
+Railway Telegraph,112 Stanstead Road,Forest Hill,Lewisham,-0.0490930929760352,51.442196556515206
+Captain Kidd,108 Wapping High Street,London,Tower Hamlets,-0.0600977882883692,51.50302713664555
+Fox's,150 Kirkdale,Sydenham,Lewisham,-0.0601803933165863,51.43115752793548
+Cock,340 Kennington Road,Kennington,Lambeth,-0.1117799266491924,51.48673065841575
+Coppermill,205 Coppermill Lane,Walthamstow,Waltham Forest,-0.0405072474561947,51.5801102380367
+Beduin,57-59 Charterhouse Street,London,Islington,-0.1037028345742017,51.51926205252328
+Trinity Bar,380 Station Road,Harrow,Harrow,-0.3337658481099998,51.57964046714977
+No.8,618 Seven Sisters Road,South Tottenham,Haringey,-0.0819929087707139,51.57831401216325
+Zetland Arms,2 Bute Street,South Kensington,Kensington and Chelsea,-0.1761456886276444,51.49372046277689
+Plough,Sipson Road,Sipson,Hillingdon,-0.4578444017916614,51.49348265431056
+Rye,31 Peckham Rye,Peckham,Southwark,-0.0653973872143177,51.46465241179782
+Queen Adelaide,481 Hackney Road,Bethnal Green,Tower Hamlets,-0.0586561595995639,51.53251706904978
+Depot,"1 Carpenters Mews, North Road",Holloway,Islington,-0.1215880045988696,51.54874016903398
+Cutty Sark,14 Joyce Dawson Way,Thamesmead,Greenwich,0.1070486107304939,51.50706678871372
+All Bar One,34 Shad Thames,London,Southwark,-0.0726557749977196,51.50318931779274
+Locker Room,"The Broadway, 29-31 Joel Street",Northwood Hills,Hillingdon,-0.4092362361373535,51.601100955613184
+Sourced Market,7-21 Goswell Road,Barbican,Islington,-0.0975624347668813,51.52168055995925
+Gardeners Arms,268 Merton Road,Wandsworth,Wandsworth,-0.1994590939057417,51.44824493079809
+Selkirk,60 Selkirk Road,Tooting,Wandsworth,-0.1679446864922077,51.42980724697873
+Three Steps,High Street,Cowley,Hillingdon,-0.482379726980353,51.52979866721832
+Lamb,73 Brighton Road,Surbiton,Kingston upon Thames,-0.3120230635913518,51.39221409852122
+Thomas Neale,39 Watney Market,London,Tower Hamlets,-0.0566525052854327,51.51355447649204
+Myllet Arms,Western Avenue,Perivale,Ealing,-0.3231124054050389,51.53300715618162
+Porto,82 Landor Road,Stockwell,Lambeth,-0.1250654320891007,51.465873960816495
+O'Neill's,66 The Broadway,Wimbledon,Merton,-0.202899716635411,51.41997942146158
+Piano Works,113-117 Farringdon Road,London,Islington,-0.1110536206422488,51.52554067502192
+Railway Tavern Ale House,2 St Jude Street,London,Islington,-0.0775167587205515,51.54857401729881
+W12 Studios,195 Wood Lane,Shepherds Bush,Hammersmith and Fulham,-0.2278494256881931,51.51337959064762
+J J Moons,551 - 553 Kingsbury Road,Kingsbury,Brent,-0.2803928895189927,51.58459009277952
+Marquis Of Lansdowne,48 Stoke Newington Road,Stoke Newington,Hackney,-0.0747650051183327,51.551577318516856
+Rising Sun,61 Carter Lane,London,City and County of the City of London,-0.1013775424174498,51.51313633317557
+Belle Vue,1 Clapham Common South Side,Clapham,Lambeth,-0.137810058914701,51.46155374991609
+Cat & Fiddle,162 Rowan Road,West Drayton,Hillingdon,-0.4736586045467498,51.49701673049921
+Malibu Club,119 High Street (1st floor),Edgware,Harrow,-0.2804385549994465,51.61129796902347
+Halfway House,188c Halfway Street,Sidcup,Bexley,0.0872174593572836,51.44111689656534
+Old Nick,20-22 Sandland Street,London,Camden,-0.1166703180888568,51.51939000869906
+Greyhound,Commonside,Keston,Bromley,0.0285845848908201,51.36354958268832
+Manor Arms,13 Mitcham Lane,Streatham,Lambeth,-0.1327887858569992,51.42795781046518
+Dolphin Bar & Grill,Dolphin Square (by Chichester Street),London,City of Westminster,-0.1365440531875902,51.48699187899279
+Man of Aran,424-426 Alexandra Avenue,Rayners Lane,Harrow,-0.370892557358776,51.5734444345445
+Pagination,9 Cabot Square,Isle of Dogs,Tower Hamlets,-0.0216758807630543,51.505181836912605
+Old China Hand,8 Tysoe Street,London,Islington,-0.1090425543190148,51.5267582642746
+Social,5 Little Portland Street,London,City of Westminster,-0.1406487639292005,51.517434402995065
+Market Porter,9 Stoney Street,London,Southwark,-0.091048149064845,51.50510896855376
+Garrison,99-101 Bermondsey Street,London,Southwark,-0.0815526551105253,51.50063747590657
+Tapestry Tapas Bar,"1 Lower Richmond Road, London",Mortlake,Richmond upon Thames,-0.2690152180889054,51.46913884309719
+Hangar,37 The Oval,Sidcup,Bexley,0.1024386076549569,51.44511650639186
+Henry's,"Unit 6 Charter Quay, 22ÃÂ¢ÃÂÃÂ28 High Street",Kingston,Kingston upon Thames,-0.3075633481913263,51.40830992266451
+Five Bells,68/70 Streatham High Road,Streatham,Lambeth,-0.1281946788940344,51.43653555601878
+Ship Tavern,12 Gate Street,London,Camden,-0.1187847767168138,51.51704984569271
+Lord Raglan,61 St Martin's-le-Grand,London,City and County of the City of London,-0.0965365128803355,51.51655603451685
+Victoria,10A Strathearn Place,Paddington,City of Westminster,-0.1709169576225519,51.5134858831718
+Exmouth Arms,1 Starcross Street,London,Camden,-0.1368472932861195,51.52758081559335
+No 197 Chiswick Fire Station,197 Chiswick High Road,Chiswick,Hounslow,-0.2571762414590895,51.492290598649305
+Slug & Lettuce,"Riverside House, Water Lane",Richmond,Richmond upon Thames,-0.3073426511966222,51.4590240002598
+Shaftesbury Tavern,534 Hornsey Road,London,Islington,-0.1236491865966865,51.56945605889719
+Lamb,54 Holloway Road,Holloway,Islington,-0.1070077154757038,51.54869452257806
+Duke Of York,161 Uxbridge Road,Hanwell,Ealing,-0.3382571787873738,51.50910495045844
+Morden Brook,Lower Morden Lane,Lower Morden,Merton,-0.2207576951842559,51.39085491243703
+Vaulty Towers,34 Lower Marsh,London,Lambeth,-0.1118080294642228,51.50103855608173
+Henley Arms,268 Albert Road,Royal Docks,Newham,0.0583316324322752,51.50080079385644
+Junction,171 Coldharbour Lane,Camberwell,Lambeth,-0.0995926580000797,51.46701051903637
+Prince of Peckham,1 Clayton Road,Peckham,Southwark,-0.0653611203390019,51.47333893221232
+Queens Head,"41 Station Road, London",Winchmore Hill,Enfield,-0.1004768316534097,51.63342391602331
+Backyard Bar & Kitchen,231 Cambridge Heath Rd,Bethnal Green,Tower Hamlets,-0.0557439873038729,51.52675854409311
+Crown,360 Hornchurch Road,Hornchurch,Havering,0.1885777473254074,51.56555762055602
+Park Tavern,164 Tollington Park,Finsbury Park,Islington,-0.1118301668890866,51.56773764325786
+Duke of Wellington,331 Hatton Road,Bedfont (East),Hounslow,-0.4271074782420615,51.46236461037172
+Brickfields,293 Brockley Road,Brockley,Lewisham,-0.0338539650312336,51.46029633433584
+Sports Bar & Grill,"Unit B1, The Balcony, Waterloo Railway Station",London,Lambeth,-0.1132337586770971,51.50314782082231
+Captain Morgans,9 Clayton Road,Hayes,Hillingdon,-0.4211023590172924,51.50456654928422
+Court,108a Tottenham Court Road,London,Camden,-0.1369923393974212,51.52296985614671
+Blacksmiths Arms,257 Rotherhithe Street,Rotherhithe,Southwark,-0.0338659585787762,51.50519807420589
+Arbitrager,27a Throgmorton Street,London,City and County of the City of London,-0.0860526355019337,51.51496451568296
+Greyhound Hotel,2 High Street,Carshalton,Sutton,-0.1645466081118586,51.364880264008605
+Beefeater,91 Beresford Street,Woolwich,Greenwich,0.0663191448397943,51.492953414656064
+Salutation,154 King Street,Hammersmith,Hammersmith and Fulham,-0.2330083756185976,51.492918272760505
+Plough,381 Lordship Lane,East Dulwich,Southwark,-0.0747988338659534,51.44993303999963
+New Inn,45 Squirrels Heath Lane,Gidea Park,Havering,0.2104952872951228,51.58192740680126
+Gate,Richmond Hill,Richmond,Richmond upon Thames,-0.2966902858384232,51.45128901821935
+Abbey Tavern,124 Kentish Town Road,London,Camden,-0.141510230910901,51.546179744504975
+Tall House,134 Southwark Street,London,Southwark,-0.0998222560923122,51.5058359800185
+Orchard,5 Harefield Road,Brockley,Lewisham,-0.0344024417686424,51.4639476647597
+Skylark,34-36 South End,Croydon,Croydon,-0.0992486913806189,51.36573714806905
+Racketeer,105 Kings Cross Road,London,Camden,-0.1159287571946853,51.52862264954856
+Rose & Crown,Clay Hill,Enfield,Enfield,-0.083674103866675,51.67138654563578
+Six Storeys,11 Soho Square,London,City of Westminster,-0.1326751904594619,51.51574301221627
+Moon Under Water,115/117 Chase Side,Enfield,Enfield,-0.0875443132760775,51.65915711908253
+Goose,143 South Street,Romford,Havering,0.184015352878315,51.57453676378191
+Anglesea Arms,35 Wingate Road,Hammersmith,Hammersmith and Fulham,-0.2359064379319176,51.49919377120607
+Tap East,"Montfichet Road, 7 International Square",Westfield Stratford City,Newham,-0.0088673328747527,51.54411984567341
+White Horse,64 Palace Road,Bromley,Bromley,0.0208942299546135,51.408825391898354
+Famous Cock Tavern,259 Upper Street,London,Islington,-0.1035152303096565,51.54527484854333
+Flynns,117 High Road,Willesden,Brent,-0.2301232168094223,51.54690234097072
+Duke of Kendal,38 Connaught Street,Paddington,City of Westminster,-0.1656804954828033,51.51468107280328
+Seven Stars,53-54 Carey Street,London,Camden,-0.112970496741277,51.51509496568332
+Chiquito Mexican Grill & Bar,"Dagenham Leisure Centre, Cook Road",Dagenham,Barking and Dagenham,0.1364628670758396,51.532371482990605
+Duke's Head,8 Lower Richmond Road,Putney,Wandsworth,-0.2165684039128546,51.46714827708112
+Prince George,40 Parkholme Road,Hackney,Hackney,-0.0686260103486514,51.54462387821762
+Savannah,81-103 Euston Street,London,Camden,-0.1359911185594958,51.526658950323935
+Old Rose & Crown,1 Crooms Hill,Greenwich,Greenwich,-0.0076865551503729,51.47871263753628
+BBar & Restaurant,43 Buckingham Palace Road,London,City of Westminster,-0.143085697356523,51.49863327988314
+Volunteer,131 Chesnut Road,Tottenham,Haringey,-0.0645512546122806,51.59037405928303
+Rotunda (Bar & Restaurant),"Kings Place, 90 York Wa",London,Islington,-0.121968909358482,51.53424103633967
+Owl & Hitchhiker,471 Holloway Road,London,Islington,-0.124028197629765,51.56059550845457
+Crown,622 Holloway Road,Upper Holloway,Islington,-0.1248781284860717,51.56202991518964
+Queens Arms,42 Orford Road,Walthamstow,Waltham Forest,-0.0130772388260256,51.58255367967286
+George & Monkey,68 Amwell Street,London,Islington,-0.1103425400727799,51.53017846219243
+Stag,96 Westbridge Road,Battersea,Wandsworth,-0.1730988034540188,51.47587659869932
+Casa Blue,120 Bethnal Green Road,Bethnal Green,Tower Hamlets,-0.0711601192188389,51.52494503748163
+Millers Arms,81 Bexley High Street,Bexley,Bexley,0.1518076175599189,51.44100113213624
+Cock Tavern,23 Phoenix Road,London,Camden,-0.1313231446029303,51.53116199458173
+Carpenters Arms,12 Seymour Place,London,City of Westminster,-0.1609791307630907,51.51475134237639
+KuPP,"Unit 53, 5 Merchant Square",Paddington,City of Westminster,-0.1731863945600757,51.51871900839574
+Firefly,"3 Station Parade, Balham High Rd",Balham,Wandsworth,-0.1533849404594099,51.44232180694127
+Tir Na Nog,107 Garratt Lane,Wandsworth,Wandsworth,-0.1909259840712416,51.452583054285576
+Ale Bar,443 New Cross Road,New Cross,Lewisham,-0.0301905896577822,51.47582853373511
+Apple Tree,45 Mount Pleasant,London,Camden,-0.1121790221966424,51.5234275095152
+Dar Marrakesh,422 Edgware Road,Maida Vale,City of Westminster,-0.1740037505726553,51.52314712837303
+Sir Michael Balcon,46-47 The Mall,Ealing,Ealing,-0.2980683733145218,51.51329495657087
+Royal Oak,86 St Anns Road,Harrow,Harrow,-0.3376760614638251,51.5816472627314
+Prince of Wales,48 Cleaver Square,Kennington,Lambeth,-0.108712012002906,51.48812005783403
+Scream Lounge,20 South End,Croydon,Croydon,-0.0992892427073364,51.366493216555774
+Davy's,25 Basinghall Street,London,City and County of the City of London,-0.0906059813422958,51.516369677013024
+Slug & Lettuce,17-19 Artillery Row,London,City of Westminster,-0.135426899488909,51.49707293347778
+Kennington,60 Camberwell New Road,Camberwell,Lambeth,-0.1058458115225258,51.479072098597705
+Green Man Hotel,64 Dagmar Avenue,Wembley,Brent,-0.2894402261127001,51.55700795472598
+Earl Beatty,"365, West Barnes Lane",Motspur Park,Merton,-0.2382838805181306,51.39485170069869
+Exhibit,12 Balham Station Road,Balham,Wandsworth,-0.1519357146902866,51.44328818899243
+Red Filly,"3 Thornfield Parade, Holders Hill Road",Mill Hill,Barnet,-0.2073211843722789,51.60446794373753
+Wine Lodge,145 Fenchurch Street,London,City and County of the City of London,-0.0824869721220618,51.5116688599998
+George,32 King Street,Twickenham,Richmond upon Thames,-0.3287482069866979,51.446408996931375
+Dog & Duck,18 Bateman Street,London,City of Westminster,-0.1319971945832909,51.51399662296547
+Whelans,341 Oxgate Lane,Cricklewood,Brent,-0.2332866605197145,51.566868678023226
+Phonox,418 Brixton Road,Brixton,Lambeth,-0.1147352121900161,51.4643054169838
+Shakespeare's Head,29 Great Marlborough Street,London,City of Westminster,-0.1395775467316717,51.51365846692865
+Newmarket Ale House,17 York Way,Holloway,Camden,-0.1260902270476654,51.54307482795635
+Clarence,148 North End Road,West Kensington,Hammersmith and Fulham,-0.2052308084955602,51.48860270835696
+Beatbox,"Units 22-26, Ground Floor, Boxpark Croydon",Croydon,Croydon,-0.09467827981509,51.374790707207104
+Defector's Weld,170 Uxbridge Road,Shepherds Bush,Hammersmith and Fulham,-0.2230998180994096,51.505070512441606
+Rising Sun,64/68 High Street,Hornchurch,Havering,0.2170088521812821,51.56271234837204
+Duck In The Pond,Kenton Lane,Harrow Weald,Harrow,-0.3277915163083814,51.604761454635565
+Fox @ Excel,"Warehouse 'K', Mace Gateway",Royal Docks,Newham,0.0250055246067436,51.50893509723794
+Five Bells,Church Road,Chelsfield,Bromley,0.1274899267468256,51.35705551689024
+Urban Bar,176 Whitechapel Road,London,Tower Hamlets,-0.0573006114465433,51.519320516725166
+Wentworth Arms,127 Eric Street,Bow,Tower Hamlets,-0.033478947135621,51.52387853674902
+Six Bells,211 High Street,Acton,Ealing,-0.2725810908823071,51.50738313584033
+Royal Vauxhall Tavern,372 Kennington Lane,Kennington,Lambeth,-0.1196817591368834,51.48652488856602
+Charlotte Despard,17-19 Archway Road,Upper Holloway,Islington,-0.1365152123627262,51.56817733029725
+Number 12,"Ambassadors Hotel, 12 Upper Woburn Place",London,Camden,-0.1295740701139767,51.52670070843278
+Blue Posts,81 Newman Street,London,City of Westminster,-0.1354280153015914,51.51680297663175
+Clarence,53 Whitehall,London,City of Westminster,-0.1267396684257847,51.506197016452006
+Admiral Nelson,"123 Nelson Road, Whitton",Whitton,Richmond upon Thames,-0.360339111192328,51.452754260354645
+Duchess Of Kent,143 Brook Street,Erith,Bexley,0.1571418036017912,51.47415912821122
+Railway Tavern,28/29 The Quadrant,Richmond,Richmond upon Thames,-0.3025729535806024,51.462264318476926
+Stonemasons Arms,54 Cambridge Grove,Hammersmith,Hammersmith and Fulham,-0.230060302413618,51.49353028832511
+Duke Of Hamilton,23 New End,London,Camden,-0.1777087202433753,51.55886941399075
+Claret & Ale,"5 Bingham Corner, Lower Addiscombe Road",Addiscombe,Croydon,-0.0734383309676237,51.37999175377988
+Parlour,"Park Pavilion, 40 Canada Sqare",Isle of Dogs,Tower Hamlets,-0.0194961458684434,51.50493819138779
+Kings Arms,Leaves Green Rd,Keston,Bromley,0.0296454562106843,51.335203476856776
+Admiralty,66 Trafalgar Square,London,City of Westminster,-0.1286694541576997,51.50727997025858
+Theodore Bullfrog,26-30 John Adam Street,London,City of Westminster,-0.1239363256183548,51.50884103844548
+Lucky Rover,"312, Hook Road, Hook",Chessington,Kingston upon Thames,-0.3068374855621086,51.36794882052516
+Adam & Eve,155 Homerton High Street,Homerton,Hackney,-0.040549507472586,51.54889742690568
+Botanist,"3/5 Kew Green, Richmond",Kew,Richmond upon Thames,-0.2891479804549236,51.48366060365392
+Kerridge's Bar & Grill,10 Northumberland Avenue,London,City of Westminster,-0.1245559476940421,51.50673765508444
+McQueen,55ÃÂ¢ÃÂÃÂ61 Tabernacle Street,London,Islington,-0.0858535039052174,51.52417877761204
+Mondo Tap House,86 Stewarts Road,Battersea,Wandsworth,-0.1394068209201757,51.47397998952607
+Star at Sidcup Place,"Sidcup Place, Chislehurst Road",Sidcup,Bexley,0.1025522121243961,51.42504206220737
+O'Neill's,27-29 East St,Bromley,Bromley,0.0156686453574164,51.406730085334
+Queen Adelaide,35 Putney Bridge Road,Wandsworth,Wandsworth,-0.2009063917154441,51.46048831062386
+Lass o' Richmond Hill,8 Queens Road,Richmond,Richmond upon Thames,-0.2959991467460929,51.450910281268605
+Gidea Park Micropub,236 Main Road,Gidea Park,Havering,0.2008907100062192,51.58658658609356
+Half Moon,10 Half Moon Lane,Herne Hill,Southwark,-0.0993998088970441,51.45259186462978
+Chiquito,1 The Old Dairy,South Ruislip,Hillingdon,-0.4000571786279249,51.55907115331028
+Vine Inn,121 Hillingdon Hill,Hillingdon,Hillingdon,-0.4611855081189033,51.5354212054702
+Red Lion & Sun,25 North Road,Highgate,Haringey,-0.1500977297975358,51.57305023417953
+Smokehouse,63-69 Canonbury Road,London,Islington,-0.0990593481939504,51.54214518724854
+Toucan,19 Carlisle Street,London,City of Westminster,-0.1332918407632887,51.51511434370003
+Crown & Sugar Loaf,26 Bride Lane,London,City and County of the City of London,-0.1049911792271133,51.513923180487566
+Tommy Tucker,22 Waterford Road,Fulham,Hammersmith and Fulham,-0.1922327948133003,51.47816947180871
+Elephants Head,43 Lower Clapton Road,Clapton,Hackney,-0.0527537254674846,51.5508899940714
+Ship,39-47 St Marychurch Street,Rotherhithe,Southwark,-0.0550432350359492,51.500587306359
+Victoria,34 Scotland Green,Tottenham,Haringey,-0.0678469703731541,51.5967411117409
+Shepherd & Dog,91 Shepherds Hill,Harold Wood,Havering,0.2449178007148761,51.591516758025605
+Drift,"Heron Tower, 110 Bishopsgate",London,City and County of the City of London,-0.081179284748603,51.51637761822232
+Nag's Head,9 Orford Road,Walthamstow,Waltham Forest,-0.0107548104315916,51.583512466704256
+Speaker,46 Great Peter Street,London,City of Westminster,-0.1323058835631536,51.49694233902651
+London Apprentice,62 Church Street,Isleworth,Hounslow,-0.3214437993284572,51.47096197854579
+St. James Tavern,45 Great Windmill Street,London,City of Westminster,-0.1341835942355252,51.51092893191467
+Beehive,407-409 Brixton Road,Brixton,Lambeth,-0.1142538842568218,51.46375810614098
+Ship,3 Hart Street,London,City and County of the City of London,-0.0799263622784525,51.510871544271325
+Whittington Stone,53 Highgate Hill,Upper Holloway,Islington,-0.1387671279951431,51.56744869472972
+Tiger,245 Wick Lane,Homerton,Hackney,-0.0352093009851482,51.54529206147857
+Pied Bull,Bulls Cross,Enfield,Enfield,-0.0593027580315156,51.67820717912788
+Rose & Crown,2 Old Park Lane,London,City of Westminster,-0.1489292127540141,51.50411228639285
+Green Man,144a Essex Road,London,Islington,-0.0978545626652862,51.53922101985864
+Browns,Butlers Wharf,London,Southwark,-0.0726557749977196,51.50318931779274
+Green Man,109 High Street,Harlesden,Brent,-0.2446017134773954,51.53609486785355
+Railway Bell,Station Road,Hampton,Richmond upon Thames,-0.3707737867941771,51.41595044090528
+Wings Sports Bar,Welling United FC.  Park View Road,Welling,Bexley,0.1160132076637278,51.46043906251152
+Blue Boat,"Distillery Wharf, Parr's Way",Hammersmith,Hammersmith and Fulham,-0.225195783115449,51.48599289647572
+Great Harry,7-9 Wellington Street,Woolwich,Greenwich,0.0664771357033551,51.48975816972503
+Keg & Cask,286 Bath Road,Hounslow,Hounslow,-0.3865469289477894,51.47279326316678
+Jerusalem Tavern,55 Britton Street,Farringdon,Islington,-0.1039344396290179,51.52166685943738
+Zan Zi Bar,113 High Street,Edgware,Harrow,-0.2804385549994465,51.61129796902347
+Walrus & Carpenter,45 Monument Street,London,City and County of the City of London,-0.0841060088735617,51.50949212733345
+Hennessys,36 Victoria Road,Ruislip Manor,Hillingdon,-0.4127916302394159,51.57243599955906
+Mitre Hotel,291 Greenwich High Road,Greenwich,Greenwich,-0.009754104772919,51.48017761644455
+Melbourne Arms,81 Sandy Hill Road,Plumstead,Greenwich,0.0699018018699008,51.483951333004896
+Albion,10 Thornhill Road,London,Islington,-0.1094471452897572,51.53960636436866
+Daly's Wine Bar,210 Strand,London,City of Westminster,-0.1129669352677852,51.51308952220975
+Duke,7 Roger Street,London,Camden,-0.1164724865945464,51.52278609465986
+Angies,127-129 High Street,Harlesden,Brent,-0.2434195590160081,51.53533979499112
+Aperfield Inn,311 Main Road,Biggin Hill,Bromley,0.0519963759983608,51.301736068861466
+40ft Brewery Tap,18a Ashwin Street,Hackney,Hackney,-0.0753289133060511,51.54709927798656
+Eel Pie,9/11 Church Street,Twickenham,Richmond upon Thames,-0.3270606374860803,51.4469064700915
+Old Bank,239 Southwark Park Road,Bermondsey (East),Southwark,-0.0631352832017136,51.4925648524132
+Prince of Wales,117 Ewell Road,Surbiton,Kingston upon Thames,-0.2975778600121639,51.38948718616307
+Dog & Fox,"24 High Street, Wimbledon Village",Wimbledon,Merton,-0.2176299829031144,51.4250963358954
+Squares,Whitcomb Street,London,City of Westminster,-0.1301186538357948,51.50919155470133
+Olde Clock Tower,35 Whitehorse Road,Croydon,Croydon,-0.0977459211572703,51.38502040436206
+Olde London,42 Ludgate Hill,London,City and County of the City of London,-0.1017892661981807,51.51397932697896
+McCafferty's Freehouse,"25 Broadwalk, Pinner Road",North Harrow,Harrow,-0.3623996493501549,51.58689590993188
+Spread Eagle,71 Wandsworth High Street,Wandsworth,Wandsworth,-0.1920489334457301,51.45658416797147
+Royal Standard,8 Sale Place,Paddington,City of Westminster,-0.1700022072872267,51.517967949654405
+Swan Inn,1 Swan Street,Isleworth,Hounslow,-0.3228156449330485,51.469282015703456
+Frankie's Sports Bar & Diner,Stamford Bridge,Fulham,Hammersmith and Fulham,-0.1902725608065024,51.48112478314386
+Marksman,254 Hackney Road,Bethnal Green,Tower Hamlets,-0.0686995255074246,51.53096546738564
+Howling Hops Tap Room,"Queens Yard, White Post Lane",Homerton,Tower Hamlets,-0.0227393894919707,51.54250186438299
+Old Ale Emporium,405 Green Lanes,Finsbury Park,Haringey,-0.0991036294501488,51.57777441235591
+White Swan,108 Fetter Lane,London,City and County of the City of London,-0.109408078969414,51.516197675730375
+Trafalgar,23 High Path,Merton,Merton,-0.1888587549290948,51.41351338589661
+Players,184 Northfield Avenue,West Ealing,Ealing,-0.3159545786443404,51.50154800159096
+Satay Bar,447 Coldharbour Lane,Brixton,Lambeth,-0.1144228489098977,51.46140471169311
+Park Tavern,45 Passey Place,Eltham,Greenwich,0.0544784376741308,51.45004086213268
+Wetherspoon's,"Unit 5, Upper Concourse, Victoria Station, Terminus Place",London,City of Westminster,-0.1443293284531723,51.49497494321386
+White Lion,125-127 Stroud Green Road,Finsbury Park,Islington,-0.1119925117966503,51.569044166650826
+Craft Beer Co.,576 Commercial Road,Limehouse,Tower Hamlets,-0.0401764526849262,51.51260584936271
+Greyhound,"82 Kew Green, Richmond",Kew,Richmond upon Thames,-0.2861072728195775,51.48524390103158
+Percy & Founders,1 Pearson Square,London,City of Westminster,-0.1383083623159208,51.518979999501546
+Little Green Dragon,928 Green Lanes,Winchmore Hill,Enfield,-0.0908697940672418,51.636118615298365
+IBIS Hotel (Cafe Riviera),Highbridge Road,Barking,Barking and Dagenham,0.0717918203117526,51.534206131657065
+Lillie Langtry,19 Lillie Road,Fulham,Hammersmith and Fulham,-0.1982647895374533,51.48626572531455
+Fountains Abbey,109 Praed Street,Paddington,City of Westminster,-0.1739292039794385,51.51636550411192
+Taproom SE18,15 Major Draper Street,Woolwich,Greenwich,0.0708739996312131,51.49300794969275
+Cleveland Arms,28 Chilworth Street,Paddington,City of Westminster,-0.1810499805790323,51.51490242261087
+Rackhouse at Hilton Metropole Hotel,225 Edgware Road,Paddington,City of Westminster,-0.1698980794396965,51.519486085335856
+Mawson Arms / Fox & Hounds,110 Chiswick Lane South,Chiswick,Hounslow,-0.2492297343842573,51.48763997934708
+Hare,Brookshill,Harrow Weald,Harrow,-0.3429703187856964,51.62057882121472
+George,234 Church Lane,Kingsbury,Brent,-0.2618954251309133,51.57303253426448
+Cally,427 Caledonian Road,Holloway,Islington,-0.1182324678612121,51.546519165295976
+Ship,93 Main Road,Gidea Park,Havering,0.2005178021097048,51.58693532018485
+Prince Albert,418 Coldharbour Lane,Brixton,Lambeth,-0.113052012774551,51.46183228895342
+Gloucester Arms,34 Gloucester Road,South Kensington,Kensington and Chelsea,-0.1839684654685852,51.49914753119109
+Horseshoe,28 Heath Street,London,Camden,-0.1784381236366671,51.5557783187223
+Dickens Tavern,25 London Street,Paddington,City of Westminster,-0.1744567201293767,51.51578919175553
+Fare Bar + Canteen,11 Old Street,Old Street,Islington,-0.0980444510773114,51.52360383258343
+Duke of Sussex,75 South Parade,Chiswick,Ealing,-0.2644241709495102,51.49640873663433
+Craft Beer Co.,29-31 Mitre Street,Aldgate,City and County of the City of London,-0.0784962497404225,51.513689798841725
+Nambucca,596 Holloway Road,Holloway,Islington,-0.1227387619418693,51.55967562930524
+Anchor & Hope,2 Riverside Walk,Charlton,Greenwich,0.028791169048644,51.49360888472516
+Howl At The Moon,178 Hoxton Street,London,Hackney,-0.0798883902445924,51.53335258904389
+Lamb Inn,52-54 Church Street,Lower Edmonton,Enfield,-0.0635677598788659,51.625374685081646
+Ascott,144 Field End Road,Eastcote,Hillingdon,-0.4001629419596976,51.57865826368288
+City Boot,"3 Bastion Highwalk, 125 London Wall",London,City and County of the City of London,-0.094457568374629,51.51767333569172
+Queens Head,13 Brook Green,Hammersmith,Hammersmith and Fulham,-0.21812110195238,51.49529194223941
+Queens,26 Broadway Parade,Hornsey,Haringey,-0.1224596349498775,51.5804707646024
+Britannia,20 Monument Street,London,City and County of the City of London,-0.0857740079012564,51.50992404781832
+Sky 23 at Hilton Metropole Hotel,225 Edgware Road,Paddington,City of Westminster,-0.1698980794396965,51.519486085335856
+Signature Brew Taproom & venue,"Railway Arch 340, Acton Mews, Haggerston",Haggerston,Hackney,-0.0753632570067082,51.5370551737337
+Surprise,107 Upper Shirley Road,Croydon,Croydon,-0.0534504859483829,51.3677544747241
+Guinea,30 Bruton Place,London,City of Westminster,-0.145000419213891,51.51108251260524
+Beehive,227 High Street,Brentford,Hounslow,-0.3062842554271533,51.48373838550005
+Moonbay,"1-2 Court Parade, East Lane",Wembley,Brent,-0.3188683036338592,51.562118138706616
+Blue Posts,6 Bennet Street,London,City of Westminster,-0.1402953838234287,51.50700625134445
+Cockpit,7 St Andrew's Hill,London,City and County of the City of London,-0.1012845744746751,51.51294597926421
+Draft House Northcote,94 Northcote Road,Battersea,Wandsworth,-0.1659790491213983,51.45733952046909
+Samuel Pepys,"Stew Lane , High Timber Street",London,City and County of the City of London,-0.0960727564908935,51.51039745479096
+Horatia,98-100 Holloway Road,Holloway,Islington,-0.1089574428784805,51.55037163873253
+Lordship,211 Lordship Lane,East Dulwich,Southwark,-0.0767049482805986,51.45491942265435
+Durell Arms,704 Fulham Road,Fulham,Hammersmith and Fulham,-0.2078533767755565,51.47387690179769
+No 11 Pimlico Road,11 Pimlico Road,London,City of Westminster,-0.1513329381190676,51.490652147507184
+Rivington Bar Grill,28-30 Rivington Street,London,Hackney,-0.0819178854299506,51.52589498068828
+KNK Stadium Sports Bar,"Imperial Fields, Bishopford Road",Morden,Merton,-0.1718476377508329,51.39364508285451
+Angel,73 City Road,London,Islington,-0.0873663132427532,51.52488691461383
+Railway,"2 Greyhound Lane,",Streatham,Lambeth,-0.1342652333153152,51.41854790041317
+Bow Street Tavern,37 Bow Street,London,City of Westminster,-0.1213570864918375,51.51303534101294
+Mayfair Exchange,34 Brook Street,London,City of Westminster,-0.14697895466583,51.51311016572589
+East Hill,21 Alma Road,Wandsworth,Wandsworth,-0.1857473838957665,51.45868111843521
+Rocket,"16 Brewhouse Lane,",Putney,Wandsworth,-0.2131946719372569,51.46542429342753
+Lady Mildmay,92 Mildmay Park,London,Islington,-0.0843657059875143,51.54999912304966
+Beulah Spa,41 Beulah Hill,Upper Norwood,Croydon,-0.0928718555017451,51.41408639177499
+BrewDog Seven Dials,142 Shaftesbury Avenue,London,Camden,-0.1286925558254759,51.5133953956251
+Rising Sun,189-191 Eltham High Street,Eltham,Greenwich,0.0586794703839795,51.45096533341105
+Windsor Castle,23 Francis Street,London,City of Westminster,-0.1377406493879302,51.495095325859005
+Bonds,11 Dering Street,London,City of Westminster,-0.1458917585607839,51.51397427002736
+Olde Swiss Cottage,98 Finchley Road,Hampstead,Camden,-0.1744997252870194,51.5424530551717
+Goergio's Sports Bar & Grill,30 St James's Street,Walthamstow,Waltham Forest,-0.0334117522661176,51.58097181108671
+Crown Rivers,Terminal 5 Airside Level 1,Heathrow Airport,Hillingdon,-0.4872391389773695,51.47149256514529
+Pride Of Pimlico,85 Tachbrook Street,London,City of Westminster,-0.1350927817264873,51.4897295665948
+Gallery,190 Broadhurst Gardens,West Hampstead,Camden,-0.1900992366225937,51.54656154345388
+Island,123 College Road,Kensal Rise,Brent,-0.2265368679922301,51.53528372912557
+Hagen & Hyde,157 Balham High Road,Balham,Wandsworth,-0.1518368378355746,51.44431180787596
+Wishing Well,9 Alderman's Hill,Palmers Green,Enfield,-0.1098719861737078,51.617740025176246
+Old Hall Tavern,200 Hall Lane,Chingford,Waltham Forest,-0.0283263713784483,51.61676621505488
+Sporting Green,129 Hertford Road,Enfield,Enfield,-0.047085787774822,51.65655768912258
+Turner's Old Star,14 Watts Street,London,Tower Hamlets,-0.0593645246792048,51.50536209611224
+Morpeth Arms,58 Millbank,London,City of Westminster,-0.1288439940141167,51.48930629588936
+Ancient Foresters,282 Southwark Park Road,Bermondsey (East),Southwark,-0.0594295797521295,51.492305718094215
+Town Wharf,"Town Wharf, Swan Street",Old Isleworth,Hounslow,-0.3222406803744629,51.46925580597989
+Adelaide,57 Park Road,Teddington,Richmond upon Thames,-0.3345749236634616,51.42391223020304
+Lazy Bones,"Unit 5, 19-25 Cowcross Street",London,Islington,-0.1036901908006584,51.52026004314818
+Ham Brewery Tap,"4/6 Ham Street, Richmond",Ham,Richmond upon Thames,-0.3116583575908043,51.436865918042365
+Trinity,202-206 Borough High Street,London,Southwark,-0.0941715814394495,51.50105006969367
+Lexington,96-98 Pentonville Road,London,Islington,-0.1118361150013628,51.53171329157253
+Buff,Pinewood Drive,Orpington,Bromley,0.0866767963678699,51.35879727061357
+Balkan,66C Ealing Road,Wembley,Brent,-0.2980110635247496,51.54844564938004
+All Bar One,6 Villiers Street,London,City of Westminster,-0.1246183606456962,51.50837533044579
+Bloomsbury,209 Staines Road,Twickenham,Richmond upon Thames,-0.352001510404514,51.44208035108559
+Corney & Barrow,25 Fenchurch Ave,London,City and County of the City of London,-0.0809661990580727,51.5128759663429
+Ekcovision,Arch 15 Atlantic Road,Brixton,Lambeth,-0.1134266074016744,51.46287249145461
+Union Tavern,52 Lloyd Baker Street,London,Islington,-0.1132593356686379,51.52693407392137
+Crown,176 Trafalgar Road,Greenwich,Greenwich,0.0041473196017353,51.4848599755284
+Moon & Stars,99-103 South Street,Romford,Havering,0.183229186208281,51.575900354257726
+Bell & Gate,248/250 Collier Row Lane,Collier Row (Romford),Havering,0.1649430315547846,51.59471953920356
+Two Brewers,42 Scotland Green,Tottenham,Haringey,-0.0678469703731541,51.5967411117409
+Atlas,16 Seagrave Road,Fulham,Hammersmith and Fulham,-0.1961922735804132,51.486224873989286
+Smugglers Inn,320 Chipstead Valley Road,Coulsdon,Croydon,-0.1501832586517821,51.319168253439024
+Smugglers Tavern,28 Warren Street,London,Camden,-0.1410147988618668,51.52366315688053
+Prince Albert,11 Pembridge Road,Notting Hill,Kensington and Chelsea,-0.1976638172328778,51.50952947329296
+Prince Alfred,112 Queensway,Bayswater,City of Westminster,-0.1874579918838946,51.51323006097552
+Forest Gate Hotel,105 Godwin Road,Forest Gate,Newham,0.033872039713669,51.55366482008258
+Richmond,55 Shepherds Bush Road,Hammersmith,Hammersmith and Fulham,-0.2216946340282103,51.50082268511108
+Woodlands,29 St Johns Road,Isleworth,Hounslow,-0.3374060146826846,51.47270910876298
+Old Frizzle,74-78 The Broadway,Wimbledon,Merton,-0.202899716635411,51.41997942146158
+Dial Arch,"Dial Arch Buildings, No. 1 Street",Woolwich,Greenwich,0.069097225781333,51.49226593098635
+McGlynn's,1-5 Whidbourne Street,London,Camden,-0.1232888495393262,51.52844385418253
+Horsenden Hill Golf & Footgolf Centre,Woodland Rise,Greenford,Ealing,-0.3233137453692938,51.54910648988567
+Salt Bar,1 Roxeth Hill,South Harrow,Harrow,-0.3454435138658187,51.56927560502387
+Lord Tredegar,50 Lichfield Road,Bow,Tower Hamlets,-0.0324964328082103,51.528610190938295
+Royal Albert,42 Westow Hill,Upper Norwood,Croydon,-0.0814079963600252,51.41963652972008
+Railway Bell,87 George Lane,South Woodford,Redbridge,0.0282255502332792,51.59179224771514
+Edinboro Castle,57 Mornington Terrace,London,Camden,-0.14499380174418,51.53606412466642
+King's Arms,425 New Kings Road,Fulham,Hammersmith and Fulham,-0.2098516627759135,51.46917725046902
+Old Shades,37 Whitehall,London,City of Westminster,-0.1268600554167267,51.50642375737434
+Hungerford House Bar & Kitchen,"Hungerford House,Victoria Embankment",London,City of Westminster,-0.1220361485441284,51.5073897784933
+Marquis of Granby,322 New Cross Road,New Cross,Lewisham,-0.0343597758772269,51.47565572976159
+Axe,18 Northwold Road,Stoke Newington,Hackney,-0.0721515286516348,51.56291005514982
+Wheelwrights Arms,"60, Clarence Street",Kingston,Kingston upon Thames,-0.301744294360616,51.41051882730979
+Gun,27 Coldharbour,Isle of Dogs,Tower Hamlets,-0.0075309519226574,51.50241521476432
+Old Red Lion,72 High Holborn,London,Camden,-0.1171285260422448,51.51806643511002
+Wags N Tales,"7-9, Brighton Road",Surbiton,Kingston upon Thames,-0.3090227702973268,51.39093884569817
+Regent,21 Chestnut Grove,Balham,Wandsworth,-0.1539035421953984,51.44409255578598
+Cut,"Young Vic, 66 The Cut",London,Lambeth,-0.1072918471053342,51.50327690619449
+Pig & Whistle,92 Bramley Road,North Kensington,Kensington and Chelsea,-0.2174355803263186,51.51395922133293
+Who'd 'a' Thought It,7 Timbercroft Lane,Plumstead,Greenwich,0.0870263739190442,51.4788815395452
+Trilogy Bar & Restaurant,6-8 Whitchurch Parade  72-86 Whitchurch Lane,Edgware,Harrow,-0.2818404972736824,51.6093581383929
+Lighterman,109 Bastable Avenue / Charlton Crescent,Barking,Barking and Dagenham,0.1031679996148176,51.52857586635782
+Rose of Denmark,296 Woolwich Road,Charlton,Greenwich,0.0268076345278746,51.48722234096344
+Bierschenke,"4 London Wall Buildings, Blomfield Street",London,City and County of the City of London,-0.0853109935177548,51.51718259847053
+Jono's Bar,37 Cranbrook Road,Ilford,Redbridge,0.0697063289470563,51.5597554198048
+Royal Oak,54 Charlton Lane,Charlton,Greenwich,0.0391663765468609,51.48786233236974
+Fox Inn,Heathfield Road,Keston,Bromley,0.0273100414787619,51.361359436427314
+Olde Red Lion,17 Park Road,Cheam,Sutton,-0.2162974109454504,51.35952866140346
+Millers,19 Caledonian Road,London,Islington,-0.1211751338650696,51.53145856567272
+Slug & Lettuce,5 Lisle Street,London,City of Westminster,-0.1313416394686214,51.511351313726855
+Streeties,15 Shirley Street,Royal Docks,Newham,0.0118199137571894,51.51286736197426
+Black Lion,295 West End Lane,London,Camden,-0.1922025519257116,51.551351055944615
+Che,10 Annette Road,Holloway,Islington,-0.1127774060562279,51.55565789963482
+Warwick,1-3 Warwick Street,London,City of Westminster,-0.1372907039346644,51.51071752700105
+Chiswell Street Dining Rooms,56 Chiswell Street,London,City and County of the City of London,-0.0906802548119059,51.52079530169491
+Mayfair Tavern,127 Upper Tooting Road,Tooting,Wandsworth,-0.1637449429638443,51.43193583126728
+Wheatsheaf,41 Haven Lane,Ealing,Ealing,-0.2998297745619055,51.51707934583512
+Imperial Arms,Old Hill,Chislehurst,Bromley,0.0608085687903328,51.40876916789468
+Elgin,255 Elgin Ave,Maida Vale,City of Westminster,-0.1858155610044216,51.53025471907782
+Moon Under Water,28 Leicester Square,London,City of Westminster,-0.1292646907887901,51.51068871707272
+Mulberry Bush,89 Upper Ground,London,Lambeth,-0.1102568697539604,51.507533328523294
+Northumberland Arms,119 Tottenham Court Road,London,Camden,-0.1373071669992168,51.5233795274434
+French House,49 Dean Street,London,City of Westminster,-0.1316745860996224,51.51272351135223
+River Ale House,131 Woolwich Road,Greenwich,Greenwich,0.0144207852404669,51.48625773500024
+Slug & Lettuce,150-156 High Street,Beckenham,Bromley,-0.027063240960206,51.40776274230457
+Zigfrid,"11 Hoxton Square,",London,Hackney,-0.0817953069176235,51.527781427456894
+Everest Lounge,60 Peel Road,Wealdstone,Harrow,-0.3317612259402557,51.594170802473
+Argyle,1 Greville Street,London,Camden,-0.1084925955503164,51.51915952196397
+Cocktail Embassy,76 Westow Hill,Upper Norwood,Croydon,-0.0793541865393844,51.41956689594249
+Zelman Drinks,5 Station Place,Finsbury Park,Islington,-0.1058497323359068,51.56477252940479
+Albany,240 Great Portland Street,London,City of Westminster,-0.1438829601634755,51.523321886176994
+Barrio,30 Acre Lane,Brixton,Lambeth,-0.1174727703205531,51.46110302215718
+Bush Hill Park,,Enfield,Enfield,-0.0673245677953227,51.64233388001596
+Trent Park Golf Club,Bramley Road,Southgate,Enfield,-0.1311102378243887,51.6492567680863
+Duke,2 Duke Street,Richmond,Richmond upon Thames,-0.3042552333774045,51.46154227492266
+Kona Kai,515 Fulham Road,Fulham,Hammersmith and Fulham,-0.1928037802979977,51.48012067437458
+Royal Standard,1 Sheldon Street,Croydon,Croydon,-0.1019687134524518,51.369792109003
+Three Crowns,19 Babmaes Street,London,City of Westminster,-0.1347650792924861,51.50868999985336
+Red Lion,Hackbridge Road,Wallington,Sutton,-0.157613353239898,51.37835061481042
+Old Ship,3 King Street,Richmond,Richmond upon Thames,-0.3069912349316702,51.459963146738616
+Ninth Life,167 Rushey Green,Catford,Lewisham,-0.0194698319020714,51.44506308904053
+Flowerpot,128 Wood Street,Walthamstow,Waltham Forest,-0.0044615167629699,51.58812652316633
+Plough,27 Museum Street,London,Camden,-0.1260134030718327,51.51792093411042
+Three Tuns,36 Jewry Street,London,City and County of the City of London,-0.0768577179645594,51.51255681673029
+Lamb & Trotter,6 Little Britain,London,City and County of the City of London,-0.0980556092403234,51.51711126010368
+Talbot,109 Mortimer Road,London,Hackney,-0.0791975810006739,51.54290930972903
+Belushi's,15 Shepherds Bush Green,Shepherds Bush,Hammersmith and Fulham,-0.2195296637552776,51.50387431945114
+"Olde Monken Holt, Ye",193 High Street,High Barnet,Barnet,-0.2014869349440693,51.65781968144125
+Horse & Groom,60 Streatham High Road,Streatham,Lambeth,-0.1281946788940344,51.43653555601878
+Browns,"3, Jerome Place, Charter Quay",Kingston,Kingston upon Thames,-0.3078881408395605,51.40924985482582
+Jolly Gardeners,214 Garratt Lane,Earlsfield,Wandsworth,-0.1895592980593567,51.44674363499583
+Cittie Of Yorke,22 High Holborn,London,Camden,-0.1128126546539048,51.51856363183822
+Prince Edward,73 Princes Square,Bayswater,City of Westminster,-0.1936139233742816,51.51318113848414
+St George's Tavern,14 Belgrave Road,London,City of Westminster,-0.1448298706145452,51.49329223106847
+Mendes (The Sheep Walk),14 Market Place,Acton,Ealing,-0.2710326811147915,51.50793585302685
+Roebuck,130 Richmond Hill,Richmond,Richmond upon Thames,-0.2982683093674341,51.4522021941375
+White Hart,29 Cornwall Road,London,Lambeth,-0.1106464251998368,51.505084579905855
+Prince Of Wales,11A Cambridge Gardens,Kilburn,Brent,-0.1941138974727553,51.534051739037416
+Hankies at Piccadilly West End Hotel,67 Shaftesbury Avenue,London,City of Westminster,-0.1318824202381028,51.51222322894625
+Bistrotheque,23ÃÂ¢ÃÂÃÂ27 Wadeson Street,Bethnal Green,Tower Hamlets,-0.0564138566927543,51.53404459541606
+Railway,16 Blackheath Village,Blackheath,Lewisham,0.0089612919077935,51.46560485598328
+Royal Oak Pub & Kitchen,320 Hale End Road / Oak Hill,Hale End (Woodford Green),Waltham Forest,0.0029289006567345,51.604204808831504
+Euston Flyer,83-87 Euston Rd,London,Camden,-0.1271053902589062,51.52854080927395
+Bloomsbury Tavern,236 Shaftesbury Avenue,London,Camden,-0.1258442107668051,51.51677615331472
+Running Horses,23 Erith High Street,Erith,Bexley,0.1810293912058491,51.48165792846115
+Waterfront,"Baltimore House, Juniper Drive, Battersea Reach",Wandsworth,Wandsworth,-0.1854124330347286,51.464224461283386
+Star By Hackney Downs,35 Queensdown Road,Clapton,Hackney,-0.0579656515440708,51.55416884020116
+Union,109 Battersea Bridge Road,Battersea,Wandsworth,-0.1683287622891738,51.47704317219174
+Coco Momo,79 Marylebone High Street,London,City of Westminster,-0.152183830533816,51.520890015472034
+68 & Boston,4 Greek Street ,London,City of Westminster,-0.1311874111287092,51.51476609168294
+Old Crown,81 Station Road,Hayes,Hillingdon,-0.4190986975291001,51.50500714233059
+Fizz Sports Bar,217 Kenton Road,Kenton,Brent,-0.3143612743012594,51.58332911399558
+Broadleaf,25 Old Broad Street,Liverpool Street,City and County of the City of London,-0.0840647002571932,51.51528275657186
+William Morris,807 Forest Road,Walthamstow,Waltham Forest,-0.0080840999966504,51.59111959729516
+Holborn Dining Room,252 High Holborn,London,Camden,-0.1177642687909093,51.517330237457706
+Three Wishes,"19-20 The Broadwalk, Pinner Road",North Harrow,Harrow,-0.3623996493501549,51.58689590993188
+Five Bells,155 New Cross Road,New Cross,Lewisham,-0.0475471763018844,51.47607404738968
+Phoenix,26 Throgmorton Street,London,City and County of the City of London,-0.0860526355019337,51.51496451568296
+Blue Anchor,251 Southwark Park Road,Bermondsey (East),Southwark,-0.0631352832017136,51.4925648524132
+Heart of Hackney,255 Mare Street,Hackney,Hackney,-0.0555824919807954,51.54272662915013
+Railway Hotel,Station Lane,Hornchurch,Havering,0.2191158323550504,51.554713697838366
+Bedford Arms,204 Dawes Rd,Fulham,Hammersmith and Fulham,-0.2093501620146665,51.481255742431095
+Surrey Cricketers,23 West Street,Croydon,Croydon,-0.1005843785168162,51.36817792499301
+Sutton Arms,14/16 Station Lane,Hornchurch,Havering,0.2205317328944419,51.56127876733197
+Red Lion,41 Hoxton Street,London,Hackney,-0.0804380109263503,51.52783113986663
+Leefe Robinson VC,375 Uxbridge Road,Harrow Weald,Harrow,-0.3324442380934915,51.613352592502224
+Lord Raglan,199 Shernhall Street,Walthamstow,Waltham Forest,-0.0030793163753416,51.58178137813529
+Brouge,241 Hampton Road,Twickenham,Richmond upon Thames,-0.3499675920599412,51.43662937013916
+Walker Briggs,23 Westow Hill,Crystal Palace,Lambeth,-0.0821024866282724,51.41988171786112
+Half Moon,212-223 Mile End Road,London,Tower Hamlets,-0.045299154134781,51.52221454647792
+Village Inn,104 Nuxley Road,Belvedere,Bexley,0.1434335646485874,51.48000423338254
+King's Head,The Green,Winchmore Hill,Enfield,-0.1033149499001046,51.63466582052687
+Holly Bush,22 Holly Mount,London,Camden,-0.1791747718126191,51.557561280335776
+Duke's Head,112 Wood Street,Walthamstow,Waltham Forest,-0.0044615167629699,51.58812652316633
+Enkel Arms,34 Seven Sisters Road,London,Islington,-0.1171305134152897,51.55888431586907
+Eagle,157 Chobham Road,Stratford,Newham,-0.0004485306910849,51.54930033151278
+Three Compasses,99 Dalston Lane,Hackney,Hackney,-0.067904185955679,51.548388889877074
+Black Horse,63 Albert Road,Bexley,Bexley,0.149939949338787,51.44535201826003
+Stage Door,30 Webber Street,London,Lambeth,-0.1075196519338487,51.50125720779106
+Paternoster Chop House,"Warwick Court, 3 Paternoster Square",London,City and County of the City of London,-0.0990721574275763,51.51485257429465
+Crowne Plaza Heathrow,Stockley Road,West Drayton,Hillingdon,-0.4542411960599176,51.49949598633312
+Burren,174 Church Road,Harlesden,Brent,-0.2501900720438116,51.54715820770964
+Pavilion,325 Kirkdale,Sydenham,Lewisham,-0.0549694025016878,51.42682647351582
+Duke of Sussex,23 Baylis Road,London,Lambeth,-0.110250720021315,51.50106743122007
+Hercules Pillars,18 Great Queen Street,London,Camden,-0.1207294009040556,51.51602886346584
+Viaduct,221 Uxbridge Road,Hanwell,Ealing,-0.3420916602744545,51.5086736192918
+Red Barn,Barnehust Road,Bexleyheath,Bexley,0.1583262820662222,51.46570188375115
+Crooked Billet,14-15 Crooked Billet,Wimbledon,Merton,-0.2282489939708025,51.42129157335864
+Victory Club,227 Selhurst Road,South Norwood,Croydon,-0.0803569572633128,51.397353508693314
+Tattersalls Tavern,2 Knightsbridge Green,London,City of Westminster,-0.1629041811258302,51.5009417624988
+Three Compasses,62 High Street,Hornsey,Haringey,-0.1194469228871427,51.587373668695726
+Dove Free House & Kitchen,24-28 Broadway Market,Hackney,Hackney,-0.0615832999326986,51.53658518359283
+O'Neill's,37-38 Great Marlborough Street,London,City of Westminster,-0.1392308865514192,51.514030661860005
+Buckley's Bar,187 Streatfield Road,Queensbury,Harrow,-0.2958034220842983,51.59592923109955
+Prince Albert,2 Broadway,Bexleyheath,Bexley,0.1527044967014519,51.45547230740127
+Black Dog Beer House,17 Albany Road,Brentford,Hounslow,-0.3022676127837949,51.485631737263965
+Feathers,18-20 Broadway,London,City of Westminster,-0.1328848468033547,51.49934362194665
+Muswell Hillbilly Taproom,14 Avenue Mews,London,Haringey,-0.1438941415149932,51.59072137646877
+Wild Card Brewery Barrel Room,"Unit 7, Ravenswood Industrial Estate, Shernhall Street",Walthamstow,Waltham Forest,-0.0081112315949244,51.58389023786152
+Duke Of Edinburgh,83 Mayes Road,London,Haringey,-0.1129392928166846,51.594975646691104
+Soldiers Return,65 High Road,Ickenham,Hillingdon,-0.4413596344925487,51.56790926186628
+Heron,Norfolk Crescent,Paddington,City of Westminster,-0.1672697502460647,51.51673825807718
+Duke,64-65 Victoria Road,Surbiton,Kingston upon Thames,-0.3070339108595462,51.391863361538725
+Fox & Hounds,"60, Portsmouth Road",Surbiton,Kingston upon Thames,-0.3117609848026744,51.39582543144875
+Earl of Lonsdale,277-281 Westbourne Grove,Notting Hill,Kensington and Chelsea,-0.2033812152374486,51.51328617979719
+Market Cafe,2 Broadway Market,Hackney,Hackney,-0.0615832999326986,51.53658518359283
+Farr's school of Dancing,17-19 Dalston Lane,Hackney,Hackney,-0.0732966934369418,51.54638242940522
+Waterloo Bar & Kitchen,131 Waterloo Road,London,Lambeth,-0.1090239794853972,51.501812044825904
+Devonshire Arms,7 Duke Street,London,City of Westminster,-0.1521004778418107,51.51618552779517
+Arnos Arms,338 Bowes Road,New Southgate,Enfield,-0.1342594690414744,51.61622391075243
+Caspari Lounge & Restaurant,55 High Street,Brentford,Hounslow,-0.3025276008465463,51.48444846474778
+Netil 360,1 Westgate Street,South Hackney,Hackney,-0.0590062888920025,51.53750473456385
+Two Brewers,114 Clapham High Street,Clapham,Lambeth,-0.1348214635715817,51.4631788857209
+Grove,39 Oldridge Road,Balham,Wandsworth,-0.1513151055039118,51.44832335375871
+Candlemaker,136 Battersea High Street,Battersea,Wandsworth,-0.1723103455458026,51.470378810497046
+Thatched House,632 Ripple Road,Barking,Barking and Dagenham,0.1055987656935587,51.53345131444175
+George,77 Borough High Street,London,Southwark,-0.0904358588907769,51.50424468943375
+St. Georges Tavern,14 Coleman Road,Camberwell,Southwark,-0.0834259868158752,51.479337233046415
+Greenwich Yacht Club,"Pear Tree Wharf, 1 Pear Tree Way",Greenwich,Greenwich,0.0186010131803475,51.495448422070815
+Astronomer,125-129 Middlesex Street,London,City and County of the City of London,-0.0787781919029375,51.51794796997178
+Clerkenwell & Social,2-5 St John's Square,London,Islington,-0.1032925991987452,51.52219604868394
+York & Albany,127-129 Parkway,London,Camden,-0.1463709689011219,51.53623876451815
+Bayswater Arms,99 Queensway,Bayswater,City of Westminster,-0.187877082655975,51.51211245453121
+Funky Brownz,5 Tottenham Lane,Hornsey,Haringey,-0.1121178703634694,51.585880065813406
+"Mirth, Marvel & Maud",186 Hoe St,Walthamstow,Waltham Forest,-0.0203973998949707,51.58649918190682
+Phoenix,Windsor Walk,Camberwell,Southwark,-0.0887162027074055,51.46888402116853
+Round House,1 Garrick Street,London,City of Westminster,-0.1259359989496975,51.51138197933895
+Bedford,77 Bedford Hill,Balham,Wandsworth,-0.1490200987612783,51.44208211998148
+Kings Arms,65 Newcomen Street,London,Southwark,-0.0912337377050292,51.502737900777205
+St Stephen's Tavern,10 Bridge Street,London,City of Westminster,-0.1251735925402437,51.50117203215726
+Elliotts,5 High Street,Purley,Croydon,-0.1156984097642263,51.33840381152497
+Old White Lion,121 Great North Road,East Finchley,Barnet,-0.1643650088046473,51.587149540060814
+Orange Tree,Orange Tree Hill,Havering-Atte-Bower,Havering,0.1812102282647444,51.6141939372052
+Lord Denman,270/272 Heathway,Dagenham,Barking and Dagenham,0.1481409128110837,51.54184375709534
+Draft House,238 Shepherds Bush Road,Hammersmith,Hammersmith and Fulham,-0.2242455572054342,51.49561862379728
+Bird of Smithfield,26 Smithfield Street,London,City and County of the City of London,-0.1025158186964607,51.5183435846237
+Princess Alexandra,219 Barking Road,London,Newham,0.0153883247413358,51.51926305184409
+Spread Eagle,141 Albert Street,London,Camden,-0.1445165245969131,51.53716268083947
+Dr Butlers Head,Mason's Avenue,London,City and County of the City of London,-0.0902873721418066,51.51571701136704
+Hawkins Forge,110 Battersea Rise,Battersea,Wandsworth,-0.1686630968611792,51.46077171820835
+Pretty Decent Beer Co,Arch 338 Sheridan Road,London,Waltham Forest,0.0180725981679495,51.55617708251111
+Bell,468 High Road,Leytonstone,Waltham Forest,0.0087432089666486,51.56085163023114
+Viaduct Tavern,126 Newgate Street,London,City and County of the City of London,-0.1015650726829763,51.51625087427189
+Queen Elizabeth,95 Forest Side,Chingford,Waltham Forest,0.0167944320027881,51.62868803229063
+BrewDog,21-22 Poland Street,London,City of Westminster,-0.1371128074795628,51.51507616737109
+Carlton Lounge,232-234 Kingsbury Road,Kingsbury,Brent,-0.2630299872020922,51.58339065368462
+BrewDog Angel,29-31 Essex Road,London,Islington,-0.1013702225614591,51.536868006214526
+Coopers Arms,87 Flood Street,Chelsea,Kensington and Chelsea,-0.1649564143569932,51.486082003283904
+Drayton Park,66 Drayton Park,Highbury,Islington,-0.1048988154503336,51.5539750599244
+Occasional Half,67-77 Green Lanes,Palmers Green,Enfield,-0.1100712404829765,51.610162615985935
+T J Duffys,282 Northfield Avenue,Ealing,Ealing,-0.3138918140057281,51.49810123141203
+Dogstar,389 Coldharbour Lane,Brixton,Lambeth,-0.1122666945253602,51.46167575768152
+Brook,181 Central Road,Worcester Park,Sutton,-0.2440383978072285,51.379704378143046
+Whitecross Tap,142 Whitecross Street,London,Islington,-0.0933422593070065,51.52401305379274
+Founders Arms,52 Hopton Street,London,Southwark,-0.1020269244606202,51.5082637574038
+Balabam,58 High Road,South Tottenham,Haringey,-0.0726903037375766,51.57747798028661
+Catford Bridge Tavern,"Station Approach, Catford Bridge",Catford,Lewisham,-0.0244803699112938,51.444670996544936
+Old Sergeant,104 Garratt Lane,Wandsworth,Wandsworth,-0.1913100975979484,51.45124005995815
+Tenpin Acton,"Royale Leisure Park, Western Avenue",Park Royal,Ealing,-0.2813164393300697,51.52529863454589
+Tommyfield,185 Kennington Lane,Kennington,Lambeth,-0.1103923017796927,51.4889385030205
+Anchor,61 Holgate Avenue,Battersea,Wandsworth,-0.1786396172493624,51.46546837930479
+Station House,"Station Buildings, Churchfield Road",Acton,Ealing,-0.2633351178276366,51.508757401770296
+Shaston Arms,4 Ganton Street,London,City of Westminster,-0.1382461255050504,51.51343950232172
+Beer Box,"Peninsula Square, Greenwich Peninsula",Greenwich,Greenwich,0.0039701546003482,51.501823480149056
+Duke Of York,2 St Ann's Terrace,London,City of Westminster,-0.171645039307507,51.53452206053696
+Tavern,97 Cromwell Road,South Kensington,Kensington and Chelsea,-0.1851008388530138,51.494219088231496
+Browns,"Unit A Hertsmere Road, West India Quay",Isle of Dogs,Tower Hamlets,-0.0226121901184635,51.50751781924165
+Comedy,7 Oxenden Street,London,City of Westminster,-0.1323562356427748,51.51015345469894
+Philomena's,40 Great Queen Street,London,Camden,-0.1218307777330835,51.51518319925899
+White Horse & Bower,86 Horseferry Road,London,City of Westminster,-0.1312168887592912,51.49503651899408
+Castle,30 West Street,Harrow,Harrow,-0.3396448302804874,51.57199036843833
+Three Horseshoes,1 Sunbury Road,Feltham,Hounslow,-0.4198016803808417,51.436296872028215
+Royal Oak,2 Regency Street,London,City of Westminster,-0.132497301563828,51.49402275061104
+All Bar One,"Retail Unit 1, 60 Victoria Street",London,City of Westminster,-0.1378580435209659,51.49751623189753
+Mrs Fogg's Maritime Club & Distillery,37 Broadgate Circle,London,City and County of the City of London,-0.0837628717939453,51.5186950467637
+Greenwich Tavern,1 King William Walk,Greenwich,Greenwich,-0.0077283881778395,51.48039501723382
+Red Lion,23 Crown Passage,London,City of Westminster,-0.1377335328754246,51.5058684919937
+Fox & Goose,Hanger Lane,Ealing,Ealing,-0.29578465816371,51.53353984967585
+Cart & Horses,1 Maryland Point,Stratford,Newham,0.0043176813942954,51.54583768629344
+WC Wine & Charcuterie,Underneath Clapham Common tube station,Clapham,Lambeth,-0.137810058914701,51.46155374991609
+Kelsey House,75 High Street,Beckenham,Bromley,-0.0259529387030749,51.407501246179855
+Panthers,3-4 Glenmore Parade,Alperton,Brent,-0.2974635862148376,51.54186423525115
+Wonder,1 Batley Road,Enfield,Enfield,-0.0854701482673698,51.663430644725935
+Hope,48 West Street,Carshalton,Sutton,-0.1671236099669974,51.367258717785575
+Wilton Arms,71 Kinnerton Street,London,City of Westminster,-0.1570673033252834,51.50133579844439
+Assembly House,292 Kentish Town Road,London,Camden,-0.1403414605208008,51.55114317416167
+Merchant of Battersea,23-25 Battersea Rise,Battersea,Wandsworth,-0.1634493490275209,51.460834059388645
+Tap Tavern,Princes Street,Richmond,Richmond upon Thames,-0.3027889892557719,51.46148509176258
+Saffran,551 High Road,Wembley,Brent,-0.3012094698041056,51.55202603832871
+Ship,116 Wardour Street,London,City of Westminster,-0.1341694960860811,51.51409414435
+Swallow,Long Lane,Hillingdon,Hillingdon,-0.4487395801602663,51.55371841664343
+Osterley Park Hotel,764 Great West Road,Osterley,Hounslow,-0.3334433232043177,51.48306622923939
+Archers,194/204 Main Road,Gidea Park,Havering,0.2008907100062192,51.58658658609356
+Husk Brewing Taproom,"58A Railway Arches, North Woolwich Road",Royal Docks,Newham,0.0186223185211506,51.50439589679346
+Moon on the Square,"30 The Centre, High Street",Feltham,Hounslow,-0.4109000776428128,51.44654444361697
+Wanstead Tap,Arch 352 Winchelsea Road,Forest Gate,Waltham Forest,0.018918867030537,51.5554161179995
+Hare & Hounds,282 Lea Bridge Road,Leyton,Waltham Forest,-0.0278753860923708,51.56914361981846
+Morgan,1 Clydesdale Way,Belvedere,Bexley,0.1563908246535489,51.49698824934261
+Change of Horses,87 High Street,Farnborough,Bromley,0.0677209692231752,51.359529086025496
+Hawley Arms,2 Castlehaven Road,London,Camden,-0.1450064416867472,51.54213439654272
+Camino,5 Canvey Street,London,Southwark,-0.0995843701484701,51.5060119812175
+Greyhound,109 Peckham High Street,Peckham,Southwark,-0.0683809563449753,51.47411717820877
+Chelsea Lodge,562 Kings Road,Fulham,Hammersmith and Fulham,-0.1874853552552076,51.479499041757066
+Plough on the Pond,774 London Road,Thornton Heath,Croydon,-0.1141028920359824,51.39440337434485
+Great Harry,99 Parsonage Manor Way,Belvedere,Bexley,0.1483719214615646,51.47752170398464
+Bar One,7-9 Leytonstone Road,Stratford,Newham,0.0055028150632451,51.546878553414544
+Flowers of the Forest,14 Westminster Bridge Road,London,Southwark,-0.1065005056665167,51.498731779453934
+Konnigan's,344-346 Old York Road,Wandsworth,Wandsworth,-0.1887240562441016,51.45985121013022
+JJ Moon's,56a Tooting High Street,Tooting,Wandsworth,-0.1690761074807454,51.42741482799376
+White Bear,Ickenham Road,Ruislip,Hillingdon,-0.4311819583449169,51.571838060274025
+Uxbridge Sports Club,Park Road,Uxbridge,Hillingdon,-0.4713056487719993,51.55137106917483
+Star,Leatherhead Road,Leatherhead Common,Kingston upon Thames,-0.3274013978987725,51.32715751096081
+Cafe Boheme,13-17 Old Compton Street,London,City of Westminster,-0.130612929070179,51.51330910964328
+Princes Head,28 The Green,Richmond,Richmond upon Thames,-0.3065710967788978,51.46042469357136
+Tamesis Dock,Albert Embankment,London,Lambeth,-0.1237137025517426,51.48795635752326
+Harrison's - Delicatessen & Vintners,60 Pitshanger Lane,Ealing,Ealing,-0.3163281243715588,51.5257970173594
+Eagle,15 Clifton Road,Maida Vale,City of Westminster,-0.1792779254590724,51.5253603620458
+Waldegrave Arms,209 Waldegrave Road,Teddington,Richmond upon Thames,-0.3387768477105349,51.43258653996511
+Bedford Tavern,160 Seven Sisters Road,Holloway,Islington,-0.1121338235928649,51.56144774684832
+No 32 The Old Town,32 The Pavement,Clapham,Lambeth,-0.1405862028950568,51.463027644362406
+Waters Edge,Reservoir Road,Ruislip,Hillingdon,-0.4327584264605887,51.59103069066271
+Portman,51 Upper Berkeley Street,London,City of Westminster,-0.1611493582432988,51.51517666697266
+Bitter End Bar,139 Masons Hill,Bromley,Bromley,0.0252400840315621,51.39620557790607
+Water Poet,11 Folgate Street,London,Tower Hamlets,-0.0773242815953669,51.52098163977493
+Goat,66A Battersea Rise,Battersea,Wandsworth,-0.1664234382034561,51.46097952177925
+Bricklayer's Arms,32 Waterman Street,Putney,Wandsworth,-0.2174706218561627,51.46616379657716
+Jamies,36 Tudor Street,London,City and County of the City of London,-0.1070319641605377,51.51197771797058
+Beehive [Harvester],Beehive Lane,Gants Hill,Redbridge,0.0596507239656629,51.577000579342034
+Surprise,16 Southville,South Lambeth,Lambeth,-0.131536444321891,51.474529297538425
+Grove House,26 Camberwell Grove,Camberwell,Southwark,-0.0881936213388921,51.47208593962343
+Plaquemine Lock,139 Graham Street,London,Islington,-0.1003228060724207,51.53258851521198
+White Hart,158 High Street,Harlington,Hillingdon,-0.4357918518927221,51.48921568453039
+Dirty Dicks,202-204 Bishopsgate,London,City and County of the City of London,-0.0797004269106184,51.517954093658616
+King & Tinker,Whitewebbs Lane,Enfield,Enfield,-0.0671265247498114,51.68062026887202
+Escape,Lidlington Place,London,Camden,-0.1374479013608099,51.53264425901713
+City Of Quebec,12 Old Quebec Street,London,City of Westminster,-0.1572315202719989,51.51404505449079
+Griffin Belle,8 Wyvil Road,Vauxhall,Lambeth,-0.1256543230866493,51.48172847719928
+Sussex Arms,15 Staines Road,Twickenham,Richmond upon Thames,-0.3460585988687264,51.4440738300904
+Golden Fleece,166 Capel Road,Manor Park,Newham,0.0450818291661224,51.554665765560095
+Bootlaces,596 Lea Bridge Road,Leyton,Waltham Forest,-0.0137644137736244,51.574400180687554
+Davy's Wine Vaults,161 Greenwich High Road,Greenwich,Greenwich,-0.0147218408351341,51.47754597588651
+Clapton Hart,231 Lower Clapton Road,Clapton,Hackney,-0.0560683126099119,51.556718294423
+Crown & Sceptre,2A Streatham Hill,Streatham Hill,Lambeth,-0.1247562766689789,51.44496078511653
+Ship Aground,33 Wolseley Street,London,Southwark,-0.0711179078284022,51.5007090049826
+Plough,154 Bury Street,Ruislip,Hillingdon,-0.4316231347111916,51.58333608719022
+Loading,174 Goldhawk Road,Shepherds Bush,Hammersmith and Fulham,-0.232709229999644,51.50139380449954
+Country House,2-4 Groton Road,Earlsfield,Wandsworth,-0.1893201134748162,51.4418748402076
+Jugged Hare,49 Chiswell Street,London,City and County of the City of London,-0.0906802548119059,51.52079530169491
+Macbeth,70 Hoxton Street,London,Hackney,-0.0800905792937692,51.53026244572408
+Made in Brasil Boteco,48 Chalk Farm Road,London,Camden,-0.1482480612320958,51.54292299466098
+Trafalgar Arms,148-156 Tooting High Street,Tooting,Wandsworth,-0.1713610474178642,51.4249504640116
+Earl Of Essex,25 Danbury Street,London,Islington,-0.0994921091580308,51.53418473786321
+New Inn,1 New Rd,Brentford,Hounslow,-0.3035033751512215,51.48881503777472
+Perry Hill,78-80 Perry Hill,Catford,Lewisham,-0.0350338159976289,51.4351630147407
+Wood House,39 Sydenham Hill,Sydenham,Southwark,-0.0727449585344829,51.43274082332287
+Crown & Anchor,137 Drummond Street,London,Camden,-0.1366229225842313,51.52707365967327
+Effra Hall,38A Kellett Road,Brixton,Lambeth,-0.1138606052322308,51.4596780395034
+Victoria,"28, Victoria Road",Surbiton,Kingston upon Thames,-0.3073563791964269,51.39208384433969
+Jamaica Wine House,St Michaels Alley - Cornhill,London,City and County of the City of London,-0.0856291976403496,51.51303316302528
+Montpelier,43 Choumert Road,Peckham,Southwark,-0.0709479356861302,51.46754070932869
+Heeltap,"Chaucer House, White Hart Yard, Borough High Street",London,Southwark,-0.0896295870942009,51.50457328428149
+Artillery Arms,102 Bunhill Row,London,Islington,-0.0902652860825907,51.52347736115049
+North Nineteen,194-196 Sussex Way,Upper Holloway,Islington,-0.12129675712232,51.56421176143624
+Kosho,72-74 South Street,Romford,Havering,0.1824662521735013,51.57594153526345
+Brownswood,271 Green Lanes,Finsbury Park,Hackney,-0.0928747246102526,51.56417541404428
+Tiger,18 Camberwell Green,Camberwell,Southwark,-0.0923854190750753,51.47377294429885
+St Barts Brewery,64-66 West Smithfield,London,City and County of the City of London,-0.1005336507033116,51.51886904727306
+Traveller's Home,60-66 Long Lane,Bexleyheath,Bexley,0.1519583447274193,51.4625545000957
+Happenstance,10 Paternoster Square,London,City and County of the City of London,-0.0990721574275763,51.51485257429465
+Crown Tavern,42 Clerkenwell Green,London,Islington,-0.1051803862808421,51.52325172795376
+Hop Poles,320 Baker Street,Enfield,Enfield,-0.0769679521199763,51.66342662343894
+Tankard,178 Walworth Road,Walworth,Southwark,-0.0983913752050268,51.49209881270826
+Woodman,Breakspear Road,Ruislip,Hillingdon,-0.4404624220785722,51.58611562467353
+Sea Horse,64 Queen Victoria Street,London,City and County of the City of London,-0.0935476672524212,51.51254167114272
+Bank,31-37 Northcote Road,Battersea,Wandsworth,-0.1661727931230478,51.459689652740536
+Lord Clyde,340-342 Essex Road,London,Islington,-0.0902478509646908,51.543521637926176
+Forester,2 Leighton Road,West Ealing,Ealing,-0.3210796331286616,51.50597380248598
+Coach & Horses,High Road,Ickenham,Hillingdon,-0.44310387000261,51.564578320398425
+Bobbin,1-3 Lillieshall Road,Clapham,Lambeth,-0.1434426194920137,51.46607645856359
+London & Rye,109 Rushey Green,Catford,Lewisham,-0.0177817915224537,51.447489613371296
+Moon Under Water,84-88 Staines Road,Hounslow,Hounslow,-0.3693167324006771,51.466988438834846
+Star,89 Manor Road,Wallington,Sutton,-0.1503419985751532,51.361959233739775
+Bergen House,47 Newington Green,Newington Green,Islington,-0.0860184003427337,51.55151890697432
+Bucks Head,202 Camden High Street,London,Camden,-0.1437848640302024,51.54061329901445
+Canton Arms,177 South Lambeth Road,South Lambeth,Lambeth,-0.1228626533739302,51.4767558421696
+Juno,134-135 Shoreditch High Street,London,Hackney,-0.078248427723078,51.526419380338574
+Book Club,100ÃÂ¢ÃÂÃÂ106 Leonard Street ,London,Hackney,-0.0816868172032843,51.5245333051843
+Comptons of Soho,51-53 Old Compton Street,London,City of Westminster,-0.1323854678720059,51.51260893361617
+Royal Exchange,26 Sale Place,Paddington,City of Westminster,-0.1697472346011558,51.51821576632089
+Whelan's,11 Rotherhithe Old Road,Rotherhithe,Southwark,-0.0474497422992286,51.49284416508576
+North Star,43 The Broadway,Ealing,Ealing,-0.3029145547292701,51.51358095231348
+Iron Duke,11 Avery Row,London,City of Westminster,-0.145944331614364,51.51268015224157
+Vinyl Bar,2-3 Old Change Court,London,City and County of the City of London,-0.0974256538506535,51.51251472763624
+Spotted Dog,15 Longbridge Road,Barking,Barking and Dagenham,0.0821290582753782,51.54018321698317
+Off Broadway,63-65 Broadway Market,Hackney,Hackney,-0.0618790327655357,51.53675194007326
+Oliver Conquest,70 Leman Street,London,Tower Hamlets,-0.0701697224247615,51.51291448754012
+Shortlands Tavern,5 Station Road,Bromley,Bromley,0.0042020939664687,51.404930239093744
+Ice Wharf,28 Jamestown Road,London,Camden,-0.1474218937982387,51.5401851698214
+Akari,196 Essex Road,London,Islington,-0.0958122017507856,51.5404737928116
+Mitre,81 Dawes Road,Fulham,Hammersmith and Fulham,-0.2036445787903376,51.48021528193557
+Horse & Stables,122-124 Westminster Bridge Road,London,Lambeth,-0.1117428234483138,51.49913104324951
+Abingdon,54 Abingdon Road,Kensington,Kensington and Chelsea,-0.1961287123869322,51.49732082842485
+Franco,4 Brendon Street,London,City of Westminster,-0.1652101528601478,51.51777618878327
+Crown Tavern,117 Burnt Ash Hill,Lee,Lewisham,0.0177709085081122,51.443690926954346
+William Camden,91 Avenue Road,Bexleyheath,Bexley,0.1318588667700515,51.46220234837273
+Belushi's,189 Greenwich High Road,Greenwich,Greenwich,-0.0147218408351341,51.47754597588651
+Pommelers Rest,196-198 Tower Bridge Road,London,Southwark,-0.0770543451213015,51.50241625724072
+Shawl,25 High Street,Harlesden,Brent,-0.2479659171858249,51.53672963937069
+Coach & Horses,173/175 Clapham Park Road,Clapham,Lambeth,-0.1312143721726753,51.459848094813296
+Friend At Hand,2-4 Herbrand Street,London,Camden,-0.1245537714474644,51.52292455191715
+Amaryllis,66 Coldharbour Lane,Camberwell,Lambeth,-0.0969592642918026,51.46974657039724
+Black Horse,203 Lampton Road,Hounslow,Hounslow,-0.3632951674441391,51.47714697118742
+Micro Beers,335 Upper Richmond Road West,East Sheen,Richmond upon Thames,-0.2644160537996567,51.46474547121581
+Blind Beggar,337 Whitechapel Road,London,Tower Hamlets,-0.0576312594225826,51.52001842733436
+Alleyns Head,100 Park Hall Road,Dulwich,Lambeth,-0.0905970180042894,51.43589287824239
+Bricklayers Arms,189 Dartmouth Road,Sydenham,Lewisham,-0.0600586560785642,51.43233358207314
+Himalayan Club (Bar & Restaurant),32-34 Watford Road,Sudbury,Brent,-0.3168229581967948,51.55654943189428
+Prince of Wales,13a Woolwich Road,Belvedere,Bexley,0.1422486487900514,51.48360509585227
+Cavendish Arms,128 Hartington Road,South Lambeth,Lambeth,-0.127666751427365,51.47654488071828
+Dog & Bull,24 Surrey Street,Croydon,Croydon,-0.1015692429479332,51.37285221348353
+Commission,Terminal 4 (Airside),Heathrow Airport,Hillingdon,-0.4473528536947876,51.45966718122641
+Cock Inn,Chalk Lane,Cockfosters,Barnet,-0.1545037229627781,51.6544827689002
+Clarendon Arms,225 Camberwell New Road,Camberwell,Southwark,-0.1005034920376192,51.477322028373
+Toolans,866 High Road,North Finchley,Barnet,-0.1763151118912485,51.61892620419423
+Chessington Oak,"116, Moor Lane",Chessington,Kingston upon Thames,-0.2974068256123031,51.364251062794274
+Natural Kitchen (Trinity Square),7 Pepys St,London,City and County of the City of London,-0.0782531090523262,51.5109070647615
+Marquis of Westminster,50 Warwick Way,London,City of Westminster,-0.1404786271515269,51.491892398147705
+Overdraft Tavern,200-202 High Street,East Ham,Newham,0.0515171785118119,51.53898682984526
+Kingsfield Arms,111 Bessborough Road,Harrow,Harrow,-0.3431157920733944,51.574952895509256
+Railway,3 Victoria Road,Teddington,Richmond upon Thames,-0.3326628813785806,51.42388503137762
+Bill Nicholson,102 Northumberland Park,Tottenham,Haringey,-0.0613469846749671,51.60561725565972
+Westbury,57 Westbury Avenue,Wood Green,Haringey,-0.0977969329726685,51.5938677116252
+Bangers,2 Wilson Street,London,City and County of the City of London,-0.0858792487058539,51.51909832832656
+Saxon King,198 Petersfield Ave / St Neots,Harold Hill,Havering,0.2370680602562451,51.60366327118979
+Lemon Tree,4 Bedfordbury,London,City of Westminster,-0.1257358012925063,51.509939942406
+We Anchor In Hope,320 Bellegrove Road,Welling,Bexley,0.085602896436773,51.46630782095176
+Hill Top Tap,"7-8 Elm Parade, Main Road",Sidcup,Bexley,0.1001776064097555,51.42627172750095
+Crown & Cushion,133 Westminster Bridge Road,London,Lambeth,-0.1132557578074729,51.49912841318083
+Stanhope Arms,97 Gloucester Road,South Kensington,Kensington and Chelsea,-0.1821036927697882,51.494235619557
+Garratt & Gauge,18 Hartfield Road,Wimbledon,Merton,-0.2062085471203473,51.420326865909566
+E & O,14 Blenheim Crescent,Notting Hill,Kensington and Chelsea,-0.2056275686881248,51.51590144891132
+Angel,11 High Street,Roehampton,Wandsworth,-0.2394695620753239,51.45044405780431
+Coin Laundry,70 Exmouth Market,London,Islington,-0.1080272443010402,51.52621132305536
+Doric Arch,"Euston Station Colonnade, 1 Eversholt Street",London,Camden,-0.1321572195268266,51.52804580605272
+Roundhouse,"2 North Side, Wandsworth Common",Wandsworth,Wandsworth,-0.1744948874886855,51.45892920000672
+Cornerstone,"The Rotunda Centre, Clarence Street",Kingston,Kingston upon Thames,-0.2993418794085,51.41170694687227
+Pilango Cider,"Railway Arch 10, Munster Road",Fulham,Hammersmith and Fulham,-0.2050387638981942,51.47331229136383
+Yacht,5-7 Crane Street,Greenwich,Greenwich,-0.0034943867187685,51.48467555507112
+Pride of Paddington,1-3 Craven Road,Paddington,City of Westminster,-0.1767900504350482,51.51474636200384
+Imperial Arms,577 Kings Road,Fulham,Hammersmith and Fulham,-0.188563617974223,51.47845457443653
+Bridge Wine Bar,8 Voltaire Road,Clapham,Lambeth,-0.1335919079172428,51.46579417634344
+Perky Nel,"7/8 Cavendish Parade, Clapham Common South Side",Clapham,Lambeth,-0.1462742878717667,51.45374731356925
+Five Miles,39b Markfield Road,South Tottenham,Haringey,-0.06472331598334,51.58326385289217
+Power's Bar,23 Hay Lane,Kingsbury,Brent,-0.2633491018875409,51.588269260349634
+Coborn,8 Coborn Road,Bow,Tower Hamlets,-0.0302051494189163,51.52724984839551
+Orchard,116 Orchard Way,Croydon,Croydon,-0.040164969340526,51.38617505656144
+28West,28 Westferry Circus,Isle of Dogs,Tower Hamlets,-0.0280346722868021,51.506089344168814
+Dacre Arms,11 Kingswood Place,Lewisham,Lewisham,0.0037812741548073,51.46107113363607
+Bar & Block,66 Alie Street,Aldgate,Tower Hamlets,-0.0697507922607255,51.51395973429754
+Beacon Tree [Sizzling],945 Green Lane,Dagenham,Barking and Dagenham,0.1408105173420735,51.56142929917983
+Admiral Vernon,141 Broad Street / Morland Road,Dagenham,Barking and Dagenham,0.1513382864615395,51.53655121635135
+Suchard,2 Crucifix Lane,London,Southwark,-0.0817919763077611,51.50214318055925
+Jolly Butchers,168 Baker Street,Enfield,Enfield,-0.0798957514411371,51.65949991289553
+Knights Templar,95 Chancery Lane,London,Camden,-0.1119647741638598,51.51536655233629
+Shop,75 Chamberlayne Road,Kensal Rise,Brent,-0.218619451795045,51.53384187415495
+Blues Kitchen,111 Camden High Street,London,Camden,-0.1412101716479074,51.53691251080826
+Royal Oak,North Road,Havering-Atte-Bower,Havering,0.1826137233751431,51.61785495119209
+Cross Keys,48-50 Crown Street,Dagenham,Barking and Dagenham,0.1616956026366842,51.53997607251623
+Buckingham Arms,62 Petty France,London,City of Westminster,-0.1369141407779298,51.49911093796362
+Surprise,6 Christchurch Terrace,Chelsea,Kensington and Chelsea,-0.1627014628336504,51.48628050711714
+Hope,15 Tottenham Street,London,Camden,-0.135368292609905,51.52038112936018
+Milan Bar,16 High Street,Croydon,Croydon,-0.1007875603579908,51.372992420212505
+Wolfpack,53 Lonsdale Road,Queens Park,Brent,-0.2036430233810148,51.5370217093911
+Compton Cross,2 Old Compton Street,London,City of Westminster,-0.1300605074425183,51.51377691920806
+Ealing Park Tavern,222 South Ealing Road,South Ealing,Ealing,-0.3060236707311224,51.4958207147719
+General Napier,73 Bovil Road,Forest Hill,Lewisham,-0.044455227303938,51.44600417439551
+Candlemaker,"Walbrook Building, 99 Cannon Street",London,City and County of the City of London,-0.0902667152032445,51.511732893837824
+Pregnant Man,40 Chancery Lane,Chancery Lane,City and County of the City of London,-0.1121771970049369,51.51650305893377
+Bush Theatre Library Bar,7 Uxbridge Rd,Shepherds Bush,Hammersmith and Fulham,-0.2254503430222903,51.50502515702164
+Hack & Hop,35 Whitefriars Street,London,City and County of the City of London,-0.1073085501215835,51.51399656310443
+Seven Dials Club,42 Earlham Street,London,Camden,-0.1257237261029833,51.5137436774139
+Bar Social,245 Lavender Hill,Battersea,Wandsworth,-0.1629120094572327,51.46417990116232
+Starting Gate,Station Road,London,Haringey,-0.1196762044587828,51.59825817137902
+Nags Head,10 James Street,London,City of Westminster,-0.1237069509292951,51.51301899508324
+Prince of Wales Feathers,8 Warren Street,London,Camden,-0.1382515790273307,51.52425781908679
+Clissold Arms,105 Fortis Green,East Finchley,Haringey,-0.1544615941966333,51.590726118552176
+Man on the Moon,"112 Headley Drive, New Addington",Croydon,Croydon,-0.0180498305174385,51.35214354247704
+Shaker & Company,119 Hampstead Road,London,Camden,-0.1389641984435423,51.52799210927268
+Red House,299 Barking Road,Plaistow,Newham,0.0178424981673082,51.52032692565204
+Larrik,32 Crawford Place,London,City of Westminster,-0.1648848349147776,51.518697344961474
+Old Toms Bar,10-12 Leadenhall Market,London,City and County of the City of London,-0.0834092677806402,51.5127001243424
+Antoinette Hotel,Beaufort Road,Kingston,Kingston upon Thames,-0.3012238085469959,51.40166235957546
+Pembury Tavern,90 Amhurst Road,Hackney,Hackney,-0.0581210762121983,51.548820774422815
+Canons Bar,"Canons Hall, 1-17 Wemborough Road",Canons Park,Harrow,-0.3035957783724111,51.60650034485147
+Hector & Noble,233-235 Victoria Park Road,Homerton,Hackney,-0.0437670445640628,51.538447626946976
+Surrey Docks,185 Lower Road,Rotherhithe,Southwark,-0.0456174749432062,51.492570817559496
+V Bar,Terminal 5 Airside,Heathrow Airport,Hillingdon,-0.4872391389773695,51.47149256514529
+Lock & Quay,"Willowtree Marina, West Quay Drive",Yeading,Hillingdon,-0.3838198062179975,51.52224098132232
+Old Ivy House,166 Goswell Road,London,Islington,-0.1006094783773524,51.52847450769434
+Wheatsheaf,135 High Street,West Wickham,Bromley,-0.0211079189181397,51.37681755700567
+South Norwood Conservative Club,10 South Norwood Hill,South Norwood,Croydon,-0.0755714259857398,51.40039533010736
+Bodeans,16 Byward Street,London,City and County of the City of London,-0.0791102870755395,51.509716095549535
+Fire Station,150 Waterloo Road,London,Lambeth,-0.110653102833473,51.502485778375714
+Balls Brothers (Shoe Lane),83 Shoe Lane,London,City and County of the City of London,-0.1065269899370914,51.51616020273183
+Butterchurn,Erskine Road,Sutton,Sutton,-0.1815256973697071,51.36961434634059
+Nonsuch Inn,552 London Road,North Cheam,Sutton,-0.2256952232463596,51.37207204398032
+Pepper Saint Ontiod,21 Pepper Street,Crossharbour,Tower Hamlets,-0.0174463141679406,51.49639619472403
+Gorringe Park,29 London Road,Tooting,Merton,-0.1616040509964368,51.4193212259974
+Tank & Paddle,17 Heddon Street,London,City of Westminster,-0.1396201909077284,51.510844425032815
+Holborn Whippet,25-29 Sicillian Avenue,London,Camden,-0.1213101874517946,51.518376280776856
+Ledger Building,4 Hertsmere Road,Canary Wharf,Tower Hamlets,-0.0238327003729596,51.50761933319317
+White Swan,Riverside,Twickenham,Richmond upon Thames,-0.3212230029235854,51.447155696552535
+Etrusca,1 Hurdwick Place,London,Camden,-0.138875561096241,51.534051791063405
+O'Neill's,762 High Street,Leytonstone,Waltham Forest,0.0144099655327404,51.570250596766975
+Ship,110 West Street,Erith,Bexley,0.1721425392704609,51.485582046145865
+Mitre,24 Craven Terrace,Paddington,City of Westminster,-0.1786672142122103,51.512491387583296
+Ganley's Irish Bar,43-47 London Road,Morden,Merton,-0.195677206015021,51.400678047875
+Taproom SE8,"Unit 2, St Paul's House, 3 Market Yard",Deptford,Lewisham,-0.0263910238563931,51.4781117545672
+Two Brewers,221 Gloucester Road,Croydon,Croydon,-0.0898298761066497,51.388057122996166
+King's Head,2B Kings Head Hill,Chingford,Waltham Forest,-0.0018748055918421,51.63194756109554
+Red Lion,"2 Castelnau, London",Barnes,Richmond upon Thames,-0.2382510248963453,51.47687327426286
+Alexandra,33 Wimbledon Hill Road,Wimbledon,Merton,-0.2077727412608911,51.42188855153604
+Auld Triangle,52 St Thomas Road,Finsbury Park,Islington,-0.1046991550951704,51.56121085101113
+Lion,27 Wick Road,Teddington,Richmond upon Thames,-0.3186918977264174,51.41812806522026
+Bombay Central,328 High Road,Harrow Weald,Harrow,-0.3394400004518868,51.604513255937775
+Tailor's Chalk,47-49 High Street,Sidcup,Bexley,0.1036542740779424,51.426173398950034
+John Snow,39 Broadwick Street,London,City of Westminster,-0.1366104213314928,51.513260652553605
+Lucky Seven,7 Cricklewood Lane,Cricklewood,Barnet,-0.2149034885084464,51.5573190699101
+Bourne & Hollingsworth,28 Rathbone Place,London,Camden,-0.1342293977251225,51.51791700121304
+Thirsty Dragon,166 Trafalgar Road,Greenwich,Greenwich,0.0041473196017353,51.4848599755284
+Crown & Greyhound,73 Dulwich Village,Dulwich,Southwark,-0.0848210487780289,51.44877534062756
+Old Bull & Bush,North End Way,Hampstead,Camden,-0.1825566658567864,51.56754142996851
+Shanakee,253 Edgware Road,Kingsbury,Brent,-0.25282076170665,51.58838307719603
+Simmons,61 Royal Mint Street,London,Tower Hamlets,-0.0704925162911481,51.51039285185256
+Scratch Bar,"BAC, Lavender Hill",Battersea,Wandsworth,-0.1608137654601937,51.46516317902282
+Grafton,20 Prince of Wales Road,London,Camden,-0.1450188320545787,51.54679280371297
+Coach & Horses,5 Bruton Street,London,City of Westminster,-0.1438023200251557,51.510775792031176
+Coach & Horses,27 Barnes High Street,Barnes,Richmond upon Thames,-0.2495227349690971,51.47358878976296
+Anglesea Arms,91 Woolwich New Road,Woolwich,Greenwich,0.0668491935929636,51.488429664172926
+Kew Gardens Hotel,"292 Sandycombe Road, Richmond",Kew,Richmond upon Thames,-0.2870625453469975,51.47627410360755
+Benet Club,"St Benedicts Church, Marchwood Crescent",Ealing,Ealing,-0.3073960673411229,51.51981449153097
+Princess Victoria,217 Uxbridge Road,Shepherds Bush,Hammersmith and Fulham,-0.2402282994599595,51.50630887208207
+Royal,Boston Road,Hanwell,Ealing,-0.3265631081379475,51.49829164143888
+Editors Tap,5-11 Fetter Lane,London,City and County of the City of London,-0.1094957026367001,51.51477823025709
+Royal Oak,250 St Johns Way,Upper Holloway,Islington,-0.1279528036920446,51.57007334056578
+Barretts,239 Cricklewood Broadway,Cricklewood,Brent,-0.2172426612364849,51.55800210956325
+Hope & Anchor,128 Tottenham Lane,Hornsey,Haringey,-0.1164650342061863,51.5840795504684
+Folly,1 Gracechurch Street,London,City and County of the City of London,-0.0844000848591823,51.51312999001581
+Bridge Hotel,Western Avenue,Greenford,Ealing,-0.3455246737403026,51.53640967848439
+Counting House,50 Cornhill,London,City and County of the City of London,-0.0848105932941812,51.51330756133745
+Rising Sun,98 Harper Road,London,Southwark,-0.0931481197000699,51.494504678471344
+Duke of Cambridge,74 Lansdowne Way,South Lambeth,Lambeth,-0.1233197583926928,51.47473980673958
+Halfway House,521 Garratt Lane,Earlsfield,Wandsworth,-0.1868192942299906,51.4410718201348
+Earls Court Tavern,123 Earls Court Road,Earls Court,Kensington and Chelsea,-0.1947108213022063,51.49382784399871
+Carpenters Arms,17 Carpenters Road,Stratford,Newham,-0.0054726185440128,51.53765039269097
+Kings Arms,6 Park Lane,Harefield,Hillingdon,-0.483556119532083,51.604557071660174
+Union,11 Triton Street,London,Camden,-0.1423192206632385,51.524906827067184
+Plough,89 St John's Hill,Battersea,Wandsworth,-0.173796732195811,51.46127441599603
+La Rueda,66 Clapham High St,Clapham,Lambeth,-0.1336241335934398,51.46359147957078
+Northern Soul,114 Junction Road,London,Islington,-0.1373332623597973,51.560870431797504
+Peacock,145 Aylward Street,London,Tower Hamlets,-0.0463066591710602,51.51585556400271
+Perseverance,11 Shroton Street,London,City of Westminster,-0.1666317323039741,51.52257352106738
+Crown & Two Chairmen,32 Dean Street,London,City of Westminster,-0.1324499430216291,51.51385095558671
+Beehive,104 Empson Street,Bow,Tower Hamlets,-0.0123924329363756,51.52180570070976
+Lord High Admiral,95 Church Street,St John's Wood,City of Westminster,-0.1713792791945752,51.52244978371279
+Erin's Hope,189 Edgware Road,Kingsbury,Brent,-0.251540662723737,51.5871320901861
+Dolphin,121 Sydenham Road,Sydenham,Lewisham,-0.0471812808772265,51.42595052278777
+Ship,290 Westferry Road,Isle of Dogs,Tower Hamlets,-0.01860039364837,51.48806131245215
+Jamies,119-121 The Minories,London,City and County of the City of London,-0.0754754707606614,51.511499962512254
+Davy's at St James's,"Crown Passage, 20 King Street",London,City of Westminster,-0.1378683746767882,51.50609545083165
+Pilot,56 Wellesley Road,Chiswick,Hounslow,-0.2772027075795899,51.4903022541821
+North Star,24 Browning Road,Leytonstone,Waltham Forest,0.0155155861824668,51.5697999512654
+Nag's Head,242 Camberwell Road,Camberwell,Southwark,-0.0941916059722617,51.476733975583976
+Blarneys Freehouse,128 Burnt Oak Broadway,Edgware,Barnet,-0.2675354697886628,51.60118101513421
+Eva Hart,1128 High Road,Chadwell Heath,Redbridge,0.1299957529472294,51.57051978628365
+Williamsons Tavern,1 Groveland Court,London,City and County of the City of London,-0.093762106741189,51.51327357023277
+South Beats,282 High Street,Croydon,Croydon,-0.0994546250971756,51.36805167963892
+White Swan,217 Deptford High Street,Deptford,Lewisham,-0.0265487698359283,51.48079429626362
+Railway Tavern,38 Bexley High Street,Bexley,Bexley,0.1490877289485956,51.44130283270746
+Turk's Head,1 Green Bank,London,Tower Hamlets,-0.0612713366447329,51.50423358522294
+Duke On The Green,235 New Kings Road,Fulham,Hammersmith and Fulham,-0.1999133164348435,51.47255929675561
+Effra Social,89 Effra Road,Brixton,Lambeth,-0.1134356721016753,51.45566939349602
+Mumbai Junction,231 Watford Rd,Sudbury,Brent,-0.3217463461302684,51.56820216487682
+White Bear,198 Kingsley Road,Hounslow,Hounslow,-0.3605968694140265,51.4760931130831
+Gertie Brownes,"95 High Road, London",East Finchley,Barnet,-0.1649988603273745,51.59076543016612
+Lincoln Arms,155 Percival Road,Enfield,Enfield,-0.0654870919917405,51.64780706514357
+Star Of The East,805a Commercial Road,Poplar,Tower Hamlets,-0.0291582647958497,51.512439222514274
+Woolwich Equitable,"Equitable House, 10 Woolwich New Road",Woolwich,Greenwich,0.0685931173815632,51.4903593501753
+Sourced Market,68-72 Wigmore Street,London,City of Westminster,-0.1501951461555584,51.51625441620013
+City Pride,28 Farringdon Lane,London,Islington,-0.1066635760087608,51.52294294329791
+Prince of Wales,53 Highgate High Street,London,Camden,-0.1489731623198625,51.57089230433245
+Crooked Billet,99 High Street,Penge,Bromley,-0.0529957244888093,51.41572342243865
+Roebuck,15 Pond Street,Hampstead,Camden,-0.167377092250879,51.55389751165172
+Harrow,130 Hornchurch Road,Hornchurch,Havering,0.2048905647415112,51.56482937898171
+Horse & Well,566/568 High Road,Woodford Green,Redbridge,0.0269669870892967,51.61735311045054
+Railway,32 Station Way,Cheam,Sutton,-0.216441294016134,51.356563279287215
+Hand & Racquet,25/27 Wimbledon Hill Road,Wimbledon,Merton,-0.2077727412608911,51.42188855153604
+Brewhouse & Kitchen,2a Corsica Street,London,Islington,-0.1014939118198064,51.54636620542032
+Mad Hatter,3-7 Stamford Street,London,Southwark,-0.1049472042792194,51.50699802794541
+Salisbury,90 St. Martin's Lane,London,City of Westminster,-0.1272137004827258,51.51079987263488
+Laughing Gravy,"Blackfriars Foundry, 154-156 Blackfriars Road",London,Southwark,-0.1041979856470444,51.50109565034221
+Bell & Crown,11-13 Thames Road. (rear entrance 72 Strand-on-the-Green),Chiswick,Hounslow,-0.2825508061894216,51.4867476254197
+West Five,25 Popes Lane,Ealing,Ealing,-0.3022836525108022,51.49915684797308
+Strongroom Bar & Kitchen,120-124 Curtain Road,London,Hackney,-0.0801254241838541,51.52600950973785
+Orange Tree,7 Totteridge Village,Whetstone,Barnet,-0.1964210865643912,51.62991073451935
+Shanakee,"9-10 Central Buildings, The Broadway",Ealing,Ealing,-0.3024838557063737,51.51469878427272
+Moon On The Hill,373-375 Station Road,Harrow,Harrow,-0.3342773147865256,51.57946787482193
+Queen's Head,12 Sutton Lane North,Chiswick,Hounslow,-0.2701493243378604,51.48902941538498
+Hope & Anchor,207 Upper Street,London,Islington,-0.103484983551333,51.543574760997146
+Village East,171-173 Bermondsey Street,London,Southwark,-0.0808874406510544,51.49898090705985
+Tarragon,43 Lavender Hill,Battersea,Wandsworth,-0.1517669898100553,51.46601012580687
+Reliance,336 Old Street,London,Hackney,-0.0815854909969484,51.52659995755643
+Long Acre,1 Upper Saint Martins Lane,London,City of Westminster,-0.1273120237608078,51.51226725812736
+Angerstein Hotel,108 Woolwich Road,Greenwich,Greenwich,0.0163466381977362,51.486161687664406
+Beer House,Charing Cross Station,London,City of Westminster,-0.124777513285982,51.50835988951573
+Crumpled Horn,33-37 Corbets Tey Road,Upminster,Havering,0.2484829709766602,51.55403759182044
+Dukes Head Hotel,The Green 6 Manor Road,Wallington,Sutton,-0.1530568955835622,51.36588696599564
+Big Chill House,257-259 Pentonville Road,London,Camden,-0.1202375388309796,51.53076909275103
+Masons Arms,41 Walpole Road,Teddington,Richmond upon Thames,-0.3385747236251984,51.42705339629251
+Flanagans of Battersea,"21 Bradmead, 133 Battersea Park Road",Battersea,Wandsworth,-0.1443172598198283,51.47823938021302
+Charles Lamb,16 Elia Street,London,Islington,-0.1022006093264975,51.53216029994457
+Punch & Judy,40 The Market,London,City of Westminster,-0.1229392041464266,51.51206247418352
+Hyde Arms,137 Victoria Road,Lower Edmonton,Enfield,-0.0659579486756717,51.62250951903408
