@@ -13,6 +13,9 @@ class Benchmarker:
         self.ClusterParameters: dict[str, list[int]] = {}
         self.SilhouetteScores: dict[str, dict[int, float]] = {}
 
+        if not os.path.exists('TestData'):
+            os.mkdir('TestData')
+
     def Benchmark2(self, database: RelationalDatabase, dataset_name: str, method: str):
         # Select the appropriate method function based on the method name
         if method.lower() == "alite":
@@ -20,13 +23,18 @@ class Benchmarker:
         else:
             print(f"{method} is not a valid method or is not implemented.")
             return
+        
+        # create data folder in TestData
+        dataset_output_folder = f'TestData\\{dataset_name}'
+        if not os.path.exists(dataset_output_folder):
+            os.mkdir(dataset_output_folder)
 
         # Measure initial tuple count
         input_tuples = database.TupleCount()
 
         # Benchmark the method execution time
         start_time = time.time()
-        full_disjunction = method_func()
+        full_disjunction = method_func(dataset_output_folder)
         end_time = time.time()
 
         # Store the duration
@@ -97,7 +105,8 @@ class Benchmarker:
         # Finalize plot details
         ax.set_ylabel('Time (s)')
         ax.set_title('ALITE Runtime')
-        ax.set_xticks(x + width / 2, sorted_datasets)
+        reduce_width = lambda x: f'{x[:7]}...' if len(x) > 7 else x 
+        ax.set_xticks(x + width / 2, [reduce_width(x) for x in sorted_datasets])
         ax.tick_params(axis='x', labelrotation=90)
         #ax.legend(loc='upper left', ncols=len(methods))
         if log_scale:

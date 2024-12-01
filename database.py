@@ -102,7 +102,7 @@ class RelationalDatabase:
         print("Integration IDs assigned to all tables.")
 
     # Run the ALITE algorithm on the database
-    def RunALITE(self):
+    def RunALITE(self, output_folder: str):
 
         # Step 1: Assign integration IDs
         if not self.IntegrationIDsAssigned:
@@ -110,7 +110,6 @@ class RelationalDatabase:
 
         # Step 2: Create a new table for the full disjunction
         fullDisjunction = RelationalTable()
-        fullDisjunction.saveToFile("1 - Initial")
 
         print("Outer Union Start")
         
@@ -119,33 +118,29 @@ class RelationalDatabase:
             table.GenerateLabeledNulls()
             fullDisjunction.OuterUnionWith(table)
         
-        fullDisjunction.saveToFile("2 - PostOuterJoinAndLabelledNulls")
+        fullDisjunction.saveToFile(os.path.join(output_folder, "1 - PostOuterJoinAndLabeledNulls"))
             
         print("Outer Union Done")
         print(f"Tuple count: {fullDisjunction.TupleCount()}")
-
 
         print("Complement Start")
         # Step 4: Complement phase
         fullDisjunction.Complement()
 
-        fullDisjunction.saveToFile("3 - PostComplement")
+        fullDisjunction.saveToFile(os.path.join(output_folder, "2 - PostComplement"))
         print(f"Tuple count: {fullDisjunction.TupleCount()}")
-
         
         print("Complement Done")
 
         # Step 5: Replace labeled nulls with actual values (if any replacement logic applies)
         fullDisjunction.ReplaceLabeledNulls()
 
-        fullDisjunction.saveToFile("4 - ReplacingLabelledNulls")
-
+        fullDisjunction.saveToFile(os.path.join(output_folder, "3 - ReplacingLabeledNulls"))
 
         # Step 6: Subsumption - remove subsumable tuples
         fullDisjunction.SubsumeTuples()
 
-        fullDisjunction.saveToFile("5 - PostSubsumption")
+        fullDisjunction.saveToFile(os.path.join(output_folder, "4 - PostSubsumption"))
         print(f"Tuple count: {fullDisjunction.TupleCount()}")
-
 
         return fullDisjunction
