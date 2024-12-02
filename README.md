@@ -6,7 +6,7 @@ All code should be ran through the *test_suite* Jupyter Notebook. All benchmarki
 1. Ensure that the Jupyter and Python extensions are installed in Visual Studio Code
 2. Configure your Jupyter notebook to use Python 3.11
 3. Run the pip install code snippet in the *test_suite* file to install all of the necessary modules.
-    a. Ensure the modules install successfully, if they do not then look at the error code to resolve.
+    - Ensure the modules install successfully, if they do not then look at the error code to resolve.
 
 ## Running Benchmarking Code
 1. Open test_suite.ipynb
