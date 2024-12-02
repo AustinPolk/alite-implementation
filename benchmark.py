@@ -386,6 +386,8 @@ class Benchmarker:
 
         plt.plot(x, y)
         plt.vlines(x = maximum_x, ymin=minimum_y, ymax=min(1, maximum_x + 0.1), colors='blue')
+        plt.xlim((0, maximum_x))
+        plt.ylim((minimum_y, maximum_y))
         plt.xlabel("# of Column Clusters")
         plt.ylabel("Silhouette Score")
         plt.title(f"Column Clustering for {dataset_name[:10]}...")
